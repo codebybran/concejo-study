@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo — Concejo Study</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --gold: #C9A84C;
+      --gold-light: #E8CC7A;
+      --dark: #0A0E1A;
+      --dark2: #111827;
+      --dark3: #1C2333;
+      --surface: #1E2740;
+      --surface2: #243050;
+      --text: #E8EAF0;
+      --text2: #9AA3B8;
+      --accent: #4F7EFF;
+      --green: #34D399;
+      --red: #F87171;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family:'DM Sans',sans-serif; background:var(--dark); color:var(--text); min-height:100vh; }
+
+    /* NAV */
+    nav {
+      background: var(--dark2);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-back {
+      color: var(--text2);
+      text-decoration: none;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: color 0.2s;
+    }
+    .nav-back:hover { color: var(--gold); }
+    .nav-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      margin-left: 4px;
+    }
+    .nav-progress {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      color: var(--text2);
+    }
+    .nav-prog-bar {
+      width: 100px;
+      height: 4px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .nav-prog-fill {
+      height: 100%;
+      background: var(--gold);
+      border-radius: 2px;
+      transition: width 0.3s;
+    }
+
+    /* CHAPTER HEADER */
+    .cap-header {
+      background: linear-gradient(135deg, #0D1529 0%, #111827 100%);
+      padding: 36px 24px 30px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      position: relative;
+      overflow: hidden;
+    }
+    .cap-header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 30% 50%, rgba(201,168,76,0.08) 0%, transparent 60%);
+    }
+    .cap-header-inner { max-width: 760px; margin: 0 auto; position: relative; }
+    .cap-titulo-label {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .cap-icon-big { font-size: 40px; margin-bottom: 12px; display: block; }
+    .cap-nombre {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(22px, 4vw, 34px);
+      font-weight: 900;
+      color: #fff;
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+    .cap-sub { font-size: 14px; color: var(--text2); line-height: 1.5; }
+
+    /* MAIN */
+    main { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+
+    /* ARTICLE VIEWER */
+    .art-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .art-counter {
+      font-size: 12px;
+      color: var(--text2);
+    }
+    .art-counter span { color: var(--gold); font-weight: 600; }
+    .art-dots {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      max-width: 300px;
+    }
+    .art-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.12);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .art-dot.active { background: var(--gold); transform: scale(1.3); }
+    .art-dot.leido { background: rgba(201,168,76,0.4); }
+
+    /* ARTICLE CARD */
+    .art-card {
+      background: var(--surface);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 20px;
+      min-height: 220px;
+      animation: fadeSlide 0.3s ease;
+    }
+    @keyframes fadeSlide {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .art-num-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(201,168,76,0.12);
+      border: 1px solid rgba(201,168,76,0.25);
+      color: var(--gold);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      padding: 4px 12px;
+      border-radius: 100px;
+      margin-bottom: 14px;
+    }
+    .art-titulo {
+      font-family: 'Playfair Display', serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 14px;
+      line-height: 1.3;
+    }
+    .art-texto {
+      font-size: 14px;
+      line-height: 1.75;
+      color: var(--text2);
+    }
+    .art-texto strong { color: var(--text); }
+
+    /* NAV BUTTONS */
+    .art-btns {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .btn {
+      flex: 1;
+      padding: 12px 20px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .btn-secondary {
+      background: var(--surface2);
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .btn-secondary:hover { background: var(--surface); }
+    .btn-primary {
+      background: var(--gold);
+      color: #000;
+      font-weight: 600;
+    }
+    .btn-primary:hover { background: var(--gold-light); }
+    .btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+    /* EXAM SECTION */
+    .exam-section {
+      background: var(--surface);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-radius: 16px;
+      padding: 28px;
+      display: none;
+    }
+    .exam-section.visible { display: block; animation: fadeSlide 0.3s ease; }
+    .exam-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .exam-icon {
+      width: 40px; height: 40px;
+      background: rgba(201,168,76,0.15);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px;
+    }
+    .exam-header-text h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .exam-header-text p { font-size: 12px; color: var(--text2); margin-top: 2px; }
+
+    .question-block { margin-bottom: 24px; }
+    .question-text {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+    .q-num {
+      display: inline-block;
+      background: var(--gold);
+      color: #000;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      margin-right: 6px;
+    }
+    .options { display: flex; flex-direction: column; gap: 8px; }
+    .opt-btn {
+      background: var(--surface2);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 11px 14px;
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .opt-btn:hover:not(:disabled) { border-color: var(--gold); background: rgba(201,168,76,0.07); }
+    .opt-btn.correct { background: rgba(52,211,153,0.15); border-color: var(--green); color: var(--green); }
+    .opt-btn.wrong { background: rgba(248,113,113,0.15); border-color: var(--red); color: var(--red); }
+    .opt-letter {
+      width: 22px; height: 22px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.08);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px;
+      font-weight: 600;
+      flex-shrink: 0;
+    }
+    .opt-btn.correct .opt-letter { background: var(--green); color: #000; }
+    .opt-btn.wrong .opt-letter { background: var(--red); color: #000; }
+
+    .exam-result {
+      text-align: center;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 16px;
+      display: none;
+    }
+    .exam-result.visible { display: block; animation: fadeSlide 0.3s ease; }
+    .exam-result.pass { background: rgba(52,211,153,0.1); border: 1px solid rgba(52,211,153,0.3); }
+    .exam-result.fail { background: rgba(248,113,113,0.1); border: 1px solid rgba(248,113,113,0.3); }
+    .exam-result-score { font-size: 36px; font-family:'Playfair Display',serif; font-weight:900; }
+    .exam-result.pass .exam-result-score { color: var(--green); }
+    .exam-result.fail .exam-result-score { color: var(--red); }
+    .exam-result p { font-size: 13px; color: var(--text2); margin-top: 6px; }
+    .btn-exam-submit {
+      width: 100%;
+      margin-top: 20px;
+      padding: 14px;
+      background: var(--gold);
+      color: #000;
+      border: none;
+      border-radius: 10px;
+      font-family:'DM Sans',sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-exam-submit:hover { background: var(--gold-light); }
+    .btn-exam-submit:disabled { opacity: 0.4; cursor:not-allowed; }
+    .btn-complete {
+      width: 100%;
+      margin-top: 12px;
+      padding: 14px;
+      background: var(--green);
+      color: #000;
+      border: none;
+      border-radius: 10px;
+      font-family:'DM Sans',sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: none;
+    }
+    .btn-complete:hover { filter: brightness(1.1); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-back" href="index.html">← Módulos</a>
+  <span style="color:rgba(255,255,255,0.15)">|</span>
+  <span class="nav-title" id="nav-cap-nombre">Cargando...</span>
+  <div class="nav-progress">
+    <div class="nav-prog-bar">
+      <div class="nav-prog-fill" id="nav-prog-fill" style="width:0%"></div>
+    </div>
+    <span id="nav-prog-label">0%</span>
+  </div>
+</nav>
+
+<div class="cap-header">
+  <div class="cap-header-inner">
+    <div class="cap-titulo-label" id="cap-titulo-label"></div>
+    <span class="cap-icon-big" id="cap-icon"></span>
+    <div class="cap-nombre" id="cap-nombre"></div>
+    <div class="cap-sub" id="cap-sub"></div>
+  </div>
+</div>
+
+<main>
+  <!-- Article nav dots -->
+  <div class="art-nav">
+    <div class="art-counter">Artículo <span id="art-idx-display">1</span> de <span id="art-total">—</span></div>
+    <div class="art-dots" id="art-dots"></div>
+  </div>
+
+  <!-- Article card -->
+  <div class="art-card" id="art-card">
+    <div class="art-num-badge" id="art-badge"></div>
+    <div class="art-titulo" id="art-titulo"></div>
+    <div class="art-texto" id="art-texto"></div>
+  </div>
+
+  <!-- Navigation buttons -->
+  <div class="art-btns">
+    <button class="btn btn-secondary" id="btn-prev" onclick="prevArt()">← Anterior</button>
+    <button class="btn btn-primary" id="btn-next" onclick="nextArt()">Siguiente →</button>
+  </div>
+
+  <!-- Exam Section -->
+  <div class="exam-section" id="exam-section">
+    <div class="exam-header">
+      <div class="exam-icon">📝</div>
+      <div class="exam-header-text">
+        <h3>Examen del Módulo</h3>
+        <p>Demuestra lo que aprendiste en este título</p>
+      </div>
+    </div>
+    <div id="questions-container"></div>
+    <button class="btn-exam-submit" id="btn-submit" onclick="submitExam()">Calificar respuestas</button>
+    <div class="exam-result" id="exam-result">
+      <div class="exam-result-score" id="result-score"></div>
+      <p id="result-msg"></p>
+    </div>
+    <button class="btn-complete" id="btn-complete" onclick="completeModule()">✓ Marcar módulo como completado →</button>
+  </div>
+</main>
+
+<script src="js/contenido.js"></script>
+<script>
+  const params = new URLSearchParams(location.search);
+  const capId = parseInt(params.get('id')) || 1;
+  const cap = CAPITULOS.find(c => c.id === capId);
+  if(!cap) { location.href = 'index.html'; }
+
+  const artNums = cap.articulos.filter(n => ARTICULOS[String(n)]);
+  let currentIdx = 0;
+  let leidos = new Set();
+  let userAnswers = {};
+  let examSubmitted = false;
+
+  // Render header
+  document.getElementById('nav-cap-nombre').textContent = cap.nombre;
+  document.getElementById('cap-titulo-label').textContent = cap.titulo;
+  document.getElementById('cap-icon').textContent = cap.icono;
+  document.getElementById('cap-nombre').textContent = cap.nombre;
+  document.getElementById('cap-sub').textContent = cap.subtitulo;
+  document.title = cap.nombre + ' — Concejo Study';
+  document.getElementById('art-total').textContent = artNums.length;
+
+  // Render dots
+  function renderDots() {
+    const cont = document.getElementById('art-dots');
+    cont.innerHTML = artNums.map((n, i) =>
+      `<div class="art-dot ${i === currentIdx ? 'active' : ''} ${leidos.has(i) ? 'leido' : ''}" onclick="goTo(${i})" title="Art. ${n}"></div>`
+    ).join('');
+  }
+
+  function updateProgress() {
+    const pct = Math.round((leidos.size / artNums.length) * 100);
+    document.getElementById('nav-prog-fill').style.width = pct + '%';
+    document.getElementById('nav-prog-label').textContent = pct + '%';
+  }
+
+  function showArticle(idx) {
+    currentIdx = idx;
+    leidos.add(idx);
+    const num = artNums[idx];
+    const art = ARTICULOS[String(num)];
+    document.getElementById('art-idx-display').textContent = idx + 1;
+    document.getElementById('art-badge').textContent = 'Artículo ' + num;
+    // Extract clean title from art.titulo
+    const tituloClean = art.titulo.replace(/Art[íi]culo\s+\d+[°\.\-\s]+/i, '').trim();
+    document.getElementById('art-titulo').textContent = tituloClean || 'Artículo ' + num;
+    document.getElementById('art-texto').textContent = art.texto;
+    document.getElementById('btn-prev').disabled = idx === 0;
+    const isLast = idx === artNums.length - 1;
+    const btnNext = document.getElementById('btn-next');
+    if(isLast) {
+      btnNext.textContent = 'Ir al Examen ✏️';
+      btnNext.onclick = showExam;
+    } else {
+      btnNext.textContent = 'Siguiente →';
+      btnNext.onclick = nextArt;
+    }
+    renderDots();
+    updateProgress();
+  }
+
+  function goTo(idx) { showArticle(idx); window.scrollTo({top:0,behavior:'smooth'}); }
+  function prevArt() { if(currentIdx > 0) goTo(currentIdx - 1); }
+  function nextArt() { if(currentIdx < artNums.length - 1) goTo(currentIdx + 1); }
+
+  function showExam() {
+    document.getElementById('exam-section').classList.add('visible');
+    renderQuestions();
+    document.getElementById('exam-section').scrollIntoView({behavior:'smooth', block:'start'});
+  }
+
+  function renderQuestions() {
+    const exams = EXAMENES[capId] || [];
+    const cont = document.getElementById('questions-container');
+    const letters = ['A','B','C','D'];
+    cont.innerHTML = exams.map((q, qi) => `
+      <div class="question-block">
+        <div class="question-text"><span class="q-num">${qi+1}</span>${q.p}</div>
+        <div class="options">
+          ${q.ops.map((op, oi) => `
+            <button class="opt-btn" id="opt-${qi}-${oi}" onclick="selectOpt(${qi},${oi})">
+              <span class="opt-letter">${letters[oi]}</span>${op}
+            </button>`).join('')}
+        </div>
+      </div>`).join('');
+  }
+
+  function selectOpt(qi, oi) {
+    if(examSubmitted) return;
+    userAnswers[qi] = oi;
+    const exams = EXAMENES[capId] || [];
+    const letters = ['A','B','C','D'];
+    // Reset row
+    exams[qi].ops.forEach((_, i) => {
+      const btn = document.getElementById(`opt-${qi}-${i}`);
+      btn.classList.remove('correct','wrong');
+      btn.querySelector('.opt-letter').textContent = letters[i];
+    });
+    // Highlight selected
+    document.getElementById(`opt-${qi}-${oi}`).style.borderColor = 'var(--gold)';
+    checkAllAnswered();
+  }
+
+  function checkAllAnswered() {
+    const exams = EXAMENES[capId] || [];
+    const allDone = exams.every((_, i) => userAnswers[i] !== undefined);
+    document.getElementById('btn-submit').disabled = !allDone;
+  }
+
+  function submitExam() {
+    const exams = EXAMENES[capId] || [];
+    examSubmitted = true;
+    let correct = 0;
+    const letters = ['A','B','C','D'];
+    exams.forEach((q, qi) => {
+      const chosen = userAnswers[qi];
+      const rightIdx = q.r;
+      q.ops.forEach((_, oi) => {
+        const btn = document.getElementById(`opt-${qi}-${oi}`);
+        btn.disabled = true;
+        btn.style.borderColor = '';
+        if(oi === rightIdx) btn.classList.add('correct');
+        else if(oi === chosen && chosen !== rightIdx) btn.classList.add('wrong');
+        btn.querySelector('.opt-letter').textContent = letters[oi];
+      });
+      if(chosen === rightIdx) correct++;
+    });
+
+    const score = Math.round((correct / exams.length) * 100);
+    const res = document.getElementById('exam-result');
+    res.classList.add('visible', score >= 67 ? 'pass' : 'fail');
+    document.getElementById('result-score').textContent = score + '%';
+    document.getElementById('result-msg').textContent =
+      score >= 67
+        ? `¡Excelente! Respondiste ${correct} de ${exams.length} correctamente.`
+        : `Respondiste ${correct} de ${exams.length}. Repasa el módulo e inténtalo de nuevo.`;
+    document.getElementById('btn-submit').style.display = 'none';
+    if(score >= 67) {
+      document.getElementById('btn-complete').style.display = 'block';
+    }
+  }
+
+  function completeModule() {
+    const progress = JSON.parse(localStorage.getItem('cs_progress') || '{}');
+    progress[capId] = 'done';
+    localStorage.setItem('cs_progress', JSON.stringify(progress));
+    location.href = 'index.html';
+  }
+
+  // Init
+  checkAllAnswered();
+  showArticle(0);
+</script>
+</body>
+</html>
