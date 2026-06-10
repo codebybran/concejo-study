@@ -1,5 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
-// Acuerdo No. 024 de 2025 - Generado automáticamente del PDF oficial
+// Acuerdo No. 024 de 2025
+// 176 artículos | 146 preguntas de examen
 
 const CAPITULOS = [
   {
@@ -8,8 +9,9 @@ const CAPITULOS = [
     "nombre": "Disposiciones Preliminares",
     "subtitulo": "El Concejo como Corporación Político-Administrativa y Popular",
     "icono": "🏛️",
-    "color": "from-blue-800 to-blue-600",
     "articulos": [
+      0,
+      1,
       2,
       3,
       4,
@@ -41,7 +43,6 @@ const CAPITULOS = [
     "nombre": "Concejo Pleno",
     "subtitulo": "Inauguración, Posesión, Sesiones, Actas, Funciones y Prohibiciones",
     "icono": "📋",
-    "color": "from-indigo-800 to-indigo-600",
     "articulos": [
       25,
       26,
@@ -59,7 +60,6 @@ const CAPITULOS = [
     "nombre": "Dignatarios",
     "subtitulo": "Presidente, Vicepresidente y Mesa Directiva",
     "icono": "👔",
-    "color": "from-violet-800 to-violet-600",
     "articulos": [
       33,
       34,
@@ -79,7 +79,6 @@ const CAPITULOS = [
     "nombre": "Deberes y Derechos",
     "subtitulo": "Deberes y Derechos de los Concejales, Honorarios y Equidad de Género",
     "icono": "⚖️",
-    "color": "from-purple-800 to-purple-600",
     "articulos": [
       43,
       44,
@@ -106,7 +105,6 @@ const CAPITULOS = [
     "nombre": "El Secretario",
     "subtitulo": "Designación, Requisitos, Período y Funciones del Secretario",
     "icono": "📝",
-    "color": "from-emerald-800 to-emerald-600",
     "articulos": [
       60,
       61
@@ -118,7 +116,6 @@ const CAPITULOS = [
     "nombre": "Comisiones",
     "subtitulo": "Clases de Comisiones, Permanentes y Equidad de la Mujer",
     "icono": "👥",
-    "color": "from-teal-800 to-teal-600",
     "articulos": [
       62,
       63,
@@ -152,7 +149,6 @@ const CAPITULOS = [
     "nombre": "Sesiones",
     "subtitulo": "Reuniones, Citaciones, Orden del Día, Debates y Votaciones",
     "icono": "🗣️",
-    "color": "from-cyan-800 to-cyan-600",
     "articulos": [
       86,
       87,
@@ -191,7 +187,6 @@ const CAPITULOS = [
     "nombre": "Proceso Normativo",
     "subtitulo": "Acuerdos Municipales, Primer Debate y Segundo Debate",
     "icono": "📜",
-    "color": "from-amber-800 to-amber-600",
     "articulos": [
       115,
       116,
@@ -227,7 +222,6 @@ const CAPITULOS = [
     "nombre": "De las Objeciones",
     "subtitulo": "Motivos, Plazos y Trámite de Objeciones al Alcalde",
     "icono": "🔍",
-    "color": "from-orange-800 to-orange-600",
     "articulos": [
       141,
       142,
@@ -242,7 +236,6 @@ const CAPITULOS = [
     "nombre": "Cabildo Abierto",
     "subtitulo": "Petición Ciudadana, Materias, Difusión, Asistencia y Vocería",
     "icono": "🏙️",
-    "color": "from-rose-800 to-rose-600",
     "articulos": [
       146,
       147,
@@ -261,7 +254,6 @@ const CAPITULOS = [
     "nombre": "Estatuto de la Oposición",
     "subtitulo": "Derechos de la Oposición Política e Independientes",
     "icono": "🗳️",
-    "color": "from-pink-800 to-pink-600",
     "articulos": [
       155,
       156,
@@ -286,7 +278,6 @@ const CAPITULOS = [
     "nombre": "Otras Disposiciones",
     "subtitulo": "Sanciones, Vigencia, Revisión y Divulgación",
     "icono": "📌",
-    "color": "from-slate-700 to-slate-500",
     "articulos": [
       170,
       171,
@@ -303,898 +294,903 @@ const CAPITULOS = [
 const ARTICULOS = {
   "1": {
     "numero": 1,
-    "titulo": "Artículo 1.- Abróguese el Acuerdo Municipal 004 de 2018 “por",
+    "titulo": "Artículo 1.- Abróguese el Acuerdo Municipal 004 de 2018",
     "texto": "Abróguese el Acuerdo Municipal 004 de 2018 “por medio del cual se expide el Reglamento Interno del Concejo Municipal de El Cerrito – Valle del Cauca” y en su reemplazo adóptese el que a continuación se establece: TÍTULO I DISPOSICIONES PRELIMINARES CAPITULO I EL CONCEJO COMO CORPORACIÓN POLÍTICO ADMINISTRATIVA Y POPULAR."
   },
   "2": {
     "numero": 2,
-    "titulo": "Artículo 2.- Definición, Integración y Periodo. El Concejo",
-    "texto": "Definición, Integración y Periodo. El Concejo Municipal de EL Cerrito – Valle del Cauca, es una corporación político-administrativa de elección popular, integrada por el número de miembros que determina la ley, no pudiendo ser inferior a siete (7) ni superior a veintiuno (21), de acuerdo con la población respectiva. El Concejo ejercerá control político a la administración municipal. Para efecto de distribución de curules, posterior a un proceso electoral, se debe tener en cuenta lo señalado en el Art. 1º del Acto Legislativo 02 de 2015.Sus miembros reciben el nombre de Concejales quienes representan al pueblo y en el ejercicio de sus funciones deberán actuar en bancadas, consultando al efecto el Régimen Disciplinario de sus partidos, movimientos políticos o grupos significativos de ciudadanos de conformidad con la Ley 1475 de 2011 – Ley de Partidos Políticos, y propendiendo siempre por la consolidación de decisiones justas que procuren el bien común. Su periodo de permanencia es de cuatro (4) años reelegibles indefinidamente. Los Concejales representan al pueblo y son responsables políticamente ante la sociedad y frente a sus electores del cumplimiento de las obligaciones propias de su investidura. Sus votaciones serán nominales y públicas – Art. 5º del Acto Legislativo 01 de 2009."
+    "titulo": "Artículo 2.- Definición, Integración y Periodo. El Concejo Municipal de EL Cerrito – Valle del Cauca, es una corporación político-adm",
+    "texto": "Definición, Integración y Periodo. El Concejo Municipal de EL Cerrito – Valle del Cauca, es una corporación político-administrativa de elección popular, integrada por el número de miembros que determina la ley, no pudiendo ser inferior a siete (7) ni superior a veintiuno (21), de acuerdo con la población respectiva. El Concejo ejercerá control político a la administración municipal. Para efecto de distribución de curules, posterior a un proceso electoral, se debe tener en cuenta lo señalado en el Art. 1º del Acto Legislativo 02 de 2015.Sus miembros reciben el nombre de Concejales quienes representan al pueblo y en el ejercicio de sus funciones deberán actuar en bancadas, consultando al efecto el Régimen Disciplinario de sus partidos, movimientos políticos o grupos significativos de ciudadanos de conformidad con la Ley 1475 de 2011 – Ley de Partidos Políticos, y propendiendo siempre por la consolidación de decisiones justas que procuren el bien común. Su periodo de permanencia es de cuatro (4) años reelegibles indefinidamente. Los Concejales representan al pueblo y son responsables políticamente ante la sociedad y frente a sus electores del cumplimiento de las obligaciones propias de su investidura. Sus votaciones serán nominales y públicas – Art. 5º del Acto"
   },
   "3": {
     "numero": 3,
-    "titulo": "Artículo 3.- Autonomía. El Concejo, como suprema autoridad",
-    "texto": "Autonomía. El Concejo, como suprema autoridad municipal es autónomo en materia administrativa y presupuestal."
+    "titulo": "Artículo 3.- Legislativo 01 de 2009.Artículo 3.- Autonomía. El Concejo, como suprema autoridad municipal es autónomo en materia admin",
+    "texto": "Legislativo 01 de 2009.Artículo 3.- Autonomía. El Concejo, como suprema autoridad municipal es autónomo en materia administrativa y presupuestal."
   },
   "4": {
     "numero": 4,
-    "titulo": "Artículo 4°. Del Acto Legislativo 02 de",
-    "texto": "Del Acto Legislativo 02 de 2015, se compila e integra al presente reglamento en los siguientes términos: Los miembros de las Corporaciones Públicas de elección popular no tendrán suplentes. Solo podrán ser reemplazados en los casos de faltas absolutas o temporales que determine la ley, por los candidatos no elegidos que, según el orden de inscripción o votación obtenida, le sigan en forma sucesiva y descendente en la misma lista electoral. En ningún caso podrán ser reemplazados quienes sean condenados por delitos comunes relacionados con pertenencia, promoción o financiación a grupos armados ilegales o actividades de narcotráfico; dolosos contra la administración pública; contra los mecanismos de participación democrática, ni por Delitos de Lesa Humanidad. Tampoco quienes renuncien habiendo sido vinculados formalmente en Colombia a procesos penales por la comisión de tales delitos, ni las faltas temporales de aquellos contra quienes se profiera orden de captura dentro de los respectivos procesos. Para efectos de conformación de quórum se tendrá como número de miembros la totalidad de los integrantes de la Corporación con excepción de aquellas curules que no puedan ser reemplazadas. La misma regla se aplicará en los eventos de impedimentos o recusaciones aceptadas. Si por faltas absolutas que no den lugar a reemplazo los miembros de cuerpos colegiados elegidos en una misma circunscripción electoral quedan reducidos a la mitad o menos, el Consejo Nacional Electoral convocará a elecciones para llenar las vacantes, siempre y cuando falten más de veinticuatro (24) meses para la terminación del periodo. Parágrafo Transitorio. Mientras el legislador regula el régimen de reemplazos, se aplicarán las siguientes reglas: i) Constituyen faltas absolutas que dan lugar a reemplazo la muerte; la incapacidad física absoluta para el ejercicio del cargo; la declaración de nulidad de la elección; la renuncia justificada y aceptada por la respectiva corporación; la sanción disciplinari"
+    "titulo": "Artículo 4.- Atribuciones. El Concejo Municipal de EL Cerrito – Valle del Cauca ejercerá las atribuciones, funciones y competencias e",
+    "texto": "Atribuciones. El Concejo Municipal de EL Cerrito – Valle del Cauca ejercerá las atribuciones, funciones y competencias establecidas en la Constitución Política de 1991 y en el Régimen Legal ordinario aplicable a los municipios, especialmente en materia normativa y de control político. \n\nSegún el Art. 313 de la Constitución Política de Colombia son atribuciones de los Concejos Municipales: \n1. Reglamentar las funciones y la eficiente prestación de los servicios a cargo del municipio. \n2. Adoptar los correspondientes planes y programas desarrollo económico y social y de obras públicas. de \n3. Autorizar al alcalde para celebrar contratos y ejercer pro tempore precisas funciones de las que corresponden al Concejo. \n4. Votar de conformidad con la Constitución y la ley los tributos y los gastos locales. \n5. Dictar las normas orgánicas del presupuesto y expedir anualmente el presupuesto de rentas y gastos. \n6. Determinar la estructura de la administración municipal y las funciones de sus dependencias; las escalas de remuneración correspondientes a las distintas categorías de empleos; crear, a iniciativa del alcalde, establecimientos públicos y empresas industriales o comerciales y autorizar la constitución de sociedades de economía mixta. \n7. Reglamentar los usos del suelo y, dentro de los límites que fije la ley, vigilar y controlar las actividades relacionadas con la construcción y enajenación de inmuebles destinados a vivienda. \n8. Elegir Personero para el período que fije la ley y los demás funcionarios que ésta determine. \n9. Dictar las normas necesarias para el control, la preservación y defensa del patrimonio ecológico y cultural del municipio. \n10. Las demás que la Constitución y la Ley le asignen. \n11. En las capitales de los departamentos y los municipios con población mayor de veinticinco mil habitantes, citar y requerir a los secretarios del despacho del alcalde para que concurran a las sesiones. Las citaciones deberán hacerse con una anticipación no menor de cinco (5) días y formularse en cuestionario escrito. En caso de que los Secretarios no concurran, sin excusa aceptada por el Concejo Distrital o Municipal, este podrá proponer moción de censura. Los Secretarios deberán ser oídos en la sesión para la cual fueron citados, sin perjuicio de que el debate continúe en las sesiones posteriores por decisión del concejo. El debate no podrá extenderse a asuntos ajenos al cuestionario y deberá encabezar el orden del día de la sesión. Los concejos de los demás municipios, podrán citar y requerir a los Secretarios del Despacho del Alcalde para que concurran a las sesiones. Las citaciones deberán hacerse con una anticipación no menor de cinco (5) días y formularse en cuestionario escrito. En caso de que los Secretarios no concurran, sin excusa aceptada por el Concejo Distrital o Municipal, cualquiera de sus miembros podrá proponer moción de observaciones que no conlleva al retiro del funcionario correspondiente. Su aprobación requerirá el voto afirmativo de las dos terceras partes de los miembros que integran la corporación. \n12. Proponer moción de censura respecto de los Secretarios del Despacho del Alcalde por asuntos relacionados con funciones propias del cargo o por desatención a los requerimientos y citaciones del Concejo Distrital o Municipal. La moción de censura deberá ser propuesta por la mitad más uno de los miembros que componen el Concejo Distrital o Municipal. La votación se hará entre el tercero y el décimo día siguientes a la terminación del debate, con audiencia pública del funcionario respectivo. Su aprobación requerirá el voto afirmativo de las dos terceras partes de los miembros que integran la Corporación. Una vez aprobada, el funcionario quedará separado de su cargo. Si fuere rechazada, no podrá presentarse otra sobre la misma materia a menos que la motiven hechos nuevos. La renuncia del funcionario respecto del cual se haya promovido moción de censura no obsta para que la misma sea aprobada conforme a lo previsto en este artículo. \n\nSegún el Artículo 32 de la Ley 136 de 1994, modificada por la Ley 1551 de 2012, son atribuciones de los Concejos: \n13. Disponer lo referente a la policía en sus distintos ramos, sin contravenir las leyes y ordenanzas, ni los decretos del Gobierno Nacional o del Gobernador respectivo. \n14. Exigir informes escritos o citar a los secretarios de la Alcaldía, Directores de departamentos administrativos o entidades descentralizadas del orden municipal, al contralor y al personero, así como a cualquier funcionario municipal, excepto el alcalde, para que haga declaraciones orales sobre asuntos relacionados con la marcha del municipio. Igualmente, los concejos municipales podrán invitar a los diferentes funcionarios del Orden Departamental, así como a los representantes legales de los organismos descentralizados y de los establecimientos públicos del orden nacional, con sedes en el respectivo departamento o municipio, en relación con temas de interés local. \n15. Reglamentar la autorización al alcalde para contratar, señalando los casos en que requiere autorización previa del Concejo. \n16. Autorizar al alcalde para delegar en sus subalternos o en las juntas administradoras locales algunas funciones administrativas distintas de las que dispone esta ley. \n17. Determinar la nomenclatura de las vías públicas y de los predios o domicilios. \n18. Establecer, reformar o eliminar tributos, contribuciones, impuestos y sobretasas, de conformidad con la ley. \n19. Velar por la preservación y defensa del patrimonio cultural. \n20. Organizar la contraloría y la personería y dictar las normas necesarias para su funcionamiento. \n21. Dictar las normas de presupuesto y expedir anualmente el presupuesto de rentas y gastos, el cual deberá corresponder al plan municipal o distrital de desarrollo, teniendo especial atención con los planes de desarrollo de los organismos de acción comunal definidos en el presupuesto participativo y de conformidad con las normas orgánicas de planeación. \n22. Fijar un rubro destinado a la capacitación del personal que presta su servicio en la administración municipal. \n23. Garantizar el fortalecimiento de la democracia participativa y de los organismos de acción comunal. \n24. Citar a control especial a los Representantes Legales de las empresas de servicios públicos domiciliarios, sean públicas o privadas, para que absuelvan inquietudes sobre la prestación de servicios públicos domiciliarios en el respectivo Municipio o Distrito. La empresa de servicios públicos domiciliarios cuyo representante legal no atienda las solicitudes o citaciones del control especial emanadas de los Concejos Municipales o Distritales, será sujeto de investigación por parte de la Superintendencia de los Servicios Públicos Domiciliarios. Esta adelantará de oficio o por petición de la corporación respectiva, una investigación administrativa e impondrá las sanciones procedentes establecidas por la ley. Lo anterior sin perjuicio de las demás acciones legales o Constitucionales procedentes. \n\nParágrafo 1°. Los Concejos Municipales mediante acuerdo a iniciativa del alcalde establecerán la forma y los medios como los municipios puedan otorgar los beneficios, establecidos en el inciso final del Artículo 13, 46 y 368 de la Constitución Nacional. \n\nParágrafo 2°. Aquellas funciones normativas del municipio para las cuales no se haya señalado si la competencia corresponde a los alcaldes o los concejos, se entenderá asignada a estas corporaciones, siempre y cuando no contraríe la Constitución y la ley. \n\nParágrafo 3°. A través de las facultades concedidas en el numeral siete, no se autoriza a los municipios para gravar las rentas que el sector exportador haga al exterior. \n\nParágrafo 4°. \n\nDe conformidad con el numeral 30 del Artículo 313 de la Constitución Política, el Concejo Municipal o Distrital deberá decidir sobre la autorización al alcalde para contratar en los siguientes casos: \n1. Contratación de empréstitos. \n2. Contratos que comprometan vigencias futuras. \n3. Enajenación y compraventa de bienes inmuebles. \n4. Enajenación de activos, acciones y cuotas partes. \n5. Concesiones. \n6. Las demás que determine la ley. DEL CONCEJO"
   },
   "5": {
     "numero": 5,
-    "titulo": "Artículo 5.- Sede. El Concejo sesionará en la cabecera municipal,",
-    "texto": "Sede. El Concejo sesionará en la cabecera municipal, en el recinto señalado oficialmente para tal efecto; ordinariamente por derecho propio, durante los períodos señalados por la ley y extraordinariamente por convocatoria del alcalde. Parágrafo 1. Cuando se trate de asuntos que afecten específicamente a un corregimiento o comuna, el Concejo Municipal podrá hacer presencia cuando se convocare a cabildo abierto con sujeción a los preceptos de la ley 1757 de 2015 “Por la cual se dictan disposiciones en materia de promoción y protección del derecho a la participación democrática”. Parágrafo 2. De conformidad con el Artículo 2º de la Ley 1148 de 2.007 – en concordancia con el decreto No. 2255 de 2002. Cuando la Presidencia de la Corporación, por acto motivado declare que, por razones de orden público, intimidación o amenaza, no es posible que uno o varios miembros del Concejo Municipal concurran a su sede habitual, podrán participar de las sesiones de manera no presencial o fuera de la sede. Para tal fin, los miembros del Concejo podrán deliberar y decidir por comunicación simultánea o sucesiva, utilizando para el efecto los avances tecnológicos en materia de telecomunicaciones tales como fax, teléfono, teleconferencia, videoconferencia, Internet, conferencia virtual y todos aquellos medios que se encuentren al alcance de los Concejales. En caso de existir comisiones permanentes, se podrán adelantar las sesiones en los mismos términos establecidos en el presente artículo. Los mismos medios podrán emplearse con el fin de escuchar a quienes deseen rendir declaraciones verbales o escritas sobre hechos o temas que requieran ser debatidos, o puedan aportar información o elementos de juicio útiles para las decisiones del Concejo."
+    "titulo": "Artículo 5.- Sede. El Concejo sesionará en la cabecera municipal, en el recinto señalado oficialmente para tal efecto; ordinariamente",
+    "texto": "Sede. El Concejo sesionará en la cabecera municipal, en el recinto señalado oficialmente para tal efecto; ordinariamente por derecho propio, durante los períodos señalados por la ley y extraordinariamente por convocatoria del alcalde. \n\nParágrafo \n1. Cuando se trate de asuntos que afecten específicamente a un corregimiento o comuna, el Concejo Municipal podrá hacer presencia cuando se convocare a cabildo abierto con sujeción a los preceptos de la ley 1757 de 2015 “Por la cual se dictan disposiciones en materia de promoción y protección del derecho a la participación democrática”. \n\nParágrafo \n2. \n\nDe conformidad con el Artículo 2º de la Ley 1148 de 2.007 – en concordancia con el decreto No. 2255 de 2002. Cuando la Presidencia de la Corporación, por acto motivado declare que, por razones de orden público, intimidación o amenaza, no es posible que uno o varios miembros del Concejo Municipal concurran a su sede habitual, podrán participar de las sesiones de manera no presencial o fuera de la sede. Para tal fin, los miembros del Concejo podrán deliberar y decidir por comunicación simultánea o sucesiva, utilizando para el efecto los avances tecnológicos en materia de telecomunicaciones tales como fax, teléfono, teleconferencia, videoconferencia, Internet, conferencia virtual y todos aquellos medios que se encuentren al alcance de los Concejales. En caso de existir comisiones permanentes, se podrán adelantar las sesiones en los mismos términos establecidos en el presente artículo. Los mismos medios podrán emplearse con el fin de escuchar a quienes deseen rendir declaraciones verbales o escritas sobre hechos o temas que requieran ser debatidos, o puedan aportar información o elementos de juicio útiles para las decisiones del Concejo."
   },
   "6": {
     "numero": 6,
-    "titulo": "Artículo 6.- Decisiones del Concejo. Las principales decisiones",
-    "texto": "Decisiones del Concejo. Las principales decisiones de la corporación toman el nombre de “acuerdos”, actos administrativos obligatorios para las autoridades y los particulares en la jurisdicción del territorio municipal. También son decisiones del Concejo las que se adoptan mediante resoluciones, proposiciones, elecciones, citaciones, invitaciones, aceptación de renuncias y la aprobación de la moción de observación. De conformidad con el artículo 83 de la Ley 136 de 1994, toda decisión del concejo distinta a las adoptadas mediante acuerdo, deberán ser suscritas por la mesa directiva y el secretario de la corporación. Se exceptúan la suscripción de contratos, los cuales serán suscritos por el presidente del concejo. Según lo dispuesto en el Acto Legislativo 01 de 2009 las decisiones de los Concejos que se adopten en las sesiones plenarias y de comisión mediante voto de cada uno de sus miembros será nominal y pública, en algunos casos se aplicarán las disposiciones contenidas en la Ley 1431 de 2011, la Ley 2436 de 2024 el cual modifica el artículo 128 de la Ley 5 de 1992."
+    "titulo": "Artículo 6.- Decisiones del Concejo. Las principales decisiones de la corporación toman el nombre de “acuerdos”, actos administrativo",
+    "texto": "Decisiones del Concejo. Las principales decisiones de la corporación toman el nombre de “acuerdos”, actos administrativos obligatorios para las autoridades y los particulares en la jurisdicción del territorio municipal. También son decisiones del Concejo las que se adoptan mediante resoluciones, proposiciones, elecciones, citaciones, invitaciones, aceptación de renuncias y la aprobación de la moción de observación. \n\nDe conformidad con el artículo 83 de la Ley 136 de 1994, toda decisión del concejo distinta a las adoptadas mediante acuerdo, deberán ser suscritas por la mesa directiva y el secretario de la corporación. Se exceptúan la suscripción de contratos, los cuales serán suscritos por el presidente del concejo. Según lo dispuesto en el Acto Legislativo 01 de 2009 las decisiones de los Concejos que se adopten en las sesiones plenarias y de comisión mediante voto de cada uno de sus miembros será nominal y pública, en algunos casos se aplicarán las disposiciones contenidas en la Ley 1431 de 2011, la Ley 2436 de 2024 el cual modifica el artículo 128 de la Ley 5 de 1992."
   },
   "7": {
     "numero": 7,
-    "titulo": "Artículo 7.- Invalidez de las reuniones. Por regla general las",
+    "titulo": "Artículo 7.- Invalidez de las reuniones. Por regla general las reuniones de los miembros del Concejo con el propósito de ejercer func",
     "texto": "Invalidez de las reuniones. Por regla general las reuniones de los miembros del Concejo con el propósito de ejercer funciones propias de la Corporación, se efectuarán en la sede oficial del Concejo, ubicada en la cabecera municipal. Las reuniones que se realicen con desconocimiento de las disposiciones legales y reglamentarias serán inválidas y las decisiones que allí se tomen serán ilegales e ineficaces. Los Concejales que participen en sesiones que controviertan las anteriores disposiciones incurrirán en falta disciplinaria sancionable por el organismo correspondiente."
   },
   "8": {
     "numero": 8,
-    "titulo": "Artículo 8.- Quórum y mayorías. En cumplimiento de la",
+    "titulo": "Artículo 8.- Quórum y mayorías. En cumplimiento de la disposición normativa contenida en el artículo 146 y 148 de la Constitución Pol",
     "texto": "Quórum y mayorías. En cumplimiento de la disposición normativa contenida en el artículo 146 y 148 de la Constitución Política de 1991, las normas sobre quórum y mayorías decisorias previstas para el Congreso de la República regirán también para el Concejo Municipal de EL Cerrito – Valle del Cauca. En consecuencia, en el Concejo Municipal regirá tanto el quórum deliberatorio como el decisorio. Mediante el primero, podrá abrir sus sesiones y deliberar con la asistencia de por lo menos una cuarta parte de sus miembros. Pero las decisiones únicamente podrán tomarse con la asistencia de la mayoría de los asistentes, lo cual constituye el quórum decisorio, salvo que la Constitución, la Ley o el presente reglamento determine un quórum diferente o que la Constitución exija expresamente una mayoría especial. En el Concejo Pleno y en las comisiones permanentes, las decisiones se tomarán por la mayoría de los votos de los asistentes, salvo que la Constitución, la ley o el presente reglamento exija expresamente una mayoría especial. CAPITULO II. PRINCIPIOS RECTORES Y CRITERIOS DE INTERPRETACIÓN"
   },
   "9": {
     "numero": 9,
-    "titulo": "Artículo 9.- Principios rectores del Reglamento. Como estatuto",
+    "titulo": "Artículo 9.- Principios rectores del Reglamento. Como estatuto que reglamenta el funcionamiento de una corporación pública al servici",
     "texto": "Principios rectores del Reglamento. Como estatuto que reglamenta el funcionamiento de una corporación pública al servicio de los intereses generales, las actuaciones de los Concejales y las bancadas a las que éstos pertenezcan deberán desarrollarse con sujeción a los Principios Generales de la función Administrativa contenidos en el artículo 209 de la Constitución Política de 1991 y el artículo 3º del Código de Procedimiento Administrativo y de lo Contencioso Administrativo y 5 de la ley 136 de 1994."
   },
   "10": {
     "numero": 10,
-    "titulo": "Artículo 10.- Reglas de Interpretación del Reglamento. La",
+    "titulo": "Artículo 10.- Reglas de Interpretación del Reglamento. La interpretación de las disposiciones reglamentarias aquí contenidas habrá de ",
     "texto": "Reglas de Interpretación del Reglamento. La interpretación de las disposiciones reglamentarias aquí contenidas habrá de realizarse según el sentido lógico y literal de las palabras. Con todo, en tratándose de aquellas que presenten dificultades interpretativas se tendrán en cuenta las contempladas en los artículos 25 a 32 del Código Civil Colombiano en lo que resulten pertinentes."
   },
   "11": {
     "numero": 11,
-    "titulo": "Artículo 11.- Aplicación de disposiciones normativas",
-    "texto": "Aplicación de disposiciones normativas análogas, de doctrina constitucional y de los Principios Generales del Derecho. Cuando frente a situaciones fácticas particulares el presente Reglamento no proporcione disposiciones normativas aplicables, se acudirá a aquellas que regulen casos, materias o procedimientos semejantes y/o, en su defecto, a la doctrina constitucional y los principios generales del derecho o bajo el principio de integración se aplicarán las que contenga el Reglamento Interno del Congreso (Ley 5ª de 1992)."
+    "titulo": "Artículo 11.- Aplicación de disposiciones normativas análogas, de doctrina constitucional y de los Principios Generales del Derecho. C",
+    "texto": "Aplicación de disposiciones normativas análogas, de doctrina constitucional y de los Principios Generales del Derecho. Cuando frente a situaciones fácticas particulares el presente Reglamento no proporcione disposiciones normativas aplicables, se acudirá a aquellas que regulen casos, materias o procedimientos semejantes y/o, en su defecto, a la doctrina constitucional y los principios generales del derecho o bajo el principio de integración se aplicarán las que contenga el"
   },
   "12": {
     "numero": 12,
-    "titulo": "Artículo 12.- Prevalencia Normativa. La Constitución es norma",
-    "texto": "Prevalencia Normativa. La Constitución es norma de normas y de conformidad con la ley y sus decretos se regulará el funcionamiento y manejo de los concejos municipales. En todo caso de incompatibilidad entre la Constitución, la ley y sus decretos reglamentarios y el presente Reglamento, se aplicarán las disposiciones constitucionales y legales de carácter general. CAPITULO III DEL CONCEJO Y LAS BANCADAS"
+    "titulo": "Artículo 12.- Reglamento Interno del Congreso (Ley 5ª de 1992).Artículo 12.- Prevalencia Normativa. La Constitución es norma de normas",
+    "texto": "Reglamento Interno del Congreso (Ley 5ª de 1992).Artículo 12.- Prevalencia Normativa. La Constitución es norma de normas y de conformidad con la ley y sus decretos se regulará el funcionamiento y manejo de los concejos municipales. En todo caso de incompatibilidad entre la Constitución, la ley y sus decretos reglamentarios y el presente Reglamento, se aplicarán las disposiciones constitucionales y legales de carácter general. CAPITULO III DEL CONCEJO Y LAS BANCADAS"
   },
   "13": {
     "numero": 13,
-    "titulo": "Artículo 13.- Definición. Para los efectos del presente acuerdo,",
-    "texto": "Definición. Para los efectos del presente acuerdo, de conformidad con el artículo 1 de la Ley 974 de 2005, los miembros de las Corporaciones Públicas elegidos por un mismo partido, movimiento social o grupo significativo de ciudadanos Constituyen una bancada en la respectiva corporación. Cada miembro de la corporación pertenecerá exclusivamente a la bancada del partido, movimiento político, social o grupo significativo de ciudadanos por el cual fue elegido. Parágrafo único. Son los partidos y movimientos políticos los competentes para determinar, de manera general, los asuntos de conciencia y establecer un régimen disciplinario, que incluirá la gradualidad y las sanciones correspondientes por el incumplimiento a la obligación de actuar en bancadas al interior del Concejo Municipal. Para el caso de los grupos significativos de ciudadanos que no ostenten estatutos ó régimen disciplinario, las sanciones aplicables por el incumplimiento de actuar en bancada, serán las que dispongan sus consejos directivos o comités de ética, en caso de que estuvieren conformados; por regla general toda actuación de los miembros serán en bancada ó unánime de conformidad con la Ley."
+    "titulo": "Artículo 13.- Definición. Para los efectos del presente acuerdo, de conformidad con el artículo 1 de la Ley 974 de 2005, los miembros ",
+    "texto": "Definición. Para los efectos del presente acuerdo, de conformidad con el artículo 1 de la Ley 974 de 2005, los miembros de las Corporaciones Públicas elegidos por un mismo partido, movimiento social o grupo significativo de ciudadanos Constituyen una bancada en la respectiva corporación. Cada miembro de la corporación pertenecerá exclusivamente a la bancada del partido, movimiento político, social o grupo significativo de ciudadanos por el cual fue elegido. Parágrafo único. Son los partidos y movimientos políticos los competentes para determinar, de manera general, los asuntos de conciencia y establecer un régimen disciplinario, que incluirá la gradualidad y las sanciones correspondientes por el incumplimiento a la obligación de actuar en bancadas al interior del Concejo Municipal. Para el caso de los grupos significativos de ciudadanos que no ostenten estatutos ó régimen disciplinario, las sanciones aplicables por el incumplimiento de actuar en bancada, serán las que dispongan sus consejos directivos o comités de ética, en caso de que estuvieren conformados; por regla general toda actuación de los miembros serán en bancada ó unánime de conformidad con"
   },
   "14": {
     "numero": 14,
-    "titulo": "Artículo 14.- Constitución. Las Bancadas del Concejo Municipal",
-    "texto": "Constitución. Las Bancadas del Concejo Municipal deberán constituirse a partir de la primera sesión que el Concejo tenga formalmente. Bien sea, desde el momento de su posesión o toma de juramento como Concejal, Al efecto, los Concejales pertenecientes a un mismo partido o movimiento político por el cual se inscribieron para la elección respectiva, deberán reunirse formalmente de conformidad con sus estatutos y la Ley y entregar a la Secretaría de la Corporación, documento en el que especifiquen los nombres y apellidos de los Concejales que integran la bancada respectiva. Una vez constituida la Bancada, deberá informar de ello a la Presidencia del Concejo mediante nota firmada por todos sus miembros integrantes, determinando específicamente el nombre de su vocero y el coordinador, una sola persona podrá ejercer ambas funciones. Así mismo, los nombres de quienes desempeñan otras actividades directivas al interior de dicha Bancada."
+    "titulo": "Artículo 14.- la Ley.Artículo 14.- Constitución. Las Bancadas del Concejo Municipal deberán constituirse a partir de la primera sesión",
+    "texto": "la Ley.Artículo 14.- Constitución. Las Bancadas del Concejo Municipal deberán constituirse a partir de la primera sesión que el Concejo tenga formalmente. Bien sea, desde el momento de su posesión o toma de juramento como Concejal, Al efecto, los Concejales pertenecientes a un mismo partido o movimiento político por el cual se inscribieron para la elección respectiva, deberán reunirse formalmente de conformidad con sus estatutos y la Ley y entregar a la Secretaría de la Corporación, documento en el que especifiquen los nombres y apellidos de los Concejales que integran la bancada respectiva. Una vez constituida la Bancada, deberá informar de ello a la Presidencia del Concejo mediante nota firmada por todos sus miembros integrantes, determinando específicamente el nombre de su vocero y el coordinador, una sola persona podrá ejercer ambas funciones. Así mismo, los nombres de quienes desempeñan otras actividades directivas al interior de dicha Bancada."
   },
   "15": {
     "numero": 15,
-    "titulo": "Artículo 15.- Actuación en Bancadas. En cumplimiento de lo",
+    "titulo": "Artículo 15.- Actuación en Bancadas. En cumplimiento de lo estipulado en el artículo 2 de la ley 974 de 2005, los miembros de cada ban",
     "texto": "Actuación en Bancadas. En cumplimiento de lo estipulado en el artículo 2 de la ley 974 de 2005, los miembros de cada bancada actuarán en grupo y coordinadamente y emplearán mecanismos democráticos para tomar sus decisiones al interior del Concejo en todos los temas que los Estatutos de sus respectivos Partidos o Movimiento Político no establezcan como de conciencia. De Conformidad con la jurisprudencia Colombiana, los Concejales pertenecientes a un grupo significativo de ciudadanos constituyen una Bancada y al interior de la Corporación deberán actuar como tal."
   },
   "16": {
     "numero": 16,
-    "titulo": "Artículo 16.- Facultades de las Bancadas. Son facultades de",
-    "texto": "Facultades de las Bancadas. Son facultades de las Bancadas existentes en el Concejo de EL Cerrito – Valle del Cauca las siguientes: 1. Promover citaciones o debates e intervenir en ellos a través de sus respectivos voceros o portavoces. 2. Participar con voz y voto en las sesiones plenarias del Concejo. 3. Intervenir a través de sus voceros o portavoces en las sesiones en las que se discutan y se voten proyectos de acuerdo. 4. Presentar mociones. 5. Hacer interpelaciones. 6. Solicitar votaciones nominales y públicas. 7. Solicitar verificaciones de quórum. 8. Solicitar mociones de orden, de suficiente ilustración y las demás establecidas en el presente reglamento. 9. Postular Candidatos."
+    "titulo": "Artículo 16.- Facultades de las Bancadas. Son facultades de las Bancadas existentes en el Concejo de EL Cerrito – Valle del Cauca las ",
+    "texto": "Facultades de las Bancadas. Son facultades de las Bancadas existentes en el Concejo de EL Cerrito – Valle del Cauca las siguientes: \n1. Promover citaciones o debates e intervenir en ellos a través de sus respectivos voceros o portavoces. \n2. Participar con voz y voto en las sesiones plenarias del Concejo. \n3. Intervenir a través de sus voceros o portavoces en las sesiones en las que se discutan y se voten proyectos de acuerdo. \n4. Presentar mociones. \n5. Hacer interpelaciones. \n6. Solicitar votaciones nominales y públicas. \n7. Solicitar verificaciones de quórum. \n8. Solicitar mociones de orden, de suficiente ilustración y las demás establecidas en el presente reglamento. \n9. Postular Candidatos."
   },
   "17": {
     "numero": 17,
-    "titulo": "Artículo 17.- Intervenciones. Para hacer uso de la palabra se",
+    "titulo": "Artículo 17.- Intervenciones. Para hacer uso de la palabra se requiere autorización previa de la Presidencia. Durante las sesiones ple",
     "texto": "Intervenciones. Para hacer uso de la palabra se requiere autorización previa de la Presidencia. Durante las sesiones plenarias o de comisión permanente, las bancadas podrán hacer uso de la palabra máximo hasta en dos (2) oportunidades por tema. En cada caso, la intervención de la bancada no podrá ser superior a 30 minutos, la cual se realizará a través del vocero determinado para el efecto. El vocero podrá distribuir su tiempo de intervención con los otros miembros de la bancada. La Mesa Directiva fijará el tiempo de las intervenciones de cada uno de los oradores teniendo en cuenta la extensión del proyecto y la complejidad de la materia."
   },
   "18": {
     "numero": 18,
-    "titulo": "Artículo 18.- Uso de la Palabra. El uso de la palabra se",
-    "texto": "Uso de la Palabra. El uso de la palabra se concederá con sujeción al siguiente orden: 1. Al (los) autor(es) ponente(s) para que sustente(n) su informe, con la proposición o razón de la citación. 2. A los voceros y los miembros de las bancadas, hasta por veinte minutos por grupo. Cuando la bancada represente al menos el treinta por ciento de las curules, el tiempo de intervención podrá ampliarse hasta por diez minutos más. 3. Los voceros tendrán 20 minutos al comienzo de cada debate para fijar la posición de sus colectividades y en casos especiales los partidos designarán otros voceros, los cuales tendrán 10 minutos para hacer su intervención. 4. A los oradores en el orden en que se hubieren inscrito ante la Secretaria. Ninguna intervención individual, en esta instancia, podrá durar más de 10 minutos. 5. Los servidores públicos que tengan derecho a intervenir por un término de 20 minutos, prorrogables a petición del mismo y aceptada por la plenaria. 6. Los voceros de las bancadas podrán intervenir nuevamente y se cerrarán las intervenciones a criterio del Presidente de la Corporación. Parágrafo 1. Ningún orador podrá referirse a un tema diferente del que se encuentra en discusión, y su desconocimiento obligará a la Presidencia a llamar la atención y suspender el derecho para continuar en la intervención. Sin perjuicio de lo establecido en las reglas de ética que para tal efecto señale el presente reglamento o el del partido, movimiento o grupo significativo de ciudadanos. Parágrafo 2. Todos los oradores deben inscribirse en la Secretaria hasta con cinco minutos de anterioridad de la hora fijada para el inicio de la sesión. Harán uso de la palabra por una sola vez en la discusión de un tema."
+    "titulo": "Artículo 18.- Uso de la Palabra. El uso de la palabra se concederá con sujeción al siguiente orden: 1. Al (los) autor(es) ponente(s) p",
+    "texto": "Uso de la Palabra. El uso de la palabra se concederá con sujeción al siguiente orden: \n1. Al (los) autor(es) ponente(s) para que sustente(n) su informe, con la proposición o razón de la citación. \n2. A los voceros y los miembros de las bancadas, hasta por veinte minutos por grupo. Cuando la bancada represente al menos el treinta por ciento de las curules, el tiempo de intervención podrá ampliarse hasta por diez minutos más. \n3. Los voceros tendrán 20 minutos al comienzo de cada debate para fijar la posición de sus colectividades y en casos especiales los partidos designarán otros voceros, los cuales tendrán 10 minutos para hacer su intervención. \n4. A los oradores en el orden en que se hubieren inscrito ante la Secretaria. Ninguna intervención individual, en esta instancia, podrá durar más de 10 minutos. \n5. Los servidores públicos que tengan derecho a intervenir por un término de 20 minutos, prorrogables a petición del mismo y aceptada por la plenaria. \n6. Los voceros de las bancadas podrán intervenir nuevamente y se cerrarán las intervenciones a criterio del Presidente de la Corporación. \n\nParágrafo \n1. Ningún orador podrá referirse a un tema diferente del que se encuentra en discusión, y su desconocimiento obligará a la Presidencia a llamar la atención y suspender el derecho para continuar en la intervención. Sin perjuicio de lo establecido en las reglas de ética que para tal efecto señale el presente reglamento o el del partido, movimiento o grupo significativo de ciudadanos. \n\nParágrafo \n2. Todos los oradores deben inscribirse en la Secretaria hasta con cinco minutos de anterioridad de la hora fijada para el inicio de la sesión. Harán uso de la palabra por una sola vez en la discusión de un tema."
   },
   "19": {
     "numero": 19,
-    "titulo": "Artículo 19.- Número de Intervenciones. No se podrá intervenir",
-    "texto": "Número de Intervenciones. No se podrá intervenir por más de dos veces en la discusión de un proyecto de acuerdo sobre el mismo tema, proposición o en su modificación, con excepción del autor del mismo o de los voceros de las bancadas. Y no se podrá hablar más de una vez cuando se trate de: 1. Proposiciones para alterar o diferir el orden del día. 2. Cuestiones de orden. 3. Proposiciones de suspensión o que dispongan iniciar o continuar en el orden del día. 4. Apelaciones a lo resuelto por la presidencia o revocatoria. 5. Proposiciones para que un proyecto regrese a primer debate."
+    "titulo": "Artículo 19.- Número de Intervenciones. No se podrá intervenir por más de dos veces en la discusión de un proyecto de acuerdo sobre el",
+    "texto": "Número de Intervenciones. No se podrá intervenir por más de dos veces en la discusión de un proyecto de acuerdo sobre el mismo tema, proposición o en su modificación, con excepción del autor del mismo o de los voceros de las bancadas. Y no se podrá hablar más de una vez cuando se trate de: \n1. Proposiciones para alterar o diferir el orden del día. \n2. Cuestiones de orden. \n3. Proposiciones de suspensión o que dispongan iniciar o continuar en el orden del día. \n4. Apelaciones a lo resuelto por la presidencia o revocatoria. \n5. Proposiciones para que un proyecto regrese a primer debate."
   },
   "20": {
     "numero": 20,
-    "titulo": "Artículo 20.- Programación Preferente. Los proyectos de",
+    "titulo": "Artículo 20.- Programación Preferente. Los proyectos de acuerdo o proposiciones presentados a nombre de una bancada se programarán en ",
     "texto": "Programación Preferente. Los proyectos de acuerdo o proposiciones presentados a nombre de una bancada se programarán en el orden del día de las comisiones permanentes o en la plenaria de manera preferente sobre las que hayan presentado a título personal los concejales miembros de la corporación."
   },
   "21": {
     "numero": 21,
-    "titulo": "Artículo 21.- Constancia. Todos los Concejales deberán dejar",
+    "titulo": "Artículo 21.- Constancia. Todos los Concejales deberán dejar constancia escrita de sus posiciones sobre todos los proyectos de acuerdo",
     "texto": "Constancia. Todos los Concejales deberán dejar constancia escrita de sus posiciones sobre todos los proyectos de acuerdo que se tramiten."
   },
   "22": {
     "numero": 22,
-    "titulo": "Artículo 22.- Reglamentación especial para el trámite de los",
-    "texto": "Reglamentación especial para el trámite de los Debates de Control Político por citación de una Bancada. Para el trámite de los debates en el Concejo en ejercicio de su función de control político, se observarán las siguientes reglas preferentes: 1. Para promover citaciones o debates de control político, deberá haber por lo menos una bancada responsable de la citación, que tendrá derecho a designar uno o varios ponentes que intervendrán hasta por veinte (20) minutos. De igual forma, varias bancadas podrán agruparse como una sola para efectos de adelantar debates de control político. Con todo, la coadyuvancia de una bancada a otra no concederá a la coadyuvante los derechos de la bancada citante, de suerte que en esos eventos será menester determinar concretamente el nombre de la bancada citante. 2. A continuación, la Administración Municipal dispondrá de un tiempo máximo de una hora que podrá distribuirse proporcionalmente entre el número de servidores públicos citados. 3. Posteriormente se escucharán las posiciones del o de los voceros que para el respectivo debate designen las bancadas no citantes las cuales podrán extenderse máximo hasta por 20 minutos. Cuando la bancada represente al menos el veinte por ciento de las curules, el tiempo de intervención podrá ampliarse hasta por diez minutos más. 4. A continuación, intervendrán los oradores debidamente inscritos, hasta por un periodo máximo de 10 minutos. La presidencia podrá modificar el tiempo de la intervención dependiendo del número de inscripciones programadas, pero en ningún caso las intervenciones podrán durar menos de 5 minutos. 5. En ese punto, la Administración Municipal podrá intervenir nuevamente hasta por espacio de 10 minutos, que podrá prorrogarse por el mismo tiempo a juicio de la Presidencia. 6. Finalmente, el vocero de la bancada citante y el de las no citantes, si a bien lo consideran, dispondrán de 10 minutos adicionales para rendir su informe de conclusiones y presentar proposiciones a considera"
+    "titulo": "Artículo 22.- Reglamentación especial para el trámite de los Debates de Control Político por citación de una Bancada. Para el trámite ",
+    "texto": "Reglamentación especial para el trámite de los Debates de Control Político por citación de una Bancada. Para el trámite de los debates en el Concejo en ejercicio de su función de control político, se observarán las siguientes reglas preferentes: \n1. Para promover citaciones o debates de control político, deberá haber por lo menos una bancada responsable de la citación, que tendrá derecho a designar uno o varios ponentes que intervendrán hasta por veinte (20) minutos. De igual forma, varias bancadas podrán agruparse como una sola para efectos de adelantar debates de control político. Con todo, la coadyuvancia de una bancada a otra no concederá a la coadyuvante los derechos de la bancada citante, de suerte que en esos eventos será menester determinar concretamente el nombre de la bancada citante. \n2. A continuación, la Administración Municipal dispondrá de un tiempo máximo de una hora que podrá distribuirse proporcionalmente entre el número de servidores públicos citados. \n3. Posteriormente se escucharán las posiciones del o de los voceros que para el respectivo debate designen las bancadas no citantes las cuales podrán extenderse máximo hasta por 20 minutos. Cuando la bancada represente al menos el veinte por ciento de las curules, el tiempo de intervención podrá ampliarse hasta por diez minutos más. \n4. A continuación, intervendrán los oradores debidamente inscritos, hasta por un periodo máximo de 10 minutos. La presidencia podrá modificar el tiempo de la intervención dependiendo del número de inscripciones programadas, pero en ningún caso las intervenciones podrán durar menos de 5 minutos. \n5. En ese punto, la Administración Municipal podrá intervenir nuevamente hasta por espacio de 10 minutos, que podrá prorrogarse por el mismo tiempo a juicio de la Presidencia. \n6. Finalmente, el vocero de la bancada citante y el de las no citantes, si a bien lo consideran, dispondrán de 10 minutos adicionales para rendir su informe de conclusiones y presentar proposiciones a consideración de la corporación. \n7. Realizado lo anterior la Presidencia dará por terminada la sesión de Control Político."
   },
   "23": {
     "numero": 23,
-    "titulo": "Artículo 23.- Función Normativa. Cuando se traten de proyecto",
+    "titulo": "Artículo 23.- Función Normativa. Cuando se traten de proyecto de acuerdo presentado por una bancada, se observarán las siguientes reco",
     "texto": "Función Normativa. Cuando se traten de proyecto de acuerdo presentado por una bancada, se observarán las siguientes recomendaciones tendientes a la racionalización de las intervenciones en el uso de la palabra: Primera: El ponente, o coordinador ponente, según sea el caso, que será designado por el partido, y actuará como su vocero, dispondrá de 20 minutos para que sustente su informe. En caso de ponencia dividida, la ponencia alternativa podrá exponerse por el mismo tiempo que la ponencia principal. Segunda: En el caso de ponencias colectivas, los demás ponentes podrán hacer uso de la palabra hasta por 20 minutos que se distribuirán entre ellos, procurando la intervención de todas las bancadas que tienen representación en la ponencia. Tercera: Los voceros de los partidos, que no hayan intervenido como ponentes, podrán intervenir sin el requisito de inscripción previa, de conformidad con lo establecido en el inciso final del artículo 10 de la Ley de Bancadas, hasta por 10 minutos si su partido o movimiento agrupa hasta 4 concejales, y 20 minutos si al partido o movimiento le corresponde un número superior. Cuarta: La Administración Municipal, en intervenir hasta por un tiempo de 25 minutos. conjunto, podrá Quinta: Los inscritos con la antelación debida, podrán hacer uso de la palabra hasta por 5 minutos. Sexta: El ponente, o coordinador ponente, en el caso de las ponencias colectivas, podrá intervenir nuevamente para cerrar el debate, durante 10 minutos adicionales y formulará las proposiciones que se someterán a votación. No obstante, en caso de que se presente la discusión separada del articulado, se abrirán las inscripciones, y los oradores podrán intervenir hasta por 5 minutos, a juicio de la Presidencia, según el número de inscritos. CAPITULO IV ESTRUCTURA ORGÁNICA DEL CONCEJO"
   },
   "24": {
     "numero": 24,
-    "titulo": "Artículo 24.- Estructura Orgánica Interna. En ejercicio de sus",
-    "texto": "Estructura Orgánica Interna. En ejercicio de sus funciones normativas y de control político, el Concejo Municipal de EL Cerrito – Valle del Cauca, con sujeción a las disposiciones legales vigentes, determina la siguiente estructura orgánica: 1. Plenaria del Concejo Municipal: Conformada por la totalidad de los Concejales de la Corporación, se encuentra facultada para la elección del órgano de dirección y de gobierno denominado Mesa Directiva. Igualmente, la plenaria de la Corporación elige al Secretario General y los integrantes de las Comisiones Permanentes. 2. La Mesa Directiva del Concejo Municipal: Es el órgano de dirección y de gobierno. Estará integrada por los siguientes miembros elegidos por la Plenaria de la Corporación para periodos fijos institucionales de un (1) año: Un Presidente, un Primer Vicepresidente y un Segundo Vicepresidente. El periodo de la Mesa Directiva del Concejo va desde el primero (1) de enero hasta el treinta y uno (31) de diciembre del respectivo año. 3. Comisiones Permanentes: Son aquellas que cumplen funciones especializadas y específicas de acuerdo con la materia conforme lo disponga la ley y el presente reglamento. Son integradas para un periodo de un año que va desde el primero (1) de enero hasta el treinta y uno (31) de diciembre del respectivo año. TÍTULO II CONCEJO PLENO CAPÍTULO I. INAUGURACIÓN. POSESIÓN. PERIODO DE SESIONES. ACTAS. PUBLICIDAD."
+    "titulo": "Artículo 24.- Estructura Orgánica Interna. En ejercicio de sus funciones normativas y de control político, el Concejo Municipal de EL ",
+    "texto": "Estructura Orgánica Interna. En ejercicio de sus funciones normativas y de control político, el Concejo Municipal de EL Cerrito – Valle del Cauca, con sujeción a las disposiciones legales vigentes, determina la siguiente estructura orgánica: \n1. Plenaria del Concejo Municipal: Conformada por la totalidad de los Concejales de la Corporación, se encuentra facultada para la elección del órgano de dirección y de gobierno denominado Mesa Directiva. Igualmente, la plenaria de la Corporación elige al Secretario General y los integrantes de las Comisiones Permanentes. \n2. La Mesa Directiva del Concejo Municipal: Es el órgano de dirección y de gobierno. Estará integrada por los siguientes miembros elegidos por la Plenaria de la Corporación para periodos fijos institucionales de un (1) año: Un Presidente, un Primer Vicepresidente y un Segundo Vicepresidente. El periodo de la Mesa Directiva del Concejo va desde el primero (1) de enero hasta el treinta y uno (31) de diciembre del respectivo año. \n3. Comisiones Permanentes: Son aquellas que cumplen funciones especializadas y específicas de acuerdo con la materia conforme lo disponga la ley y el presente reglamento. Son integradas para un periodo de un año que va desde el primero (1) de enero hasta el treinta y uno (31) de diciembre del respectivo año. TÍTULO II CONCEJO PLENO CAPÍTULO I. INAUGURACIÓN. POSESIÓN. PERIODO DE SESIONES. ACTAS. PUBLICIDAD."
   },
   "25": {
     "numero": 25,
-    "titulo": "Artículo 25.- Sesión inaugural. En cumplimiento de lo",
-    "texto": "Sesión inaugural. En cumplimiento de lo estipulado en el artículo 8 del decreto 2796 de 1994, reglamentario del artículo 60 del Decreto- Ley 2626 del mismo año, los Concejos Distritales y Municipales, sin atender a su categoría, se instalarán el día dos (2) de enero correspondiente a la iniciación de su período constitucional y se ocupará exclusivamente de la elección de la Mesa Directiva y de los funcionarios que le corresponde. Para los efectos mencionados, el Concejo se reunirá máximo hasta el diez (10) de enero, fecha en la cual clausurará este tipo de sesiones. Establecido al menos el quórum para deliberar, los miembros presentes se constituirán en junta preparatoria, la que será presidida por el concejal a quien corresponda el primer lugar por orden alfabético de apellidos. Si hubiere dos o más concejales cuyos apellidos los coloquen en igualdad de condiciones, se preferirá el orden alfabético en el nombre. Actuará como secretario provisional hasta que se elija secretario en propiedad, el Secretario General del Concejo del período inmediatamente anterior, quien previamente a la sesión inaugural obtendrá de la autoridad electoral la lista de los Concejales electos, para su debida identificación; en ausencia de aquel, actuará como secretario ad hoc el Concejal designado por el presidente de la junta preparatoria sin que exista incompatibilidad para ejercer sus derechos a voz y voto. Así las cosas, se dará inicio al proceso de acreditación de los Concejales electos, la cual se llevará a cabo primeramente ante el presidente de la junta preparatoria y con posterioridad ante el presidente elegido en propiedad. Los documentos que acreditan su condición de servidores públicos serán aquellos que de conformidad con la Ley 190 de 1995 se aporten y en consecuencia serán revisados por la comisión especial de acreditación documental que se designe por el presidente de la junta preparatoria para tal efecto. De conformidad con el artículo primero (1) de la Ley 190 de 1995, lo"
+    "titulo": "Artículo 25.- Sesión inaugural. En cumplimiento de lo estipulado en el artículo 8 del decreto 2796 de 1994, reglamentario del artículo",
+    "texto": "Sesión inaugural. En cumplimiento de lo estipulado en el artículo 8 del decreto 2796 de 1994, reglamentario del artículo 60 del Decreto- Ley 2626 del mismo año, los Concejos Distritales y Municipales, sin atender a su categoría, se instalarán el día dos (2) de enero correspondiente a la iniciación de su período constitucional y se ocupará exclusivamente de la elección de la Mesa Directiva y de los funcionarios que le corresponde. Para los efectos mencionados, el Concejo se reunirá máximo hasta el diez (10) de enero, fecha en la cual clausurará este tipo de sesiones. Establecido al menos el quórum para deliberar, los miembros presentes se constituirán en junta preparatoria, la que será presidida por el concejal a quien corresponda el primer lugar por orden alfabético de apellidos. Si hubiere dos o más concejales cuyos apellidos los coloquen en igualdad de condiciones, se preferirá el orden alfabético en el nombre. Actuará como secretario provisional hasta que se elija secretario en propiedad, el Secretario General del Concejo del período inmediatamente anterior, quien previamente a la sesión inaugural obtendrá de la autoridad electoral la lista de los Concejales electos, para su debida identificación; en ausencia de aquel, actuará como secretario ad hoc el Concejal designado por el presidente de la junta preparatoria sin que exista incompatibilidad para ejercer sus derechos a voz y voto. Así las cosas, se dará inicio al proceso de acreditación de los Concejales electos, la cual se llevará a cabo primeramente ante el presidente de la junta preparatoria y con posterioridad ante el presidente elegido en propiedad. Los documentos que acreditan su condición de servidores públicos serán aquellos que de conformidad con la Ley 190 de 1995 se aporten y en consecuencia serán revisados por la comisión especial de acreditación documental que se designe por el presidente de la junta preparatoria para tal efecto. \n\nDe conformidad con el artículo primero (1) de la Ley 190 de 1995, los Concejales, antes de su posesión deberán presentar al presidente de la Junta preparatoria o a la comisión especial de acreditación documental los siguientes documentos: a. Formato Único de Hoja de vida debidamente diligenciado. b. Certificado de antecedentes disciplinarios expedido por la Procuraduría General de la Nación. c. Certificado de Antecedentes Judiciales expedido por el órgano competente. d. Declaración de Bienes y Rentas e. Declaración de Actividades Económicas Privadas Si por cualquier razón el Concejal llamado a posesionarse no pudiere aportar los documentos anteriormente descritos, el presidente de la Junta Preparatoria podrá otorgar un plazo no superior a diez (10) días para que los aporte, previo compromiso escrito del Concejal. A continuación, todos los miembros presentes se pondrán de píe, para dar respuesta a la siguiente pregunta formulada por el presidente provisional: “¿Declaran los Honorables Concejales presentes, constitucionalmente instalado el Concejo Municipal y abiertas sus sesiones?” \n\nParágrafo 1º. Si por fuerza mayor o caso fortuito no se pudiese llevar a cabo la instalación en la fecha antes mencionada se hará tan pronto como fuere posible. \n\nParágrafo 2º. Será requisito para la posesión y para el desempeño del cargo la declaración bajo juramento del elegido, donde conste la identificación de sus bienes. Tal información deberá ser actualizada cada año y, en todo caso, al momento de su retiro."
   },
   "26": {
     "numero": 26,
-    "titulo": "Artículo 26.- Posesión del Presidente y de los Concejales.",
-    "texto": "Posesión del Presidente y de los Concejales. Instalado el Concejo, el presidente provisional jurará ante los miembros presentes de la corporación, diciendo en voz alta las palabras siguientes: “Invocando la protección de Dios, juro ante esta Honorable Corporación defender la Constitución Política y las leyes de la República, y desempeñar fielmente los deberes del cargo” Acto seguido, el Presidente provisional tomará el juramento de rigor a los Concejales presentes, el que se entenderá prestado por todo el período constitucional; estos contestarán afirmativamente a la siguiente pregunta: “Invocando la Protección de Dios, ¿juráis defender la Constitución Política y las leyes de la República, y desempeñar fielmente los deberes del cargo?” Si hubiere quórum decisorio, la Corporación procederá a elegir presidente y vicepresidentes primero y segundo, en forma separada, los cuales conformarán la mesa directiva. Para ello se deberá seguir el procedimiento contemplado en el presente reglamento. El presidente tomará posesión ante la corporación, y los vicepresidentes ante el presidente. Todos prestarán juramento en los siguientes términos: “Juro a Dios y prometo al pueblo, cumplir fielmente la Constitución, las leyes y el reglamento”. Parágrafo 1. El Presidente del Concejo instalará y clausurará las sesiones ordinarias y extraordinarias del Concejo Municipal. En estas sesiones al dar inicio se entonará el Himno Nacional y el del Municipio. Parágrafo 2. En las sesiones de instalación y clausura se podrán adelantar debates de control político y discusiones de proyectos de acuerdo, a excepción de la sesión inaugural del Concejo Municipal en el primer año del período constitucional. Parágrafo 3. En caso de que sobrevenga al acto de posesión de un Concejal, alguna inhabilidad o incompatibilidad, el Concejal deberá advertirlo inmediatamente al Presidente del Concejo. Si dentro de los tres meses siguientes el Concejal no ha puesto final a la situación que dio origen a la inhabilidad"
+    "titulo": "Artículo 26.- Posesión del Presidente y de los Concejales. Instalado el Concejo, el presidente provisional jurará ante los miembros pr",
+    "texto": "Posesión del Presidente y de los Concejales. Instalado el Concejo, el presidente provisional jurará ante los miembros presentes de la corporación, diciendo en voz alta las palabras siguientes: “Invocando la protección de Dios, juro ante esta Honorable Corporación defender la Constitución Política y las leyes de la República, y desempeñar fielmente los deberes del cargo” Acto seguido, el Presidente provisional tomará el juramento de rigor a los Concejales presentes, el que se entenderá prestado por todo el período constitucional; estos contestarán afirmativamente a la siguiente pregunta: “Invocando la Protección de Dios, ¿juráis defender la Constitución Política y las leyes de la República, y desempeñar fielmente los deberes del cargo?” Si hubiere quórum decisorio, la Corporación procederá a elegir presidente y vicepresidentes primero y segundo, en forma separada, los cuales conformarán la mesa directiva. Para ello se deberá seguir el procedimiento contemplado en el presente reglamento. El presidente tomará posesión ante la corporación, y los vicepresidentes ante el presidente. Todos prestarán juramento en los siguientes términos: “Juro a Dios y prometo al pueblo, cumplir fielmente la Constitución, las leyes y el reglamento”. \n\nParágrafo \n1. El Presidente del Concejo instalará y clausurará las sesiones ordinarias y extraordinarias del Concejo Municipal. En estas sesiones al dar inicio se entonará el Himno Nacional y el del Municipio. \n\nParágrafo \n2. En las sesiones de instalación y clausura se podrán adelantar debates de control político y discusiones de proyectos de acuerdo, a excepción de la sesión inaugural del Concejo Municipal en el primer año del período constitucional. \n\nParágrafo \n3. En caso de que sobrevenga al acto de posesión de un Concejal, alguna inhabilidad o incompatibilidad, el Concejal deberá advertirlo inmediatamente al Presidente del Concejo. Si dentro de los tres meses siguientes el Concejal no ha puesto final a la situación que dio origen a la inhabilidad o incompatibilidad, procederá su retiro inmediato, sin perjuicio de las sanciones a que haya lugar por ese hecho. El anterior parágrafo solo es aplicable únicamente bajo el entendido de que la inhabilidad o incompatibilidad sobrevinientes no se hayan generado por dolo o culpa imputables al Concejal. (Artículo 6, Ley 190 de 1995) \n\nParágrafo \n4. Las sesiones especiales de instalación e inaugurales efectuadas el primer año del periodo constitucional en el mes de enero, no serán pagadas a los Concejales que hayan participado en ellas."
   },
   "27": {
     "numero": 27,
-    "titulo": "Artículo 27.- Periodo de sesiones. De conformidad con el",
-    "texto": "Periodo de sesiones. De conformidad con el artículo 23 de la Ley 136 de 1994, el Concejo sesionará ordinariamente durante los siguientes periodos legales: a. Primer Periodo Legal: Del 1º de febrero hasta el último día calendario de este mes. b. Segundo Periodo Legal: Del 1º de mayo hasta el 31 de mayo. c. Tercer Periodo Legal: Del 1º de agosto hasta el 31 de agosto. d. Cuarto Periodo Legal: Del 1º de noviembre hasta el 31 de noviembre. El Concejo sesionará en la cabecera municipal y en el recinto señalado oficialmente para tal efecto, por derecho propio, cuatro veces al año y máximo una vez por día. Si por cualquier causa el Concejo no pudiere reunirse ordinariamente en las fechas indicadas, lo hará tan pronto como fuere posible, dentro del período correspondiente. Parágrafo 1. Prórroga. Cada período ordinario podrá ser prorrogado por diez (10) días calendario más, a voluntad del Concejo. La proposición respectiva será aprobada en sesión plenaria e incorporada a resolución por la mesa directiva. Parágrafo 2. Sesiones extraordinarias. El alcalde municipal podrá convocar al Concejo a sesiones extraordinarias en oportunidades que no coincidan con los períodos ordinarios de sesiones o con las prórrogas previamente aprobadas, para que se ocupe exclusivamente de los asuntos que se sometan a su consideración. En caso de que se hubiere clausurado el periodo de sesiones antes del último día del mes correspondiente y se requiera que el Concejo sesione formalmente, deberá convocarse a sesiones extraordinarias."
+    "titulo": "Artículo 27.- Periodo de sesiones. De conformidad con el artículo 23 de la Ley 136 de 1994, el Concejo sesionará ordinariamente durant",
+    "texto": "Periodo de sesiones. \n\nDe conformidad con el artículo 23 de la Ley 136 de 1994, el Concejo sesionará ordinariamente durante los siguientes periodos legales: a. Primer Periodo Legal: Del 1º de febrero hasta el último día calendario de este mes. b. Segundo Periodo Legal: Del 1º de mayo hasta el 31 de mayo. c. Tercer Periodo Legal: Del 1º de agosto hasta el 31 de agosto. d. Cuarto Periodo Legal: Del 1º de noviembre hasta el 31 de noviembre. El Concejo sesionará en la cabecera municipal y en el recinto señalado oficialmente para tal efecto, por derecho propio, cuatro veces al año y máximo una vez por día. Si por cualquier causa el Concejo no pudiere reunirse ordinariamente en las fechas indicadas, lo hará tan pronto como fuere posible, dentro del período correspondiente. \n\nParágrafo \n1. Prórroga. Cada período ordinario podrá ser prorrogado por diez (10) días calendario más, a voluntad del Concejo. La proposición respectiva será aprobada en sesión plenaria e incorporada a resolución por la mesa directiva. \n\nParágrafo \n2. Sesiones extraordinarias. El alcalde municipal podrá convocar al Concejo a sesiones extraordinarias en oportunidades que no coincidan con los períodos ordinarios de sesiones o con las prórrogas previamente aprobadas, para que se ocupe exclusivamente de los asuntos que se sometan a su consideración. En caso de que se hubiere clausurado el periodo de sesiones antes del último día del mes correspondiente y se requiera que el Concejo sesione formalmente, deberá convocarse a sesiones extraordinarias."
   },
   "28": {
     "numero": 28,
-    "titulo": "Artículo 28.- Actas. De toda sesión plenaria y de comisión",
+    "titulo": "Artículo 28.- Actas. De toda sesión plenaria y de comisión permanente del Concejo se levantará un acta. En ella, se hará constar los n",
     "texto": "Actas. De toda sesión plenaria y de comisión permanente del Concejo se levantará un acta. En ella, se hará constar los nombres de los asistentes y también de los ausentes, así como las excusas presentadas, transcritas en forma textual; contendrá además una relación sucinta de los temas debatidos, las personas que han intervenido, los mensajes leídos, las proposiciones presentadas, las comisiones designadas y las decisiones adoptadas Abierta la Sesión, el Presidente someterá a discusión y aprobación, previa lectura si los miembros de la Corporación lo consideran necesario, el Acta de la sesión anterior. No obstante, el Acta debe ser puesta previamente en conocimiento de los miembros de la Corporación, bien por su publicación en la Gaceta del Concejo, o bien mediante el medio que disponga el municipio para estos efectos. Toda constancia será presentada por escrito a la secretaría para su inserción en el acta siguiente. Parágrafo. Cuando por circunstancias de tiempo en la transcripción no sea posible someter a consideración y aprobación el acta de la sesión anterior, esta deberá ser aprobada en cualquiera de las sesiones siguientes antes de que finalice el periodo legal de sesiones."
   },
   "29": {
     "numero": 29,
-    "titulo": "Artículo 29.- Publicidad. El Concejo debe implementar los",
+    "titulo": "Artículo 29.- Publicidad. El Concejo debe implementar los medios necesarios para mantener informada a la población de sus actividades,",
     "texto": "Publicidad. El Concejo debe implementar los medios necesarios para mantener informada a la población de sus actividades, para lo cual procurará habilitar sistemas electrónicos de archivo y transmisión de datos. En todo caso, tendrá un órgano o medio oficial escrito de publicidad de sus actos, denominado “Gaceta del Concejo”, cuyo director será el secretario de la corporación y a falta de éste quien la mesa directiva de la Corporación delegue para tal efecto. Para dar cumplimiento a la obligación dispuesta en el artículo 27 de la ley 1551 de 2012, los Concejos deberán publicar sus actos a través del medio que consideren oportuno, siempre y cuando ellos garanticen la efectividad de su difusión a la comunidad. CAPITULO II FUNCIONES. DELEGACIÓN. PROHIBICIONES."
   },
   "30": {
     "numero": 30,
-    "titulo": "Artículo 30.- Funciones y Atribuciones del Concejo pleno. El",
-    "texto": "Funciones y Atribuciones del Concejo pleno. El Concejo ejercerá las atribuciones previstas en las disposiciones normativas contenidas en los artículos 313 de la Constitución Política de 1991, 32 de la ley 136 de 1994, 18 de la Ley 1551 de 2012, en las demás normas jurídicas pertinentes con sujeción al Sistema de Bancadas vigentes y todo el ordenamiento jurídico colombiano. Así las cosas, sus funciones concretas serán: 1. Son funciones Constitucionales del Concejo: Son funciones constitucionales del Concejo (Art. 313 Constitución Política). 1.1. Reglamentar las funciones y la eficiente prestación de los servicios a cargo del Municipio. 1.2. Adoptar los correspondientes planes y programas de desarrollo económico y social de obras públicas. (Ley 152 de 1994) 1.3. Autorizar al Alcalde para celebrar contratos y ejercer P á g i n a 28 | 137 Calle 7 No 11-62 Edificio Alcaldía piso 1 Teléfono: 2584462 Contacto: email concejo@elcerrito-valle.gov.co. Facebook: Concejo de El Cerrito. Instagram: @concejoelcerrito pro-témpore precisas funciones de las que corresponden al Concejo. 1.4. Votar de conformidad con la Constitución y la Ley los tributos y los gastos locales. 1.5. Dictar las normas orgánicas del presupuesto y expedir anualmente el presupuesto de Rentas y Gastos. (Decreto Ley 111 de 1996) 1.6. Determinar la estructura de la Administración Municipal y las funciones de sus dependencias; las escalas de remuneración correspondientes a las distintas categorías de empleos; crear a iniciativa del Alcalde, establecimientos públicos y empresas industriales o comerciales y autorizar la constitución de Sociedades de Economía Mixta. 1.7. Reglamentar los usos del suelo y, dentro de los límites que fije la ley, vigilar y controlar las actividades relacionadas con la construcción y enajenación de inmuebles destinados a vivienda. (Leyes 9ª de 1989, 152 de 1994 y 388 de 1997) 1.8. Elegir Personero y Contralor Municipal, y posesionarlos. (C N. Arts. 313 Nral. 8 y 272 inciso 3°; Ley 136 de"
+    "titulo": "Artículo 30.- Funciones y Atribuciones del Concejo pleno. El Concejo ejercerá las atribuciones previstas en las disposiciones normativ",
+    "texto": "Funciones y Atribuciones del Concejo pleno. El Concejo ejercerá las atribuciones previstas en las disposiciones normativas contenidas en los artículos 313 de la Constitución Política de 1991, 32 de la ley 136 de 1994, 18 de la Ley 1551 de 2012, en las demás normas jurídicas pertinentes con sujeción al Sistema de Bancadas vigentes y todo el ordenamiento jurídico colombiano. Así las cosas, sus funciones concretas serán: \n1. Son funciones Constitucionales del Concejo: Son funciones constitucionales del Concejo (Art. 313 Constitución Política). 1.\n1. Reglamentar las funciones y la eficiente prestación de los servicios a cargo del Municipio. 1.\n2. Adoptar los correspondientes planes y programas de desarrollo económico y social de obras públicas. (Ley 152 de 1994) 1.\n3. Autorizar al Alcalde para celebrar contratos y ejercer pro-témpore precisas funciones de las que corresponden al Concejo. 1.\n4. Votar de conformidad con la Constitución y la Ley los tributos y los gastos locales. 1.\n5. Dictar las normas orgánicas del presupuesto y expedir anualmente el presupuesto de Rentas y Gastos. (Decreto Ley 111 de 1996) 1.\n6. Determinar la estructura de la Administración Municipal y las funciones de sus dependencias; las escalas de remuneración correspondientes a las distintas categorías de empleos; crear a iniciativa del Alcalde, establecimientos públicos y empresas industriales o comerciales y autorizar la constitución de Sociedades de Economía Mixta. 1.\n7. Reglamentar los usos del suelo y, dentro de los límites que fije la ley, vigilar y controlar las actividades relacionadas con la construcción y enajenación de inmuebles destinados a vivienda. (Leyes 9ª de 1989, 152 de 1994 y 388 de 1997) 1.\n8. Elegir Personero y Contralor Municipal, y posesionarlos. (C N. Arts. 313 Nral. 8 y 272 inciso 3°; Ley 136 de 1994 Arts. 160 y 171, Ley 1551 de 2012 Art 35 Inciso 5, “En caso de falta absoluta del personero municipal o distrital, el respectivo Concejo designará como tal a la persona que siga en lista, y si no hubiere lista para hacerlo, designará un personero encargado, quien desempeñará el cargo hasta tanto se realice el concurso de méritos correspondiente”, de acuerdo a los lineamientos de la Sentencia C – 105 de 2013, en la cual se establece que el Concejo deberá estructurar un reglamento que rija el concurso de méritos, para la escogencia del Personero Municipal. Se debe tener en cuenta además el Decreto 1083 de 2015. 1.\n9. Dictar las normas necesarias para el Control, la preservación y defensa del patrimonio ecológico y cultural del Municipio. (Leyes 9ª de 1989, 152 de 1994, 388 de 1997 y 99 de 1993). 1.\n10. Las demás que la Constitución y la ley le asignen. 1.\n11. En las capitales de los departamentos y los municipios con población mayor de veinticinco mil habitantes, citar y requerir a los secretarios del despacho del alcalde para que concurran a las sesiones. Las citaciones deberán hacerse con una anticipación no menor de cinco (5) días y formularse en cuestionario escrito. En caso de que los Secretarios no concurran, sin excusa aceptada por el Concejo Distrital o Municipal, este podrá proponer moción de censura. Los Secretarios deberán ser oídos en la sesión para la cual fueron citados, sin perjuicio de que el debate continúe en las sesiones posteriores por decisión del concejo. El debate no podrá extenderse a asuntos ajenos al cuestionario y deberá encabezar el orden del día de la sesión. 1.\n12. Los concejos de los demás municipios, podrán citar y requerir a los Secretarios del Despacho del Alcalde para que concurran a las sesiones. Las citaciones deberán hacerse con una anticipación no menor de cinco (5) días y formularse en cuestionario escrito. En caso de que los Secretarios no concurran, sin excusa aceptada por el Concejo Distrital o Municipal, cualquiera de sus miembros podrá proponer moción de observaciones que no conlleva al retiro del funcionario correspondiente. Su aprobación requerirá el voto afirmativo de las dos terceras partes de los miembros que integran la corporación. 1.\n13. Proponer moción de censura respecto de los Secretarios del Despacho del Alcalde por asuntos relacionados con funciones propias del cargo o por desatención a los requerimientos y citaciones del Concejo Distrital o Municipal. La moción de censura deberá ser propuesta por la mitad más uno de los miembros que componen el Concejo Distrital o Municipal. La votación se hará entre el tercero y el décimo día siguientes a la terminación del debate, con audiencia pública del funcionario respectivo. Su aprobación requerirá el voto afirmativo de las dos terceras partes de los miembros que integran la Corporación. Una vez aprobada, el funcionario quedará separado de su cargo. Si fuere rechazada, no podrá presentarse otra sobre la misma materia a menos que la motiven hechos nuevos. La renuncia del funcionario respecto del cual se haya promovido moción de censura no obsta para que la misma sea aprobada conforme a lo previsto en este artículo. 1.\n14. Aceptar la renuncia de los Concejales, cuando la Corporación se encuentre sesionando. En receso, dicha atribución le corresponde al Alcalde. (Acto legislativo Nº 03 de 1993 Art. 2 y ley 136 de 1994 Art. 53 y 91 literal A - 8) Ley 1551 de 2012 Art. 29 literal A núm. 8º. \n2. Son atribuciones legales del concejo: 2.\n1. Disponer lo referente a la Policía y sus diferentes ramas, sin contravenir la Constitución, las Leyes y las Ordenanzas, ni los Decretos del Gobierno Nacional o del Gobernador. 2.\n2. Exigir los informes escritos o citar a los Secretarios de la Alcaldía, Directores de Departamentos Administrativos o Entidades Descentralizadas Municipales, al Contralor o al Personero, así como a cualquier funcionario Municipal, excepto al Alcalde, para que en sesión ordinaria haga declaraciones orales sobre asuntos relacionados con la marcha del Municipio. Igualmente, los concejos municipales podrán invitar a los diferentes funcionarios del Orden Departamental, así como a los representantes legales de los organismos descentralizados y de los establecimientos públicos del orden nacional, con sedes en el respectivo departamento o municipio, en relación con temas de interés local. 2.\n3. Reglamentar la autorización al Alcalde para contratar, señalando los casos en los que requiere autorización previa del Concejo. 2.\n4. Autorizar al Alcalde para delegar en sus subalternos o en las Juntas Administradoras Locales, algunas funciones administrativas diferentes a las consagradas en la Ley 136 de 1994. 2.\n5. Determinar la nomenclatura de las vías públicas y de los predios o domicilios. 2.\n6. Establecer, reformar o eliminar tributos, contribuciones, impuestos y sobretasas, de conformidad con la Ley, exceptuando los gravámenes sobre las rentas provenientes de las exportaciones. (Literal b, numeral 2, artículo 259 del Decreto Ley 1333 de 1986). 2.\n7. Velar por la preservación y defensa del patrimonio cultural. (Ley 136 de 1994, Ley 152 de 1994 y Ley 388 de 1997) 2.\n8. Organizar la Contraloría y la Personería y dictar las normas necesarias para su funcionamiento. (Numeral 11 del artículo 178, los artículos 156 y 159 de la Ley 136 de 1994; los articulo 23 y 24 de la Ley 136 de 1994) 2.\n9. Dictar las normas orgánicas de presupuesto y expedir anualmente el Presupuesto de Rentas y Gastos, el cual deberá corresponder al Plan Municipal de Desarrollo, de conformidad con las normas orgánicas de Planeación (Ley 152 de 1994 y Decreto Ley 111 de 1996). 2.\n10. Fijar un rubro destinado a la capacitación del personal que presta su servicio en la administración municipal. 2.\n11. Garantizar el fortalecimiento de la democracia participativa y de los organismos de acción comunal. 2.\n12. Citar a control especial a los Representantes Legales de las empresas de servicios públicos domiciliarios, sean públicas o privadas, para que absuelvan inquietudes sobre la prestación de servicios públicos domiciliarios en el respectivo Municipio o Distrito. La empresa de servicios públicos domiciliarios cuyo representante legal no atienda las solicitudes o citaciones del control especial emanadas de los Concejos Municipales o Distritales, será sujeto de investigación por parte de la Superintendencia de los Servicios Públicos Domiciliarios. Esta adelantará de oficio o por petición de la corporación respectiva, una investigación administrativa e impondrá las sanciones procedentes establecidas por la ley. Lo anterior sin perjuicio de las demás acciones legales o Constitucionales procedentes. 2.\n13. A iniciativa del Alcalde, establecer la forma y los medios como el Municipio puede otorgar los beneficios establecidos en el inciso final de los Artículos 13, 46 y 368 de la Constitución Política. 2.\n14. Ejercer las funciones normativas del Municipio para las cuales no se haya señalado si la competencia corresponde a los Alcaldes o Concejos, y que, de acuerdo con la Ley, se entiendan asignadas a esta Corporación, siempre y cuando no contraríen la Constitución y la Ley. (\n\nParágrafo 2° art. 32 Ley 136 de 1994) 2.\n15. \n\nDe conformidad con el numeral 30 del artículo 313 de la Constitución Política, el Concejo Municipal o Distrital deberá decidir sobre la autorización al alcalde para contratar en los siguientes casos: \n1. Contratación de empréstitos. \n2. Contratos que comprometan vigencias futuras. \n3. Enajenación y compraventa de bienes inmuebles. \n4. Enajenación de activos, acciones y cuotas partes. \n5. Concesiones. \n6. Las demás que determine la ley. 2.\n16. Elegir la mesa directiva compuesta de un presidente y dos vicepresidentes, en forma separada y para un período de un (1) año. 2.\n17. Elegir Secretario General del Concejo. 2.\n18. Durante los períodos de sesiones, autorizar al Alcalde para salir del país, previo informe de la comisión que va a cumplir. (Art. 112, Ley 136 de 1994; Art. 7 Ley 177 de 1994) 2.\n19. Fijar los viáticos del Alcalde para comisiones dentro del país. (Art. 112, Ley 136 de 1994). 2.\n20. Aceptar la renuncia del Presidente del Concejo, de los Concejales, del Secretario General de la Corporación (Art. 2° inciso 2 Acto Legislativo Nro. 3 de 1993; Art. 53 y 161 Ley 136 de 1994). 2.\n21. Resolver la apelación de los proyectos de acuerdo rechazados por falta de unidad de materia y las reconsideraciones de los proyectos de acuerdo negados o archivados en Primer Debate. (Art. 72 y 73 Ley 136 de 1994). 2.\n22. A iniciativa del Alcalde crear Fondos de Solidaridad y Redistribución de Ingresos destinados a subsidiar a los usuarios de los estratos 1, 2 y 3 (ley 142 de 1994 y 632 de 2000). 2.\n23. Hacer seguimiento a la ejecución de los Acuerdos vigentes y solicitar a la Administración su cumplimiento mediante una Comisión Accidental Especial. 2.\n24. Las demás que se les haya atribuido por normas legales vigentes."
   },
   "31": {
     "numero": 31,
-    "titulo": "Artículo 31.- Delegación de competencias.",
+    "titulo": "Artículo 31.- Delegación de competencias. a) El Concejo Municipal podrá llevar a cabo procesos de concertación con la comunidad para i",
     "texto": "Delegación de competencias. a) El Concejo Municipal podrá llevar a cabo procesos de concertación con la comunidad para impulsar la creación de la política pública de Presupuestos Participativos en el Municipio. b) El Concejo podrá delegar alguna o algunas de sus funciones en el alcalde, sobre materia precisa y por tiempo determinado, confiriéndole mediante acuerdo municipal las respectivas facultades y/o autorizaciones extraordinarias, cuando la necesidad lo exija o la conveniencia pública lo aconseje. En todo caso, en cualquier evento de delegación, habrán de cumplirse las reglas que sobre el particular establece la ley 489 de 1998 y todas aquellas otras que la modifiquen o complementen."
   },
   "32": {
     "numero": 32,
-    "titulo": "Artículo 32.- Prohibiciones. Conforme a lo preceptuado por el",
-    "texto": "Prohibiciones. Conforme a lo preceptuado por el artículo 41 de la ley 136 de 1994, le es prohibido al Concejo: 1. Obligar a los habitantes, sean domiciliados o transeúntes, a contribuir con dineros o servicios para fiestas o regocijos públicos, 2. Aplicar o destinar los bienes y rentas municipales a objetos distintos del servicio público. 3. Intervenir en asuntos que no sean de su competencia, por medio de acuerdos o de resoluciones. 4. Dar votos de aplauso o de censura a actos oficiales. Con todo, la corporación podrá pedir la revocación de los que estime ilegales o inconvenientes, exponiendo los motivos en que se funde. 5. Privar a los vecinos de otros municipios de los derechos, garantías o protección de que disfruten los de su propio municipio. 6. Decretar actos de proscripción o persecución contra personas naturales o jurídicas. 7. Decretar auxilios o donaciones a favor de personas naturales o jurídicas de derecho privado. 8. Tomar parte en el trámite o decisión de asuntos que no son de su competencia. 9. Adscribirse al interior de una Bancada diferente a la del partido o movimiento político por el cual fue elegido. 10. Omitir las directrices de actuación que coordinadamente determinen los miembros de la Bancada a la cual pertenece, salvo en lo relacionado con los asuntos determinados como de conciencia en los Estatutos del partido o movimiento político al cual pertenece. 11. De conformidad con el artículo 291 de la Constitución Política, los Concejales no podrán aceptar cargo alguno en la administración pública, y si lo hicieren perderán su investidura. TÍTULO III DIGNATARIOS CAPÍTULO ÚNICO DEL PRESIDENTE, VICEPRESIDENTE. MESA DIRECTIVA. COMITÉ DE COORDINACIÓN POLÍTICA."
+    "titulo": "Artículo 32.- Prohibiciones. Conforme a lo preceptuado por el artículo 41 de la ley 136 de 1994, le es prohibido al Concejo: 1. Obliga",
+    "texto": "Prohibiciones. Conforme a lo preceptuado por el artículo 41 de la ley 136 de 1994, le es prohibido al Concejo: \n1. Obligar a los habitantes, sean domiciliados o transeúntes, a contribuir con dineros o servicios para fiestas o regocijos públicos, \n2. Aplicar o destinar los bienes y rentas municipales a objetos distintos del servicio público. \n3. Intervenir en asuntos que no sean de su competencia, por medio de acuerdos o de resoluciones. \n4. Dar votos de aplauso o de censura a actos oficiales. Con todo, la corporación podrá pedir la revocación de los que estime ilegales o inconvenientes, exponiendo los motivos en que se funde. \n5. Privar a los vecinos de otros municipios de los derechos, garantías o protección de que disfruten los de su propio municipio. \n6. Decretar actos de proscripción o persecución contra personas naturales o jurídicas. \n7. Decretar auxilios o donaciones a favor de personas naturales o jurídicas de derecho privado. \n8. Tomar parte en el trámite o decisión de asuntos que no son de su competencia. \n9. Adscribirse al interior de una Bancada diferente a la del partido o movimiento político por el cual fue elegido. \n10. Omitir las directrices de actuación que coordinadamente determinen los miembros de la Bancada a la cual pertenece, salvo en lo relacionado con los asuntos determinados como de conciencia en los Estatutos del partido o movimiento político al cual pertenece. \n11. \n\nDe conformidad con el artículo 291 de la Constitución Política, los Concejales no podrán aceptar cargo alguno en la administración pública, y si lo hicieren perderán su investidura. TÍTULO III DIGNATARIOS CAPÍTULO ÚNICO DEL PRESIDENTE, VICEPRESIDENTE. MESA DIRECTIVA. COMITÉ DE COORDINACIÓN POLÍTICA."
   },
   "33": {
     "numero": 33,
-    "titulo": "Artículo 33.- Presidencia y Vicepresidencias. En cumplimiento",
+    "titulo": "Artículo 33.- Presidencia y Vicepresidencias. En cumplimiento de lo estipulado en el artículo 28 de la ley 136 de 1994, el Concejo Mun",
     "texto": "Presidencia y Vicepresidencias. En cumplimiento de lo estipulado en el artículo 28 de la ley 136 de 1994, el Concejo Municipal tendrá un presidente y dos vicepresidentes quienes en Conjunto integran la Mesa Directiva, cuyas funciones se enuncian en los artículos subsiguientes. Los integrantes de la mesa directiva del Concejo ostentan una dignidad que en ningún caso es asimilable a un nuevo cargo o empleo público y su periodo será de un año institucional del primero (1) de enero al treinta y uno (31) de diciembre del respectivo año independientemente del día de su posesión. Toda situación atípica frente a su elección o investidura como Presidente o Vicepresidente, se entenderá que se hará por el resto del periodo legal respectivo."
   },
   "34": {
     "numero": 34,
-    "titulo": "Artículo 34.- Elección del Presidente. Será Presidente de la",
-    "texto": "Elección del Presidente. Será Presidente de la Corporación, el Concejal que obtenga la mayoría simple de los votos de los Concejales asistentes a la sesión Plenaria que conformen quórum decisorio. En un eventual empate entre dos o más candidatos, se repetirá la votación hasta por tres veces y de persistir el empate se procederá a dirimirlo por sorteo o suerte entre los candidatos empatados en la misma sesión. El Presidente que esté ejerciendo establecerá el mecanismo de dicho sorteo o suerte. Parágrafo 1. Los aspirantes al cargo de Presidente del, deberán presentar ante la plenaria de la Corporación su programa de acción anual de conformidad con la norma técnica de calidad en la gestión pública.Parágrafo 2. El procedimiento señalado para elección de Presidente será el mismo para elegir al Primer y Segundo Vicepresidente. Así mismo, se deberán tener en cuenta las disposiciones detalladas en el artículo 88 del presente reglamento. Parágrafo 3. No podrá ser Presidente del Concejo quien haya pertenecido a la Mesa Directiva el año inmediatamente anterior así fuere parcialmente."
+    "titulo": "Artículo 34.- Elección del Presidente. Será Presidente de la Corporación, el Concejal que obtenga la mayoría simple de los votos de lo",
+    "texto": "Elección del Presidente. Será Presidente de la Corporación, el Concejal que obtenga la mayoría simple de los votos de los Concejales asistentes a la sesión Plenaria que conformen quórum decisorio. En un eventual empate entre dos o más candidatos, se repetirá la votación hasta por tres veces y de persistir el empate se procederá a dirimirlo por sorteo o suerte entre los candidatos empatados en la misma sesión. El Presidente que esté ejerciendo establecerá el mecanismo de dicho sorteo o suerte. \n\nParágrafo \n1. Los aspirantes al cargo de Presidente del, deberán presentar ante la plenaria de la Corporación su programa de acción anual de conformidad con la norma técnica de calidad en la gestión pública.\n\nParágrafo \n2. El procedimiento señalado para elección de Presidente será el mismo para elegir al Primer y Segundo Vicepresidente. Así mismo, se deberán tener en cuenta las disposiciones detalladas en el artículo 88 del presente reglamento. \n\nParágrafo \n3. No podrá ser Presidente del Concejo quien haya pertenecido a la Mesa Directiva el año inmediatamente anterior así fuere parcialmente."
   },
   "35": {
     "numero": 35,
-    "titulo": "Artículo 35.- Posesión del Presidente. El Presidente electo de la",
+    "titulo": "Artículo 35.- Posesión del Presidente. El Presidente electo de la Mesa Directiva del Concejo Municipal se posesionará ante quien se en",
     "texto": "Posesión del Presidente. El Presidente electo de la Mesa Directiva del Concejo Municipal se posesionará ante quien se encuentre actuando como tal, jurando cumplir fiel y cabalmente con las funciones propias de Presidente dentro del marco de la Constitución, las Leyes y los Acuerdos Municipales, con la dignidad y el decoro que su investidura exige, de conformidad con los parámetros estipulados en el presente reglamento. Parágrafo único. En el primer año del periodo constitucional, tratándose de la posesión del presidente del Concejo, se procederá de conformidad con el artículo 25 del presente reglamento."
   },
   "36": {
     "numero": 36,
-    "titulo": "Artículo 36.- Funciones del presidente del Concejo. Son",
-    "texto": "Funciones del presidente del Concejo. Son funciones del presidente del Concejo: 1. Convocar, presidir y dirigir las sesiones del Concejo en pleno; 2. Liderar la representación política del Concejo Municipal. 3. Cuidar que los Concejales concurran puntualmente a las sesiones, requiriendo con apremio si fuere el caso, la presencia de los ausentes que no estén legalmente excusados, y mantener el orden interno 4. Cumplir y hacer cumplir el reglamento, y decidir las cuestiones o dudas que se presenten sobre la aplicación del mismo. Contra esta decisión, cualquier Concejal puede apelar ante la Plenaria y ésta adoptar otra posición; 5. Disponer el reparto de los proyectos de acuerdo presentados, ordenar su debido trámite y en el momento oportuno, designar ponente y coordinador de ponentes cuando fueren dos o más los designados para un mismo proyecto de acuerdo; 6. Rechazar las iniciativas que no se avengan con el principio de unidad de materia, respecto de todo proyecto de acuerdo, pero sus decisiones serán apelables ante la plenaria de la corporación; 7. Suscribir los proyectos de acuerdo aprobados en las comisiones permanentes y en las plenarias, así como someter a discusión y firmar las respectivas actas; 8. Sancionar y publicar los proyectos de acuerdo cuando la plenaria rechazare las objeciones por inconveniencia presentadas por el alcalde, y éste no los sancionare dentro del término legal de ocho (8) días; 9. Llevar la debida representación de la corporación, y fomentar las buenas relaciones interinstitucionales; 10. Designar las comisiones accidentales que demande la corporación, sus integrantes y coordinador. 11. Dar curso, fuera de la sesión, a las comunicaciones y demás documentos o mensajes recibidos; 12. Nombrar y remover los empleados de la Corporación que sean de libre nombramiento y remoción. 13. Cuidar que el secretario y los demás empleados de la corporación cumplan debidamente sus funciones y deberes; 14. Disponer las medidas conducentes para hacer efecti"
+    "titulo": "Artículo 36.- Funciones del presidente del Concejo. Son funciones del presidente del Concejo: 1. Convocar, presidir y dirigir las sesi",
+    "texto": "Funciones del presidente del Concejo. Son funciones del presidente del Concejo: \n1. Convocar, presidir y dirigir las sesiones del Concejo en pleno; \n2. Liderar la representación política del Concejo Municipal. \n3. Cuidar que los Concejales concurran puntualmente a las sesiones, requiriendo con apremio si fuere el caso, la presencia de los ausentes que no estén legalmente excusados, y mantener el orden interno \n4. Cumplir y hacer cumplir el reglamento, y decidir las cuestiones o dudas que se presenten sobre la aplicación del mismo. Contra esta decisión, cualquier Concejal puede apelar ante la Plenaria y ésta adoptar otra posición; \n5. Disponer el reparto de los proyectos de acuerdo presentados, ordenar su debido trámite y en el momento oportuno, designar ponente y coordinador de ponentes cuando fueren dos o más los designados para un mismo proyecto de acuerdo; \n6. Rechazar las iniciativas que no se avengan con el principio de unidad de materia, respecto de todo proyecto de acuerdo, pero sus decisiones serán apelables ante la plenaria de la corporación; \n7. Suscribir los proyectos de acuerdo aprobados en las comisiones permanentes y en las plenarias, así como someter a discusión y firmar las respectivas actas; \n8. Sancionar y publicar los proyectos de acuerdo cuando la plenaria rechazare las objeciones por inconveniencia presentadas por el alcalde, y éste no los sancionare dentro del término legal de ocho (8) días; \n9. Llevar la debida representación de la corporación, y fomentar las buenas relaciones interinstitucionales; \n10. Designar las comisiones accidentales que demande la corporación, sus integrantes y coordinador. \n11. Dar curso, fuera de la sesión, a las comunicaciones y demás documentos o mensajes recibidos; \n12. Nombrar y remover los empleados de la Corporación que sean de libre nombramiento y remoción. \n13. Cuidar que el secretario y los demás empleados de la corporación cumplan debidamente sus funciones y deberes; \n14. Disponer las medidas conducentes para hacer efectiva la suspensión provisional de la elección de un Concejal, destitución o toda aquella, dispuesta por la jurisdicción contencioso-administrativa, o la suspensión provisional del desempeño de funciones dentro de un proceso disciplinario o penal; \n15. Tomar las medidas conducentes para hacer efectiva la decisión de la autoridad judicial competente en relación con la declaratoria de nulidad de la elección de un Concejal o la declaratoria de interdicción; \n16. Aceptar la renuncia que, voluntariamente, sea presentada por un Concejal con indicación de la fecha a partir de la cual se quiere hacer. Si el Concejo se encuentra en receso la aceptación de la renuncia de los Concejales es función del alcalde; \n17. Dar posesión al Concejal que entre a reemplazar a otro, así como al secretario, y a los subalternos si los hubiere; \n18. Declarar la vacancia absoluta de los Concejales y llamar al candidato que según el artículo 134 de la Constitución deba llenar una vacancia absoluta, dentro de los tres (3) días hábiles siguientes a la declaratoria, para que tome posesión del cargo vacante que corresponde; \n19. Hacer efectivas las sanciones impuestas por los órganos de control fiscal y administrativo competentes, respecto de concejales y empleados de la corporación; \n20. Presidir la mesa directiva y las sesiones plenarias ordinarias y extraordinarias; \n21. Actuar como ordenador de gasto en relación con el presupuesto de la corporación contenido en el Presupuesto General del Municipio, con sujeción a la ley orgánica del presupuesto y a la reglamentación de la mesa directiva en tratándose de pago a concejales. \n22. Celebrar a nombre de la corporación los contratos legalmente autorizados, con observancia de las normas contenidas en el Estatuto General de Contratación de la Administración Pública; \n23. Decidir por fuera de la sesión plenaria el curso que debe darse a las comunicaciones y demás documentos que se reciban. \n24. Solicitar a las entidades públicas o privadas en nombre del Concejo Municipal los documentos e informes que se requieran para el cumplimiento de las funciones que corresponde a su cargo. \n25. Formular ante las autoridades competentes las consultas que juzgue pertinentes para la buena marcha de la Corporación. \n26. Vigilar el funcionamiento del Concejo Municipal en todos los órdenes y coordinar con el Comandante de la Policía, la seguridad al interior del Concejo. \n27. Coordinar con la Alcaldía Municipal la oportuna y suficiente dotación de los elementos de trabajo para el adecuado funcionamiento de la Corporación. \n28. Resolver los derechos de petición que se presenten ante la Corporación, así como los que se dirijan ante los Concejales y hagan referencia exclusivamente a actuaciones o decisiones tomadas por el Concejo. \n29. Presentar, al término de su gestión, un informe sobre la labor cumplida; \n30. Representar al Concejo Municipal ante la Federación Nacional de Concejos, FENACON, en los seminarios, reuniones, congresos, proyectos y demás, pudiendo delegar esta función en otro concejal. \n31. Fomentar las buenas relaciones de la Corporación con el gobierno y con los demás Concejos del país. \n32. Requerir a las comisiones para que presenten sus informes dentro de los términos legales o en el que se les haya fijado. \n33. Las demás dispuestas por la Constitución y la ley."
   },
   "37": {
     "numero": 37,
-    "titulo": "Artículo 37.- Faltas Absolutas o Temporales del Presidente.",
-    "texto": "Faltas Absolutas o Temporales del Presidente. Las faltas absolutas del presidente del Concejo determinarán la celebración de una nueva elección por el resto del período, en tanto que las faltas temporales serán suplidas por el Primer Vicepresidente y si no fuere posible por el Segundo Vicepresidente. Cuando se presente falta absoluta del Presidente del Concejo y mientras se surte el proceso de elección del nuevo presidente, asumirá las funciones de presidente de manera provisional el primer vicepresidente y en su ausencia lo hará el Segundo Vicepresidente. A falta del Presidente, del Primer Vicepresidente y Segundo Vicepresidente, para presidir una sesión plenaria, deberá nombrarse un Presidente ad hoc."
+    "titulo": "Artículo 37.- Faltas Absolutas o Temporales del Presidente. Las faltas absolutas del presidente del Concejo determinarán la celebració",
+    "texto": "Faltas Absolutas o Temporales del Presidente. Las faltas absolutas del presidente del Concejo determinarán la celebración de una nueva elección por el resto del período, en tanto que las faltas temporales serán suplidas por el Primer Vicepresidente y si no fuere posible por el Segundo Vicepresidente. Cuando se presente falta absoluta del Presidente del Concejo y mientras se surte el proceso de elección del nuevo presidente, asumirá las funciones de presidente de manera provisional el primer vicepresidente y en su ausencia lo hará el Segundo Vicepresidente. A falta del Presidente, del Primer Vicepresidente y Segundo Vicepresidente, para presidir una sesión plenaria, deberá"
   },
   "38": {
     "numero": 38,
-    "titulo": "Artículo 38.- Recurso en vía Gubernativa. Las decisiones del",
-    "texto": "Recurso en vía Gubernativa. Las decisiones del Presidente del Concejo en materia política, son apelables ante la Plenaria de la Corporación."
+    "titulo": "Artículo 38.- nombrarse un Presidente ad hoc.Artículo 38.- Recurso en vía Gubernativa. Las decisiones del Presidente del Concejo en ma",
+    "texto": "nombrarse un Presidente ad hoc.Artículo 38.- Recurso en vía Gubernativa. Las decisiones del Presidente del Concejo en materia política, son apelables ante la Plenaria de la Corporación."
   },
   "39": {
     "numero": 39,
-    "titulo": "Artículo 39.- Funciones de los vicepresidentes del Concejo.",
-    "texto": "Funciones de los vicepresidentes del Concejo. Las funciones de los vicepresidentes primero y segundo consisten en formar parte de la mesa directiva y, en su orden, reemplazar al presidente en sus faltas temporales, pues las absolutas se suplen con una nueva elección, para el resto del período. Desempeñan, además, otras funciones que les encomiende el presidente o la plenaria de la corporación, siempre que sean legales y ajustadas al presente reglamento. Llevar a cabo las funciones de control interno cuando no exista el comité del mismo dentro de la corporación. 1. Son funciones del Primer Vicepresidente: 1.1. Suplir al Presidente en sus ausencias temporales o accidentales. 1.2. Asumir las funciones de Presidente Provisional cuando exista falta absoluta del presidente mientras se surte la nueva elección. 1.3. Coordinar con los Presidentes de las Comisiones las reuniones, invitaciones o citaciones que se vayan a realizar en una Comisión. 1.4. Organizar, en coordinación con el Presidente del Concejo, todo evento que promueva de manera positiva la imagen del Concejo. 1.5. Realizar la revisión y supervisión de los procesos contractuales que se adelanten en la Corporación, verificando el cumplimiento de los requisitos de ley. 1.6. Revisar y aprobar el contenido de la Gaceta del Concejo antes de ser publicada (cuando a ello hubiere lugar). 1.7. Suscribir las decisiones más importantes o relevantes, que se tomen en el Concejo Municipal distintas a las adoptadas por acuerdo municipal. Se exceptúa la suscripción de los contratos. 2. Son funciones del Segundo Vicepresidente: 2.1. Suplir al Presidente o al Vicepresidente Primero en las ausencias temporales o accidentales. 2.2. Asumir las funciones de Presidente Provisional cuando exista falta absoluta del presidente mientras se surte la nueva elección y hay ausencia del primer vicepresidente. 2.3. Evaluar el Plan de Trabajo de la Secretaría General del Concejo y verificar que todas las actas de un periodo de sesiones se encuent"
+    "titulo": "Artículo 39.- Funciones de los vicepresidentes del Concejo. Las funciones de los vicepresidentes primero y segundo consisten en formar",
+    "texto": "Funciones de los vicepresidentes del Concejo. Las funciones de los vicepresidentes primero y segundo consisten en formar parte de la mesa directiva y, en su orden, reemplazar al presidente en sus faltas temporales, pues las absolutas se suplen con una nueva elección, para el resto del período. Desempeñan, además, otras funciones que les encomiende el presidente o la plenaria de la corporación, siempre que sean legales y ajustadas al presente reglamento. Llevar a cabo las funciones de control interno cuando no exista el comité del mismo dentro de la corporación. \n1. Son funciones del Primer Vicepresidente: 1.\n1. Suplir al Presidente en sus ausencias temporales o accidentales. 1.\n2. Asumir las funciones de Presidente Provisional cuando exista falta absoluta del presidente mientras se surte la nueva elección. 1.\n3. Coordinar con los Presidentes de las Comisiones las reuniones, invitaciones o citaciones que se vayan a realizar en una Comisión. 1.\n4. Organizar, en coordinación con el Presidente del Concejo, todo evento que promueva de manera positiva la imagen del Concejo. 1.\n5. Realizar la revisión y supervisión de los procesos contractuales que se adelanten en la Corporación, verificando el cumplimiento de los requisitos de ley. 1.\n6. Revisar y aprobar el contenido de la Gaceta del Concejo antes de ser publicada (cuando a ello hubiere lugar). 1.\n7. Suscribir las decisiones más importantes o relevantes, que se tomen en el Concejo Municipal distintas a las adoptadas por acuerdo municipal. Se exceptúa la suscripción de los contratos. \n2. Son funciones del Segundo Vicepresidente: 2.\n1. Suplir al Presidente o al Vicepresidente Primero en las ausencias temporales o accidentales. 2.\n2. Asumir las funciones de Presidente Provisional cuando exista falta absoluta del presidente mientras se surte la nueva elección y hay ausencia del primer vicepresidente. 2.\n3. Evaluar el Plan de Trabajo de la Secretaría General del Concejo y verificar que todas las actas de un periodo de sesiones se encuentren aprobadas por la plenaria. 2.\n4. Darle inducción a los Concejales que lleguen por primera vez a la Corporación. 2.\n5. Integrar, por derecho propio, las comisiones especiales de ética y de estudio de hojas de vida que conforme el Presidente de la Corporación. 2.\n6. Suscribir las decisiones más importantes o relevantes, que se tomen en el Concejo Municipal distintas a las adoptadas por acuerdo municipal. Se exceptúa la suscripción de contratos."
   },
   "40": {
     "numero": 40,
-    "titulo": "Artículo 40.- De la Mesa Directiva. La Plenaria del Concejo",
-    "texto": "De la Mesa Directiva. La Plenaria del Concejo Municipal integrará y elegirá para un período institucional de un (1) año la Mesa Directiva del Concejo Municipal y de las Comisiones Permanentes. En la conformación de la Mesas Directiva tendrá participación las bancadas de los partidos o movimientos políticos. Ningún partido podrá tener más de un integrante en la Mesa Directiva del Concejo salvo que no exista otro candidato habilitado para ocupar la dignidad correspondiente o quien tenga derecho a ocuparla renuncie expresamente a él. De la renuncia de un partido o de un Concejal habilitado para ocupar la Mesa Directiva se dejará constancia escrita o en el acta de la respectiva sesión. En todo caso, de conformidad con el Estatuto de Oposición, el partido o movimiento político que se declare en oposición al gobierno municipal, tendrá participación en la mesa directiva de acuerdo a las reglas establecidas en el artículo 148 de este reglamento. Parágrafo 1. Ningún concejal podrá ser reelegido en dos períodos consecutivos en la respectiva mesa directiva. Parágrafo 2. La Mesa Directiva de la Corporación será la encargada de definir la agenda general del Concejo Municipal, la cual ha de ser concertada con los Coordinadores, jefes o voceros de las Bancadas con presencia en la Corporación. Parágrafo 3. Constituye causal de mala conducta la no aceptación de una dignidad de la Mesa Directiva por un Concejal que sea el único habilitado para ocuparla, siempre que no medie alguna circunstancia de fuerza mayor o caso fortuito aceptada por la Plenaria. De esta situación se pondrá en conocimiento por parte de la Mesa Directiva a la autoridad disciplinaria correspondiente para los fines pertinentes. Parágrafo 4. Cuando por cualquier circunstancia no sea posible ocupar en propiedad una de las dignidades que conforman la Mesa Directiva, le corresponderá, de manera Ad hoc, asumir esa dignidad al Concejal que según orden alfabético de apellido este de primero. Si el Concejal ya hace parte d"
+    "titulo": "Artículo 40.- De la Mesa Directiva. La Plenaria del Concejo Municipal integrará y elegirá para un período institucional de un (1) año ",
+    "texto": "De la Mesa Directiva. La Plenaria del Concejo Municipal integrará y elegirá para un período institucional de un (1) año la Mesa Directiva del Concejo Municipal y de las Comisiones Permanentes. En la conformación de la Mesas Directiva tendrá participación las bancadas de los partidos o movimientos políticos. Ningún partido podrá tener más de un integrante en la Mesa Directiva del Concejo salvo que no exista otro candidato habilitado para ocupar la dignidad correspondiente o quien tenga derecho a ocuparla renuncie expresamente a él. De la renuncia de un partido o de un Concejal habilitado para ocupar la Mesa Directiva se dejará constancia escrita o en el acta de la respectiva sesión. En todo caso, de conformidad con el Estatuto de Oposición, el partido o movimiento político que se declare en oposición al gobierno municipal, tendrá participación en la mesa directiva de acuerdo a las reglas establecidas en el artículo 148 de este reglamento. \n\nParágrafo \n1. Ningún concejal podrá ser reelegido en dos períodos consecutivos en la respectiva mesa directiva. \n\nParágrafo \n2. La Mesa Directiva de la Corporación será la encargada de definir la agenda general del Concejo Municipal, la cual ha de ser concertada con los Coordinadores, jefes o voceros de las Bancadas con presencia en la Corporación. \n\nParágrafo \n3. Constituye causal de mala conducta la no aceptación de una dignidad de la Mesa Directiva por un Concejal que sea el único habilitado para ocuparla, siempre que no medie alguna circunstancia de fuerza mayor o caso fortuito aceptada por la Plenaria. De esta situación se pondrá en conocimiento por parte de la Mesa Directiva a la autoridad disciplinaria correspondiente para los fines pertinentes. \n\nParágrafo \n4. Cuando por cualquier circunstancia no sea posible ocupar en propiedad una de las dignidades que conforman la Mesa Directiva, le corresponderá, de manera Ad hoc, asumir esa dignidad al Concejal que según orden alfabético de apellido este de primero. Si el Concejal ya hace parte de la Mesa Directiva o no se encuentra presente en la correspondiente sesión, se continuará con el que sigue. El nombramiento Ad hoc de un Concejal en la Mesa Directiva no lo inhabilita para integrarla en el año siguiente."
   },
   "41": {
     "numero": 41,
-    "titulo": "Artículo 41.- Funciones de la Mesa Directiva. Como órgano de",
-    "texto": "Funciones de la Mesa Directiva. Como órgano de orientación y dirección del Concejo, le corresponde: 1. Elaborar el Plan de Acción que ha de regir para el año de su ejercicio, lo anterior, de conformidad con el Modelo Integrado de Planeación y Gestión – MIPG2. Integrar las Comisiones Accidentales para dar primer debate a los proyectos de acuerdo, cuando no se hubieren conformado las comisiones permanentes o cuando no exista competencia a alguna de ellas. 3. Adoptar las decisiones y medidas necesarias y procedentes para una mejor organización interna, en orden a una eficiente labor administrativa; 4. Elaborar el proyecto de presupuesto anual del Concejo, y enviarlo al alcalde para su consideración en el proyecto de acuerdo definitivo sobre Presupuesto (rentas y gastos del municipio); 5. Controlar la ejecución del presupuesto anual del Concejo; y ejercer el control interno, el cual estará en cabeza de alguna de las dos vicepresidencias. Sin que ello implique que no se pueda conformar un comité de control interno o lo ejerza algún Concejal más. 6. Vigilar el funcionamiento de las comisiones y velar por el cumplimiento oportuno de las actividades encomendadas; 7. Solicitar al tribunal administrativo departamental la declaratoria de pérdida de la investidura de Concejal, en los términos del parágrafo segundo del artículo 48 de la ley 617 de 2000; 8. Autorizar comisiones oficiales de Concejales fuera de la sede del Concejo, siempre que no impliquen utilización de recursos del presupuesto de la Corporación. 9. Expedir mociones de duelo y de reconocimiento cuando sean conducentes; 10. Autorizar la asistencia de los Concejales a los seminarios de Capacitación con cargo al rubro de capacitación del presupuesto del Concejo en los términos del Concepto 908A del Consejo de Estado. 11. Aceptar la renuncia; conceder licencias, vacaciones y permisos al personero, con fundamento en la atribución conferida en el inciso final del artículo 172 de la ley 136 de 1994; 12. Dictar las resol"
+    "titulo": "Artículo 41.- Funciones de la Mesa Directiva. Como órgano de orientación y dirección del Concejo, le corresponde: 1. Elaborar el Plan ",
+    "texto": "Funciones de la Mesa Directiva. Como órgano de orientación y dirección del Concejo, le corresponde: \n1. Elaborar el Plan de Acción que ha de regir para el año de su ejercicio, lo anterior, de conformidad con el Modelo Integrado de Planeación y Gestión – MIPG\n2. Integrar las Comisiones Accidentales para dar primer debate a los proyectos de acuerdo, cuando no se hubieren conformado las comisiones permanentes o cuando no exista competencia a alguna de ellas. \n3. Adoptar las decisiones y medidas necesarias y procedentes para una mejor organización interna, en orden a una eficiente labor administrativa; \n4. Elaborar el proyecto de presupuesto anual del Concejo, y enviarlo al alcalde para su consideración en el proyecto de acuerdo definitivo sobre Presupuesto (rentas y gastos del municipio); \n5. Controlar la ejecución del presupuesto anual del Concejo; y ejercer el control interno, el cual estará en cabeza de alguna de las dos vicepresidencias. Sin que ello implique que no se pueda conformar un comité de control interno o lo ejerza algún Concejal más. \n6. Vigilar el funcionamiento de las comisiones y velar por el cumplimiento oportuno de las actividades encomendadas; \n7. Solicitar al tribunal administrativo departamental la declaratoria de pérdida de la investidura de Concejal, en los términos del parágrafo segundo del artículo 48 de la ley 617 de 2000; \n8. Autorizar comisiones oficiales de Concejales fuera de la sede del Concejo, siempre que no impliquen utilización de recursos del presupuesto de la Corporación. \n9. Expedir mociones de duelo y de reconocimiento cuando sean conducentes; \n10. Autorizar la asistencia de los Concejales a los seminarios de Capacitación con cargo al rubro de capacitación del presupuesto del Concejo en los términos del Concepto 908A del Consejo de Estado. \n11. Aceptar la renuncia; conceder licencias, vacaciones y permisos al personero, con fundamento en la atribución conferida en el inciso final del artículo 172 de la ley 136 de 1994; \n12. Dictar las resoluciones para el efecto de reconocimiento de honorarios a los Concejales que por su asistencia comprobada a las sesiones plenarias que tengan derecho, y ordenar su publicación en el medio oficial de información del Concejo (art. 65, inciso final, de la ley 136 de 1994). \n13. Suscribir, junto con el secretario de la corporación, las resoluciones y proposiciones; \n14. Regular el número de las comisiones permanentes y los asuntos de que conocerán. \n15. Remitir al alcalde para su sanción, los proyectos de acuerdo que hayan sido aprobados por el Concejo en los dos debates reglamentarios; \n16. Recibir la renuncia del presidente de la corporación y someterla a consideración de la plenaria; \n17. Garantizar que las bancadas con presencia en el Concejo, sesionen por lo menos una vez al mes en el lugar determinado por aquellas. Lo anterior teniendo en cuenta los Estatutos de cada partido. \n18. Determinar, previa votación de un proyecto de acuerdo, la celebración de sesiones de las bancadas con presencia en el Concejo con el objeto de que aquellas determinen el alcance de sus votos para dotar de un mayor grado de eficiencia el proceso de votación. \n19. Darles cumplimiento a las sanciones disciplinarias impuestas por los Partidos y Movimientos Políticos a los Concejales de las Bancadas con presencia en la Corporación. \n20. Acreditar a los voceros de las Bancadas para efectos de determinar las intervenciones de estas, en las sesiones en las que se voten Proyectos de Acuerdo o se adelante proceso de control político según las reglas de procedimiento determinadas precedentemente. \n21. Garantizar que en cada Comisión permanente tenga presencia al menos un miembro de las diferente Bancadas que tenga presencia en la Corporación, cuando existan suficientes integrantes en la misma. \n22. Las demás establecidas en la ley o en el presente reglamento. Parágrafo único. Durante los períodos de sesiones, la mesa directiva se reunirá por lo menos una vez a la semana, el día y hora que sea convocada por su presidente. Sus decisiones se tomarán por mayoría y de cada reunión deberá quedar constancia en acta."
   },
   "42": {
     "numero": 42,
-    "titulo": "Artículo 42.- Comité de Coordinación Política. Conformado por",
-    "texto": "Comité de Coordinación Política. Conformado por el Presidente de la corporación y los Jefes, Voceros o Coordinadores de las Bancadas y presidido por el primero de los nombrados, se reunirá por lo menos una vez a la semana durante cada periodo de sesiones, para el desarrollo de las siguientes funciones: 1. Proponer la agenda de trabajo de la corporación; 2. Coordinar con la presidencia el orden del día de las sesiones plenarias a celebrar. 3. Promover y ejecutar acciones de concertación política. TÍTULO IV DEBERES Y DERECHOS DE LOS CONCEJALES CAPÍTULO PRIMERO De los Deberes."
+    "titulo": "Artículo 42.- Comité de Coordinación Política. Conformado por el Presidente de la corporación y los Jefes, Voceros o Coordinadores de ",
+    "texto": "Comité de Coordinación Política. Conformado por el Presidente de la corporación y los Jefes, Voceros o Coordinadores de las Bancadas y presidido por el primero de los nombrados, se reunirá por lo menos una vez a la semana durante cada periodo de sesiones, para el desarrollo de las siguientes funciones: \n1. Proponer la agenda de trabajo de la corporación; \n2. Coordinar con la presidencia el orden del día de las sesiones plenarias a celebrar. \n3. Promover y ejecutar acciones de concertación política. TÍTULO IV DEBERES Y DERECHOS DE LOS CONCEJALES CAPÍTULO PRIMERO De los Deberes."
   },
   "43": {
     "numero": 43,
-    "titulo": "Artículo 43.- Deberes. Como todo servidor público, el concejal",
-    "texto": "Deberes. Como todo servidor público, el concejal tiene el deber de cumplir y hacer que se cumplan los deberes contenidos en la Constitución, los tratados de Derecho Internacional Humanitario, los demás ratificados por el Congreso, las leyes, los decretos, las ordenanzas, los acuerdos distritales y municipales, los reglamentos y los manuales de funciones, las decisiones judiciales y disciplinarias, los contratos de trabajo y las órdenes superiores emitidas por funcionario competente, siendo responsable por su infracción y por omisión o extralimitación en el ejercicio de sus funciones. Especialmente tendrá los siguientes deberes: 1. Asistir puntualmente a las sesiones del Concejo en pleno y de las comisiones a que pertenezca. 2. Respetar el presente reglamento. 3. Guardar secreto sobre los asuntos que demanden reserva. 4. Abstenerse de invocar su condición de Concejal para la obtención de algún provecho personal indebido. 5. Utilizar adecuadamente los bienes y recursos asignados para el desempeño de su función. 6. Tratar con respeto, imparcialidad y rectitud a las personas con que tenga relación por razón del servicio. 7. Ejercer sus funciones consultando permanentemente los intereses del bien común, y teniendo siempre presente que los servicios que presta constituyen el reconocimiento y efectividad de un derecho y buscan la satisfacción de las necesidades generales de todos los ciudadanos. 8. Abstenerse de incurrir en alguna de las causales de pérdida de la investidura, previstas en el artículo 48 de la ley 617 de 2000. 9. Declarar, bajo juramento, el monto de sus bienes y rentas, antes de tomar posesión del cargo y al retirarse del mismo. 10. Poner en conocimiento de la corporación o de la comisión de ética las situaciones de carácter moral o económico que lo inhiban para participar en el trámite de los asuntos sometidos a su consideración, conforme al artículo 70 de la ley 136 de 1994, así como las incompatibilidades en que pueda estar incurso. El Concejal deberá c"
+    "titulo": "Artículo 43.- Deberes. Como todo servidor público, el concejal tiene el deber de cumplir y hacer que se cumplan los deberes contenidos",
+    "texto": "Deberes. Como todo servidor público, el concejal tiene el deber de cumplir y hacer que se cumplan los deberes contenidos en la Constitución, los tratados de Derecho Internacional Humanitario, los demás ratificados por el Congreso, las leyes, los decretos, las ordenanzas, los acuerdos distritales y municipales, los reglamentos y los manuales de funciones, las decisiones judiciales y disciplinarias, los contratos de trabajo y las órdenes superiores emitidas por funcionario competente, siendo responsable por su infracción y por omisión o extralimitación en el ejercicio de sus funciones. Especialmente tendrá los siguientes deberes: \n1. Asistir puntualmente a las sesiones del Concejo en pleno y de las comisiones a que pertenezca. \n2. Respetar el presente reglamento. \n3. Guardar secreto sobre los asuntos que demanden reserva. \n4. Abstenerse de invocar su condición de Concejal para la obtención de algún provecho personal indebido. \n5. Utilizar adecuadamente los bienes y recursos asignados para el desempeño de su función. \n6. Tratar con respeto, imparcialidad y rectitud a las personas con que tenga relación por razón del servicio. \n7. Ejercer sus funciones consultando permanentemente los intereses del bien común, y teniendo siempre presente que los servicios que presta constituyen el reconocimiento y efectividad de un derecho y buscan la satisfacción de las necesidades generales de todos los ciudadanos. \n8. Abstenerse de incurrir en alguna de las causales de pérdida de la investidura, previstas en el artículo 48 de la ley 617 de 2000. \n9. Declarar, bajo juramento, el monto de sus bienes y rentas, antes de tomar posesión del cargo y al retirarse del mismo. \n10. Poner en conocimiento de la corporación o de la comisión de ética las situaciones de carácter moral o económico que lo inhiban para participar en el trámite de los asuntos sometidos a su consideración, conforme al artículo 70 de la ley 136 de 1994, así como las incompatibilidades en que pueda estar incurso. El Concejal deberá consignar la información sobre su actividad económica privada en el libro correspondiente, que tiene carácter público. \n11. Actuar exclusivamente en la bancada del Partido o Movimiento Político por el cual fue elegido y con sujeción a los parámetros de actuación que determinen aquellas y sus estatutos, salvo en los asuntos determinados como de conciencia. \n12. Custodiar y cuidar la documentación e información que por razón de su cargo o función conserve bajo su cuidado o a la cual tenga acceso, e impedir o evitar la sustracción, destrucción, ocultamiento o utilización indebida. \n13. Tratar con respeto, imparcialidad y rectitud a las personas con que tenga relación por razón del servicio. \n14. Desempeñar el cargo o función sin obtener o pretender beneficios adicionales a las contraprestaciones legales cuando a ellas tenga derecho. \n15. Acreditar los requisitos exigidos por la ley para la posesión y el desempeño del cargo. \n16. Permitir a los representantes del Ministerio Público, fiscales, jueces y demás autoridades competentes el acceso inmediato a los lugares donde deban adelantar sus actuaciones e investigaciones y el examen de los libros de registro, documentos y diligencias correspondientes. Así mismo, prestarles la colaboración necesaria para el desempeño de sus funciones. \n17. Explicar inmediata y satisfactoriamente al nominador, a la Procuraduría General de la Nación o a la personería, cuando estos lo requieran, la procedencia del incremento patrimonial obtenido durante el ejercicio del cargo, función o servicio. \n18. Denunciar los delitos, contravenciones y faltas disciplinarias de los cuales tuviere conocimiento, salvo las excepciones de ley. \n19. Acatar y poner en práctica los mecanismos que se diseñen para facilitar la participación de la comunidad en la planeación del desarrollo, la concertación y la toma de decisiones en la gestión administrativa de acuerdo con lo preceptuado en la ley. CAPÍTULO SEGUNDO DE LOS DERECHOS."
   },
   "44": {
     "numero": 44,
-    "titulo": "Artículo 44.- Derechos: El Concejal tiene los siguientes derechos",
-    "texto": "Derechos: El Concejal tiene los siguientes derechos principales: 1. A voz, durante las sesiones y conforme al reglamento. 2. A voto, participando en las votaciones que se realicen en las plenarias y en las comisiones a que pertenezca. Voto nominal y público, remoto y excepcionalmente secreto. 3. A citar, en ejercicio del control político que corresponde a la corporación, a los funcionarios que autoriza la ley. 4. A formar parte de una comisión permanente. 5. Al reconocimiento y pago de honorarios por su asistencia comprobada a las sesiones plenarias de la corporación, conforme a la reglamentación legal. 6. Al pago oportuno de los honorarios causados cada mes por concepto de su asistencia comprobada a las sesiones ordinarias y extraordinarias, como máximo dentro de los primeros cinco (5) días del mes siguiente al mes que fueron causados estos honorarios. (artículo 3 Ley 2461 de 2025) 7. A la cotización al Sistema de Seguridad Social; pensión, salud, ARL y cajas de compensación familiar, la cual será a cargo al presupuesto central de la administración municipal, sin que esto implique vínculo laboral con la entidad territorial. (Artículo 4 Ley 2461 de 2025) 8. Al pago de los gastos de viaje incurridos con ocasión del cumplimiento de comisiones oficiales dentro y fuera del municipio. La autorización previa para dichos viajes deberá ser aprobada por la plenaria del Concejo Municipal y estar debidamente justificada. (Artículo 6 Ley 2461 de 2025) 9. A un seguro de vida y a la atención médico asistencial, de conformidad con los artículos 66, 68 y 69 de la ley 136 de1994 y la jurisprudencia de la Corte Constitucional contenida en la sentencia C-043 de 2003, el decreto 3171 de 2.004, Ley 1148 de 2007 y ley 1551 de 2012. 10. Al reconocimiento del valor de transporte, en los casos en que resida en zona rural y deba desplazarse hasta la cabecera municipal para asistir a las sesiones plenarias o de comisión, con cargo al presupuesto general del municipio si pertenece a municipios"
+    "titulo": "Artículo 44.- Derechos: El Concejal tiene los siguientes derechos principales: 1. A voz, durante las sesiones y conforme al reglamento",
+    "texto": "Derechos: El Concejal tiene los siguientes derechos principales: \n1. A voz, durante las sesiones y conforme al reglamento. \n2. A voto, participando en las votaciones que se realicen en las plenarias y en las comisiones a que pertenezca. Voto nominal y público, remoto y excepcionalmente secreto. \n3. A citar, en ejercicio del control político que corresponde a la corporación, a los funcionarios que autoriza la ley. \n4. A formar parte de una comisión permanente. \n5. Al reconocimiento y pago de honorarios por su asistencia comprobada a las sesiones plenarias de la corporación, conforme a la reglamentación legal. \n6. Al pago oportuno de los honorarios causados cada mes por concepto de su asistencia comprobada a las sesiones ordinarias y extraordinarias, como máximo dentro de los primeros cinco (5) días del mes siguiente al mes que fueron causados estos honorarios. (artículo 3 Ley 2461 de 2025) \n7. A la cotización al Sistema de Seguridad Social; pensión, salud, ARL y cajas de compensación familiar, la cual será a cargo al presupuesto central de la administración municipal, sin que esto implique vínculo laboral con la entidad territorial. (Artículo 4 Ley 2461 de 2025) \n8. Al pago de los gastos de viaje incurridos con ocasión del cumplimiento de comisiones oficiales dentro y fuera del municipio. La autorización previa para dichos viajes deberá ser aprobada por la plenaria del Concejo Municipal y estar debidamente justificada. (Artículo 6 Ley 2461 de 2025) \n9. A un seguro de vida y a la atención médico asistencial, de conformidad con los artículos 66, 68 y 69 de la ley 136 de1994 y la jurisprudencia de la Corte Constitucional contenida en la sentencia C-043 de 2003, el decreto 3171 de 2.004, Ley 1148 de 2007 y ley 1551 de 2012. \n10. Al reconocimiento del valor de transporte, en los casos en que resida en zona rural y deba desplazarse hasta la cabecera municipal para asistir a las sesiones plenarias o de comisión, con cargo al presupuesto general del municipio si pertenece a municipios de 4, 5 o 6 categoría y al presupuesto del Concejo para las demás categorías, con sujeción a la reglamentación que expida el Concejo Municipal a iniciativa del alcalde mediante acuerdo, de conformidad con el artículo 2 de la Ley 1368 de 2009. \n11. A ser beneficiario del Fondo de Solidaridad Pensional para que se le subsidie el 75% del valor de la cotización siempre y cuando cumpla los requisitos contenidos en el Decreto Nacional 1788 de 2013. \n12. A recibir capacitación para el mejor desempeño de sus funciones. De manera gratuita recibirá capacitación del SENA, la ESAP y las Corporaciones Autónomas Regionales. A recibir capacitación con cargo al presupuesto del Municipio y del Concejo. \n13. A agremiarse libremente y a que se respete su decisión. \n14. A participar en política y apoyar públicamente a los candidatos del partido al que pertenezca fuera del recinto oficial del Concejo. \n15. A ejercer libremente su profesión u oficio, siempre y cuando con ello no se interfiera en las funciones que ejerce como Servidor Público, ni se trate de asuntos en los cuales el municipio o sus entidades descentralizadas sean parte, ni implique vinculación como empleados públicos o trabajadores oficiales. \n16. A recibir protección del Municipio y del Estado, así como de las entidades públicas de seguridad, cuando en su contra existan amenazas provenientes por grupos al margen de la ley o como consecuencia del ejercicio de sus funciones públicas. \n17. A sesionar por cualquier medio de comunicación y a distancia cuando las circunstancias de orden público o amenazas contra su integridad personal y la de su familia así lo ameriten, previa autorización del presidente de la corporación. \n18. A postularse para ser beneficiario de un subsidio de vivienda para la adquisición de vivienda nueva, usada, construcción en lote propio o mejoramiento de vivienda con cargo a la Bolsa Especial de Vivienda para Concejales. \n19. A presentar proyectos de acuerdo de iniciativa propia, que no sean exclusiva del alcalde y a que se les dé trámite al interior de la Corporación. \n20. A que cualquier autoridad pública del municipio le suministre la información solicitada para el correcto ejercicio de sus funciones públicas sin exigir el pago de copias para tal fin. \n21. A Recibir tratamiento cortés con arreglo a los principios básicos de las relaciones humanas. \n22. A los derechos consagrados en la Constitución, los tratados internacionales ratificados por el Congreso, las leyes, las ordenanzas, los acuerdos municipales, los reglamentos y manuales de funciones, las convenciones colectivas y los contratos de trabajo. \n23. A ejercer individualmente las actividades propias de su dignidad."
   },
   "45": {
     "numero": 45,
-    "titulo": "Artículo 45.- Liquidación de Honorarios. Atendiendo a la",
+    "titulo": "Artículo 45.- Liquidación de Honorarios. Atendiendo a la categorización establecida en la Ley 617 del 2000, el valor de los honorarios",
     "texto": "Liquidación de Honorarios. Atendiendo a la categorización establecida en la Ley 617 del 2000, el valor de los honorarios por cada sesión a que asistan los concejales será señalado en tabla indicada en el artículo 66 de la Ley 136 de 1994, modificado por el artículo 2 de la Ley 2461 de 2025, y a partir de enero del siguiente año de la entrada en vigencia de la Ley 2461 de 2025; los honorarios se incrementaran cada año en un porcentaje equivalente a la variación del IPC correspondiente al año inmediatamente anterior. En los municipios de categoría especial, primera y segunda se pagarán anualmente ciento cincuenta (150) sesiones ordinarias y hasta cuarenta (40) extraordinarias al año. En los municipios de categorías tercera a sexta, se pagarán anualmente ochenta (80) sesiones ordinarias y hasta cuarenta (40) sesiones extraordinarias al año. Parágrafo primero. Los honorarios son incompatibles con cualquier asignación proveniente del tesoro público del respectivo municipio, excepto con aquellas originadas en pensiones o sustituciones pensionales y las demás excepciones previstas en la Ley 4ª de 1992. Parágrafo segundo. Se exceptúan los concejales de la ciudad de Bogotá, por cuanto el Decreto-ley 1421 de 1993, regula la materia. Parágrafo tercero. Ei incremento en el valor de los honorarios de los concejales de municipios de quinta y sexta categoría estará a cargo del presupuesto central de la administración municipal, podrán ser concurrentes con los recursos del Gobierno Nacional, Presupuesto General de la Nación y se garantice en las proyecciones anuales, respetando la disponibilidad presupuestal, el Marco Fiscal de Mediano Plazo y el Marco de Gasto del Mediano Plazo. Parágrafo cuarto. Para el pago de los honorarios y la seguridad social de los concejales, la administración municipal podrá utilizar recursos del propósito general del Sistema General de Participaciones, realizando los traslados presupuestales correspondientes."
   },
   "46": {
     "numero": 46,
-    "titulo": "Articulo 46.- Reconocimiento de Transporte. Reconocer el valor",
+    "titulo": "Artículo 46.- Reconocimiento de Transporte. Reconocer el valor de transporte, durante las sesiones plenarias y de comisión, a los Conc",
     "texto": "Reconocimiento de Transporte. Reconocer el valor de transporte, durante las sesiones plenarias y de comisión, a los Concejales que residan en zonas rurales y deban desplazarse desde y hasta la cabecera municipal, sede principal del funcionamiento de las corporaciones municipales. Estos gastos de transporte serán asumidos, en el caso de los municipios pertenecientes a categorías cuarta, quinta y sexta con cargo a la sección presupuestal del sector central del municipio, y no se tendrán en cuenta como gasto de funcionamiento de la administración, para el cálculo de los indicadores de límite de gastos de funcionamiento fijados por la Ley 617 de 2000. Para estos efectos, los Concejos Municipales a iniciativa de los alcaldes deberán expedir el reglamento en donde se fije el reconocimiento de transporte, atendiendo criterios razonables, con anterioridad al periodo de sesiones siguientes a la promulgación de la presente ley. Los pagos efectuados a los Concejales por gastos de transporte a que se refiere el presente artículo, no estarán sujetos a retención en la fuente."
   },
   "47": {
     "numero": 47,
-    "titulo": "Artículo 47.- Pago Oportuno Honorarios. Todos los concejales",
+    "titulo": "Artículo 47.- Pago Oportuno Honorarios. Todos los concejales del país tendrán derecho a recibir el pago de los honorarios causados cad",
     "texto": "Pago Oportuno Honorarios. Todos los concejales del país tendrán derecho a recibir el pago de los honorarios causados cada mes por concepto de su participación en sesiones ordinarias y extraordinarias, corno máximo dentro de los primeros 5 días del mes siguiente al mes en el cual fueron causados estos honorarios. (Ley 2461 de 2025)"
   },
   "48": {
     "numero": 48,
-    "titulo": "Artículo 48.- Cotización al Sistema de Seguridad Social. Los",
+    "titulo": "Artículo 48.- Cotización al Sistema de Seguridad Social. Los concejales de todas las diferentes categorías de los municipios y distrit",
     "texto": "Cotización al Sistema de Seguridad Social. Los concejales de todas las diferentes categorías de los municipios y distritos del país tendrán derecho a la cotización al Sistema de Seguridad Social; pensión, salud, ARL y cajas de compensación familiar, la cual se hará con cargo al presupuesto central de la administración municipal, sin que esto implique vínculo laboral con la entidad territorial. En todo caso, la administración municipal estará encargada de la liquidación y pago de las planillas de los concejales. PARÁGRAFO. Los costos en seguridad social de los concejales, en ningún caso se tendrá en cuenta en los límites de gastos de los concejos de los que trata el artículo 10 de la Ley 617 de 2000. (Ley 2461 de 2025)"
   },
   "49": {
     "numero": 49,
-    "titulo": "Artículo 49.- Cotización al Sistema de Seguridad Social. Para",
+    "titulo": "Artículo 49.- Cotización al Sistema de Seguridad Social. Para la afiliación de los concejales al sistema de seguridad social en pensió",
     "texto": "Cotización al Sistema de Seguridad Social. Para la afiliación de los concejales al sistema de seguridad social en pensión, salud, ARL y cajas de compensación familiar la administración municipal deberá realizar los aportes al régimen contributivo con cargo al presupuesto central de la administración municipal o podrá solicitar el pago del monto que faltare al Ministerio de Hacienda y Crédito Público respetando la disponibilidad presupuestal, el Marco Fiscal de Mediano Plazo y el Marco de Gasto del Mediano Plazo. El ingreso base de cotización, que trata este artículo, será el resultante de sumar el valor total de los honorarios anuales que reciben los concejales por la asistencia a las sesiones ordinarias dividido entre doce (12). (Ley 2461 de 2025)."
   },
   "50": {
     "numero": 50,
-    "titulo": "Artículo 50.- Gastos De Viaje. Los concejos municipales podrán",
+    "titulo": "Artículo 50.- Gastos De Viaje. Los concejos municipales podrán pagar del rubro de gasto de funcionamiento, los gastos de viajes de sus",
     "texto": "Gastos De Viaje. Los concejos municipales podrán pagar del rubro de gasto de funcionamiento, los gastos de viajes de sus concejales con ocasión del cumplimiento de comisiones oficiales dentro y fuera del municipio. La autorización previa para dichos viajes deberá ser aprobada por la plenaria del Concejo Municipal y estar debidamente justificada. Los concejales rendirán un informe detallado sobre las actividades realizadas en la comisión. (Ley 2461 de 2025)."
   },
   "51": {
     "numero": 51,
-    "titulo": "Artículo 51.- Retención en la Fuente. La retención en la fuente a",
-    "texto": "Retención en la Fuente. La retención en la fuente a los pagos efectuados por cada periodo sesionado en los términos del artículo 23 de la Ley 136 de 1994, correspondiente a honorarios a los Concejales no declarantes del impuesto sobre la renta y complementarios, será la que resulte de aplicar a dichos pagos la siguiente tabla: Parágrafo 1. La Secretaria del Concejo Municipal solicitará por escrito a los Concejales, que manifiesten bajo esta misma modalidad (por escrito) a la Corporación si son declarantes del impuesto sobre la renta y complementarios, para efectos de determinar si les es aplicable el presente artículo. Parágrafo 2. A los Concejales que sean declarantes del impuesto sobre la renta y complementarios se les aplicará una retención en la fuente del 10% sobre el valor de los honorarios que perciban en cada periodo legal de sesiones ordinarias o en periodo de sesiones extraordinarias. CAPÍTULO TERECERO Medidas para prevenir, atender, rechazar y sancionar la violencia contra las mujeres en política."
+    "titulo": "Artículo 51.- Retención en la Fuente. La retención en la fuente a los pagos efectuados por cada periodo sesionado en los términos del ",
+    "texto": "Retención en la Fuente. La retención en la fuente a los pagos efectuados por cada periodo sesionado en los términos del artículo 23 de la Ley 136 de 1994, correspondiente a honorarios a los Concejales no declarantes del impuesto sobre la renta y complementarios, será la que resulte de aplicar a dichos pagos la siguiente tabla: \n\nParágrafo \n1. La Secretaria del Concejo Municipal solicitará por escrito a los Concejales, que manifiesten bajo esta misma modalidad (por escrito) a la Corporación si son declarantes del impuesto sobre la renta y complementarios, para efectos de determinar si les es aplicable el presente artículo. \n\nParágrafo \n2. A los Concejales que sean declarantes del impuesto sobre la renta y complementarios se les aplicará una retención en la fuente del 10% sobre el valor de los honorarios que perciban en cada periodo legal de sesiones ordinarias o en periodo de sesiones extraordinarias. CAPÍTULO TERECERO Medidas para prevenir, atender, rechazar y sancionar la violencia contra las mujeres en política."
   },
   "52": {
     "numero": 52,
-    "titulo": "Artículo 52.- Violencia contra las mujeres en política. Se",
+    "titulo": "Artículo 52.- Violencia contra las mujeres en política. Se entiende por violencia contra las mujeres en ejercicio de su derecho a la p",
     "texto": "Violencia contra las mujeres en política. Se entiende por violencia contra las mujeres en ejercicio de su derecho a la participación política, toda acción, conducta u omisión realizada de forma directa o a través de terceros en el ámbito público o privado que, basada en elementos de género, cause daño o sufrimiento a una o varias mujeres o a sus familias, sin distinción de su afinidad política o ideológica, y que tenga por objeto o resultado menoscabar, restringir, impedir, desestimular, dificultar o anular el reconocimiento, goce y ejercicio de sus derechos políticos, en el marco de los procesos electorales, de participación ciudadana y representación democrática y el ejercicio de la función pública. La violencia contra las mujeres en política puede incluir, entre otras, violencia verbal, física, sexual, psicológica, moral, económica o patrimonial, digital y simbólica. Parágrafo: Se entenderá que las acciones, conductas u omisiones se basan en elementos de género, cuando se dirijan a una mujer por su condición de mujer, y tengan un impacto diferenciado en ella o en la población que representa."
   },
   "53": {
     "numero": 53,
-    "titulo": "Artículo 53.- Violencia contra las mujeres en política. Para los",
-    "texto": "Violencia contra las mujeres en política. Para los efectos de la aplicación del presente capitulo, se tendrán en cuenta las siguientes definiciones: 1. Violencia por razón de género contra las mujeres: Es la violencia contra la mujer basada en roles y estereotipos de género que perpetúa su posición subordinada con respecto al hombre, como en el caso de las amenazas y agresiones verbales sexistas, el acoso y la violencia sexual; y que vulnera sus derechos humanos y libertades fundamentales en las esferas política, económica, social, cultural civil, tanto si se producen en la vida pública como en la vida privada. 2. Interseccionalidad: Son los elementos por los cuales las mujeres son violentadas de manera simultánea a su género, sexo, orientación sexual, edad, raza, nacionalidad, religión, situación de discapacidad, etnia, ascendencia o cualquier otra característica o forma de identidad con la que se busque discriminar y/o poner en peligro a las mujeres, individual o colectivamente. 3. Participación ciudadana de las mujeres: Se entiende como el derecho de las mujeres a intervenir en la postulación, conformación, ejercicio y control del poder político y la toma de decisiones en la esfera pública, de manera complementaria a los procesos electorales. Estas formas de participación incluyen el ejercicio de los mecanismos, formas, espacios, canales e instancias de participación ciudadana. 4. Presunción de Riesgo extraordinario de género: Cuando las amenazas sean contra mujeres, lideresas y defensoras de derechos humanos, debe aplicarse la presunción de riesgo extraordinario de género. Esta presunción a favor de las mujeres en ejercicio de su derecho a la participación política debe concretarse en que, en los eventos en que ellas acudan a las autoridades para solicitar protección, la autoridad competente debe partir de que la solicitante, en efecto, se encuentra en riesgo extraordinario contra su vida, seguridad e integridad personal y tales riesgos se concretarían con actos"
+    "titulo": "Artículo 53.- Violencia contra las mujeres en política. Para los efectos de la aplicación del presente capitulo, se tendrán en cuenta ",
+    "texto": "Violencia contra las mujeres en política. Para los efectos de la aplicación del presente capitulo, se tendrán en cuenta las siguientes definiciones: \n1. Violencia por razón de género contra las mujeres: Es la violencia contra la mujer basada en roles y estereotipos de género que perpetúa su posición subordinada con respecto al hombre, como en el caso de las amenazas y agresiones verbales sexistas, el acoso y la violencia sexual; y que vulnera sus derechos humanos y libertades fundamentales en las esferas política, económica, social, cultural civil, tanto si se producen en la vida pública como en la vida privada. \n2. Interseccionalidad: Son los elementos por los cuales las mujeres son violentadas de manera simultánea a su género, sexo, orientación sexual, edad, raza, nacionalidad, religión, situación de discapacidad, etnia, ascendencia o cualquier otra característica o forma de identidad con la que se busque discriminar y/o poner en peligro a las mujeres, individual o colectivamente. \n3. Participación ciudadana de las mujeres: Se entiende como el derecho de las mujeres a intervenir en la postulación, conformación, ejercicio y control del poder político y la toma de decisiones en la esfera pública, de manera complementaria a los procesos electorales. Estas formas de participación incluyen el ejercicio de los mecanismos, formas, espacios, canales e instancias de participación ciudadana. \n4. Presunción de Riesgo extraordinario de género: Cuando las amenazas sean contra mujeres, lideresas y defensoras de derechos humanos, debe aplicarse la presunción de riesgo extraordinario de género. Esta presunción a favor de las mujeres en ejercicio de su derecho a la participación política debe concretarse en que, en los eventos en que ellas acudan a las autoridades para solicitar protección, la autoridad competente debe partir de que la solicitante, en efecto, se encuentra en riesgo extraordinario contra su vida, seguridad e integridad personal y tales riesgos se concretarían con actos· de violencia de género."
   },
   "54": {
     "numero": 54,
-    "titulo": "Artículo 54.- Categorías de violencia contra las mujeres en",
-    "texto": "Categorías de violencia contra las mujeres en política. Para los efectos de la aplicación del presente capitulo, la definen el tipo de violencia e las siguientes categorías: 1. Violencia psicológica: Acción u omisión destinada a degradar y/o controlar las acciones, comportamientos, creencias y decisiones de las mujeres, por medio de coerción, acoso, boicot social, amenazas hostigamientos u ofensas verbales y/o escritas de violencia física y/o violencia sexual en su contra o en contra de su familia, entre otras formas de violencia psicológica. 2. Violencia simbólica: Es aquella que a través de actos recurrentes de violencia contra las mujeres refuerza los estereotipos de género usando imágenes, gestos, comentarios, íconos o signos que reproducen la idea de dominación, desigualdad y discriminación en las relaciones sociales, sujetas a los procesos electorales y sus funciones públicas naturalizando la subordinación de la mujer en la sociedad y limitando su derecho a participar sin obstáculos en la vida pública. La violencia simbólica afecta principalmente a las mujeres de manera colectiva y a sus agen-das políticas. 3. Violencia económica: Acciones y omisiones que buscan controlar, restringir, impedir y/o anular el acceso a los recursos económicos y patrimoniales, asignados a las mujeres para ejercer política. 4. Violencia física: Acciones que generan afectaciones a la integridad física de una mujer o de su familia. Se refiere a lesiones, homicidios, feminicidios, secuestros, desapariciones y maltratos, con el objetivo de limitar la actividad política. 5. Violencia sexual: Cualquier acto de naturaleza sexual que se causa y/o tiene consecuencias en el contexto del ejercicio de la política, y a su vez resulta, o es probable que resulte, en daño físico, psicológico y emocional. Asimismo, estas acciones pueden tener como objetivo obligar a las mujeres a intercambiar favores sexuales para ganar una candidatura en el partido o movimiento político; o conseguir financiación pa"
+    "titulo": "Artículo 54.- Categorías de violencia contra las mujeres en política. Para los efectos de la aplicación del presente capitulo, la defi",
+    "texto": "Categorías de violencia contra las mujeres en política. Para los efectos de la aplicación del presente capitulo, la definen el tipo de violencia e las siguientes categorías: \n1. Violencia psicológica: Acción u omisión destinada a degradar y/o controlar las acciones, comportamientos, creencias y decisiones de las mujeres, por medio de coerción, acoso, boicot social, amenazas hostigamientos u ofensas verbales y/o escritas de violencia física y/o violencia sexual en su contra o en contra de su familia, entre otras formas de violencia psicológica. \n2. Violencia simbólica: Es aquella que a través de actos recurrentes de violencia contra las mujeres refuerza los estereotipos de género usando imágenes, gestos, comentarios, íconos o signos que reproducen la idea de dominación, desigualdad y discriminación en las relaciones sociales, sujetas a los procesos electorales y sus funciones públicas naturalizando la subordinación de la mujer en la sociedad y limitando su derecho a participar sin obstáculos en la vida pública. La violencia simbólica afecta principalmente a las mujeres de manera colectiva y a sus agen-das políticas. \n3. Violencia económica: Acciones y omisiones que buscan controlar, restringir, impedir y/o anular el acceso a los recursos económicos y patrimoniales, asignados a las mujeres para ejercer política. \n4. Violencia física: Acciones que generan afectaciones a la integridad física de una mujer o de su familia. Se refiere a lesiones, homicidios, feminicidios, secuestros, desapariciones y maltratos, con el objetivo de limitar la actividad política. \n5. Violencia sexual: Cualquier acto de naturaleza sexual que se causa y/o tiene consecuencias en el contexto del ejercicio de la política, y a su vez resulta, o es probable que resulte, en daño físico, psicológico y emocional. Asimismo, estas acciones pueden tener como objetivo obligar a las mujeres a intercambiar favores sexuales para ganar una candidatura en el partido o movimiento político; o conseguir financiación para la campaña o acceso a recursos patrimoniales de la colectividad, e incluso anular o limitar la voluntad de la mujer. \n6. Violencia digital: Cualquier manifestación o acto de violencia contra las mujeres en ejercicio de su derecho a la participación política o que la afecta en forma desproporcionada cometido con la asistencia del uso de las Tecnologías de la Información y Comunicación o agravado por este; a través del uso de redes sociales, plataformas digitales, correo electrónico, aplicaciones móviles, celular o cualquier medio tecnológico desde el que se pueda acceder a Internet o a otros entornos digitales."
   },
   "55": {
     "numero": 55,
-    "titulo": "Artículo 55.- Manifestaciones de violencia contra las mujeres",
-    "texto": "Manifestaciones de violencia contra las mujeres en política. Las acciones, conductas u omisiones constitutivas de violencia contra las mujeres en política pueden manifestarse de manera física, sexual, psicológica, simbólica, digital y/o económica, y tienen el propósito de limitar, restringir o menoscabar su representación política, su liderazgo, su capacidad electoral o imagen pública o los derechos políticos de las mujeres en razón de su género, siendo algunas de ellas las siguientes: 1. Aquellas conductas que atenten contra la vida e integridad personal de las mujeres con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como las agresiones físicas, el homicidio, el secuestro, el feminicidio, actos discriminatorios, hostigamiento, extorsión, constreñimiento ilegal, entre otras. 2. Aquellas conductas que atenten contra la libertad, integridad y formación sexual con el objeto de limitar, anular o restringir sus derechos políticos; o electorales, tales como acoso, proposiciones, tocamientos, agresiones, o invitaciones sexuales que influyan en sus aspiraciones políticas o las condiciones de su actividad política, entre otras. 3. Aquellas conductas que atenten contra la integridad moral con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como injuriar, calumniar, reproducir mensajes de odio, realizar expresiones que denigren, desacrediten o descalifiquen, a las mujeres por su género, restringir los 36 canales de comunicación en cualquiera medio virtual o físico, divulgar material o información íntima o privada, entre otra. 4. Aquellas conductas que atenten contra los Derechos políticos, mecanismos de participación democrática o aquellas que atenten contra la Seguridad Pública, las cuales se encuentran consagradas en el Capítulo 1 del Título XII del Código Penal, que se lleven a cabo con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como restringir o anular "
+    "titulo": "Artículo 55.- Manifestaciones de violencia contra las mujeres en política. Las acciones, conductas u omisiones constitutivas de violen",
+    "texto": "Manifestaciones de violencia contra las mujeres en política. Las acciones, conductas u omisiones constitutivas de violencia contra las mujeres en política pueden manifestarse de manera física, sexual, psicológica, simbólica, digital y/o económica, y tienen el propósito de limitar, restringir o menoscabar su representación política, su liderazgo, su capacidad electoral o imagen pública o los derechos políticos de las mujeres en razón de su género, siendo algunas de ellas las siguientes: \n1. Aquellas conductas que atenten contra la vida e integridad personal de las mujeres con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como las agresiones físicas, el homicidio, el secuestro, el feminicidio, actos discriminatorios, hostigamiento, extorsión, constreñimiento ilegal, entre otras. \n2. Aquellas conductas que atenten contra la libertad, integridad y formación sexual con el objeto de limitar, anular o restringir sus derechos políticos; o electorales, tales como acoso, proposiciones, tocamientos, agresiones, o invitaciones sexuales que influyan en sus aspiraciones políticas o las condiciones de su actividad política, entre otras. \n3. Aquellas conductas que atenten contra la integridad moral con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como injuriar, calumniar, reproducir mensajes de odio, realizar expresiones que denigren, desacrediten o descalifiquen, a las mujeres por su género, restringir los 36 canales de comunicación en cualquiera medio virtual o físico, divulgar material o información íntima o privada, entre otra. \n4. Aquellas conductas que atenten contra los Derechos políticos, mecanismos de participación democrática o aquellas que atenten contra la Seguridad Pública, las cuales se encuentran consagradas en el Capítulo 1 del Título XII del Código Penal, que se lleven a cabo con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como restringir o anular el derecho al voto libre y secreto, proporcionar intencionalmente a las mujeres, a las autoridades administrativas, electorales información falsa, errónea o incompleta. \n5. Aquellas conductas que atenten contra la debida administración de justicia con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como usar las acciones judiciales de forma temeraria o de mala fe en un proceso administrativo o judicial, obstaculizar o impedir el acceso a la justicia para proteger sus derechos políticos, electorales o desconocer las decisiones adoptadas, imponer sanciones injustificadas o abusivas, entre otras. \n6. Aquellas conductas que atenten contra la libertad de expresión con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como restringir o anular su libertad de expresión en los canales de comunicación, entre otras. \n7. Suministrar intencionalmente a las mujeres que aspiran u ocupan un cargo de elección popular o en el ejercicio de sus derechos políticos, información falsa, errada; incompleta o imprecisa u omitir información a la mujer, que impida o induzca al incorrecto ejercicio de sus atribuciones o de sus derechos políticos o electorales en condiciones de igualdad e impedir que asistan a cualquier actividad que implique toma de decisiones. \n8. Limitar o negar arbitrariamente el uso de cualquier recurso y/o atribución inherente al cargo político que ocupa la mujer, incluido el pago de salarios y de prestaciones asociadas al ejercicio del cargo en condiciones de igualdad; \n9. Restringir el uso de la palabra de las mujeres en ejercicio de sus derechos políticos o electorales, impidiendo el derecho a voz de acuerdo con la normativa aplicable y en condiciones de igualdad; \n10. Discriminar a las mujeres en el ejercicio de sus derechos políticos, por encontrarse en estado de embarazo, parto, puerperio, o el ejercicio de la maternidad, impedir o restringir su reincorporación al cargo tras hacer uso de la licencia de maternidad, o de 58 cualquier otra licencia contemplada en la normativa relacionada; \n11. Imponer con base en estereotipos de género la realización de actividades y tareas ajenas a las funciones y atribuciones de su cargo o posición, o que tengan como resultado la limitación del ejercicio de la función política; \n12. Instrumentalizar a la mujer a permanecer dentro del proceso electoral en contra de su voluntad, incluyendo la continuación de trámites sin su consentimiento y que comprometan sus derechos políticos; \n13. Obstaculizar en razón del género, los derechos de asociación y afiliación a todo tipo de organizaciones políticas y civiles; \n14. Suplantar la identidad de una mujer por cualquier medio inclu-yendo entornos digitales con el objetivo o el resultado dé me-noscabar o afectar negativamente su candidatura, imagen pública y/o limitar o anular sus derechos políticos o electorales como parte de su función política. \n\nParágrafo 1°. Las manifestaciones descritas en el presente artículo no son exhaustivas, pueden ser concurrentes, y los hechos deberán analizarse e investigarse por las autoridades competentes con enfoque de género, con seguimiento al principio de debida diligencia y a las medidas de protección de los derechos humanos de las mujeres."
   },
   "56": {
     "numero": 56,
-    "titulo": "Artículo 56.- Durante el desarrollo de los debates se encuentra",
+    "titulo": "Artículo 56.- Durante el desarrollo de los debates se encuentra prohibido cual cualquier acto que se pueda configurar como manifestaci",
     "texto": "Durante el desarrollo de los debates se encuentra prohibido cual cualquier acto que se pueda configurar como manifestaciones de violencia de conformidad con los artículos precedentes; en concordancia con la Ley 2453 de 2025 y cualquier otra que la complemente, modifique y adicione."
   },
   "57": {
     "numero": 57,
-    "titulo": "Artículo 57.- Durante el desarrollo de los debates se encuentra",
+    "titulo": "Artículo 57.- Durante el desarrollo de los debates se encuentra prohibido cual cualquier acto que se pueda configurar como manifestaci",
     "texto": "Durante el desarrollo de los debates se encuentra prohibido cual cualquier acto que se pueda configurar como manifestaciones de violencia de conformidad con los artículos precedentes; en concordancia con la Ley 2453 de 2025 y cualquier otra que la complemente, modifique y adicione."
   },
   "58": {
     "numero": 58,
-    "titulo": "Artículo 58.- El concejo municipal, en cabeza de la mesa directiva",
+    "titulo": "Artículo 58.- El concejo municipal, en cabeza de la mesa directiva garantizara canales de comunicación para todas las mujeres en ejerc",
     "texto": "El concejo municipal, en cabeza de la mesa directiva garantizara canales de comunicación para todas las mujeres en ejercicio o goce de sus derechos políticos y de participación democrática. Los cuales se harán conocer a la comunidad, por los medios que tengan a su alcance."
   },
   "59": {
     "numero": 59,
-    "titulo": "Artículo 59.- Rendición de cuentas prevención de violencia",
+    "titulo": "Artículo 59.- Rendición de cuentas prevención de violencia política contra las mujeres. En el último periodo de sesiones de cada anual",
     "texto": "Rendición de cuentas prevención de violencia política contra las mujeres. En el último periodo de sesiones de cada anualidad el concejo municipal rendirá cuentas públicas de las medidas y acciones realizadas para prevenir, rechazar y sancionar actuaciones de violencia política contra las mujeres en el desarrollo de las sesiones y espacios públicos de debate y participación TÍTULO V SECRETARIO CAPÍTULO ÚNICO Designación. Requisitos. Periodo. Funciones."
   },
   "60": {
     "numero": 60,
-    "titulo": "Artículo 60.- Designación, requisitos y período: El secretario",
-    "texto": "Designación, requisitos y período: El secretario será elegido por el Concejo para período institucional de un (1) año, comprendido entre el primero (1) de enero y el treinta y uno (31) de diciembre, sin importar la fecha de su elección y posesión. La nombrada elección deberá darse con estricto cumplimiento de los parámetros constitucionales y legales. Atendiendo a lo dispuesto en la Constitución y la Ley, la elección de Servidores Públicos atribuida a Corporaciones Públicas deberá estar precedida de una Convocatoria Pública reglada por la Ley en las que se fijen requisitos y procedimientos que garanticen los principios de publicidad, transparencia, participación ciudadana, equidad de género y criterios de méritos para su elección. Para ser Secretario General del Concejo se deberá acreditar título de bachiller o experiencia administrativa mínima de dos (2) años. La primera elección de este funcionario se realizará dentro de los diez (10) primeros días del mes de enero correspondiente a la iniciación del período constitucional del Concejo. Para los tres años subsiguientes del mismo período constitucional, la elección o reelección tendrá lugar en el mes de noviembre, correspondiente al último período ordinario de sesiones, iniciando funciones a partir del primero (1) de enero siguiente. Parágrafo 1. El secretario electo del Concejo tomará posesión dentro de los quince (15) días hábiles siguientes a la elección y en caso de existir fuerza mayor o caso fortuito que impida la posesión en ese periodo de tiempo, se podrá prorrogar por quince días más. La posesión la hará el Presidente del Concejo Municipal y para ello no se requiere de la realización de una sesión plenaria. Para la posesión del secretario del concejo, éste deberá acreditar los requisitos exigidos por la Ley y presentar la documentación exigida por la Ley 190 de 1995, en especial los mismos exigidos para la posesión de los Concejales contemplados en el presente reglamento. Si vencido el termino para que el s"
+    "titulo": "Artículo 60.- Designación, requisitos y período: El secretario será elegido por el Concejo para período institucional de un (1) año, c",
+    "texto": "Designación, requisitos y período: El secretario será elegido por el Concejo para período institucional de un (1) año, comprendido entre el primero (1) de enero y el treinta y uno (31) de diciembre, sin importar la fecha de su elección y posesión. La nombrada elección deberá darse con estricto cumplimiento de los parámetros constitucionales y legales. Atendiendo a lo dispuesto en la Constitución y la Ley, la elección de Servidores Públicos atribuida a Corporaciones Públicas deberá estar precedida de una Convocatoria Pública reglada por la Ley en las que se fijen requisitos y procedimientos que garanticen los principios de publicidad, transparencia, participación ciudadana, equidad de género y criterios de méritos para su elección. Para ser Secretario General del Concejo se deberá acreditar título de bachiller o experiencia administrativa mínima de dos (2) años. La primera elección de este funcionario se realizará dentro de los diez (10) primeros días del mes de enero correspondiente a la iniciación del período constitucional del Concejo. Para los tres años subsiguientes del mismo período constitucional, la elección o reelección tendrá lugar en el mes de noviembre, correspondiente al último período ordinario de sesiones, iniciando funciones a partir del primero (1) de enero siguiente. \n\nParágrafo \n1. El secretario electo del Concejo tomará posesión dentro de los quince (15) días hábiles siguientes a la elección y en caso de existir fuerza mayor o caso fortuito que impida la posesión en ese periodo de tiempo, se podrá prorrogar por quince días más. La posesión la hará el Presidente del Concejo Municipal y para ello no se requiere de la realización de una sesión plenaria. Para la posesión del secretario del concejo, éste deberá acreditar los requisitos exigidos por la Ley y presentar la documentación exigida por la Ley 190 de 1995, en especial los mismos exigidos para la posesión de los Concejales contemplados en el presente reglamento. Si vencido el termino para que el secretario electo tome posesión del cargo y no lo ha hecho por su culpa o dolo, el Presidente del Concejo declarará vacante el cargo y convocará nuevamente a elección, en la cual no podrá participar como candidato la persona electa en la primera elección que no se posesionó. \n\nParágrafo \n2. La renuncia del Secretario General del Concejo genera vacancia absoluta del cargo. El nuevo Secretario será elegido por lo que resta del periodo hasta el 31 de diciembre. En este caso mientras se realiza la nueva elección, dicho cargo será asumido de manera Ad-Hoc por el concejal que el Presidente de la Corporación designe para cada sesión, resaltando que por ese hecho no perderá su derecho a voz y voto en la respectiva sesión. \n\nParágrafo \n3. En caso de elección del secretario (a) general del Concejo Municipal se deberá agotar el trámite dispuesto en la Constitución y la Ley."
   },
   "61": {
     "numero": 61,
-    "titulo": "Artículo 61.- Funciones del secretario del Concejo. Son",
-    "texto": "Funciones del secretario del Concejo. Son funciones y deberes del secretario de la corporación: 1. Asistir a todas las sesiones; 2. Realizar la convocatoria a sesiones que se programen por autorización del Presidente y de la Mesa Directiva, de conformidad con lo previsto en este reglamento. 3. Llevar y firmar las actas, de acuerdo con la sana costumbre y el reglamento, así como certificar la fidelidad de su contenido. 4. Dar lectura a los proyectos, proposiciones y demás documentos y mensajes que deban ser leídos en sesión plenaria; 5. Informar sobre los resultados de toda clase de votación que se cumpla en la corporación. 6. Elaborar las comunicaciones oficiales que deban enviadas por el presidente o por la mesa directiva; ser 7. Informar regularmente al presidente de todos los documentos y mensajes dirigidos a la corporación, acusar oportunamente su recibo, y mantener organizado y actualizado un registro de entrega y devolución de los mismos y de los enviados a las comisiones permanentes; 8. Recibir y dar trámite a todo documento o petición que llegue al Concejo con destino a la Presidencia y a la Secretaría General de la Corporación. 9. Recibir y radicar los proyectos de acuerdo, y repartirlos a la comisión correspondiente para su trámite en primer debate; 10. Llevar los siguientes libros: el de actas; el de registro de intereses privados de los Concejales de que trata el artículo 70 inciso segundo de la ley 136 de 1994, y el de registro de participación ciudadana a que se refiere el artículo 77 de la misma ley; 11. Organizar el archivo del Concejo, acompañado del índice de los acuerdos municipales expedidos, las resoluciones dictadas y las actas aprobadas; 12. Dirigir y publicar la Gaceta del Concejo cuando a ello hubiere lugar y por disposición del Presidente de la Corporación; 13. Recibir la inscripción de constitución de las Bancadas existentes al interior del Concejo Municipal junto con sus estatutos y publicar los documentos constitutivos de las mismas. 14."
+    "titulo": "Artículo 61.- Funciones del secretario del Concejo. Son funciones y deberes del secretario de la corporación: 1. Asistir a todas las s",
+    "texto": "Funciones del secretario del Concejo. Son funciones y deberes del secretario de la corporación: \n1. Asistir a todas las sesiones; \n2. Realizar la convocatoria a sesiones que se programen por autorización del Presidente y de la Mesa Directiva, de conformidad con lo previsto en este reglamento. \n3. Llevar y firmar las actas, de acuerdo con la sana costumbre y el reglamento, así como certificar la fidelidad de su contenido. \n4. Dar lectura a los proyectos, proposiciones y demás documentos y mensajes que deban ser leídos en sesión plenaria; \n5. Informar sobre los resultados de toda clase de votación que se cumpla en la corporación. \n6. Elaborar las comunicaciones oficiales que deban enviadas por el presidente o por la mesa directiva; ser \n7. Informar regularmente al presidente de todos los documentos y mensajes dirigidos a la corporación, acusar oportunamente su recibo, y mantener organizado y actualizado un registro de entrega y devolución de los mismos y de los enviados a las comisiones permanentes; \n8. Recibir y dar trámite a todo documento o petición que llegue al Concejo con destino a la Presidencia y a la Secretaría General de la Corporación. \n9. Recibir y radicar los proyectos de acuerdo, y repartirlos a la comisión correspondiente para su trámite en primer debate; \n10. Llevar los siguientes libros: el de actas; el de registro de intereses privados de los Concejales de que trata el artículo 70 inciso segundo de la ley 136 de 1994, y el de registro de participación ciudadana a que se refiere el artículo 77 de la misma ley; \n11. Organizar el archivo del Concejo, acompañado del índice de los acuerdos municipales expedidos, las resoluciones dictadas y las actas aprobadas; \n12. Dirigir y publicar la Gaceta del Concejo cuando a ello hubiere lugar y por disposición del Presidente de la Corporación; \n13. Recibir la inscripción de constitución de las Bancadas existentes al interior del Concejo Municipal junto con sus estatutos y publicar los documentos constitutivos de las mismas. \n14. Velar porque el archivo se encuentre en estricto orden y en cumplimiento con los parámetros de la Ley. \n15. Mantener la Corporación al día con la actualización del Modelo Estándar de Control Interno -MECI-, e informar a la mesa directiva sobre cualquier cambio o falta de cumplimiento de estas normas. \n16. Los demás deberes que señale la corporación, la mesa directiva o el presidente, y las inherentes a la naturaleza del cargo. Parágrafo único. Las faltas absolutas del secretario se suplen con una nueva elección, en el menor término posible. En caso de falta temporal, la mesa directiva procederá a designar uno. No puede ser designado secretario, en propiedad, un miembro del Concejo. Las Faltas Temporales del Secretario General de Concejo que no sean superior a diez (10) días, podrán ser suplidas de manera Ad-Hoc por un Concejal, quien por ese hecho no perderá su derecho a voz y voto en la respectiva sesión. TÍTULO VI COMISIONES CAPÍTULO PRIMERO Clases de Comisiones."
   },
   "62": {
     "numero": 62,
-    "titulo": "Artículo 62.- Diversas comisiones. Además de las comisiones",
+    "titulo": "Artículo 62.- Diversas comisiones. Además de las comisiones legales permanentes y la comisión legal para la equidad de la mujer, el Co",
     "texto": "Diversas comisiones. Además de las comisiones legales permanentes y la comisión legal para la equidad de la mujer, el Concejo integrará comisiones especiales y comisiones accidentales. Las comisiones especiales son la comisión de ética y la comisión de acreditación documental."
   },
   "63": {
     "numero": 63,
-    "titulo": "Artículo 63.- Comisión de ética. El Concejo integrará una",
+    "titulo": "Artículo 63.- Comisión de ética. El Concejo integrará una comisión de ética, encargada de conocer los casos de conflicto de intereses ",
     "texto": "Comisión de ética. El Concejo integrará una comisión de ética, encargada de conocer los casos de conflicto de intereses y las violaciones al régimen de inhabilidades, incompatibilidades y prohibiciones de los Concejales, así como del comportamiento indecoroso, irregular o inmoral que pueda afectar a miembros o empleados de la corporación en su gestión pública. Estará conformada por tres (3) Concejales, elegidos de la misma manera que las comisiones permanentes; se pronunciará en reserva y por la unanimidad de sus integrantes. La plenaria será informada acerca de sus conclusiones con el fin de adoptar, previo debate, decisiones acordes con la ley. Cualquier persona podrá recusar ante la comisión de ética a un Concejal, cuando tenga conocimiento de una causal de impedimento. Si se aceptare la recusación, el presidente del Concejo procederá a la designación de un nuevo ponente, si fuere el caso, o dispondrá que el recusado se abstenga de participar en el respectivo debate y en la votación."
   },
   "64": {
     "numero": 64,
-    "titulo": "Artículo 64.- Comisión de acreditación documental. Integrada",
+    "titulo": "Artículo 64.- Comisión de acreditación documental. Integrada por tres (3) Concejales, es designada por la plenaria de la corporación p",
     "texto": "Comisión de acreditación documental. Integrada por tres (3) Concejales, es designada por la plenaria de la corporación por el período constitucional. Revisa la lista enviada por el Consejo Nacional Electoral sobre los Concejales electos y la documentación presentada por éstos; si llegare a encontrar irregularidad en una documentación, llevará el caso a la plenaria, en donde se tomará la decisión pertinente. Esta comisión revisará también la documentación de los llamados a ocupar una curul en reemplazo de los titulares. Ésta comisión está también llamada a revisar las hojas de vida de los candidatos a Personeros, Secretarios de los Concejos y todo aquel funcionario que la corporación tenga a su cargo."
   },
   "65": {
     "numero": 65,
-    "titulo": "Artículo 65.- Comisiones accidentales. El presidente nombrará",
-    "texto": "Comisiones accidentales. El presidente nombrará comisiones accidentales de carácter transitorio para el cumplimiento de asuntos específicos tales como protocolo, transmisión de mensajes, escrutinio de las votaciones internas, presentación de informes a la plenaria sobre asuntos de interés para la corporación, estudio en primer debate de proyectos de acuerdo cuando no se hayan integrado las comisiones permanentes y cuando no se sepa a qué comisión permanente corresponde el estudio de un proyecto según el tema de que se trate. Sin perjuicio de lo dicho, serán funciones específicas de las Comisiones Accidentales: 1. Recibir sectores de la comunidad para el conocimiento de las situaciones y problemas relacionados con el Municipio en sus diferentes aspectos. 2. Presentar a la Plenaria del Concejo o de las comisiones permanentes informe escrito sobre la gestión adelantada. 3. Escrutar el resultado de las votaciones. 4. Recibir dignatarios o personalidades que invite el Concejo Municipal. 5. Presentar informe escrito sobre las objeciones del Alcalde Municipal a los proyectos de acuerdo. 6. Preparar proyectos de acuerdo de especial interés para la Corporación y el Municipio. 7. Dar primer debate a los proyectos de acuerdo cuando no se han integrado las comisiones permanentes o cuando no sea posible identificar a que comisión permanente corresponde el estudio de un proyecto por el tema de que se trate. 8. Presentar informe a la plenaria sobre la reconsideración solicitada por el autor o cualquier Concejal de un proyecto de acuerdo negado y archivado en primer debate. 9. Llevar a cabo las funciones que le sean asignadas por el respectivo presidente de la Corporación y de las Comisiones Permanentes. Parágrafo único. Dichas comisiones deberán ser integradas máximo hasta por tres (3) Concejales, asegurando la representación de las bancadas. En su designación el Presidente definirá el término para la presentación del informe sobre el tema, que deberá ser por escrito y radicado en"
+    "titulo": "Artículo 65.- Comisiones accidentales. El presidente nombrará comisiones accidentales de carácter transitorio para el cumplimiento de ",
+    "texto": "Comisiones accidentales. El presidente nombrará comisiones accidentales de carácter transitorio para el cumplimiento de asuntos específicos tales como protocolo, transmisión de mensajes, escrutinio de las votaciones internas, presentación de informes a la plenaria sobre asuntos de interés para la corporación, estudio en primer debate de proyectos de acuerdo cuando no se hayan integrado las comisiones permanentes y cuando no se sepa a qué comisión permanente corresponde el estudio de un proyecto según el tema de que se trate. Sin perjuicio de lo dicho, serán funciones específicas de las Comisiones Accidentales: \n1. Recibir sectores de la comunidad para el conocimiento de las situaciones y problemas relacionados con el Municipio en sus diferentes aspectos. \n2. Presentar a la Plenaria del Concejo o de las comisiones permanentes informe escrito sobre la gestión adelantada. \n3. Escrutar el resultado de las votaciones. \n4. Recibir dignatarios o personalidades que invite el Concejo Municipal. \n5. Presentar informe escrito sobre las objeciones del Alcalde Municipal a los proyectos de acuerdo. \n6. Preparar proyectos de acuerdo de especial interés para la Corporación y el Municipio. \n7. Dar primer debate a los proyectos de acuerdo cuando no se han integrado las comisiones permanentes o cuando no sea posible identificar a que comisión permanente corresponde el estudio de un proyecto por el tema de que se trate. \n8. Presentar informe a la plenaria sobre la reconsideración solicitada por el autor o cualquier Concejal de un proyecto de acuerdo negado y archivado en primer debate. \n9. Llevar a cabo las funciones que le sean asignadas por el respectivo presidente de la Corporación y de las Comisiones Permanentes. Parágrafo único. Dichas comisiones deberán ser integradas máximo hasta por tres (3) Concejales, asegurando la representación de las bancadas. En su designación el Presidente definirá el término para la presentación del informe sobre el tema, que deberá ser por escrito y radicado en la secretaría para la programación de la sesión correspondiente. CAPÍTULO SEGUNDO COMISIONES PERMANENTES"
   },
   "66": {
     "numero": 66,
-    "titulo": "Artículo 66.- Número. Integración. Funciones legales. En el",
-    "texto": "Número. Integración. Funciones legales. En el Concejo funcionará un mínimo de dos (2) y hasta un máximo de cuatro (4) comisiones permanentes, cada una integrada por una tercera o cuarta parte de los Concejales miembros de la Corporación., en caso de que el cociente no sea un número entero, la Mesa Directiva del Concejo mediante acto administrativo resolverá a qué comisión o comisiones asigna el mayor número de Concejales. De acuerdo con la ley, en las comisiones se surtirá el primer debate a los proyectos de acuerdo que, por competencia, le sean remitidos por la secretaría de la corporación. Tendrán prelación los de iniciativa popular y los presentados por las Bancadas con presencia en el Concejo municipal. Los informes de las comisiones permanentes se presentarán por escrito y llevarán la firma del ponente, y anexo al mismo irá la certificación de aprobación o no aprobación del proyecto de acuerdo en primer debate, suscrito por el presidente; la opinión diferente, si la hubiere, se presentará en informe separado. El informe completo y su anexo serán remitidos a la Secretaría General de Concejo. Si el proyecto de acuerdo fue aprobado el Secretario lo remitirá a la Mesa Directiva del Concejo para que se fije fecha de sesión plenaria, para efectos de que el proyecto de acuerdo reciba segundo debate. Si el proyecto de acuerdo no fue aprobado por la comisión el Secretario informará a su autor quién dentro de los cinco (5) días siguientes a la notificación podrá solicitar su reconsideración ante la plenaria. Lo anterior no impide que cualquier Concejal pueda solicitar que el proyecto sea nuevamente considerado por el Concejo dentro del mismo lapso de tiempo. Transcurridos los cinco (5) días sin que se haya solicitado la reconsideración del proyecto, el mismo quedará archivado definitivamente y para que el Concejo se vuelva a pronunciar sobre él, deberá ser nuevamente presentado. Cualquier comisión permanente podrá citar a persona natural o jurídica para que en sesión esp"
+    "titulo": "Artículo 66.- Número. Integración. Funciones legales. En el Concejo funcionará un mínimo de dos (2) y hasta un máximo de cuatro (4) co",
+    "texto": "Número. Integración. Funciones legales. En el Concejo funcionará un mínimo de dos (2) y hasta un máximo de cuatro (4) comisiones permanentes, cada una integrada por una tercera o cuarta parte de los Concejales miembros de la Corporación., en caso de que el cociente no sea un número entero, la Mesa Directiva del Concejo mediante acto administrativo resolverá a qué comisión o comisiones asigna el mayor número de Concejales. De acuerdo con la ley, en las comisiones se surtirá el primer debate a los proyectos de acuerdo que, por competencia, le sean remitidos por la secretaría de la corporación. Tendrán prelación los de iniciativa popular y los presentados por las Bancadas con presencia en el Concejo municipal. Los informes de las comisiones permanentes se presentarán por escrito y llevarán la firma del ponente, y anexo al mismo irá la certificación de aprobación o no aprobación del proyecto de acuerdo en primer debate, suscrito por el presidente; la opinión diferente, si la hubiere, se presentará en informe separado. El informe completo y su anexo serán remitidos a la Secretaría General de Concejo. Si el proyecto de acuerdo fue aprobado el Secretario lo remitirá a la Mesa Directiva del Concejo para que se fije fecha de sesión plenaria, para efectos de que el proyecto de acuerdo reciba segundo debate. Si el proyecto de acuerdo no fue aprobado por la comisión el Secretario informará a su autor quién dentro de los cinco (5) días siguientes a la notificación podrá solicitar su reconsideración ante la plenaria. Lo anterior no impide que cualquier Concejal pueda solicitar que el proyecto sea nuevamente considerado por el Concejo dentro del mismo lapso de tiempo. Transcurridos los cinco (5) días sin que se haya solicitado la reconsideración del proyecto, el mismo quedará archivado definitivamente y para que el Concejo se vuelva a pronunciar sobre él, deberá ser nuevamente presentado. Cualquier comisión permanente podrá citar a persona natural o jurídica para que en sesión especial rinda declaraciones orales o escritas, sobre hechos relacionados directamente con asuntos de interés público, investigados por la misma. Los citados podrán abstenerse de asistir solo por causa debidamente justificada y aceptada por la comisión respectiva, excusa que deberá ser presentada al menos dos (2) días antes de la fecha de citación, exceptuando los casos de fuerza mayor o caso fortuito que se presenten el mismo día en que fue citado el funcionario. La renuencia de los citados a comparecer o a rendir declaraciones requeridas, sin que medie justa causa aceptada por la comisión, será sancionada por las autoridades jurisdiccionales o disciplinarias competentes, según el caso y las normas vigentes para los casos de desacato a las autoridades. El presidente de la Comisión adelantará el trámite ante la autoridad judicial o disciplinaria para que se surta el correspondiente proceso. El fundamento legal de atribución en relación con la competencia en el caso en particular es el artículo 40 de la ley 136 de 1994. Todo Concejal deberá hacer parte de una comisión permanente y en ningún caso podrá pertenecer a dos o más comisiones permanentes. Un Concejal puede pertenecer a una comisión permanente, a una comisión legal y a una comisión especial o accidental simultáneamente. \n\nParágrafo \n1. Los reemplazos de los Concejales titulares, por falta temporal en caso de licencia de maternidad o absoluta de éstos, harán parte de la comisión permanente a que pertenece o pertenecía el titular de la curul. \n\nParágrafo \n2. Si no se justificare disponer de un empleado como secretario, o el secretario general no pudiere cumplir esta labor, el presidente de la respectiva comisión podrá designar como secretario a uno de sus miembros. \n\nParágrafo 3: En los eventos en que las comisiones permanentes no se hayan reglamentado o integrado, los informes serán rendidos por comisiones accidentales nombradas para el efecto por la mesa directiva de la corporación. \n\nParágrafo \n4. En caso de existir empate entre los miembros de las comisiones permanentes en la votación de proyectos de acuerdo el mismo será reconsiderado por esta en sesión que se realizará en un día distinto al del sufragio, y de persistir el empate la iniciativa será archivada. Resaltando que el mismo podrá ser reconsiderado por el cabildo de conformidad con lo establecido en el artículo 73 de la Ley 136 de 1994."
   },
   "67": {
     "numero": 67,
-    "titulo": "Artículo 67.- Elección. Las comisiones permanentes, tan pronto",
+    "titulo": "Artículo 67.- Elección. Las comisiones permanentes, tan pronto sean reglamentadas por la Mesa Directiva, deberán ser integradas y eleg",
     "texto": "Elección. Las comisiones permanentes, tan pronto sean reglamentadas por la Mesa Directiva, deberán ser integradas y elegidas en Sesión Plenaria que se llevará a cabo a más tardar dentro de los tres (3) días hábiles siguientes a la integración y elección de la Mesa Directiva del Concejo Municipal, dando participación en ellas a los miembros de los diversos partidos o movimientos políticos que integran las Bancadas y teniendo en cuenta la especialización o preferencias de los candidatos. Cada comisión permanente elegirá, el día de su instalación, un presidente que ejercerá su cargo durante un (1) año institucional y no podrá ser reelegido para el período inmediato. A él corresponde dirigir los debates y señalar día y hora para la reunión de la comisión, sin que la misma pueda coincidir con horario de sesión plenaria. Cada año los Concejales a consideración de la plenaria y mediante proposición realizadas por uno o más concejales podrán proponer la modificación de la integración de las Comisiones Permanentes, debiendo, en lo posible, hacer parte de cada una de ellas durante el período constitucional” Parágrafo único: Lo anterior sin perjuicio de ser reelegido en la misma comisión."
   },
   "68": {
     "numero": 68,
-    "titulo": "Artículo 68.- Materia de Estudio de las Comisiones. Las",
+    "titulo": "Artículo 68.- Materia de Estudio de las Comisiones. Las Comisiones Permanentes se dedicarán en sus deliberaciones al examen de los tem",
     "texto": "Materia de Estudio de las Comisiones. Las Comisiones Permanentes se dedicarán en sus deliberaciones al examen de los temas especializados que le sean propios en materia normativa y de control político, al análisis y evaluación de los informes que deben rendir los funcionarios de la administración, aprobar o negar en primer debate los Proyectos de Acuerdo que sean sometidos a su consideración y a la realización de los debates que hayan sido aprobados en la Comisión sobre asuntos propios de su competencia. No se podrán tramitar en diferentes comisiones los mismos temas para efectos de realizar control político."
   },
   "69": {
     "numero": 69,
-    "titulo": "Artículo 69.- Distribución de materias. Los asuntos que deba",
-    "texto": "Distribución de materias. Los asuntos que deba tratar el Concejo Municipal y que por su naturaleza no estén claramente definidos como responsabilidad de sus Comisiones Permanentes, serán distribuidos para su estudio por el Presidente del Concejo a la Comisión Permanente que él designe o a la Comisión Accidental que integre para que asuma su estudio en primer debate."
-  },
-  "70": {
-    "numero": 70,
-    "titulo": "Artículo 70. Comisiones",
-    "texto": "Comisiones y Sesiones conjuntas – generalidades. Las Comisiones Permanentes podrán ser convocadas a Comisión Conjunta y desarrollar sesiones conjuntas por el Presidente de la Corporación."
+    "titulo": "Artículo 69.- Distribución de materias. Los asuntos que deba tratar el Concejo Municipal y que por su naturaleza no estén claramente d",
+    "texto": "Distribución de materias. Los asuntos que deba tratar el Concejo Municipal y que por su naturaleza no estén claramente definidos como responsabilidad de sus Comisiones Permanentes, serán distribuidos para su estudio por el Presidente del Concejo a la Comisión Permanente que él designe o a la Comisión Accidental que integre para que asuma su estudio en primer debate. Artículo \n70. Comisiones y Sesiones conjuntas – generalidades. Las Comisiones Permanentes podrán ser convocadas a Comisión Conjunta y desarrollar sesiones conjuntas por el Presidente de la Corporación."
   },
   "71": {
     "numero": 71,
-    "titulo": "Artículo 71.- Definición. Se considera Comisión Conjunta y se",
+    "titulo": "Artículo 71.- Definición. Se considera Comisión Conjunta y se desarrollará sesión conjunta cuando dos comisiones permanentes se reúnen",
     "texto": "Definición. Se considera Comisión Conjunta y se desarrollará sesión conjunta cuando dos comisiones permanentes se reúnen para dar primer debate a un proyecto de acuerdo, cuya materia les es común. Ella tiene lugar cuando lo dispone la plenaria, el presidente de la corporación o mediante proposición aprobada de una Comisión Permanente."
   },
   "72": {
     "numero": 72,
-    "titulo": "Artículo 72.- Presidencia de la Comisión y Sesión Conjunta.",
+    "titulo": "Artículo 72.- Presidencia de la Comisión y Sesión Conjunta. La sesión conjunta será presidida por el Presidente de la Comisión donde h",
     "texto": "Presidencia de la Comisión y Sesión Conjunta. La sesión conjunta será presidida por el Presidente de la Comisión donde haya sido radicado el proyecto de acuerdo para estudio ó en caso contrario por quien designe el presidente de la Corporación, siempre y cuando tenga competencia en su estudio."
   },
   "73": {
     "numero": 73,
-    "titulo": "Artículo 73.- Informe de Ponencia de sesión conjunta. En el",
+    "titulo": "Artículo 73.- Informe de Ponencia de sesión conjunta. En el término indicado por la Presidencia de la Corporación, se presentará el In",
     "texto": "Informe de Ponencia de sesión conjunta. En el término indicado por la Presidencia de la Corporación, se presentará el Informe de Ponencia ante la Secretaría del Concejo. Si hubiere varios informes de ponencia, el primero radicado será la base para el Debate."
   },
   "74": {
     "numero": 74,
-    "titulo": "Artículo 74.- Quórum en Sesión Conjunta. El Quórum decisorio",
+    "titulo": "Artículo 74.- Quórum en Sesión Conjunta. El Quórum decisorio será el que se requiera para cada una de las Comisiones individualmente c",
     "texto": "Quórum en Sesión Conjunta. El Quórum decisorio será el que se requiera para cada una de las Comisiones individualmente consideradas."
   },
   "75": {
     "numero": 75,
-    "titulo": "Artículo 75.- Votación en sesión conjunta. Concluido el debate",
-    "texto": "Votación en sesión conjunta. Concluido el debate cada Comisión votará por separado. La decisión final será la resultante de la sumatoria de los votos emitidos en una y otra Comisión, con lo cual se entenderá surtido el Primer Debate. Parágrafo 1º. Actuará como secretario de la sesión el Secretario General de la Corporación. Parágrafo 2º. En caso de votación, cada comisión permanente deberá decidir separadamente."
+    "titulo": "Artículo 75.- Votación en sesión conjunta. Concluido el debate cada Comisión votará por separado. La decisión final será la resultante",
+    "texto": "Votación en sesión conjunta. Concluido el debate cada Comisión votará por separado. La decisión final será la resultante de la sumatoria de los votos emitidos en una y otra Comisión, con lo cual se entenderá surtido el Primer Debate. \n\nParágrafo 1º. Actuará como secretario de la sesión el Secretario General de la Corporación. \n\nParágrafo 2º. En caso de votación, cada comisión permanente deberá decidir separadamente."
   },
   "76": {
     "numero": 76,
-    "titulo": "Artículo 76.- Comisiones Permanentes Particulares. Para",
+    "titulo": "Artículo 76.- Comisiones Permanentes Particulares. Para efectos de integrar las Comisiones Permanentes Particulares del Concejo Munici",
     "texto": "Comisiones Permanentes Particulares. Para efectos de integrar las Comisiones Permanentes Particulares del Concejo Municipal, la Plenaria deberá integrar preferentemente las Comisiones permanentes siguientes: Comisión Primera Permanente del Plan de Desarrollo, Comisión Segunda Permanente de Gobierno y Comisión Tercera Permanente de Presupuesto y Hacienda Pública."
   },
   "77": {
     "numero": 77,
-    "titulo": "Artículo 77.- Materias objeto de desarrollo de las Comisiones",
-    "texto": "Materias objeto de desarrollo de las Comisiones Permanentes Particulares. En ejercicio de sus funciones normativas y de Control Político, las Materias objeto de desarrollo por parte de las Comisiones Permanentes Particulares antes señaladas serán las siguientes: 1. Comisión Primera Permanente de Presupuesto y Hacienda Pública: Será la encargada de ejercer las funciones normativas y de control político en los asuntos relacionados con las siguientes materias: 1.1. Plan de inversiones del Municipio y el componente financiero que contengan los Planes de Desarrollo Económico, Social y de Obras Públicas. 1.2. Establecimiento, reforma o eliminación de tributos, contribuciones, impuestos y sobretasas, exenciones tributarias, sistemas de retención y anticipos. 1.3. Normas orgánicas del Presupuesto y expedición anual del presupuesto de rentas y gastos. 1.4. Los recursos de gastos e inversión para el municipio. 1.5. Definición de las escalas de remuneración para las distintas categorías de empleos de la Administración Municipal. 1.6. Cupo global de endeudamiento. 1.7. Estudio de las facultades pro – témpore al Alcalde Municipal sobre materias de competencia de esta comisión. 1.8. Examen del balance general y demás estados contables del municipio, presentados por el Alcalde, firmados por el secretario de Hacienda y presentación al Concejo Municipal de sus conclusiones. 1.9. Examen del informe sobre el estado de las finanzas del municipio y análisis de las políticas económicas adoptadas por la Administración. 1.10. Las demás que le sean asignadas por el Presidente del Concejo o su Mesa Directiva. 2. Comisión Segunda Permanente del Plan de Desarrollo: Será la encargada del manejo de los asuntos relacionados con las siguientes materias: 2.1. Eficiente prestación de los servicios a cargo del Municipio, en el marco de la Constitución y la Ley. 2.2. Organización y funcionamiento de las veedurías ciudadanas, la descentralización, la desconcentración y el control social de los servicio"
+    "titulo": "Artículo 77.- Materias objeto de desarrollo de las Comisiones Permanentes Particulares. En ejercicio de sus funciones normativas y de ",
+    "texto": "Materias objeto de desarrollo de las Comisiones Permanentes Particulares. En ejercicio de sus funciones normativas y de Control Político, las Materias objeto de desarrollo por parte de las Comisiones Permanentes Particulares antes señaladas serán las siguientes: \n1. Comisión Primera Permanente de Presupuesto y Hacienda Pública: Será la encargada de ejercer las funciones normativas y de control político en los asuntos relacionados con las siguientes materias: 1.\n1. Plan de inversiones del Municipio y el componente financiero que contengan los Planes de Desarrollo Económico, Social y de Obras Públicas. 1.\n2. Establecimiento, reforma o eliminación de tributos, contribuciones, impuestos y sobretasas, exenciones tributarias, sistemas de retención y anticipos. 1.\n3. Normas orgánicas del Presupuesto y expedición anual del presupuesto de rentas y gastos. 1.\n4. Los recursos de gastos e inversión para el municipio. 1.\n5. Definición de las escalas de remuneración para las distintas categorías de empleos de la Administración Municipal. 1.\n6. Cupo global de endeudamiento. 1.\n7. Estudio de las facultades pro – témpore al Alcalde Municipal sobre materias de competencia de esta comisión. 1.\n8. Examen del balance general y demás estados contables del municipio, presentados por el Alcalde, firmados por el secretario de Hacienda y presentación al Concejo Municipal de sus conclusiones. 1.\n9. Examen del informe sobre el estado de las finanzas del municipio y análisis de las políticas económicas adoptadas por la Administración. 1.\n10. Las demás que le sean asignadas por el Presidente del Concejo o su Mesa Directiva. \n2. Comisión Segunda Permanente del Plan de Desarrollo: Será la encargada del manejo de los asuntos relacionados con las siguientes materias: 2.\n1. Eficiente prestación de los servicios a cargo del Municipio, en el marco de la Constitución y la Ley. 2.\n2. Organización y funcionamiento de las veedurías ciudadanas, la descentralización, la desconcentración y el control social de los servicios públicos. 2.\n3. Plan General de Desarrollo Económico y Social. 2.\n4. Plan General de Ordenamiento físico y territorial del Municipio. 2.\n5. Plan Vial. 2.\n6. Reglamentación del uso del suelo y el espacio público del Municipio-. 2.\n7. Desarrollo físico de las áreas rurales del Municipio. 2.\n8. División del territorio Municipal. 2.\n9. Planeación y asesoría a las Juntas Administradoras Locales en la elaboración del Plan de Desarrollo Económico y Social 2.\n10. Preservación y defensa del patrimonio ecológico, los recursos naturales y del medio ambiente. 2.\n11. Vigilancia y control de la prestación de los servicios públicos domiciliarios y del transporte público y seguridad. 2.\n12. Divulgación, fomento y pedagogía de los procesos de participación ciudadana. 2.\n13. Estudio de facultades pro tempore al Alcalde Municipal en las materias antes relacionadas. 2.\n14. Las demás que sean asignadas por el presidente de la Corporación o la Mesa Directiva. \n3. Comisión Tercera Permanente de Gobierno: Será la encargada de ejercer las funciones normativas y de control político en los asuntos relacionados con las siguientes materias: 3.\n1. Normas de Tránsito, Transporte y seguridad. 3.\n2. Normas de regulación, preservación y defensa del patrimonio cultural. 3.\n3. Estudio de facultades Pro-Témpore al Alcalde sobre materias de competencia de esta comisión. 3.\n4. Normas sobre la estructura de la Administración Central y sus funciones, creación y supresión de empleos, creación, constitución, supresión, transformación y fusión de establecimientos públicos, empresas industriales y comerciales, sociedades de economía mixta y participación del Municipio en otras entidades de carácter asociativo. 3.\n5. Normas sobre la organización de la Personería. 3.\n6. Reglamento Interno del Concejo y determinación de la estructura orgánica del mismo. 3.\n7. Normas sobre educación, salud, bienestar social, deporte, recreación, turismo y cultura ciudadana. 3.\n8. Atención de organizaciones sindicales, comunitarias y sociales. 3.\n9. Derechos humanos. 3.\n10. Desplazamientos, en caso de representación del Concejo Municipal. urgencia, en Las demás que la Mesa Directiva considere convenientes. CAPÍTULO TERCERO COMISIÓN LEGAL PARA LA EQUIDAD DE LA MUJER"
   },
   "78": {
     "numero": 78,
-    "titulo": "Artículo 78.- Definición. La Comisión Legal para la Equidad de la",
+    "titulo": "Artículo 78.- Definición. La Comisión Legal para la Equidad de la Mujer tiene como propósito fomentar la participación de la mujer en ",
     "texto": "Definición. La Comisión Legal para la Equidad de la Mujer tiene como propósito fomentar la participación de la mujer en el ejercicio de la labor normativa y de control político, buscando contribuir en la eliminación de cualquier situación de desigualdad y discriminación que se presente en el ejercicio de la ciudadanía por parte de las mujeres, luchar contra la violencia de género, promover el empoderamiento de la mujer y la equidad de género en el Municipio de El Cerrito – Valle del Cauca."
   },
   "79": {
     "numero": 79,
-    "titulo": "Artículo 79.- Composición e Integración. La comisión Legal",
-    "texto": "Composición e Integración. La comisión Legal para la equidad de la Mujer estará conformada preferentemente por todas las mujeres cabildantes de la Corporación. Los Concejales hombres podrán de igual forma participar voluntariamente de ella. Parágrafo 1. La Comisión Legal para la equidad de la Mujer deberá contar con una Mesa Directiva, que estará conformada por un Presidente y un Vicepresidente elegidos por un año, el cual coincidirá con el periodo de la Mesa Directiva del Concejo Municipal; sin la posibilidad de ser reelegidos. Parágrafo 2. Si el Concejo Municipal no cuenta con una cuota de participación femenina, igualmente tiene la obligación de conformar la Comisión Legal para la Equidad de la Mujer con los Concejales hombres. Parágrafo 3. La comisión para la equidad de la mujer por poseer naturaleza jurídica legal, no le será aplicable la regla de renovación anual con respecto a las mujeres que integran la comisión, pues éstas tendrán asiento permanente durante el periodo constitucional. Los concejales hombres que conformen la comisión, serán elegidos anualmente garantizando la participación a todas las organizaciones políticas. Parágrafo 4. Si no se justificare disponer de un empleado como secretario, actuará como secretario de la comisión el Secretario General de la Corporación; si el secretario general no pudiere cumplir esta labor, el presidente de la respectiva comisión podrá designar como secretario a uno de sus miembros."
+    "titulo": "Artículo 79.- Composición e Integración. La comisión Legal para la equidad de la Mujer estará conformada preferentemente por todas las",
+    "texto": "Composición e Integración. La comisión Legal para la equidad de la Mujer estará conformada preferentemente por todas las mujeres cabildantes de la Corporación. Los Concejales hombres podrán de igual forma participar voluntariamente de ella. \n\nParágrafo \n1. La Comisión Legal para la equidad de la Mujer deberá contar con una Mesa Directiva, que estará conformada por un Presidente y un Vicepresidente elegidos por un año, el cual coincidirá con el periodo de la Mesa Directiva del Concejo Municipal; sin la posibilidad de ser reelegidos. \n\nParágrafo \n2. Si el Concejo Municipal no cuenta con una cuota de participación femenina, igualmente tiene la obligación de conformar la Comisión Legal para la Equidad de la Mujer con los Concejales hombres. \n\nParágrafo \n3. La comisión para la equidad de la mujer por poseer naturaleza jurídica legal, no le será aplicable la regla de renovación anual con respecto a las mujeres que integran la comisión, pues éstas tendrán asiento permanente durante el periodo constitucional. Los concejales hombres que conformen la comisión, serán elegidos anualmente garantizando la participación a todas las organizaciones políticas. \n\nParágrafo \n4. Si no se justificare disponer de un empleado como secretario, actuará como secretario de la comisión el Secretario General de la Corporación; si el secretario general no pudiere cumplir esta labor, el presidente de la respectiva comisión podrá designar como secretario a uno de sus miembros."
   },
   "80": {
     "numero": 80,
-    "titulo": "Artículo 80.- Funciones y/o atribuciones de la Comisión Legal",
-    "texto": "Funciones y/o atribuciones de la Comisión Legal para la Equidad de la Mujer. La Comisión Legal para la equidad de la Mujer tendrá las siguientes funciones y/o atribuciones. 1. Elaborar proyectos de acuerdo que propendan en la realización de los derechos humanos, civiles, políticos, económicos, sociales y culturales de las mujeres, con el acompañamiento de la Alcaldía Municipal, las organizaciones y grupos de mujeres, centros de investigación y demás organizaciones que defienden los derechos de las mujeres en el municipio de El Cerrito – Valle del Cauca. 2. Ejercer el control político en los diversos organismos de la Administración Municipal en relación con la formulación y desarrollo de planes, programas, proyectos y políticas públicas dirigidas al reconocimiento, promoción, realización, ampliación, protección y restitución de los derechos civiles, políticos, económicos, sociales y culturales de las mujeres, así como el seguimiento a las iniciativas relacionadas con los temas de género 3. Proponer y velar por que en el proceso de discusión y aprobación del Plan Municipal de Desarrollo y del Presupuesto Municipal, se incluyan programas, proyectos y acciones que hagan efectiva la realización de los derechos civiles, políticos, económicos, sociales y culturales de las mujeres. 4. Promover e incentivar la participación de las mujeres en los cargos de elección popular y de designación. 5. Ser interlocutoras de las organizaciones y grupos de mujeres establecidas en la ciudad. 6. Promover y celebrar audiencias públicas, foros, seminarios, simposios, encuentros, mesas de trabajo, conversatorios y demás estrategias de comunicación para desarrollar, informar y divulgar los temas relacionados con los derechos de las mujeres. 7. Hacer seguimiento a los procesos de verdad justicia y reparación para los delitos cometidos contra las mujeres durante el conflicto armado interno en sus territorios/ a los que haya lugar. 8. Hacer seguimiento sobre los resultados de los procesos de inv"
+    "titulo": "Artículo 80.- Funciones y/o atribuciones de la Comisión Legal para la Equidad de la Mujer. La Comisión Legal para la equidad de la Muj",
+    "texto": "Funciones y/o atribuciones de la Comisión Legal para la Equidad de la Mujer. La Comisión Legal para la equidad de la Mujer tendrá las siguientes funciones y/o atribuciones. \n1. Elaborar proyectos de acuerdo que propendan en la realización de los derechos humanos, civiles, políticos, económicos, sociales y culturales de las mujeres, con el acompañamiento de la Alcaldía Municipal, las organizaciones y grupos de mujeres, centros de investigación y demás organizaciones que defienden los derechos de las mujeres en el municipio de El Cerrito – Valle del Cauca. \n2. Ejercer el control político en los diversos organismos de la Administración Municipal en relación con la formulación y desarrollo de planes, programas, proyectos y políticas públicas dirigidas al reconocimiento, promoción, realización, ampliación, protección y restitución de los derechos civiles, políticos, económicos, sociales y culturales de las mujeres, así como el seguimiento a las iniciativas relacionadas con los temas de género \n3. Proponer y velar por que en el proceso de discusión y aprobación del Plan Municipal de Desarrollo y del Presupuesto Municipal, se incluyan programas, proyectos y acciones que hagan efectiva la realización de los derechos civiles, políticos, económicos, sociales y culturales de las mujeres. \n4. Promover e incentivar la participación de las mujeres en los cargos de elección popular y de designación. \n5. Ser interlocutoras de las organizaciones y grupos de mujeres establecidas en la ciudad. \n6. Promover y celebrar audiencias públicas, foros, seminarios, simposios, encuentros, mesas de trabajo, conversatorios y demás estrategias de comunicación para desarrollar, informar y divulgar los temas relacionados con los derechos de las mujeres. \n7. Hacer seguimiento a los procesos de verdad justicia y reparación para los delitos cometidos contra las mujeres durante el conflicto armado interno en sus territorios/ a los que haya lugar. \n8. Hacer seguimiento sobre los resultados de los procesos de investigación y/o sanción, existentes en los distintos entes de control, relacionados con las violaciones de los derechos civiles, políticos, económicos, sociales, culturales y a la integridad física y sexual de las mujeres. \n9. Tramitar ante las Comisiones Permanentes las observaciones, adiciones y modificaciones que consideren pertinentes o que por escrito hagan llegar a la Comisión para la Equidad de la Mujer, las y los ciudadanos con respecto a proyectos de acuerdo alusivos a los derechos humanos, civiles, políticos, económicos, sociales y culturales de las mujeres. \n10. Las demás que le asigne la ley o reciba por Delegación de la Mesa Directiva del Concejo Municipal de El Cerrito – Valle del Cauca. \n11. Trabajar articuladamente con la Comisión Legal para la Equidad de la Mujer del Congreso de la República en iniciativas que contribuyan a la defensa y fortalecimiento de los derechos y libertades de las mujeres en Colombia. \n12. Solicitar el acompañamiento interinstitucional de organismos municipales, nacionales e internacionales, entidades públicas o privadas y asociaciones de mujeres para el desarrollo de su misión institucional, desarrollar proyectos de investigación, de promoción, defensa y divulgación de los derechos civiles, políticos, económicos, sociales y culturales de las mujeres. \n13. Darse su propio Reglamento."
   },
   "81": {
     "numero": 81,
-    "titulo": "Artículo 81.- Instalación y Sesiones. La Comisión Legal para la",
+    "titulo": "Artículo 81.- Instalación y Sesiones. La Comisión Legal para la Equidad de la Mujer se instalará en un lapso no mayor de diez (10) día",
     "texto": "Instalación y Sesiones. La Comisión Legal para la Equidad de la Mujer se instalará en un lapso no mayor de diez (10) días hábiles después de la instalación de la mesa directiva del Concejo Municipal y se reunirá por convocatoria de su Mesa Directiva, como mínimo una vez al mes o cuando lo considere necesario. Las decisiones de la Comisión serán adoptadas por mayoría simple. Parágrafo Transitorio. La primera comisión Legal para la Equidad de la Mujer se instalará en un lapso no mayor de diez (10) días hábiles después de la sanción de este acuerdo. TÍTULO VII SESIONES CAPÍTULO PRIMERO Reuniones. Citaciones. Orden Interno y Sesiones en General."
   },
   "82": {
     "numero": 82,
-    "titulo": "Artículo 82.- Sesiones Ordinarias – Reuniones. Durante el",
+    "titulo": "Artículo 82.- Sesiones Ordinarias – Reuniones. Durante el periodo para el cual fue elegido el Concejo Municipal se reunirá por derecho",
     "texto": "Sesiones Ordinarias – Reuniones. Durante el periodo para el cual fue elegido el Concejo Municipal se reunirá por derecho propio cuatro (4) veces al año en periodos de sesiones ordinarias, así: el primer día calendario de los meses de febrero, mayo, agosto y noviembre para municipios de categorías tercera, cuarta, quinta y sexta Durante dichos periodos y sus prórrogas, todos los días de la semana son hábiles para las reuniones del Concejo y sus comisiones. Los horarios serán señalados por los respectivos presidentes. Las Comisiones Permanentes sesionarán válidamente para ejercer sus funciones de control político en todo tiempo y momento correspondiente al periodo constitucional de elección de los Concejales, y para ejercer sus funciones normativas durante los períodos de sesiones ordinarias, sus prórrogas y extraordinarias. Las sesiones plenarias, al igual que las sesiones de las comisiones permanentes, durarán máximo cuatro (4) horas, a partir del momento en que el presidente las declarare abiertas. Pero, por decisión del órgano respectivo, podrán ser suspendidas o prorrogadas, o ser objeto de declaratoria de sesión permanente. Durante el desarrollo de las sesiones el Presidente podrá ordenar hasta dos (2) recesos por el término que considere necesario, con la aprobación de la mayoría de los asistentes a la sesión que conformen quórum decisorio. Vencido el término, reanudará la sesión sin interrupción alguna. Cada período de sesiones ordinarias tendrá una duración de treinta (30) días calendario, prorrogables hasta por diez días (10) calendario más. La prórroga de las sesiones ordinarias se decidirá mediante proposición presentada por cualquier Concejal y ser aprobada por la mayoría simple de la plenaria."
   },
   "83": {
     "numero": 83,
-    "titulo": "Artículo 83.- El Concejo podrá sesionar bajo las siguientes",
-    "texto": "El Concejo podrá sesionar bajo las siguientes modalidades: 1. Sesión Plenaria. Es la reunión de la mayoría de los Concejales para tratar asuntos que, por la Constitución y la Ley, son de su competencia. 1.1. Sesión Inaugural. Es aquélla con la cual se inicia cada nuevo período Constitucional del Concejo. 1.2. Sesión de Instalación. Es aquella sesión con la cual se inicia todo período legal. 1.3. Sesión de Clausura. Corresponde a la última sesión plenaria de la Corporación en cada Período Ordinario y la última de las Sesiones Extraordinarias. (Art. 131 Reglamento Interno) 1.4. Sesión Secreta. La Corporación puede constituirse en Sesión Secreta cuando, por requerirlo el asunto que haya de tratarse, lo disponga la Mesa Directiva, o cuando en tal sentido se apruebe una Proposición. 1.5. Sesiones Especiales. 1.5.1. Cuando el Concejo se reúne a solicitud de la comunidad con el lleno de los requisitos señalados en éste reglamento y sólo se tratarán los asuntos para los cuales fue convocada. 1.5.2. Cuando por alguna situación atípica debe reunirse el Concejo encontrándose en periodo de receso y deba cumplir o atender asuntos de orden constitucional o legal. 1.6. Cabildo Abierto. Cuando el Concejo se reúne previo el lleno de los requisitos establecidos en la Ley 1757 de 2015 acerca de los mecanismos de participación ciudadana y democrática, así como de la Ley 388 de Ordenamiento Territorial – y de este Reglamento. 1997 – 2. Sesión de Comisiones. 2.1. Sesiones de Comisiones Permanentes. Son aquéllas en las cuales se surte el Primer Debate a los Proyectos de Acuerdo, se hacen citaciones de conformidad con el artículo 40 de la ley 136 de 1994 y se tratan los asuntos que la Corporación determine pertinentes, en cumplimiento de sus funciones. 2.2. Sesiones de Comisiones Accidentales. Son aquellas en las cuales se reúnen los Concejales designados para tratar los asuntos que se les haya encomendado. Parágrafo único: Para efecto de sesiones conjuntas se tomarán en cuenta las reglas "
+    "titulo": "Artículo 83.- El Concejo podrá sesionar bajo las siguientes modalidades: 1. Sesión Plenaria. Es la reunión de la mayoría de los Concej",
+    "texto": "El Concejo podrá sesionar bajo las siguientes modalidades: \n1. Sesión Plenaria. Es la reunión de la mayoría de los Concejales para tratar asuntos que, por la Constitución y la Ley, son de su competencia. 1.\n1. Sesión Inaugural. Es aquélla con la cual se inicia cada nuevo período Constitucional del Concejo. 1.\n2. Sesión de Instalación. Es aquella sesión con la cual se inicia todo período legal. 1.\n3. Sesión de Clausura. Corresponde a la última sesión plenaria de la Corporación en cada Período Ordinario y la última de las Sesiones Extraordinarias. (Art. 131 Reglamento Interno) 1.\n4. Sesión Secreta. La Corporación puede constituirse en Sesión Secreta cuando, por requerirlo el asunto que haya de tratarse, lo disponga la Mesa Directiva, o cuando en tal sentido se apruebe una Proposición. 1.\n5. Sesiones Especiales. 1.5.\n1. Cuando el Concejo se reúne a solicitud de la comunidad con el lleno de los requisitos señalados en éste reglamento y sólo se tratarán los asuntos para los cuales fue convocada. 1.5.\n2. Cuando por alguna situación atípica debe reunirse el Concejo encontrándose en periodo de receso y deba cumplir o atender asuntos de orden constitucional o legal. 1.\n6. Cabildo Abierto. Cuando el Concejo se reúne previo el lleno de los requisitos establecidos en la Ley 1757 de 2015 acerca de los mecanismos de participación ciudadana y democrática, así como de la Ley 388 de Ordenamiento Territorial – y de este Reglamento. 1997 – \n2. Sesión de Comisiones. 2.\n1. Sesiones de Comisiones Permanentes. Son aquéllas en las cuales se surte el Primer Debate a los Proyectos de Acuerdo, se hacen citaciones de conformidad con el artículo 40 de la ley 136 de 1994 y se tratan los asuntos que la Corporación determine pertinentes, en cumplimiento de sus funciones. 2.\n2. Sesiones de Comisiones Accidentales. Son aquellas en las cuales se reúnen los Concejales designados para tratar los asuntos que se les haya encomendado. Parágrafo único: Para efecto de sesiones conjuntas se tomarán en cuenta las reglas señaladas en éste reglamento."
   },
   "84": {
     "numero": 84,
-    "titulo": "Artículo 84.- Orden Interno. Al recinto destinado para la",
-    "texto": "Orden Interno. Al recinto destinado para la realización de las sesiones del Concejo, podrán ingresar los miembros de la corporación, quienes participen con derecho a voz en sus deliberaciones, el personal administrativo y de seguridad, así como periodistas. La presidencia podrá autorizar el ingreso de otras autoridades y de particulares cuando no se afecte el normal desarrollo de las sesiones. En dicho recinto, tendrán sillas determinadas los Concejales y los funcionarios de primer nivel del municipio. Tratándose de reuniones no reservadas, a las barras podrán ingresar libremente las personas, pero el presidente regulará su ingreso cuando las circunstancias lo exijan y ejercerá el control aconsejable. Durante la sesión, podrá pedir que guarden compostura y silencio, y/o solicitar a la autoridad policial mandar salir a los perturbadores, e incluso ordenar el despeje de las barras. Para el mantenimiento del orden, el presidente impondrá a quien faltare al respeto debido a la corporación o ultrajare de palabra a cualquiera de sus miembros, según la gravedad de la falta, alguna de estas sanciones: 1. Llamamiento al orden. 2. Declaración pública de haber faltado al orden y al respeto debido. 3. Suspensión en el uso de la palabra. 4. Suspensión del derecho a continuar interviniendo en el debate o en la sesión. 5. Desalojo inmediato del recinto. 6. Suspensión del derecho a intervenir en los debates de la corporación por un lapso no inferior a dos (2) días ni superior a diez (10). Esta decisión es apelable ante la plenaria. Parágrafo 1: Ninguna persona podrá portar armas en el recinto del Concejo, también estará prohibido ingerir bebidas alcohólicas, sustancias alucinógenas o fumar así se trate de cigarrillos electrónicos. Parágrafo 2: En el caso de inasistencia reiterada del Concejal, sin excusa justificada, la mesa directiva comunicará al Tribunal Administrativo para originar la pérdida de investidura o a la Procuraduría General de la Nación como quiera que se constituirí"
+    "titulo": "Artículo 84.- Citaciones: La citación a las sesiones plenarias y a las comisiones, deberá hacerse a los Concejales por los presidentes",
+    "texto": "Citaciones: La citación a las sesiones plenarias y a las comisiones, deberá hacerse a los Concejales por los presidentes, cuando al finalizar una sesión informe el día y la hora de la siguiente reunión, o por orden de éstos, a través de la secretaría, de manera expresa y oportuna, dejando constancia de la misma, por lo menos con veinticuatro (24) horas de anticipación, salvo en los casos de urgencia en que deba reunirse la plenaria o las Comisiones Permanentes. Tratándose de elección de funcionarios o de integración de comisión, la citación se hará con tres (3) días de anticipación, dando a conocer a los Concejales citados el cargo por proveer, el nombre del candidato o candidatos nominados, su programación en el orden del día y la hora de la reunión. Artículo 84.- Orden Interno. Al recinto destinado para la realización de las sesiones del Concejo, podrán ingresar los miembros de la corporación, quienes participen con derecho a voz en sus deliberaciones, el personal administrativo y de seguridad, así como periodistas. La presidencia podrá autorizar el ingreso de otras autoridades y de particulares cuando no se afecte el normal desarrollo de las sesiones. En dicho recinto, tendrán sillas determinadas los Concejales y los funcionarios de primer nivel del municipio. Tratándose de reuniones no reservadas, a las barras podrán ingresar libremente las personas, pero el presidente regulará su ingreso cuando las circunstancias lo exijan y ejercerá el control aconsejable. Durante la sesión, podrá pedir que guarden compostura y silencio, y/o solicitar a la autoridad policial mandar salir a los perturbadores, e incluso ordenar el despeje de las barras. Para el mantenimiento del orden, el presidente impondrá a quien faltare al respeto debido a la corporación o ultrajare de palabra a cualquiera de sus miembros, según la gravedad de la falta, alguna de estas sanciones: \n1. Llamamiento al orden. \n2. Declaración pública de haber faltado al orden y al respeto debido. \n3. Suspensión en el uso de la palabra. \n4. Suspensión del derecho a continuar interviniendo en el debate o en la sesión. \n5. Desalojo inmediato del recinto. \n6. Suspensión del derecho a intervenir en los debates de la corporación por un lapso no inferior a dos (2) días ni superior a diez (10). Esta decisión es apelable ante la plenaria. \n\nParágrafo 1: Ninguna persona podrá portar armas en el recinto del Concejo, también estará prohibido ingerir bebidas alcohólicas, sustancias alucinógenas o fumar así se trate de cigarrillos electrónicos. \n\nParágrafo 2: En el caso de inasistencia reiterada del Concejal, sin excusa justificada, la mesa directiva comunicará al Tribunal Administrativo para originar la pérdida de investidura o a la Procuraduría General de la Nación como quiera que se constituiría como Falta a sus deberes como Servidor Público. –"
   },
   "85": {
     "numero": 85,
-    "titulo": "Artículo 85.- Orden de las sesiones. Llegada la hora para la cual",
-    "texto": "Orden de las sesiones. Llegada la hora para la cual ha sido convocada la sesión, el Presidente ordenará al secretario llamar a lista para verificar el quórum constitucional. Si a pesar del apremio a los ausentes, no se presentare el quórum requerido, transcurrida una (1) hora los asistentes podrán retirarse hasta nueva citación. Verificado el quórum, el presidente declarará abierta la sesión y ordenará al secretario dar lectura al orden del día. Durante el desarrollo de la sesión, los Concejales y quienes hayan sido citados o invitados deberán observar las reglas de consideración y respeto, procurando enaltecer el espíritu de la democracia. Si por haberse turbado el orden de la sesión, fuere conveniente diferir el tratamiento de un asunto previsto en la agenda del día, el presidente podrá disponer su aplazamiento hasta la sesión siguiente. Esta decisión es susceptible de apelación inmediata ante la plenaria, por cualquier Concejal. En relación con el orden en el que deberán adelantarse las sesiones, se considerarán como faltas de los Concejales: 1. El desconocimiento de los deberes que impone este reglamento, la Constitución y la Ley; 2. El cometer actos de desorden e irrespeto en el recinto de sesiones; 3. No presentar las ponencias en los plazos señalados, salvo excusa legítima."
+    "titulo": "Artículo 85.- Orden de las sesiones. Llegada la hora para la cual ha sido convocada la sesión, el Presidente ordenará al secretario ll",
+    "texto": "Orden de las sesiones. Llegada la hora para la cual ha sido convocada la sesión, el Presidente ordenará al secretario llamar a lista para verificar el quórum constitucional. Si a pesar del apremio a los ausentes, no se presentare el quórum requerido, transcurrida una (1) hora los asistentes podrán retirarse hasta nueva citación. Verificado el quórum, el presidente declarará abierta la sesión y ordenará al secretario dar lectura al orden del día. Durante el desarrollo de la sesión, los Concejales y quienes hayan sido citados o invitados deberán observar las reglas de consideración y respeto, procurando enaltecer el espíritu de la democracia. Si por haberse turbado el orden de la sesión, fuere conveniente diferir el tratamiento de un asunto previsto en la agenda del día, el presidente podrá disponer su aplazamiento hasta la sesión siguiente. Esta decisión es susceptible de apelación inmediata ante la plenaria, por cualquier Concejal. En relación con el orden en el que deberán adelantarse las sesiones, se considerarán como faltas de los Concejales: \n1. El desconocimiento de los deberes que impone este reglamento, la Constitución y la Ley; \n2. El cometer actos de desorden e irrespeto en el recinto de sesiones; \n3. No presentar las ponencias en los plazos señalados, salvo excusa legítima."
   },
   "86": {
     "numero": 86,
-    "titulo": "Artículo 86.- Sesiones Extraordinarias. El Concejo Municipal",
+    "titulo": "Artículo 86.- Sesiones Extraordinarias. El Concejo Municipal sesionará extraordinariamente por convocatoria que haga el Alcalde Munici",
     "texto": "Sesiones Extraordinarias. El Concejo Municipal sesionará extraordinariamente por convocatoria que haga el Alcalde Municipal y por el término que éste le fije. Durante el período de sesiones extraordinarias el Concejo únicamente se ocupará de los asuntos que el Alcalde convoque, sin perjuicio de que éste ejerza la función de control político que le corresponde en todo tiempo y las funciones propias para el correcto funcionamiento de la Corporación. CAPÍTULO SEGUNDO ORDEN DEL DÍA."
   },
   "87": {
     "numero": 87,
-    "titulo": "Artículo 87.- Orden del día. La serie de asuntos que se someten",
-    "texto": "Orden del día. La serie de asuntos que se someten en cada sesión a la información, discusión y decisión del Concejo pleno y sus comisiones permanentes, se llaman Orden del Día, el cual seguirá el siguiente orden y orientación: 1. Llamado a lista y verificación de quórum. 2. Lectura, discusión y aprobación del orden del día. 3. Lectura, discusión y aprobación del acta de la sesión anterior. 4. Citaciones a debate. 5. Lectura y aprobación de proposiciones 6. Intervención de funcionarios citados o invitados. 7. Lectura de comunicaciones. 8. Proyectos de acuerdo que versen sobre planeación o el presupuesto municipal. 9. Proyectos de acuerdo objetados por el alcalde. 10. Informe de las comisiones permanentes. 11. Proyectos de acuerdo para segundo debate. Se dará prelación a los de iniciativa popular, así como aquellos presentados por las Bancadas; los demás seguirán el orden de presentación de las ponencias. 12. Informe de comisiones especiales y accidentales. 13. Proposiciones y asuntos varios. Parágrafo 1. El orden del día será elaborado por la mesa directiva y llevará la firma de sus integrantes y la del secretario. Parágrafo 2. El orden del día puede ser alterado, a sugerencia de uno de los Concejales asistentes, por la respectiva plenaria o comisión, sin desconocer la prelación que por ley tiene la intervención de funcionarios citados en el ejercicio del control político que corresponde a la corporación. Parágrafo 3. Previamente a cada sesión, será publicado el orden del día por un medio idóneo; éste incluye la fijación de su texto en un lugar visible de la secretaría, con no menos de una (1) hora de anticipación a la reunión."
+    "titulo": "Artículo 87.- Orden del día. La serie de asuntos que se someten en cada sesión a la información, discusión y decisión del Concejo plen",
+    "texto": "Orden del día. La serie de asuntos que se someten en cada sesión a la información, discusión y decisión del Concejo pleno y sus comisiones permanentes, se llaman Orden del Día, el cual seguirá el siguiente orden y orientación: \n1. Llamado a lista y verificación de quórum. \n2. Lectura, discusión y aprobación del orden del día. \n3. Lectura, discusión y aprobación del acta de la sesión anterior. \n4. Citaciones a debate. \n5. Lectura y aprobación de proposiciones \n6. Intervención de funcionarios citados o invitados. \n7. Lectura de comunicaciones. \n8. Proyectos de acuerdo que versen sobre planeación o el presupuesto municipal. \n9. Proyectos de acuerdo objetados por el alcalde. \n10. Informe de las comisiones permanentes. \n11. Proyectos de acuerdo para segundo debate. Se dará prelación a los de iniciativa popular, así como aquellos presentados por las Bancadas; los demás seguirán el orden de presentación de las ponencias. \n12. Informe de comisiones especiales y accidentales. \n13. Proposiciones y asuntos varios. \n\nParágrafo \n1. El orden del día será elaborado por la mesa directiva y llevará la firma de sus integrantes y la del secretario. \n\nParágrafo \n2. El orden del día puede ser alterado, a sugerencia de uno de los Concejales asistentes, por la respectiva plenaria o comisión, sin desconocer la prelación que por ley tiene la intervención de funcionarios citados en el ejercicio del control político que corresponde a la corporación. \n\nParágrafo \n3. Previamente a cada sesión, será publicado el orden del día por un medio idóneo; éste incluye la fijación de su texto en un lugar visible de la secretaría, con no menos de una (1) hora de anticipación a la reunión."
   },
   "88": {
     "numero": 88,
-    "titulo": "Artículo 88.- Orden del día para elecciones. El día que se",
-    "texto": "Orden del día para elecciones. El día que se realizaré cualquier elección, el orden del día contendrá exclusivamente los siguientes puntos: 1. Llamado a lista y verificación del quórum 2. Lectura, discusión y aprobación del orden del día 3. Aprobación de actas 4. Elecciones 5. Comunicaciones y varios. CAPÍTULO TERCERO DEBATES"
+    "titulo": "Artículo 88.- Orden del día para elecciones. El día que se realizaré cualquier elección, el orden del día contendrá exclusivamente los",
+    "texto": "Orden del día para elecciones. El día que se realizaré cualquier elección, el orden del día contendrá exclusivamente los siguientes puntos: \n1. Llamado a lista y verificación del quórum \n2. Lectura, discusión y aprobación del orden del día \n3. Aprobación de actas \n4. Elecciones \n5. Comunicaciones y varios. CAPÍTULO TERCERO DEBATES"
   },
   "89": {
     "numero": 89,
-    "titulo": "Artículo 89.- Concepto. El debate, que es el sometimiento a",
+    "titulo": "Artículo 89.- Concepto. El debate, que es el sometimiento a discusión de cualquier proyecto o proposición sobre cuya adopción deba res",
     "texto": "Concepto. El debate, que es el sometimiento a discusión de cualquier proyecto o proposición sobre cuya adopción deba resolver el Concejo o una de sus comisiones, empieza al abrirlo el presidente y termina con la votación general. La presidencia declara abierto un debate y permite su desarrollo cuando exista quórum deliberatorio. Las decisiones sólo pueden tomarse con la mayoría requerida."
   },
   "90": {
     "numero": 90,
-    "titulo": "Artículo 90.- Intervenciones (Uso de la Palabra). Para hacer",
+    "titulo": "Artículo 90.- Intervenciones (Uso de la Palabra). Para hacer uso de la palabra, se requiere autorización previa de la presidencia. Ell",
     "texto": "Intervenciones (Uso de la Palabra). Para hacer uso de la palabra, se requiere autorización previa de la presidencia. Ella se concederá con sujeción al orden establecido en el artículo 17 del presente reglamento."
   },
   "91": {
     "numero": 91,
-    "titulo": "Artículo 91.- Interpelación. Es la solicitud al orador para que",
+    "titulo": "Artículo 91.- Interpelación. Es la solicitud al orador para que conceda el uso de la palabra, exclusivamente para la formulación de pr",
     "texto": "Interpelación. Es la solicitud al orador para que conceda el uso de la palabra, exclusivamente para la formulación de preguntas o de aclaración de algún aspecto que aquel esté tratando y requiere la autorización de la Presidencia. La interpelación tendrá una duración máxima e improrrogable de diez (10) minutos. Si excede este límite o no se dirige solicitud de aclaración o pregunta, el presidente le retirará la autorización para interpelar y dispondrá que el orador continúe su exposición. El orador podrá solicitar al Presidente no conceder la autorización de interpelación hasta tanto termine su intervención. En ningún caso se concederá más de dos (2) interpelaciones al orador. Los oradores en uso de la palabra sólo podrán ser interpelados cuando se trate de la formulación de preguntas o en solicitud de aclaraciones; si no fuere concisa y pertinente, el presidente podrá retirar la autorización para interpelar."
   },
   "92": {
     "numero": 92,
-    "titulo": "Artículo 92.- Derecho de réplica. En todo debate se garantizará",
+    "titulo": "Artículo 92.- Derecho de réplica. En todo debate se garantizará el derecho de réplica, a favor de quien sea contradicho en sus argumen",
     "texto": "Derecho de réplica. En todo debate se garantizará el derecho de réplica, a favor de quien sea contradicho en sus argumentos o cuando se expresen juicios de valor o inexactitudes. Al aludido o titular del derecho de réplica, se le concederá el uso de la palabra por cinco (5) minutos. El presidente, al valorar la importancia del debate, podrá ampliar o reducir el número y el tiempo de las intervenciones. A las alusiones no se podrá contestar sino en la misma sesión o en la siguiente, en caso de que el aludido no se encontrare presente. Cuando la alusión afecte el decoro o la dignidad de un partido o movimiento político con representación en el Concejo, el Presidente podrá conceder a uno de sus voceros el uso de la palabra por el mismo tiempo y en las condiciones indicadas."
   },
   "93": {
     "numero": 93,
-    "titulo": "Artículo 93.- Mociones. Moción: Es una proposición especial que",
-    "texto": "Mociones. Moción: Es una proposición especial que presentan uno o varios Concejales para recuperar el orden en el tratamiento de los temas o el debido procedimiento o la suficiente ilustración y la Presidencia la someterá a votación de inmediato. La moción es de tres clases: 1. Moción de Orden: Cuando exista dispersión en el tratamiento del tema correspondiente al orden del día, se podrá solicitar Moción de Orden, con el fin de que las intervenciones se centren en el tema que se está tratando. 2. Moción de Procedimiento: Cuando se considere que en el curso de la sesión no se está cumpliendo con lo dispuesto en el Reglamento Interno del Concejo, se podrá solicitar Moción de Procedimiento. 3. Moción de Suficiente Ilustración: Cuando se considere que el debate sobre algún tema deba cerrarse porque existe suficiente ilustración respecto de este, cualquier Concejal podrá proponer que la plenaria acepte la moción de Suficiente Ilustración siempre y cuando hayan transcurrido más de cuarenta y cinco (45) minutos desde cuando se inició la discusión. El presidente, previa consulta con los miembros de la mesa directiva, aceptará o negará la proposición, decisión que podrá ser apelada de inmediato. Declarada la suficiente ilustración, se entrará a votar. Para tales efectos el Presidente someterá a votación la proposición inmediatamente. 4. Moción de suspender o levantar la sesión: También podrá proponer el aplazamiento de un debate en curso y que se decida la fecha para su continuación. En el desarrollo de una sesión, si se propone que ella sea suspendida o levantada, debido a una moción de duelo o por circunstancias de fuerza mayor, se someterá a votación sin necesidad de debate alguno. La proposición para declarar sesión permanente, presentada en los últimos treinta (30) minutos de la duración ordinaria de la sesión, será votada sin lugar a discusión previa. En cualquier momento podrá solicitarse la verificación del quórum, a lo cual procederá de inmediato la presidencia. Com"
+    "titulo": "Artículo 93.- Mociones. Moción: Es una proposición especial que presentan uno o varios Concejales para recuperar el orden en el tratam",
+    "texto": "Mociones. Moción: Es una proposición especial que presentan uno o varios Concejales para recuperar el orden en el tratamiento de los temas o el debido procedimiento o la suficiente ilustración y la Presidencia la someterá a votación de inmediato. La moción es de tres clases: \n1. Moción de Orden: Cuando exista dispersión en el tratamiento del tema correspondiente al orden del día, se podrá solicitar Moción de Orden, con el fin de que las intervenciones se centren en el tema que se está tratando. \n2. Moción de Procedimiento: Cuando se considere que en el curso de la sesión no se está cumpliendo con lo dispuesto en el Reglamento Interno del Concejo, se podrá solicitar Moción de Procedimiento. \n3. Moción de Suficiente Ilustración: Cuando se considere que el debate sobre algún tema deba cerrarse porque existe suficiente ilustración respecto de este, cualquier Concejal podrá proponer que la plenaria acepte la moción de Suficiente Ilustración siempre y cuando hayan transcurrido más de cuarenta y cinco (45) minutos desde cuando se inició la discusión. El presidente, previa consulta con los miembros de la mesa directiva, aceptará o negará la proposición, decisión que podrá ser apelada de inmediato. Declarada la suficiente ilustración, se entrará a votar. Para tales efectos el Presidente someterá a votación la proposición inmediatamente. \n4. Moción de suspender o levantar la sesión: También podrá proponer el aplazamiento de un debate en curso y que se decida la fecha para su continuación. En el desarrollo de una sesión, si se propone que ella sea suspendida o levantada, debido a una moción de duelo o por circunstancias de fuerza mayor, se someterá a votación sin necesidad de debate alguno. La proposición para declarar sesión permanente, presentada en los últimos treinta (30) minutos de la duración ordinaria de la sesión, será votada sin lugar a discusión previa. En cualquier momento podrá solicitarse la verificación del quórum, a lo cual procederá de inmediato la presidencia. Comprobada la falta de quórum, se levantará la sesión. \n\nParágrafo 1: Durante la discusión de un asunto, cualquier Concejal podrá presentar mociones que decidirá la presidencia inmediatamente. \n\nParágrafo 2: El autor de una moción o proposición oral, podrá retirarla en cualquier momento, pero antes de ser sometida a votación o ser objeto de modificaciones."
   },
   "94": {
     "numero": 94,
-    "titulo": "Artículo 94.- Proposiciones. Uno o más Concejales pueden",
-    "texto": "Proposiciones. Uno o más Concejales pueden presentar, por escrito y firmada, una proposición de las que admiten discusión, sin necesidad de incluir razones o argumentos. Puesta en consideración, el autor o el vocero de los proponentes podrá hacer uso de la palabra para sustentarla. Las proposiciones podrán ser: 1. Principal: Es la que se presenta por primera vez a consideración y decisión de la plenaria o de una comisión. 2. Supresivas: Cuando se propone suprimir total o parcialmente uno o más artículos de un proyecto de acuerdo, el contenido de un informe, ponencia o una proposición 3. Aditivas: Cuando se propone adicionar los artículos de un proyecto de acuerdo, o el texto de informe, ponencia o proposición. 4. Sustitutivas: Cuando se propone sustituir el título, atribuciones o el articulado de un proyecto de acuerdo, el texto de un informe o una proposición. Esta proposición deberá presentarse por escrito de manera clara, concreta y completa. Se discute y vota primero. Si es aprobada, la inicial queda negada y viceversa. No podrá haber ninguna proposición sustitutiva de la sustitutiva. La proposición sustitutiva tiende a reemplazar a la principal. Se discute y decide primero que aquella que pretende sustituir. Aprobada la sustitutiva, desaparece la principal. 5. Divisivas: Cuando se propone dividir un artículo o capítulo de un proyecto de acuerdo o el texto de un informe, ponencia o proposición. 6. Asociativas: Cuando se propone reunir artículos o capítulos de un Proyecto de Acuerdo o ponencia. 7. Transpositivas: Cuando se propone cambiar de ubicación uno o varios títulos o artículos de un proyecto de acuerdo o ponencia. 8. De Citación: Cuando se propone citar para debate a funcionarios o autoridades de la administración municipal o Distrital. Las proposiciones de citación que versen sobre temas, asuntos o materias similares deberán ser acumuladas para ordenar y hacer más productiva la programación y el desarrollo de los debates, cuando así lo disponga el Preside"
+    "titulo": "Artículo 94.- Proposiciones. Uno o más Concejales pueden presentar, por escrito y firmada, una proposición de las que admiten discusió",
+    "texto": "Proposiciones. Uno o más Concejales pueden presentar, por escrito y firmada, una proposición de las que admiten discusión, sin necesidad de incluir razones o argumentos. Puesta en consideración, el autor o el vocero de los proponentes podrá hacer uso de la palabra para sustentarla. Las proposiciones podrán ser: \n1. Principal: Es la que se presenta por primera vez a consideración y decisión de la plenaria o de una comisión. \n2. Supresivas: Cuando se propone suprimir total o parcialmente uno o más artículos de un proyecto de acuerdo, el contenido de un informe, ponencia o una proposición \n3. Aditivas: Cuando se propone adicionar los artículos de un proyecto de acuerdo, o el texto de informe, ponencia o proposición. \n4. Sustitutivas: Cuando se propone sustituir el título, atribuciones o el articulado de un proyecto de acuerdo, el texto de un informe o una proposición. Esta proposición deberá presentarse por escrito de manera clara, concreta y completa. Se discute y vota primero. Si es aprobada, la inicial queda negada y viceversa. No podrá haber ninguna proposición sustitutiva de la sustitutiva. La proposición sustitutiva tiende a reemplazar a la principal. Se discute y decide primero que aquella que pretende sustituir. Aprobada la sustitutiva, desaparece la principal. \n5. Divisivas: Cuando se propone dividir un artículo o capítulo de un proyecto de acuerdo o el texto de un informe, ponencia o proposición. \n6. Asociativas: Cuando se propone reunir artículos o capítulos de un Proyecto de Acuerdo o ponencia. \n7. Transpositivas: Cuando se propone cambiar de ubicación uno o varios títulos o artículos de un proyecto de acuerdo o ponencia. \n8. De Citación: Cuando se propone citar para debate a funcionarios o autoridades de la administración municipal o Distrital. Las proposiciones de citación que versen sobre temas, asuntos o materias similares deberán ser acumuladas para ordenar y hacer más productiva la programación y el desarrollo de los debates, cuando así lo disponga el Presidente respectivo. \n9. De reconocimiento: Cuando se propone exaltar y reconocer la vida y obra de personas naturales o jurídicas. Este tipo de proposición solamente podrá presentarse ante la Plenaria de la Corporación, previo el cumplimiento de los requisitos que señale la Mesa Directiva. Modificativa: Es la que aclara la principal. Puede ser mediante la variación de su redacción sin cambiar el contenido material, o dividiendo o reuniendo sus temas para su mayor comprensión o claridad, o por otro procedimiento similar. \n10. \n\nParágrafo 1º. No será admisible la proposición sustitutiva de sustitutiva, ni modificativa de modificativa. Aprobada una modificación, se tendrá por rechazado el artículo o texto original. Por el contrario, negada una proposición de modificación, continuará abierta la discusión sobre la disposición original; pero sobre ésta podrá plantearse una nueva y última modificación. Cerrada la discusión sobre el artículo de un proyecto, el presidente preguntará a la plenaria o comisión si adopta el artículo original aprobado, o si adopta la modificación propuesta. \n\nParágrafo 2º. Corresponde a la Mesa Directiva de la Corporación reglamentar lo correspondiente a las proposiciones de reconocimiento."
   },
   "95": {
     "numero": 95,
-    "titulo": "Artículo 95.- Prohibiciones. Durante las sesiones ordinarias y",
-    "texto": "Prohibiciones. Durante las sesiones ordinarias y extraordinarias en uso de la palabra el Concejal no podrá: 1. Referirse a un tema diferente al que se encuentra en discusión y el desconocimiento de este deber obligará a la Presidencia a llamar la atención y suspender el derecho para continuar en la intervención. 2. Dar lectura a discursos escritos, salvo notas o apuntes tomados para auxiliar la memoria. 3. Hablar más de una vez cuando se trate de proposiciones para alterar o diferir el orden del día; cuestiones de orden; proposiciones de suspensión o que dispongan iniciar o continuar en el orden del día; apelaciones por lo resuelto en la presidencia o revocatorias; proposiciones para que un proyecto regrese a primer debate."
+    "titulo": "Artículo 95.- Prohibiciones. Durante las sesiones ordinarias y extraordinarias en uso de la palabra el Concejal no podrá: 1. Referirse",
+    "texto": "Prohibiciones. Durante las sesiones ordinarias y extraordinarias en uso de la palabra el Concejal no podrá: \n1. Referirse a un tema diferente al que se encuentra en discusión y el desconocimiento de este deber obligará a la Presidencia a llamar la atención y suspender el derecho para continuar en la intervención. \n2. Dar lectura a discursos escritos, salvo notas o apuntes tomados para auxiliar la memoria. \n3. Hablar más de una vez cuando se trate de proposiciones para alterar o diferir el orden del día; cuestiones de orden; proposiciones de suspensión o que dispongan iniciar o continuar en el orden del día; apelaciones por lo resuelto en la presidencia o revocatorias; proposiciones para que un proyecto regrese a primer debate."
   },
   "96": {
     "numero": 96,
-    "titulo": "Artículo 96.- Uso de la palabra de Funcionarios. Los",
+    "titulo": "Artículo 96.- Uso de la palabra de Funcionarios. Los funcionarios citados o invitados por la Corporación hablarán en el momento en que",
     "texto": "Uso de la palabra de Funcionarios. Los funcionarios citados o invitados por la Corporación hablarán en el momento en que el Presidente de la Plenaria o de las Comisiones Permanentes les conceda el uso de la palabra. Lo harán únicamente para referirse al tema debatido y tendrán para ello hasta treinta (30) minutos. Si estiman que necesitan más tiempo, deberán solicitar autorización al Presidente para continuar con el tema a tratar. En este caso el Presidente de la Plenaria o la Comisión Permanente fijará el tiempo adicional para su intervención."
   },
   "97": {
     "numero": 97,
-    "titulo": "Artículo 97.- Incumplimiento de una citación. Si el funcionario",
+    "titulo": "Artículo 97.- Incumplimiento de una citación. Si el funcionario citado reglamentariamente para un debate incumple la citación sin just",
     "texto": "Incumplimiento de una citación. Si el funcionario citado reglamentariamente para un debate incumple la citación sin justa causa, no radica el informe o el mismo es presentado extemporáneamente, o no da respuesta completa y veraz al cuestionario, el Presidente del Concejo o de la Comisión Permanente, según sea el caso, oficiosamente deberá dar traslado al organismo competente para que realice la correspondiente investigación disciplinaria. Parágrafo único. El funcionario citado no podrá delegar su asistencia salvo por justa causa debidamente comprobada y aceptada previamente por la Mesa Directiva. Se entiende por justa causa la calamidad doméstica, la grave perturbación del orden público, la enfermedad debidamente certificada, la comisión de servicios y los períodos legales de vacaciones."
   },
   "98": {
     "numero": 98,
-    "titulo": "Artículo 98.- Uso de la palabra de invitados y Comunidad.",
+    "titulo": "Artículo 98.- Uso de la palabra de invitados y Comunidad. Para efectos de foros, debates de control político, la comunidad invitada a ",
     "texto": "Uso de la palabra de invitados y Comunidad. Para efectos de foros, debates de control político, la comunidad invitada a la Corporación hablará en el momento en que el Presidente de la Plenaria o de las comisiones permanentes les conceda el uso de la palabra. Lo harán únicamente para referirse al tema y tendrá para ello hasta quince (15) minutos. Si estiman que necesitan más tiempo, deberán solicitar Autorización del Presidente para continuar con el tema a tratar, en cuyo caso el Presidente de la Plenaria o de la Comisión Permanente fijará el tiempo adicional para su intervención."
   },
   "99": {
     "numero": 99,
-    "titulo": "Artículo 99.- Grabación y Transcripción de las sesiones. Las",
+    "titulo": "Artículo 99.- Grabación y Transcripción de las sesiones. Las sesiones del Concejo podrán ser grabadas en su totalidad. La grabación y ",
     "texto": "Grabación y Transcripción de las sesiones. Las sesiones del Concejo podrán ser grabadas en su totalidad. La grabación y la digitación del contenido de las grabaciones será responsabilidad del secretario de la corporación. En su transcripción se Deberá conservar la fidelidad de lo expresado. Las grabaciones y su transcripción deberán conservarse en las condiciones de archivo apropiadas con copia de seguridad y su propósito será el de atender las solicitudes o consultas que eleven los honorables Concejales, las autoridades competentes o personas interesadas. CAPITULO CUARTO VOTACIONES"
   },
   "100": {
     "numero": 100,
-    "titulo": "Artículo 100.- Reglas en materia de votaciones. Cada Concejal",
+    "titulo": "Artículo 100.- Reglas en materia de votaciones. Cada Concejal tiene derecho a un voto, el cual es personal, intransferible e indelegabl",
     "texto": "Reglas en materia de votaciones. Cada Concejal tiene derecho a un voto, el cual es personal, intransferible e indelegable, el cual deberá reflejar las posiciones adoptadas por la Bancada a la que pertenece el votante, si el partido político del Concejal así lo determina. El voto además es irrenunciable, pues una vez cerrada la discusión de un proyecto de acuerdo o de una proposición, los Concejales están obligados a votar afirmativa o negativamente, salvo su excusa, con autorización del presidente, cuando no haya estado presente en la primera decisión, o en el caso en que manifieste tener conflicto de interés en el asunto que se debate. No existe la posibilidad de formular “salvamentos de voto” por ser ésta una facultad exclusivamente jurisdiccional. Tratándose de elecciones, los Concejales deberán votar por uno de los candidatos o en blanco. En toda votación el número de votos debe ser igual al número de Concejales presentes al momento de ejercer este derecho; si el resultado no coincide, el presidente anulará la elección y ordenará su repetición. Mientras se halle en curso una votación, no se concederá el uso de la palabra, ni la presidencia aceptará que un Concejal se retire del recinto, salvo que previamente haya ejercido su derecho al voto. Parágrafo. En las elecciones que efectúe el Concejo, se considera como voto en blanco la papeleta que, depositada en la urna, no contenga escrito alguno o cuando así se expresa. El voto será nulo cuando corresponde a un nombre distinto al de las personas por las cuales se está votando, o contiene un nombre ilegible, o contiene más de un nombre."
   },
   "101": {
     "numero": 101,
-    "titulo": "Artículo 101.- Modos de votación. En el Concejo existen tres",
-    "texto": "Modos de votación. En el Concejo existen tres modos de votación: 1. Ordinaria: Se efectúa dando los Concejales, con la mano, un golpe sobre el pupitre. Si se pidiere verificación, los que quieran el “Sí” se pondrán de pie y enseguida los que quieran el “No”; el secretario los contará e informará su número y el resultado de la votación. Se acudirá a la votación ordinaria en todos los casos en que no se requiera votación nominal o secreta. 2. Nominal: Si la votación no debe ser secreta, puede ser nominal, a petición de cualquier Concejal, con el respaldo de la mayoría de los asistentes. En este caso, cada Concejal, al ser llamado en orden alfabético de apellidos por el secretario, contestará individualmente y en voz alta, “Sí” o “No”. El resultado de la votación nominal se consignará en el acta, con expresión de los nombres de los Concejales que votaron por el “Sí” y de quienes votaron por el “No”. 3. Secreta: La votación secreta no permite identificar la forma como vota el Concejal. La votación secreta se hará por medio de: 3.1. Balotas. Cada Concejal deposita una balota blanca para expresar su voto afirmativo o negra si fuere negativo. 3.2. Papeletas. Cada Concejal escribirá en una papeleta, el nombre del candidato o el número de la plancha a elegir si fuere la forma. Una vez terminada la votación, el Secretario procederá a la incineración de las papeletas. Parágrafo primero: Para el conteo en ambas modalidades, la Presidencia designará una Comisión Escrutadora, conformada por dos (2) Concejales de diferentes partidos políticos, quienes verificarán la votación y expresarán en voz alta el resultado. Parágrafo segundo: Solo se podrá efectuar votación secreta para la elección de funcionarios que corresponda al Concejo y elección de Mesa Directiva cuando por plenaria fuere aprobada esta forma de votación. Cuando deba efectuarse votación secreta, el secretario llamará a cada Concejal por orden alfabético de apellidos, para que deposite la papeleta en la urna. Éste proced"
+    "titulo": "Artículo 101.- Modos de votación. En el Concejo existen tres modos de votación: 1. Ordinaria: Se efectúa dando los Concejales, con la m",
+    "texto": "Modos de votación. En el Concejo existen tres modos de votación: \n1. Ordinaria: Se efectúa dando los Concejales, con la mano, un golpe sobre el pupitre. Si se pidiere verificación, los que quieran el “Sí” se pondrán de pie y enseguida los que quieran el “No”; el secretario los contará e informará su número y el resultado de la votación. Se acudirá a la votación ordinaria en todos los casos en que no se requiera votación nominal o secreta. \n2. Nominal: Si la votación no debe ser secreta, puede ser nominal, a petición de cualquier Concejal, con el respaldo de la mayoría de los asistentes. En este caso, cada Concejal, al ser llamado en orden alfabético de apellidos por el secretario, contestará individualmente y en voz alta, “Sí” o “No”. El resultado de la votación nominal se consignará en el acta, con expresión de los nombres de los Concejales que votaron por el “Sí” y de quienes votaron por el “No”. \n3. Secreta: La votación secreta no permite identificar la forma como vota el Concejal. La votación secreta se hará por medio de: 3.\n1. Balotas. Cada Concejal deposita una balota blanca para expresar su voto afirmativo o negra si fuere negativo. 3.\n2. Papeletas. Cada Concejal escribirá en una papeleta, el nombre del candidato o el número de la plancha a elegir si fuere la forma. Una vez terminada la votación, el Secretario procederá a la incineración de las papeletas. Parágrafo primero: Para el conteo en ambas modalidades, la Presidencia designará una Comisión Escrutadora, conformada por dos (2) Concejales de diferentes partidos políticos, quienes verificarán la votación y expresarán en voz alta el resultado. Parágrafo segundo: Solo se podrá efectuar votación secreta para la elección de funcionarios que corresponda al Concejo y elección de Mesa Directiva cuando por plenaria fuere aprobada esta forma de votación. Cuando deba efectuarse votación secreta, el secretario llamará a cada Concejal por orden alfabético de apellidos, para que deposite la papeleta en la urna. Éste procederá depositando en la urna la respectiva papeleta, marcada con la leyenda “Sí” o “No”, o tratándose de votación para elección de dignatarios estos deberán indicar el nombre por quien se manifieste su intensión. Parágrafo tercero: El Concejal puede solicitar que su voto conste en el acta, si así lo indica en forma inmediata y públicamente. \n4. Remota: Se usará en los casos en que una Congresista haya optado por la modalidad de licencia de maternidad para mujeres en política, o esta haya sido extensiva a la licencia de paternidad, y siempre que la naturaleza de la iniciativa así lo permita. Esta modalidad se realizará utilizando Tecnologías de la Información y las Telecomunicaciones."
   },
   "102": {
     "numero": 102,
-    "titulo": "Artículo 102.- Votación por partes. Un proyecto de acuerdo",
+    "titulo": "Artículo 102.- Votación por partes. Un proyecto de acuerdo podrá ser objeto de votación por partes, de modo que sus artículos, o la enm",
     "texto": "Votación por partes. Un proyecto de acuerdo podrá ser objeto de votación por partes, de modo que sus artículos, o la enmienda o la proposición, sean sometidos a votación separadamente. La solicitud puede provenir de un Concejal o de quien tenga la iniciativa jurídica; si no hay consenso, decidirá la mesa directiva, después de abrir discusión hasta por un máximo de diez (10) minutos. Si se apoyare la moción, las partes que sean aprobadas serán sometidas luego a votación en conjunto."
   },
   "103": {
     "numero": 103,
-    "titulo": "Artículo 103.- Empates. En caso de empate en la votación de un",
+    "titulo": "Artículo 103.- Empates. En caso de empate en la votación de un proyecto, se procederá a una segunda votación en la misma sesión o en la",
     "texto": "Empates. En caso de empate en la votación de un proyecto, se procederá a una segunda votación en la misma sesión o en la inmediatamente siguiente, según lo disponga la presidencia. De presentarse nuevamente empate, se entenderá negada la propuesta o archivado el proyecto. Si el empate se produce en votación para elección de un funcionario, ésta se repetirá y si el empate subsiste, se decidirá por la suerte."
   },
   "104": {
     "numero": 104,
-    "titulo": "Artículo 104.- Reglas especiales en materia de elecciones. Al",
-    "texto": "Reglas especiales en materia de elecciones. Al acto de elección se citará con tres (3) días de anticipación, conforme a la ley. En la fecha y hora indicada, el presidente abrirá la votación secreta. Cada votante escribirá en su papeleta el nombre de uno de los candidatos al cargo por proveer y la depositará en la urna dispuesta para el efecto, en el orden de llamado a lista por el secretario. Previamente, el presidente designará una comisión escrutadora, encargada de contar las papeletas depositadas e informar del resultado, indicando el número de votos obtenido por cada uno de los candidatos, los votos en blanco, los votos nulos, y el total de votos. Entregado el resultado, la presidencia preguntará a la corporación si declara legalmente elegido para el cargo o dignidad de que se trate y en el período correspondiente, al candidato que ha obtenido la mayoría de los votos. Si es Concejal que se hallare presente, o secretario reelegido, se le tomará el juramento de rigor; si se trata de funcionario que deba acreditar requisitos, se dispondrá su posesión para otra oportunidad dentro del término legal. Parágrafo 1. En caso de que la plenaria mediante proposición solicitare a la mesa directiva la realización de la elección de los miembros de la mesa directiva siguiente periodo por votación nominal y pública, ésta podrá llevarse a cabo mediante las reglas de la ley 1431 de 2011 (votación nominal y pública) cuya votación estará sujeta quien obtenga la mayoría de votos. En todo caso para la elección del Primer Vicepresidente deberá tenerse en cuenta por derecho propio, a los miembros de los partidos que se declaren en oposición de conformidad con la Ley. Parágrafo 2. Con el fin de prevenir acusaciones o demandas, los Concejales, al hacer una elección, tendrán en consideración el régimen de incompatibilidades y prohibiciones de que tratan los artículos 126 y 292 de la Constitución Política y 49 de la ley 617 de 2000. TITULO VIII DEL CONTROL POLÍTICO CAPITULO ÚNICO"
+    "titulo": "Artículo 104.- Reglas especiales en materia de elecciones. Al acto de elección se citará con tres (3) días de anticipación, conforme a ",
+    "texto": "Reglas especiales en materia de elecciones. Al acto de elección se citará con tres (3) días de anticipación, conforme a la ley. En la fecha y hora indicada, el presidente abrirá la votación secreta. Cada votante escribirá en su papeleta el nombre de uno de los candidatos al cargo por proveer y la depositará en la urna dispuesta para el efecto, en el orden de llamado a lista por el secretario. Previamente, el presidente designará una comisión escrutadora, encargada de contar las papeletas depositadas e informar del resultado, indicando el número de votos obtenido por cada uno de los candidatos, los votos en blanco, los votos nulos, y el total de votos. Entregado el resultado, la presidencia preguntará a la corporación si declara legalmente elegido para el cargo o dignidad de que se trate y en el período correspondiente, al candidato que ha obtenido la mayoría de los votos. Si es Concejal que se hallare presente, o secretario reelegido, se le tomará el juramento de rigor; si se trata de funcionario que deba acreditar requisitos, se dispondrá su posesión para otra oportunidad dentro del término legal. \n\nParágrafo \n1. En caso de que la plenaria mediante proposición solicitare a la mesa directiva la realización de la elección de los miembros de la mesa directiva siguiente periodo por votación nominal y pública, ésta podrá llevarse a cabo mediante las reglas de la ley 1431 de 2011 (votación nominal y pública) cuya votación estará sujeta quien obtenga la mayoría de votos. En todo caso para la elección del Primer Vicepresidente deberá tenerse en cuenta por derecho propio, a los miembros de los partidos que se declaren en oposición de conformidad con la Ley. \n\nParágrafo \n2. Con el fin de prevenir acusaciones o demandas, los Concejales, al hacer una elección, tendrán en consideración el régimen de incompatibilidades y prohibiciones de que tratan los artículos 126 y 292 de la Constitución Política y 49 de la ley 617 de 2000. TITULO VIII DEL CONTROL POLÍTICO CAPITULO ÚNICO"
   },
   "105": {
     "numero": 105,
-    "titulo": "Artículo 105.- Funciones de control. Corresponde al Concejo",
+    "titulo": "Artículo 105.- Funciones de control. Corresponde al Concejo ejercer función de control político a la administración municipal, a la per",
     "texto": "Funciones de control. Corresponde al Concejo ejercer función de control político a la administración municipal, a la personería municipal y a la contraloría municipal. Con tal fin podrá exigir informes escritos o citar a los secretarios de la Alcaldía, Directores de departamentos administrativos o entidades descentralizadas del orden municipal, al contralor y al personero, así como a cualquier funcionario municipal, excepto el alcalde, para que haga declaraciones orales sobre asuntos relacionados con la marcha del municipio. Igualmente, los Concejos municipales podrán invitar a los diferentes funcionarios del Orden Departamental, así como a los representantes legales de los organismos descentralizados y de los establecimientos públicos del orden nacional, con sedes en el respectivo departamento o municipio, en relación con temas de interés local."
   },
   "106": {
     "numero": 106,
-    "titulo": "Articulo 106.- Características del control. El control que ejerce",
+    "titulo": "Artículo 106.- Características del control. El control que ejerce el Concejo tiene como fundamento la conveniencia política para el mun",
     "texto": "Características del control. El control que ejerce el Concejo tiene como fundamento la conveniencia política para el municipio, por ende, se entenderá por Control Político la exigencia de responsabilidad política que se le hace a los funcionarios que ejercen el poder en la rama ejecutiva del nivel municipal, al personero y al contralor, quienes deben rendir cuentas al Concejo por el cumplimiento de las funciones que le fueron asignadas previa y específicamente por mandato legal, constitucional o reglamentario."
   },
   "107": {
     "numero": 107,
-    "titulo": "Artículo 107.- Citaciones a funcionarios. La Plenaria del",
-    "texto": "Citaciones a funcionarios. La Plenaria del Concejo podrá citar a funcionarios de la administración pública municipal, para que en sesión rindan informes y/o absuelvan cuestionarios previamente enviados por la Corporación. La solicitud de citación se hará por cualquier Concejal o bancada mediante proposición que deberá ser aprobada por la mayoría simple de los asistentes a la respectiva sesión. Aprobada la proposición, el Concejal o la Bancada citante radicarán en la Secretaria General del Concejo dentro del día hábil siguiente, el cuestionario propuesto para la sesión de control político. La Secretaría del Concejo colocará a disposición de los demás Concejales el cuestionario radicado con el propósito de que en el término de dos (02) días, le puedan adicionar otras preguntas. Vencido el anterior término se dispondrá por parte de la Mesa Directiva según el procedimiento indicado en el siguiente parágrafo. Parágrafo 1. Procedimiento. Las citaciones se harán con una antelación mínima de cinco (5) días hábiles antes de la fecha programada para el debate, mediante acta escrita aprobada y firmada por la Mesa Directiva, que contenga fecha, lugar, hora y el respectivo formulario de preguntas. El debate no podrá extenderse a asuntos ajenos al cuestionario y deberá encabezar el orden del día de la sesión. También podrá el Concejo solicitar informaciones escritas a otras autoridades municipales. En todo caso, las citaciones e informaciones deberán referirse a asuntos propios del cargo del respectivo funcionario. Para la elaboración de los formularios, se tendrá en cuenta dos aspectos: 1. Los temas sobre los cuales se debe ejercer el control político teniendo en cuenta el espíritu de la Constitución que actualmente nos rige y la legislación vigente en áreas tales como: el cumplimiento de planes y programas, el manejo fiscal, la contratación municipal, la conservación y recuperación del medio ambiente, la prevención de hechos y la atención a la población afectada en casos de alt"
+    "titulo": "Artículo 107.- Citaciones a funcionarios. La Plenaria del Concejo podrá citar a funcionarios de la administración pública municipal, pa",
+    "texto": "Citaciones a funcionarios. La Plenaria del Concejo podrá citar a funcionarios de la administración pública municipal, para que en sesión rindan informes y/o absuelvan cuestionarios previamente enviados por la Corporación. La solicitud de citación se hará por cualquier Concejal o bancada mediante proposición que deberá ser aprobada por la mayoría simple de los asistentes a la respectiva sesión. Aprobada la proposición, el Concejal o la Bancada citante radicarán en la Secretaria General del Concejo dentro del día hábil siguiente, el cuestionario propuesto para la sesión de control político. La Secretaría del Concejo colocará a disposición de los demás Concejales el cuestionario radicado con el propósito de que en el término de dos (02) días, le puedan adicionar otras preguntas. Vencido el anterior término se dispondrá por parte de la Mesa Directiva según el procedimiento indicado en el siguiente parágrafo. \n\nParágrafo \n1. Procedimiento. Las citaciones se harán con una antelación mínima de cinco (5) días hábiles antes de la fecha programada para el debate, mediante acta escrita aprobada y firmada por la Mesa Directiva, que contenga fecha, lugar, hora y el respectivo formulario de preguntas. El debate no podrá extenderse a asuntos ajenos al cuestionario y deberá encabezar el orden del día de la sesión. También podrá el Concejo solicitar informaciones escritas a otras autoridades municipales. En todo caso, las citaciones e informaciones deberán referirse a asuntos propios del cargo del respectivo funcionario. Para la elaboración de los formularios, se tendrá en cuenta dos aspectos: \n1. Los temas sobre los cuales se debe ejercer el control político teniendo en cuenta el espíritu de la Constitución que actualmente nos rige y la legislación vigente en áreas tales como: el cumplimiento de planes y programas, el manejo fiscal, la contratación municipal, la conservación y recuperación del medio ambiente, la prevención de hechos y la atención a la población afectada en casos de alto riesgo, el orden público, los derechos humanos, la seguridad y la convivencia y los aspectos de participación y democracia. \n2. Los procedimientos que permitan hacer una calificación cuantitativa y/o cualitativa no solo de una obra o programa, sino del conjunto de la actuación de los funcionarios o personas citadas. Para ello es deseable contar con tablas o matrices que se pueden encontrar en el Manual de Indicadores de Control Político que permiten a través de variables e indicadores calificar de una forma técnica y objetiva dicha actuación. Dos días antes del debate como mínimo, el funcionario citado deberá entregar a la secretaría general del Concejo la respuesta por escrito y en medio magnético, con los soportes documentales que den veracidad o hayan sido relacionados en la absolución del cuestionario, la cual el secretario hará llegar por tardar un día antes de la sesión a todos los Concejales. \n\nParágrafo \n2. Citaciones de Comisiones Permanentes: Las comisiones permanentes podrán citar a cualquier persona natural o jurídica para que en sesión especial rinda manifestaciones orales o escritas, sobre hechos relacionados directamente con el municipio. Los llamados a comparecer ante el Cabildo podrán abstenerse de participar solamente por causa debidamente justificada. De persistir la conducta del citado de no comparecer ante el llamado que hace la Corporación, dicho comportamiento será sancionado por la autoridad jurisdiccional competente como un incidente de desacato. \n\nParágrafo \n3. Pluralidad de citaciones. Sólo tratándose de asuntos similares, podrán citarse varios funcionarios para la misma sesión. \n\nParágrafo \n4. Citaciones no realizadas. Para llevar a cabo la citación, alguno de los Concejales citantes deberá estar presente al inicio y durante el debate, de lo contrario se cancelará. En el caso de que ninguno asista a la sesión, no podrá citarse nuevamente a los funcionarios sobre los mismos temas hasta el mismo período de sesiones del siguiente año, a menos que medien causas debidamente justificadas y aceptadas por la corporación."
   },
   "108": {
     "numero": 108,
-    "titulo": "Artículo 108.- Uso de la palabra de Funcionarios. En debates",
+    "titulo": "Artículo 108.- Uso de la palabra de Funcionarios. En debates de Control Político los funcionarios citados o invitados por la Corporació",
     "texto": "Uso de la palabra de Funcionarios. En debates de Control Político los funcionarios citados o invitados por la Corporación hablarán en el momento en que el Presidente de la Plenaria o de las Comisiones Permanentes les conceda el uso de la palabra. Lo harán únicamente para referirse al tema debatido y tendrán para ello hasta sesenta (60) minutos a criterio del Presidente de la Plenaria o de la Comisión. Si estiman que necesitan más tiempo, deberán solicitar autorización al Presidente para continuar con el tema a tratar. En este caso el Presidente de la Plenaria o la Comisión Permanente fijará el tiempo adicional para su intervención. En las sesiones de control político al funcionario citado deberá concedérsele el uso de la palabra, para que se refiera a cada uno de los puntos controvertidos en el debate. El primer punto del orden del día de la sesión del Concejo será la intervención del funcionario citado si así se estima conveniente dado el grado de importancia del tema. Posteriormente tomarán la palabra los Concejales citantes por un máximo de 30 minutos cada uno, seguidos en su orden por los Concejales que se adhirieron la citación con un máximo de 15 minutos cada uno y finalmente los demás Concejales con un máximo de 10 minutos cada uno. Finalmente, uno de los citantes podrá intervenir de nuevo por 15 minutos para recoger las conclusiones del debate. Parágrafo único. El funcionario citado podrá ceder tiempo de su intervención a otro funcionario de la misma dependencia para que éste intervenga y complemente la información una vez el citado haya finalizado la absolución del cuestionario ante la Plenaria del Concejo o ante la Comisión Permanente citante."
   },
   "109": {
     "numero": 109,
-    "titulo": "Artículo 109.- Incumplimiento de una citación. Si el",
+    "titulo": "Artículo 109.- Incumplimiento de una citación. Si el funcionario citado reglamentariamente para un debate incumple la citación sin just",
     "texto": "Incumplimiento de una citación. Si el funcionario citado reglamentariamente para un debate incumple la citación sin justa causa, no radica el informe o el mismo es presentado extemporáneamente, o no da respuesta completa y veraz al cuestionario, el Presidente del Concejo o de la Comisión Permanente, según sea el caso, oficiosamente deberá dar traslado al organismo competente para que realice la correspondiente investigación disciplinaria. La inasistencia de un Secretario de Despacho a una citación hecha por el Concejo sin una excusa válidamente justificada o el incumplimiento a los requerimientos hechos por la Corporación dará lugar a que mediante proposición se solicite moción de censura para el funcionario cuando el municipio tenga una población superior a 25 mil habitantes o moción de observación para municipios con población inferior al mismo número de habitantes. Parágrafo único. El funcionario citado no podrá delegar su asistencia salvo por justa causa debidamente comprobada y aceptada por la Mesa Directiva, enviada mínimo con dos (02) días de antelación a la fecha de citación. Se entiende por justa causa la calamidad doméstica, la grave perturbación del orden público, la enfermedad debidamente certificada, la comisión de servicios y los períodos legales de vacaciones. Corresponde al Presidente del Concejo aceptar la delegación hecha por el funcionario citado o aplazar y fijar nueva fecha para el debate."
   },
   "110": {
     "numero": 110,
-    "titulo": "Artículo 110.- Uso de la palabra de invitados y Comunidad.",
+    "titulo": "Artículo 110.- Uso de la palabra de invitados y Comunidad. Para efectos de foros, debates de control político, la comunidad invitada a ",
     "texto": "Uso de la palabra de invitados y Comunidad. Para efectos de foros, debates de control político, la comunidad invitada a la Corporación hablará en el momento en que el Presidente de la Plenaria o de las comisiones permanentes les conceda el uso de la palabra, para lo cual deberán inscribirse ante la secretaria del concejo municipal con una (1) hora de antelación a la sesión. Una vez realizada la inscripción los mismos podrán realizar su intervención únicamente para referirse al tema y tendrá para ello hasta quince (15) minutos a discreción del presidente. Si estiman que necesitan más tiempo, deberán solicitar autorización del Presidente para continuar con el tema a tratar, en cuyo caso el Presidente de la Plenaria o de la Comisión Permanente fijará el tiempo adicional para su intervención."
   },
   "111": {
     "numero": 111,
-    "titulo": "Artículo 111.- Moción de observación. Por moción de",
-    "texto": "Moción de observación. Por moción de observación se entiende el acto mediante el cual el Concejo en pleno, previo debate, observa la actuación de uno o varios funcionarios. Parágrafo 1. Procedimiento. Al finalizar el debate y con la firma de por lo menos la tercera parte de los miembros de la corporación, se podrá proponer que el Concejo observe las decisiones del funcionario citado. La propuesta se votará en plenaria entre el tercero y el décimo día siguiente a la terminación del debate. Aprobada la moción por el voto de la mitad más uno de los miembros de la corporación, se comunicará al alcalde. Si fuere rechazada, no podrá presentarse otra sobre la misma materia, a menos que hechos nuevos la justifiquen. Parágrafo º. Votación. La votación se hará entre el tercero y el décimo día siguientes a la terminación del debate, con audiencia pública del funcionario respectivo. La votación será remota o nominal y pública, en este caso, cada Concejal, al ser llamado en orden alfabético de apellidos por el secretario, contestará individualmente y en voz alta, “Sí” o “No”. El resultado de la votación nominal se consignará en el acta, con expresión de los nombres de los Concejales que votaron por el “Sí” y de quienes votaron por el “No”. La aprobación de la moción de observación requerirá el voto afirmativo de las dos terceras partes de los miembros que integran la Corporación. Si fuere rechazada, no podrá presentarse otra sobre la misma materia a menos que la motiven hechos nuevos."
+    "titulo": "Artículo 111.- Moción de observación. Por moción de observación se entiende el acto mediante el cual el Concejo en pleno, previo debate",
+    "texto": "Moción de observación. Por moción de observación se entiende el acto mediante el cual el Concejo en pleno, previo debate, observa la actuación de uno o varios funcionarios. \n\nParágrafo \n1. Procedimiento. Al finalizar el debate y con la firma de por lo menos la tercera parte de los miembros de la corporación, se podrá proponer que el Concejo observe las decisiones del funcionario citado. La propuesta se votará en plenaria entre el tercero y el décimo día siguiente a la terminación del debate. Aprobada la moción por el voto de la mitad más uno de los miembros de la corporación, se comunicará al alcalde. Si fuere rechazada, no podrá presentarse otra sobre la misma materia, a menos que hechos nuevos la justifiquen. Parágrafo º. Votación. La votación se hará entre el tercero y el décimo día siguientes a la terminación del debate, con audiencia pública del funcionario respectivo. La votación será remota o nominal y pública, en este caso, cada Concejal, al ser llamado en orden alfabético de apellidos por el secretario, contestará individualmente y en voz alta, “Sí” o “No”. El resultado de la votación nominal se consignará en el acta, con expresión de los nombres de los Concejales que votaron por el “Sí” y de quienes votaron por el “No”. La aprobación de la moción de observación requerirá el voto afirmativo de las dos terceras partes de los miembros que integran la Corporación. Si fuere rechazada, no podrá presentarse otra sobre la misma materia a menos que la motiven hechos nuevos."
   },
   "112": {
     "numero": 112,
-    "titulo": "Artículo 112. Moción de Censura. Por moción de censura se",
-    "texto": "Moción de Censura. Por moción de censura se entiende el acto mediante el cual el Concejo en Pleno, después de realizado el debate de control político, censura la actuación de uno o varios funcionarios. Parágrafo 1. Procedimiento. La moción de censura deberá ser propuesta por la mitad más uno de los miembros que componen el Concejo Municipal. Se propondrá moción de censura contra los Secretarios de Despacho del Alcalde por asuntos relacionados con las funciones propias del cargo o por desatención a los requerimientos y citaciones del Concejo. Parágrafo 2. Votación. La votación se hará entre el tercero y el décimo día siguientes a la terminación del debate, con audiencia pública del funcionario respectivo. La votación será remota o nominal y pública, en este caso, cada Concejal, al ser llamado en orden alfabético de apellidos por el secretario, contestará individualmente y en voz alta, “Sí” o “No”. El resultado de la votación nominal se consignará en el acta, con expresión de los nombres de los Concejales que votaron por el “Sí” y de quienes votaron por el “No”. La aprobación de la moción de censura requerirá el voto afirmativo de las dos terceras partes de los miembros que integran la Corporación. Una vez aprobada, el funcionario quedará separado de su cargo. Si fuere rechazada, no podrá presentarse otra sobre la misma materia a menos que la motiven hechos nuevos. La renuncia del funcionario respecto del cual se haya promovido moción de censura no obsta para que la misma sea aprobada conforme a lo previsto en este artículo. Parágrafo 3. Redondeo. Para el cálculo de las dos terceras partes de los miembros del Concejo se tendrán en cuenta las reglas de aproximación numérica y redondeo. Si el resultado es inferior a punto cinco (.5) se aproximará al número entero que antecede al resultado; si el resultado es igual o superior a punto cinco (.5) se aproximará al número entero que le sigue al resultado. La misma regla se aplicará para la moción de observación. Parágrafo 4."
+    "titulo": "Artículo 112.- Moción de Censura. Por moción de censura se entiende el acto mediante el cual el Concejo en Pleno, después de realizado ",
+    "texto": "Moción de Censura. Por moción de censura se entiende el acto mediante el cual el Concejo en Pleno, después de realizado el debate de control político, censura la actuación de uno o varios funcionarios. \n\nParágrafo \n1. Procedimiento. La moción de censura deberá ser propuesta por la mitad más uno de los miembros que componen el Concejo Municipal. Se propondrá moción de censura contra los Secretarios de Despacho del Alcalde por asuntos relacionados con las funciones propias del cargo o por desatención a los requerimientos y citaciones del Concejo. \n\nParágrafo \n2. Votación. La votación se hará entre el tercero y el décimo día siguientes a la terminación del debate, con audiencia pública del funcionario respectivo. La votación será remota o nominal y pública, en este caso, cada Concejal, al ser llamado en orden alfabético de apellidos por el secretario, contestará individualmente y en voz alta, “Sí” o “No”. El resultado de la votación nominal se consignará en el acta, con expresión de los nombres de los Concejales que votaron por el “Sí” y de quienes votaron por el “No”. La aprobación de la moción de censura requerirá el voto afirmativo de las dos terceras partes de los miembros que integran la Corporación. Una vez aprobada, el funcionario quedará separado de su cargo. Si fuere rechazada, no podrá presentarse otra sobre la misma materia a menos que la motiven hechos nuevos. La renuncia del funcionario respecto del cual se haya promovido moción de censura no obsta para que la misma sea aprobada conforme a lo previsto en este artículo. \n\nParágrafo \n3. Redondeo. Para el cálculo de las dos terceras partes de los miembros del Concejo se tendrán en cuenta las reglas de aproximación numérica y redondeo. Si el resultado es inferior a punto cinco (.5) se aproximará al número entero que antecede al resultado; si el resultado es igual o superior a punto cinco (.5) se aproximará al número entero que le sigue al resultado. La misma regla se aplicará para la moción de observación. \n\nParágrafo \n4. Empates. En caso de empate en la votación de una moción de censura o de observación, se procederá a una segunda votación en la misma sesión o en la inmediatamente siguiente, según lo disponga la presidencia. De presentarse nuevamente empate, se entenderá negada la moción de censura u observación contra el funcionario."
   },
   "113": {
     "numero": 113,
-    "titulo": "Artículo 113. Retiro del Funcionario. Aprobada la moción de",
+    "titulo": "Artículo 113.- Retiro del Funcionario. Aprobada la moción de censura para un secretario de la administración municipal, el Presidente d",
     "texto": "Retiro del Funcionario. Aprobada la moción de censura para un secretario de la administración municipal, el Presidente del Concejo comunicará mediante escrito dirigido al Alcalde la decisión de la Corporación para que éste proceda con la designación en el cargo de un nuevo secretario. El funcionario censurado deberá realizar el empalme respectivo de su cargo con el nuevo funcionario designado de conformidad con las disposiciones legales sobre la materia. Parágrafo único. El desacato por parte de la Administración a la decisión del Concejo de censurar a un funcionario dará lugar a las sanciones legales y disciplinarias de los organismos judiciales y de control. En todo caso ningún funcionario podrá seguir en el ejercicio de sus funciones una vez se la haya censurado por parte del Concejo. La Secretaría del Concejo informará a los organismos judiciales y de control sobre cualquier contravención o desacato a las decisiones tomadas por la Plenaria de la Corporación."
   },
   "114": {
     "numero": 114,
-    "titulo": "Artículo 114.- Los debates de Control Político serán públicos y a",
+    "titulo": "Artículo 114.- Los debates de Control Político serán públicos y a él podrán concurrir miembros de la comunidad, medios de comunicación,",
     "texto": "Los debates de Control Político serán públicos y a él podrán concurrir miembros de la comunidad, medios de comunicación, funcionarios de la administración municipal, veedores municipales y demás organismos nacionales e internacionales que quieran presenciar el mismo. TÍTULO IX PROCESO NORMATIVO CAPÍTULO PRIMERO ACUERDOS MUNICIPALES"
   },
   "115": {
     "numero": 115,
-    "titulo": "Artículo 115.- Iniciativa. La presentación de los proyectos de",
-    "texto": "Iniciativa. La presentación de los proyectos de acuerdo ante la secretaría del Concejo, deberá hacerse en original y copia e incluirá su texto distribuido en título, encabezamiento, considerandos (en caso de ser necesario) y parte dispositiva (articulado); irán acompañados de la correspondiente exposición de motivos y conservarán el principio de unidad de materia. Sin el cumplimiento de estos requisitos, la presidencia devolverá el proyecto para su corrección. Son titulares de la iniciativa cualquiera de los Concejales individualmente considerados o agrupados en bancadas, así como también el alcalde, quien podrá actuar por intermedio del secretario o de los respectivos secretarios del despacho ejecutivo. En las materias relacionadas con sus atribuciones, también tienen iniciativa el personero, el contralor y las juntas administradoras locales con jurisdicción en corregimientos o comunas del territorio del municipio. Del mismo modo, los acuerdos pueden ser de iniciativa popular en los términos que contempla la Ley 134 de 1994 modificado por la Ley 1757 de 2015 art. 9º literal “c” y sus concordantes y aquellas que la modifiquen o Adicionen. Este medio de participación ciudadana, conforme a la respectiva ley, consiste en el derecho político de un grupo de ciudadanos que representen no menos del diez por ciento (10%) del censo electoral vigente en el municipio, para presentar proyectos de acuerdo. Se exceptúan los proyectos que sean de iniciativa exclusiva del alcalde; los que versen sobre asuntos presupuestales, fiscales o tributarios, y los de preservación y restablecimiento del orden público. El vocero presentará el proyecto respectivo y será convocado e intervendrá en todas las etapas del trámite. De conformidad con los artículos 313 numeral 6 y 315 numeral 5 de la Constitución y 71 de la ley 136 de 1994, sólo por iniciativa del alcalde podrán ser dictados o reformados los acuerdos que versen sobre las siguientes materias: 1. Planes de desarrollo y de ordenamiento t"
+    "titulo": "Artículo 115.- Iniciativa. La presentación de los proyectos de acuerdo ante la secretaría del Concejo, deberá hacerse en original y cop",
+    "texto": "Iniciativa. La presentación de los proyectos de acuerdo ante la secretaría del Concejo, deberá hacerse en original y copia e incluirá su texto distribuido en título, encabezamiento, considerandos (en caso de ser necesario) y parte dispositiva (articulado); irán acompañados de la correspondiente exposición de motivos y conservarán el principio de unidad de materia. Sin el cumplimiento de estos requisitos, la presidencia devolverá el proyecto para su corrección. Son titulares de la iniciativa cualquiera de los Concejales individualmente considerados o agrupados en bancadas, así como también el alcalde, quien podrá actuar por intermedio del secretario o de los respectivos secretarios del despacho ejecutivo. En las materias relacionadas con sus atribuciones, también tienen iniciativa el personero, el contralor y las juntas administradoras locales con jurisdicción en corregimientos o comunas del territorio del municipio. Del mismo modo, los acuerdos pueden ser de iniciativa popular en los términos que contempla la Ley 134 de 1994 modificado por la Ley 1757 de 2015 art. 9º literal “c” y sus concordantes y aquellas que la modifiquen o Adicionen. Este medio de participación ciudadana, conforme a la respectiva ley, consiste en el derecho político de un grupo de ciudadanos que representen no menos del diez por ciento (10%) del censo electoral vigente en el municipio, para presentar proyectos de acuerdo. Se exceptúan los proyectos que sean de iniciativa exclusiva del alcalde; los que versen sobre asuntos presupuestales, fiscales o tributarios, y los de preservación y restablecimiento del orden público. El vocero presentará el proyecto respectivo y será convocado e intervendrá en todas las etapas del trámite. \n\nDe conformidad con los artículos 313 numeral 6 y 315 numeral 5 de la Constitución y 71 de la ley 136 de 1994, sólo por iniciativa del alcalde podrán ser dictados o reformados los acuerdos que versen sobre las siguientes materias: \n1. Planes de desarrollo y de ordenamiento territorial; \n2. Presupuesto anual de rentas y gastos; \n3. Estructura de la administración municipal y las funciones de sus dependencias, así como las escalas de remuneración correspondientes a las distintas categorías de empleos; \n4. Establecimientos comerciales; públicos y empresas industriales o \n5. Sociedades de economía mixta; \n6. Celebración de contratos; \n7. Facultades temporales y precisas al alcalde, de aquellas que corresponden al Concejo; \n8. Las demás que determinen la Constitución o la ley. Parágrafo único. El alcalde, antes de su aprobación en plenaria, podrá coadyuvar en el impulso de cualquier proyecto de su iniciativa que curse en el Concejo cuando las circunstancias lo justifiquen."
   },
   "116": {
     "numero": 116,
-    "titulo": "Artículo 116.- Distribución del proyecto. Por disposición del",
+    "titulo": "Artículo 116.- Distribución del proyecto. Por disposición del presidente de la corporación, el proyecto recibido, una vez radicado y de",
     "texto": "Distribución del proyecto. Por disposición del presidente de la corporación, el proyecto recibido, una vez radicado y debidamente clasificado (por materia, autor, clase y comisión), será remitido por la secretaría a la comisión permanente respectiva. En ésta también se le radicará y clasificará, como acto previo a su tramitación en primer debate. Parágrafo. La presidencia procurará que los acuerdos de especial importancia o que consten de más de diez (10) artículos, sean dados a conocer a los Concejales por cualquier medio idóneo, por lo menos con un (1) día de antelación al inicio del debate programado."
   },
   "117": {
     "numero": 117,
-    "titulo": "Artículo 117.- Ponente. Corresponde al presidente de la",
+    "titulo": "Artículo 117.- Ponente. Corresponde al presidente de la corporación designar ponente o ponentes para cada proyecto de acuerdo, que será",
     "texto": "Ponente. Corresponde al presidente de la corporación designar ponente o ponentes para cada proyecto de acuerdo, que será el mismo en los dos debates reglamentarios. Si las circunstancias lo aconsejan, podrá designar varios ponentes y un coordinador de los mismos. Teniendo en cuenta la significación, urgencia y extensión del trabajo, señalará un término para la presentación de las ponencias entre uno (1) y diez (10) días, prorrogable por una sola vez hasta por cinco (5) días más. En caso de incumplimiento se procederá a su reemplazo y dará trámite al organismo disciplinario correspondiente para lo de su competencia. Parágrafo único. Antes de presentarse ponencia para primer debate, el proyecto podrá ser retirado por su autor. En los demás eventos se requerirá la aceptación de la comisión respectiva o de la plenaria."
   },
   "118": {
     "numero": 118,
-    "titulo": "Artículo 118.- Acumulación de proyectos. Sólo en primer",
+    "titulo": "Artículo 118.- Acumulación de proyectos. Sólo en primer debate y antes de rendirse ponencia, el proyecto o proyectos que se refieran a ",
     "texto": "Acumulación de proyectos. Sólo en primer debate y antes de rendirse ponencia, el proyecto o proyectos que se refieran a un mismo tema podrán ser remitidos con nota explicativa por el presidente de la comisión al ponente del proyecto en estudio, quien a su juicio podrá acumularlos. Si ya los proyectos cursaren simultáneamente, en las mismas condiciones podrán acumularse por decisión de la presidencia."
   },
   "119": {
     "numero": 119,
-    "titulo": "Artículo 119.- Requisitos legales. Ningún proyecto será acuerdo",
-    "texto": "Requisitos legales. Ningún proyecto será acuerdo municipal sin los requisitos siguientes: 1. Haber sido aprobado en primer debate en la comisión permanente respectiva o en la accidental si fuere el caso. 2. Haber sido aprobado en segundo debate en la plenaria de la corporación. 3. Haber obtenido la sanción ejecutiva por parte del alcalde. Parágrafo único. Para la obligatoriedad indispensable su promulgación. del acuerdo, es CAPÍTULO SEGUNDO PRIMER DEBATE"
+    "titulo": "Artículo 119.- Requisitos legales. Ningún proyecto será acuerdo municipal sin los requisitos siguientes: 1. Haber sido aprobado en prim",
+    "texto": "Requisitos legales. Ningún proyecto será acuerdo municipal sin los requisitos siguientes: \n1. Haber sido aprobado en primer debate en la comisión permanente respectiva o en la accidental si fuere el caso. \n2. Haber sido aprobado en segundo debate en la plenaria de la corporación. \n3. Haber obtenido la sanción ejecutiva por parte del alcalde. Parágrafo único. Para la obligatoriedad indispensable su promulgación. del acuerdo, es CAPÍTULO SEGUNDO PRIMER DEBATE"
   },
   "120": {
     "numero": 120,
-    "titulo": "Artículo 120.- Presentación de la ponencia y apertura del",
+    "titulo": "Artículo 120.- Presentación de la ponencia y apertura del debate. Presentada y leída la ponencia, se someterá a discusión la proposició",
     "texto": "Presentación de la ponencia y apertura del debate. Presentada y leída la ponencia, se someterá a discusión la proposición con que termina. El debate será abierto tan pronto la comisión decida dar primer debate al proyecto. Si la ponencia propone archivar o negar el proyecto, esta propuesta será sometida a votación al final del debate. A la aprobación del proyecto se procederá en este orden: articulado, considerandos, encabezamiento, título."
   },
   "121": {
     "numero": 121,
-    "titulo": "Artículo 121.- Discusión. En la discusión de la ponencia, el",
+    "titulo": "Artículo 121.- Discusión. En la discusión de la ponencia, el ponente intervendrá para dar explicaciones, aclarar los temas debatidos y ",
     "texto": "Discusión. En la discusión de la ponencia, el ponente intervendrá para dar explicaciones, aclarar los temas debatidos y ordenar el trabajo. Se considerarán las modificaciones propuestas por el ponente, y las que puedan ser presentadas por Concejales o autoridades municipales con derecho a voz. El respectivo presidente podrá ordenar los debates por artículos, grupo de artículos, materia o atendiendo a las enmiendas presentadas, según lo aconseje la naturaleza del proyecto, la conexidad entre las pretensiones y la mayor claridad."
   },
   "122": {
     "numero": 122,
-    "titulo": "Artículo 122.- Enmiendas. Al tiempo de discutir el texto serán",
-    "texto": "Enmiendas. Al tiempo de discutir el texto serán consideradas las Modificaciones, adiciones o supresiones propuestas por el Ponente u otro Concejal, pertenezcan o no a la Comisión; por los secretarios de despachos o jefes de organismos descentralizados, Personero, Contralor, integrantes de las juntas administradoras locales, voceros de la iniciativa popular y representantes de la comunidad, en materias de su interés. Aquellas que la Comisión apruebe serán incluidas en el Texto Definitivo. Las enmiendas que se pretendan realizar a las iniciativas presentadas ante el cuerpo colegiado (Concejo Municipal) no podrán cambiar el sentido del acto en estudio. Parágrafo único. Presentación de Enmiendas. Toda enmienda a los Proyectos de Acuerdo que estuvieren en curso en las Comisiones Permanentes observará los siguientes requisitos: 1. El plazo para la presentación es hasta el cierre de la discusión del texto, mediante escrito dirigido a la Presidencia de la Comisión. 2. Las enmiendas podrán hacerse a la totalidad del Proyecto o a parte del articulado. 3. Las enmiendas deberán presentarse en forma de articulado, con el debido sustento legal o el fundamento de conveniencia, según el caso."
+    "titulo": "Artículo 122.- Enmiendas. Al tiempo de discutir el texto serán consideradas las Modificaciones, adiciones o supresiones propuestas por ",
+    "texto": "Enmiendas. Al tiempo de discutir el texto serán consideradas las Modificaciones, adiciones o supresiones propuestas por el Ponente u otro Concejal, pertenezcan o no a la Comisión; por los secretarios de despachos o jefes de organismos descentralizados, Personero, Contralor, integrantes de las juntas administradoras locales, voceros de la iniciativa popular y representantes de la comunidad, en materias de su interés. Aquellas que la Comisión apruebe serán incluidas en el Texto Definitivo. Las enmiendas que se pretendan realizar a las iniciativas presentadas ante el cuerpo colegiado (Concejo Municipal) no podrán cambiar el sentido del acto en estudio. Parágrafo único. Presentación de Enmiendas. Toda enmienda a los Proyectos de Acuerdo que estuvieren en curso en las Comisiones Permanentes observará los siguientes requisitos: \n1. El plazo para la presentación es hasta el cierre de la discusión del texto, mediante escrito dirigido a la Presidencia de la Comisión. \n2. Las enmiendas podrán hacerse a la totalidad del Proyecto o a parte del articulado. \n3. Las enmiendas deberán presentarse en forma de articulado, con el debido sustento legal o el fundamento de conveniencia, según el caso."
   },
   "123": {
     "numero": 123,
-    "titulo": "Artículo 123. Enmiendas a la Totalidad. Serán enmiendas a la",
+    "titulo": "Artículo 123.- Enmiendas a la Totalidad. Serán enmiendas a la totalidad, aquellas que versen sobre la oportunidad, los principios o el ",
     "texto": "Enmiendas a la Totalidad. Serán enmiendas a la totalidad, aquellas que versen sobre la oportunidad, los principios o el espíritu del Proyecto; o las que propongan un texto completo alternativo al del proyecto, conservando el propósito de la iniciativa original."
   },
   "124": {
     "numero": 124,
-    "titulo": "Artículo 124. Enmiendas al Articulado. Estas podrán ser de",
+    "titulo": "Artículo 124.- Enmiendas al Articulado. Estas podrán ser de supresión, modificación o adición a algunos artículos o disposiciones del P",
     "texto": "Enmiendas al Articulado. Estas podrán ser de supresión, modificación o adición a algunos artículos o disposiciones del Proyecto."
   },
   "125": {
     "numero": 125,
-    "titulo": "Artículo 125. Enmiendas que Impliquen Erogación o",
+    "titulo": "Artículo 125.- Enmiendas que Impliquen Erogación o Disminución de Ingresos. Las enmiendas a un Proyecto de Acuerdo que supongan gasto p",
     "texto": "Enmiendas que Impliquen Erogación o Disminución de Ingresos. Las enmiendas a un Proyecto de Acuerdo que supongan gasto público como: adición, disminución de partidas y apertura de rubros presupuestales, siempre requerirán certificación de disponibilidad presupuestal de la Secretaría de Hacienda y de impacto fiscal; sin este requisito se suspenderá el debate de la respectiva enmienda. (Art. 82 inciso 2°, Decreto 111 de 1996 y la ley 819 de 2003)"
   },
   "126": {
     "numero": 126,
-    "titulo": "Artículo 126.- Participación ciudadana. En cumplimiento del",
+    "titulo": "Artículo 126.- Participación ciudadana. En cumplimiento del precepto contenido en el artículo 77 de la ley 136 de 1994, toda persona na",
     "texto": "Participación ciudadana. En cumplimiento del precepto contenido en el artículo 77 de la ley 136 de 1994, toda persona natural o jurídica podrá presentar observaciones escritas sobre cualquier proyecto de acuerdo cuyo estudio y examen se esté adelantando en una de las comisiones permanentes, previa fijación de día, hora y duración de las intervenciones por la mesa directiva. Las mismas serán publicadas oportunamente en la Gaceta del Concejo."
   },
   "127": {
     "numero": 127,
-    "titulo": "Artículo 127.- Proyecto aprobado. Cerrado el debate y aprobado",
+    "titulo": "Artículo 127.- Proyecto aprobado. Cerrado el debate y aprobado el proyecto, éste pasará de nuevo al ponente para su revisión y ordenaci",
     "texto": "Proyecto aprobado. Cerrado el debate y aprobado el proyecto, éste pasará de nuevo al ponente para su revisión y ordenación con las modificaciones que le hayan sido introducidas. Así mismo consignará la totalidad de las propuestas que hubieren sido consideradas en la comisión y las razones de las que fueron rechazadas. El informe a la plenaria para efectos del segundo debate será suscrito por el ponente, o ponentes, y autorizado con las firmas del presidente y secretario de la comisión. A dicho informe serán anexadas las razones que hagan constar por escrito los Concejales que votaron en contra del proyecto."
   },
   "128": {
     "numero": 128,
-    "titulo": "Artículo 128.- Negación o Archivo de Proyectos. El Proyecto",
+    "titulo": "Artículo 128.- Negación o Archivo de Proyectos. El Proyecto que no recibiere Aprobación en Primer Debate, durante cualquiera de los per",
     "texto": "Negación o Archivo de Proyectos. El Proyecto que no recibiere Aprobación en Primer Debate, durante cualquiera de los períodos de sesiones ordinarias y extraordinarias de un período constitucional, será archivado; para que el Concejo se pronuncie sobre él deberá presentarse nuevamente. (Art. 75, Ley 136 de 1994.) Cuando el informe de ponencia propone negar o archivar el proyecto, se debatirá esta propuesta y se someterá a votación. Aprobado el archivo del proyecto, la secretaría de la Comisión Permanente informará al proponente, ponente o coordinador, indicando las causas de la decisión, los recursos y términos que tiene para apelar esta decisión."
   },
   "129": {
     "numero": 129,
-    "titulo": "Artículo 129.- Apelación de Proyecto Negado u ordenado su",
+    "titulo": "Artículo 129.- Apelación de Proyecto Negado u ordenado su archivo. El Proyecto de Acuerdo que hubiere sido negado y ordenado su archivo",
     "texto": "Apelación de Proyecto Negado u ordenado su archivo. El Proyecto de Acuerdo que hubiere sido negado y ordenado su archivo en Primer Debate, podrá ser nuevamente considerado por el Concejo mediante el recurso de apelación, a solicitud de su autor, de cualquier Concejal, del Gobierno Municipal o del vocero de los proponentes en el caso de la iniciativa popular. (Art. 73 Ley 136/94.)"
   },
   "130": {
     "numero": 130,
-    "titulo": "Artículo 130.- Trámite de la Apelación. Planteado el recurso",
+    "titulo": "Artículo 130.- Trámite de la Apelación. Planteado el recurso dentro de los cinco (5) días siguientes a la notificación de la decisión, ",
     "texto": "Trámite de la Apelación. Planteado el recurso dentro de los cinco (5) días siguientes a la notificación de la decisión, el Presidente de la Comisión lo remitirá de inmediato al Presidente del Concejo, quien integrará, dentro de los tres (3) días siguientes, una Comisión Accidental para su estudio. Esta Comisión rendirá informe a la Plenaria, dentro de los ocho (8) días hábiles siguientes. La Plenaria, dentro de los dos (2) días hábiles siguientes, decidirá si acoge o rechaza la apelación. En el Primer evento, la Presidencia remitirá el Proyecto a una Comisión accidental o permanente que tenga relación o afinidad con el tema diferente de la de origen del proyecto, para que surta el trámite de Primer Debate. Si fuere negada la apelación se procederá a su archivo definitivo."
   },
   "131": {
     "numero": 131,
-    "titulo": "Artículo 131.- Proyectos en Tránsito o en Estudio. Son",
+    "titulo": "Artículo 131.- Proyectos en Tránsito o en Estudio. Son aquellos que reciben aprobación en Primer Debate y queda pendiente el Segundo De",
     "texto": "Proyectos en Tránsito o en Estudio. Son aquellos que reciben aprobación en Primer Debate y queda pendiente el Segundo Debate para un nuevo período de sesiones del Concejo o un nuevo periodo constitucional, salvo cuando se cite a extraordinarias para dar continuidad al estudio y aprobación o negación del proyecto; cuando se trate de un nuevo periodo constitucional, se repartirá de nuevo la Ponencia y se nombrarán nuevos ponentes, si cambian los inicialmente designados. (Art. 75 Ley 136 de 1994)."
   },
   "132": {
     "numero": 132,
-    "titulo": "Artículo 132.- Proyectos en Suspensión. Son aquellos que se",
+    "titulo": "Artículo 132.- Proyectos en Suspensión. Son aquellos que se encuentran en estudio en la comisión permanente o accidental y que aún no h",
     "texto": "Proyectos en Suspensión. Son aquellos que se encuentran en estudio en la comisión permanente o accidental y que aún no han sido votado(s), sus efectos se causan cuando deba suspenderse su trámite o su curso normal por disposición de la misma comisión o por reglamentación. CAPÍTULO TERCERO SEGUNDO DEBATE"
   },
   "133": {
     "numero": 133,
-    "titulo": "Artículo 133.- Definición. Segundo Debate es el conocimiento a",
+    "titulo": "Artículo 133.- Definición. Segundo Debate es el conocimiento a fondo y discusión que la Plenaria les da a los proyectos de acuerdo, par",
     "texto": "Definición. Segundo Debate es el conocimiento a fondo y discusión que la Plenaria les da a los proyectos de acuerdo, para su aprobación o no."
   },
   "134": {
     "numero": 134,
-    "titulo": "Artículo 134.- Convocatoria para segundo debate. La",
+    "titulo": "Artículo 134.- Convocatoria para segundo debate. La Convocatoria la realiza el Presidente del Concejo. La fecha será fijada tres (3) dí",
     "texto": "Convocatoria para segundo debate. La Convocatoria la realiza el Presidente del Concejo. La fecha será fijada tres (3) días hábiles después de repartido el informe de ponencia para segundo (2°) debate, este reparto se realizará el mismo día del primer (1°) debate y aprobación, estos serán estudiados en el estricto orden en que hayan sido radicados ante la Secretaría General del Concejo. La Secretaría General invitará a las autoridades y comunidades comprometidas en cada uno de los proyectos de acuerdo."
   },
   "135": {
     "numero": 135,
-    "titulo": "Artículo 135.- Contenido del Informe de Ponencia para",
+    "titulo": "Artículo 135.- Contenido del Informe de Ponencia para Segundo Debate. En el informe de Ponencia para Segundo Debate, el Ponente (s) deb",
     "texto": "Contenido del Informe de Ponencia para Segundo Debate. En el informe de Ponencia para Segundo Debate, el Ponente (s) deberá (n) consignar la totalidad de las propuestas que fueron consideradas por la Comisión, las aprobadas y, las razones del rechazo de las negadas. La omisión de este requisito imposibilitará a la Plenaria la discusión del Proyecto, hasta tanto el informe cumpla esta disposición. El Informe de Ponencia para Segundo (2°) Debate, será suscrito por el Presidente de la Comisión Permanente o por quien haya hecho sus veces; por el Ponente o Coordinador de Ponentes y por el Secretario de la misma."
   },
   "136": {
     "numero": 136,
-    "titulo": "Artículo 136. Discusión en Segundo Debate. Leída la Ponencia",
+    "titulo": "Artículo 136.- Discusión en Segundo Debate. Leída la Ponencia por el Secretario General, el Ponente o Coordinador podrá explicar a la P",
     "texto": "Discusión en Segundo Debate. Leída la Ponencia por el Secretario General, el Ponente o Coordinador podrá explicar a la Plenaria, en forma sucinta, la significación y el alcance del Proyecto. A continuación, lo harán los Concejales interesados y las autoridades municipales con derecho a voz. Concluida la explicación, podrán intervenir los funcionarios, voceros y representantes de la comunidad. Aprobada la proposición con que termina el informe de ponencia, se inicia la discusión del Texto Definitivo, el cual se discutirá globalmente, salvo que un Concejal solicite el análisis del articulado uno a uno o por bloques."
   },
   "137": {
     "numero": 137,
-    "titulo": "Artículo 137.- Enmiendas. Se admitirán en la plenaria las",
+    "titulo": "Artículo 137.- Enmiendas. Se admitirán en la plenaria las enmiendas que tengan por finalidad subsanar errores, yerros o incorrecciones ",
     "texto": "Enmiendas. Se admitirán en la plenaria las enmiendas que tengan por finalidad subsanar errores, yerros o incorrecciones técnicas, terminológicas o gramaticales, así como las que no impliquen un cambio sustancial. No se considerarán las enmiendas negadas en primer debate, salvo que se surtan por el procedimiento de la apelación. Parágrafo único: En todo caso se tendrán en cuenta los parámetros establecidos en el artículo 107 y ss de éste reglamento en lo que sea aplicable."
   },
   "138": {
     "numero": 138,
-    "titulo": "Artículo 138.- Devolución del proyecto a la comisión de",
+    "titulo": "Artículo 138.- Devolución del proyecto a la comisión de origen. De la iniciativa aprobada por la comisión podrá ser devuelta a ésta, pa",
     "texto": "Devolución del proyecto a la comisión de origen. De la iniciativa aprobada por la comisión podrá ser devuelta a ésta, para su reexamen en primer debate, cuando se observen serias discrepancias con la misma y se presenten razones de conveniencia. Si la comisión persiste en su posición, resolverá la plenaria. La devolución del proyecto es también posible por la presidencia, cuando como consecuencia de las enmiendas introducidas o de la votación de los artículos, el texto resultare incongruente, incomprensible, confuso o repetitivo en algunos puntos, o fuere necesario realizar ajustes numéricos o de cifras, con el fin de, que en el plazo que se determine, se efectúe una redacción armónica que deje a salvo los acuerdos de la Mayoría. Devuelto el proyecto, la plenaria lo aprobará o rechazará en su conjunto, sin reabrir el debate concluido."
   },
   "139": {
     "numero": 139,
-    "titulo": "Artículo 139.- Aprobación. Declarada la suficiente ilustración, el",
+    "titulo": "Artículo 139.- Aprobación. Declarada la suficiente ilustración, el presidente someterá a votación el contenido del proyecto en este ord",
     "texto": "Aprobación. Declarada la suficiente ilustración, el presidente someterá a votación el contenido del proyecto en este orden: el articulado, los considerandos, el encabezamiento y el título. Así aprobado el proyecto, preguntará a la corporación si quiere que se convierta en acuerdo municipal. La mesa directiva, dentro de los cinco (5) días hábiles siguientes, remitirá al alcalde para su sanción el proyecto de acuerdo aprobado por el Concejo. Si el alcalde no objetare dicho proyecto, lo sancionará como acuerdo y ordenará su promulgación. El acuerdo sancionado será publicado en la Gaceta del Concejo o en medio que se considere de acuerdo con las disposiciones contenidas en la Ley 136 de 1994, Ley 1551 de 2012 y Ley 1437 de 2011, dentro de los diez (10) días siguientes. El proyecto votado negativamente por la plenaria, al entenderse rechazado, se archivará; podrá ser presentado de nuevo para que se someta a su consideración."
   },
   "140": {
     "numero": 140,
-    "titulo": "Artículo 140.- Revisión de los acuerdos por el Gobernador.",
+    "titulo": "Artículo 140.- Revisión de los acuerdos por el Gobernador. Dentro de los cinco (5) días siguientes a la sanción, el alcalde enviará cop",
     "texto": "Revisión de los acuerdos por el Gobernador. Dentro de los cinco (5) días siguientes a la sanción, el alcalde enviará copia del acuerdo al Gobernador del departamento para que cumpla con la atribución del numeral 10 del artículo 305 de la Constitución; en consecuencia, el Gobernador por motivos de inconstitucionalidad o de ilegalidad, podrá remitir los acuerdos al respectivo Tribunal Administrativo para que decida sobre su validez. La revisión no suspende los efectos jurídicos de los acuerdos. Los acuerdos son de obligatorio cumplimiento mientras no sean derogados, o suspendidos o anulados por la jurisdicción contencioso-administrativa. TÍTULO X DE LAS OBJECIONES CAPÍTULO PRIMERO MOTIVOS PLAZOS OBJECIONES"
   },
   "141": {
     "numero": 141,
-    "titulo": "Artículo 141.- Motivos. Los proyectos de acuerdo aprobados por",
+    "titulo": "Artículo 141.- Motivos. Los proyectos de acuerdo aprobados por el Concejo podrán ser objetados por el alcalde por los dos motivos sigui",
     "texto": "Motivos. Los proyectos de acuerdo aprobados por el Concejo podrán ser objetados por el alcalde por los dos motivos siguientes: por considerarlos inconvenientes (objeción de inconveniencia) o por estimarlos contrarios a la Constitución Política o al ordenamiento jurídico del país (objeción de derecho)."
   },
   "142": {
     "numero": 142,
-    "titulo": "Artículo 142.- Plazos. El alcalde dispone de cinco (5) días para",
+    "titulo": "Artículo 142.- Plazos. El alcalde dispone de cinco (5) días para devolver con objeciones un proyecto de no más de veinte artículos, de ",
     "texto": "Plazos. El alcalde dispone de cinco (5) días para devolver con objeciones un proyecto de no más de veinte artículos, de diez (10) días cuando el proyecto sea de veintiuno a cincuenta artículos y hasta de veinte (20) días cuando el proyecto exceda de cincuenta artículos. CAPÍTULO SEGUNDO TRÁMITE DE LAS OBJECIONES"
   },
   "143": {
     "numero": 143,
-    "titulo": "Artículo 143.- Devolución con objeciones. Si el Concejo se",
+    "titulo": "Artículo 143.- Devolución con objeciones. Si el Concejo se encuentra sesionando, el proyecto devuelto será incluido por la mesa directi",
     "texto": "Devolución con objeciones. Si el Concejo se encuentra sesionando, el proyecto devuelto será incluido por la mesa directiva en el orden del día de la siguiente sesión plenaria, en la cual el presidente nombrará una comisión accidental para que estudie los argumentos del alcalde en un plazo no mayor de tres (3) días. Si el Concejo estuviere en receso, el alcalde lo convocará a sesiones extraordinarias en la semana siguiente a la presentación de las objeciones, por un término no superior a cinco (5) días."
   },
   "144": {
     "numero": 144,
-    "titulo": "Artículo 144.- Objeciones por inconveniencia. La comisión",
+    "titulo": "Artículo 144.- Objeciones por inconveniencia. La comisión puede proponer que las objeciones sean declaradas fundadas, parcialmente fund",
     "texto": "Objeciones por inconveniencia. La comisión puede proponer que las objeciones sean declaradas fundadas, parcialmente fundadas, o infundadas. Si la plenaria declara las objeciones fundadas, el proyecto se archivará. Si decide declarar las objeciones parcialmente fundadas, el proyecto una vez corregido será devuelto y el alcalde lo sancionará dentro de los ocho (8) días siguientes. Si decide declarar las objeciones infundadas, el proyecto será devuelto y el alcalde deberá sancionarlo en plazo que no excederá de ocho (8) días. En los dos últimos casos, si el alcalde omite el cumplimiento de sus obligaciones, el presidente del Concejo procederá a sancionar y promulgar el acuerdo correspondiente de conformidad como lo establece el Art. 4º de la Ley 177 de 1994."
   },
   "145": {
     "numero": 145,
-    "titulo": "Artículo 145.- Objeciones de derecho. Para las objeciones",
+    "titulo": "Artículo 145.- Objeciones de derecho. Para las objeciones jurídicas se seguirá el mismo procedimiento dispuesto en el artículo inmediat",
     "texto": "Objeciones de derecho. Para las objeciones jurídicas se seguirá el mismo procedimiento dispuesto en el artículo inmediatamente anterior. Si las objeciones jurídicas no fueren acogidas, el alcalde enviará dentro de los diez días siguientes, el proyecto acompañado de una exposición de motivos de las objeciones al Tribunal Administrativo que tenga jurisdicción en el municipio. Si el Tribunal las considera fundadas, el proyecto se archivará. Si decidiere que son infundadas, el alcalde sancionará el proyecto dentro de los tres días siguientes al recibo de la comunicación respectiva. Si el tribunal considera parcialmente vaciado el proyecto, así lo indicará al Concejo para que se reconsidere. Cumplido este trámite, el proyecto se remitirá de nuevo el Tribunal para fallo definitivo. Parágrafo único. Objeciones de Derecho al Proyecto de presupuesto: Si el proyecto objetado fuere el de presupuesto, deberá enviarlo al Tribunal Administrativo dentro de los cinco (5) días siguientes a su recibo, y esta corporación se pronunciará dentro de los veinte (20) días hábiles siguientes. Mientras el tribunal decide regirá el proyecto de presupuesto presentado oportunamente por el alcalde, bajo su directa responsabilidad (decreto 111 de 1996, art. 109). Si las objeciones son declaradas fundadas por el tribunal, el proyecto se archivará y si son declaradas infundadas, el alcalde podrá sancionarlo dentro de los tres (3) días siguientes al recibo de la comunicación oficial. Pero, considerado parcialmente viciado, así lo indicará al Concejo para que se reconsidere y rehaga, oído el respectivo secretario de la alcaldía; cumplido este trámite, será devuelto al tribunal para fallo definitivo. TÍTULO XI CAPITULO ÚNICO CABILDO ABIERTO"
   },
   "146": {
     "numero": 146,
-    "titulo": "Artículo 146.- Petición ciudadana. En cada período de sesiones",
+    "titulo": "Artículo 146.- Petición ciudadana. En cada período de sesiones ordinarias podrán celebrarse cabildos abiertos en los que, por iniciativ",
     "texto": "Petición ciudadana. En cada período de sesiones ordinarias podrán celebrarse cabildos abiertos en los que, por iniciativa de un número no inferior al cinco por mil de los ciudadanos del censo electoral del municipio, se considerarán los asuntos que los residentes soliciten sean estudiados, siempre, y cuando sean de competencia de la respectiva corporación. Es obligación del alcalde, asistir al cabildo abierto."
   },
   "147": {
     "numero": 147,
-    "titulo": "Artículo 147. Materias del cabildo abierto. Podrán ser materias",
+    "titulo": "Artículo 147.- Materias del cabildo abierto. Podrán ser materias del cabildo abierto cualquier asunto de interés para la comunidad. En ",
     "texto": "Materias del cabildo abierto. Podrán ser materias del cabildo abierto cualquier asunto de interés para la comunidad. En caso de que la comunidad cite al alcalde, deberá adjuntar a las firmas el cuestionario que formulará al funcionario, el cual debe ser remitido por el presidente de la corporación, con mínimo cinco (5) días de antelación a la celebración del cabildo. El cuestionario deberá versar únicamente sobre asuntos de competencia del funcionario citado. Parágrafo. A través del Cabildo Abierto no se podrán presentar iniciativas de acuerdo o resolución."
   },
   "148": {
     "numero": 148,
-    "titulo": "Artículo 148.- Prelación. En los cabildos abiertos se tratarán los",
+    "titulo": "Artículo 148.- Prelación. En los cabildos abiertos se tratarán los temas en el orden en que fueron presentados ante la respectiva secre",
     "texto": "Prelación. En los cabildos abiertos se tratarán los temas en el orden en que fueron presentados ante la respectiva secretaría. En todo caso el Cabildo Abierto deberá celebrarse a más tardar un mes después de la radicación de la petición. Parágrafo único. Si la petición fue radicada cuando la corporación no se encontraba en sesiones ordinarias, el cabildo deberá realizarse en el siguiente periodo de sesiones ordinarias."
   },
   "149": {
     "numero": 149,
-    "titulo": "Artículo 149.- Difusión del cabildo. El Concejo municipal,",
+    "titulo": "Artículo 149.- Difusión del cabildo. El Concejo municipal, dispondrá la amplia difusión de la fecha, el lugar y de los temas que serán ",
     "texto": "Difusión del cabildo. El Concejo municipal, dispondrá la amplia difusión de la fecha, el lugar y de los temas que serán objeto del cabildo abierto. Para ello, antes de la fecha de vencimiento para la fecha de inscripción de los participantes ordenarán la publicación de dos convocatorias en un medio de comunicación de amplia circulación y cuando fuere posible, a través de las tecnologías de la información y las comunicaciones, con diferencia no menor de diez (10) días entre una y otra."
   },
   "150": {
     "numero": 150,
-    "titulo": "Artículo 150.- Asistencia y vocería. A los cabildos abiertos",
-    "texto": "Asistencia y vocería. A los cabildos abiertos podrán asistir todas las personas que tengan interés en el asunto. Además del vocero podrán intervenir, por la misma duración a la que tienen derecho por reglamento los respectivos miembros de la corporación, quienes se inscriban a más tardar tres (3) días antes de la realización del cabildo en la secretaría respectiva, presentando para ello un resumen escrito de su intervención. Luego de las intervenciones de la comunidad, alcalde, dará respuesta a sus inquietudes. Una vez surtido este trámite, los miembros de la corporación podrán hacer uso de la palabra en los términos que establece éste reglamento. Parágrafo. Cuando los medios tecnológicos lo permitan, los cabildos abiertos serán transmitidos en directo a través de Internet o a través de los mecanismos que estime conveniente la mesa directiva de la corporación."
-  },
-  "151": {
-    "numero": 151,
-    "titulo": "Artículo 151. Citación",
-    "texto": "Citación a funcionarios de la administración. Por solicitud ciudadana derivada de la convocatoria al cabildo abierto conforme a esta ley, podrá citarse a funcionarios departamentales, municipales, distritales o locales, con cinco (5) días de anticipación, para que concurran al cabildo y para que respondan, oralmente o por escrito, sobre hechos relacionados con el tema del cabildo. La desatención a la citación sin justa causa será causal de mala conducta."
+    "titulo": "Artículo 150.- Asistencia y vocería. A los cabildos abiertos podrán asistir todas las personas que tengan interés en el asunto. Además ",
+    "texto": "Asistencia y vocería. A los cabildos abiertos podrán asistir todas las personas que tengan interés en el asunto. Además del vocero podrán intervenir, por la misma duración a la que tienen derecho por reglamento los respectivos miembros de la corporación, quienes se inscriban a más tardar tres (3) días antes de la realización del cabildo en la secretaría respectiva, presentando para ello un resumen escrito de su intervención. Luego de las intervenciones de la comunidad, alcalde, dará respuesta a sus inquietudes. Una vez surtido este trámite, los miembros de la corporación podrán hacer uso de la palabra en los términos que establece éste reglamento. Parágrafo. Cuando los medios tecnológicos lo permitan, los cabildos abiertos serán transmitidos en directo a través de Internet o a través de los mecanismos que estime conveniente la mesa directiva de la corporación. Artículo 151.Citación a funcionarios de la administración. Por solicitud ciudadana derivada de la convocatoria al cabildo abierto conforme a esta ley, podrá citarse a funcionarios departamentales, municipales, distritales o locales, con cinco (5) días de anticipación, para que concurran al cabildo y para que respondan, oralmente o por escrito, sobre hechos relacionados con el tema del cabildo. La desatención a la citación sin justa causa será causal de mala conducta."
   },
   "152": {
     "numero": 152,
-    "titulo": "Artículo 152.- Obligatoriedad de la respuesta. Una semana",
+    "titulo": "Artículo 152.- Obligatoriedad de la respuesta. Una semana después de la realización del cabildo se realizará una sesión a la cual serán",
     "texto": "Obligatoriedad de la respuesta. Una semana después de la realización del cabildo se realizará una sesión a la cual serán invitados todos los que participaron en él, en la cual se expondrán las respuestas razonadas a los planteamientos y solicitudes presentadas por los ciudadanos, por parte del mandatario y de la corporación. Cuando se trate de un asunto relacionado con inversiones públicas municipales, distritales o locales, la respuesta deberá señalar el orden de prioridad de las mismas dentro del presupuesto y los planes correspondientes. Si las respuestas dadas por los funcionarios incluyen compromisos decisorios, estos serán obligatorios y las autoridades deberán proceder a su ejecución, previo cumplimiento de las normas constitucionales y legales."
   },
   "153": {
     "numero": 153,
-    "titulo": "Artículo 153.- Sesiones fuera de la sede. Cuando se trate de",
+    "titulo": "Artículo 153.- Sesiones fuera de la sede. Cuando se trate de asuntos que afecten específicamente a una localidad, corregimiento o comun",
     "texto": "Sesiones fuera de la sede. Cuando se trate de asuntos que afecten específicamente a una localidad, corregimiento o comuna, la sesión de la corporación pública correspondiente podrá realizarse en el sitio en que la mesa directiva y el vocero estimen conveniente de manera concertada."
   },
   "154": {
     "numero": 154,
-    "titulo": "Artículo 154.- Registro de los Cabildos Abiertos. La Secretaría",
+    "titulo": "Artículo 154.- Registro de los Cabildos Abiertos. La Secretaría General de la corporación deberá llevar un registro de cada cabildo abi",
     "texto": "Registro de los Cabildos Abiertos. La Secretaría General de la corporación deberá llevar un registro de cada cabildo abierto, los temas que se abordaron, los participantes, las memorias del evento y la respuesta dada. Copia de este registro se enviará al Consejo Nacional de Participación y al Consejo Nacional Electoral."
   },
   "155": {
     "numero": 155,
-    "titulo": "Artículo 155.- Generalidades y Obligatoriedad de Ley. En todo",
+    "titulo": "Artículo 155.- Generalidades y Obligatoriedad de Ley. En todo caso para aplicar los parámetros y procedimientos de los Cabildos Abierto",
     "texto": "Generalidades y Obligatoriedad de Ley. En todo caso para aplicar los parámetros y procedimientos de los Cabildos Abiertos se deberá tener en cuenta lo establecido en la ley 134 de 1994 modificada por la Ley 1757 de 2015 “Mecanismos de Participación Ciudadana” y “Promoción y Protección a la Participación Democrática”. TITULO XII CAPITULO I DISPOSICIONES GENERALES ESTATUTO DE LA OPOSICIÓN"
   },
   "156": {
     "numero": 156,
-    "titulo": "Artículo 156.- Definición. La oposición política es la función",
+    "titulo": "Artículo 156.- Definición. La oposición política es la función crítica que ejercen los partidos y movimientos políticos que no particip",
     "texto": "Definición. La oposición política es la función crítica que ejercen los partidos y movimientos políticos que no participan del gobierno de turno. La crítica al gobierno permite plantear y desarrollar alternativas políticas y ejercer control sobre las acciones del ejecutivo."
   },
   "157": {
     "numero": 157,
-    "titulo": "Artículo 157.- Derecho fundamental a la Oposición:",
+    "titulo": "Artículo 157.- Derecho fundamental a la Oposición: Entiéndase por este como el ejercicio autónomo de proponer alternativas políticas, d",
     "texto": "Derecho fundamental a la Oposición: Entiéndase por este como el ejercicio autónomo de proponer alternativas políticas, disentir, criticar, fiscalizar y ejercer libremente el control político a la gestión de gobierno. Este derecho gozará de especial protección por el Estado y demás autoridades públicas, de conformidad con lo establecido en los artículos 40 y 112 de la Constitución Política de Colombia."
   },
   "158": {
     "numero": 158,
-    "titulo": "Artículo 158.- Sujetos. Las disposiciones normativas contenidas",
+    "titulo": "Artículo 158.- Sujetos. Las disposiciones normativas contenidas en el presente título serán aplicables a los representantes del nivel t",
     "texto": "Sujetos. Las disposiciones normativas contenidas en el presente título serán aplicables a los representantes del nivel territorial de los partidos y movimientos políticos con personería jurídica. Parágrafo único. Entiéndase por representantes a nivel territorial de los partidos y movimientos políticos con personería jurídica, aquellas personas electas para el periodo constitucional vigente al interior de la Corporación Pública."
   },
   "159": {
     "numero": 159,
-    "titulo": "Artículo 159.- Declaración Política. Dentro del mes siguiente al",
-    "texto": "Declaración Política. Dentro del mes siguiente al inicio del gobierno, so pena de considerarse falta al régimen contenido en la ley 1475 de 2011 y ser sancionadas de oficio por la autoridad electoral, las organizaciones políticas deberán optar por: 1. 2. 3. Declararse en Oposición. Declararse Independiente. Declararse Organización de Gobierno. Las organizaciones políticas que inscribieron al candidato electo como Alcalde, se tendrán como de Gobierno o en Coalición de Gobierno. En consecuencia, mientras dure su mandato no podrán acceder a los derechos que se le reconocen a las organizaciones políticas de oposición o independientes, fijadas en la ley. Parágrafo 1. Las organizaciones políticas podrán por una sola vez y ante la autoridad electoral modificar su declaración política durante el periodo de gobierno. Parágrafo 2. La declaración política o su modificación se adoptará de conformidad con lo establecido en los estatutos de cada partido o movimiento político con personería jurídica. Parágrafo 3. Las organizaciones políticas con personería jurídica deberán registrar la declaración política o su modificación, ante la Registraduría Municipal. Adicionalmente deberá remitirse copia a la Mesa Directiva de la Corporación púbica. CAPITULO II DERECHOS DE LA OPOSICIÓN"
+    "titulo": "Artículo 159.- Declaración Política. Dentro del mes siguiente al inicio del gobierno, so pena de considerarse falta al régimen contenid",
+    "texto": "Declaración Política. Dentro del mes siguiente al inicio del gobierno, so pena de considerarse falta al régimen contenido en la ley 1475 de 2011 y ser sancionadas de oficio por la autoridad electoral, las organizaciones políticas deberán optar por: 1. 2. \n3. Declararse en Oposición. Declararse Independiente. Declararse Organización de Gobierno. Las organizaciones políticas que inscribieron al candidato electo como Alcalde, se tendrán como de Gobierno o en Coalición de Gobierno. En consecuencia, mientras dure su mandato no podrán acceder a los derechos que se le reconocen a las organizaciones políticas de oposición o independientes, fijadas en la ley. \n\nParágrafo \n1. Las organizaciones políticas podrán por una sola vez y ante la autoridad electoral modificar su declaración política durante el periodo de gobierno. \n\nParágrafo \n2. La declaración política o su modificación se adoptará de conformidad con lo establecido en los estatutos de cada partido o movimiento político con personería jurídica. \n\nParágrafo \n3. Las organizaciones políticas con personería jurídica deberán registrar la declaración política o su modificación, ante la Registraduría Municipal. Adicionalmente deberá remitirse copia a la Mesa Directiva de la Corporación púbica. CAPITULO II DERECHOS DE LA OPOSICIÓN"
   },
   "160": {
     "numero": 160,
-    "titulo": "Artículo 160.- Derechos de la Oposición. Las organizaciones",
-    "texto": "Derechos de la Oposición. Las organizaciones políticas declaradas en oposición al Gobierno Municipal, tendrán los siguientes derechos: 1. Acceso a la información y a la documentación oficial. 2. Derecho de réplica. 3. Participación en mesas directivas de plenarias corporaciones públicas de elección popular. de las 4. Participación en la Agenda de las Corporaciones Públicas. 5. Garantía del libre ejercicio de los derechos políticos. 6. Derecho a participar en las herramientas de comunicación de las corporaciones públicas de elección popular. 7. Derecho a la sesión exclusiva sobre el Plan de Desarrollo y presupuesto."
+    "titulo": "Artículo 160.- Derechos de la Oposición. Las organizaciones políticas declaradas en oposición al Gobierno Municipal, tendrán los siguie",
+    "texto": "Derechos de la Oposición. Las organizaciones políticas declaradas en oposición al Gobierno Municipal, tendrán los siguientes derechos: \n1. Acceso a la información y a la documentación oficial. \n2. Derecho de réplica. \n3. Participación en mesas directivas de plenarias corporaciones públicas de elección popular. de las \n4. Participación en la Agenda de las Corporaciones Públicas. \n5. Garantía del libre ejercicio de los derechos políticos. \n6. Derecho a participar en las herramientas de comunicación de las corporaciones públicas de elección popular. \n7. Derecho a la sesión exclusiva sobre el Plan de Desarrollo y presupuesto."
   },
   "161": {
     "numero": 161,
-    "titulo": "Artículo 161.- Acceso a la Información y Documentación",
-    "texto": "Acceso a la Información y Documentación Oficial. Las organizaciones políticas que se declaren en oposición tendrán derecho a que se les facilite con celeridad, la información y documentación oficial, dentro de los cinco (5) días siguientes a la presentación de la solicitud. Los correspondientes partidos deberán llevar un registro de las solicitudes que realicen en ejercicio de este derecho, en el que indicarán fecha, autoridad pública a la que se dirige, asunto, fecha de respuesta y si esta satisface sus pretensiones. Este registro será reportado a la Autoridad Electoral cada seis (6) meses. El Consejo Nacional Electoral deberá llevar un registro de estas solicitudes, llevará la estadística al respecto y constatará el cumplimiento de los derechos que en esta materia asisten a la oposición. Lo anterior, sin perjuicio de las acciones que se adelanten a efectos de proteger los derechos de la oposición. Parágrafo 1. El Concejo no cobrará el valor de las fotocopias de documentos que se encuentran en la Corporación y sean solicitados en ejercicio de los derechos de oposición. Parágrafo 2°. A solicitud de la organización política declarada en oposición, la reproducción de la información se podrá realizar a través de medios electrónicos como disco compacto, memorias USB o correo electrónico, entre otros. No obstante, todas las solicitudes que se atiendan en los mencionados medios electrónicos deben ser suministrados por el/los peticionario(s)."
+    "titulo": "Artículo 161.- Acceso a la Información y Documentación Oficial. Las organizaciones políticas que se declaren en oposición tendrán derec",
+    "texto": "Acceso a la Información y Documentación Oficial. Las organizaciones políticas que se declaren en oposición tendrán derecho a que se les facilite con celeridad, la información y documentación oficial, dentro de los cinco (5) días siguientes a la presentación de la solicitud. Los correspondientes partidos deberán llevar un registro de las solicitudes que realicen en ejercicio de este derecho, en el que indicarán fecha, autoridad pública a la que se dirige, asunto, fecha de respuesta y si esta satisface sus pretensiones. Este registro será reportado a la Autoridad Electoral cada seis (6) meses. El Consejo Nacional Electoral deberá llevar un registro de estas solicitudes, llevará la estadística al respecto y constatará el cumplimiento de los derechos que en esta materia asisten a la oposición. Lo anterior, sin perjuicio de las acciones que se adelanten a efectos de proteger los derechos de la oposición. \n\nParágrafo \n1. El Concejo no cobrará el valor de las fotocopias de documentos que se encuentran en la Corporación y sean solicitados en ejercicio de los derechos de oposición. \n\nParágrafo 2°. A solicitud de la organización política declarada en oposición, la reproducción de la información se podrá realizar a través de medios electrónicos como disco compacto, memorias USB o correo electrónico, entre otros. No obstante, todas las solicitudes que se atiendan en los mencionados medios electrónicos deben ser suministrados por el/los peticionario(s)."
   },
   "162": {
     "numero": 162,
-    "titulo": "Artículo 162.- Derecho de Réplica. Las organizaciones políticas",
-    "texto": "Derecho de Réplica. Las organizaciones políticas que se declaren en oposición, tendrán el derecho de réplica en los medios de comunicación social de acuerdo a la cobertura y correspondencia del nivel territorial, frente a tergiversaciones graves y evidentes o ataques públicos proferidos por el Alcalde, Secretarios de Despacho, Directores o Gerentes de Entidades Descentralizadas y por cualquier otro alto funcionario oficial. Cuando los ataques mencionados se produzcan en alocuciones o intervenciones oficiales, haciendo uso de los espacios que la ley reserva para este tipo de funcionarios en los medios de comunicación social del Estado o que utilicen el espectro electromagnético, se solicitará la protección del derecho en los términos establecidos en la ley y se concederá en condiciones de equidad para que el representante de la organización de oposición pueda responder en forma oportuna, y con tiempos y medios similares, y que en todo caso garanticen una amplia difusión. Cuando los ataques mencionados por una intervención o declaración de los funcionarios enunciados, transmitida en los noticieros y programas de opinión que se emitan en los medios de comunicación social del Estado, que utilicen el espectro electromagnético, el medio de comunicación donde se emitió la declaración deberá dar la oportunidad a la organización de oposición afectada de responder y controvertir el ataque. Cuando el medio de comunicación en el cual se haya emitido el ataque haya dado oportunidad de respuesta, no procederá en ningún caso el derecho de réplica. Si el medio no concede la oportunidad de responder al afectado y quien así se considere contacta al medio de comunicación, dentro de los tres días siguientes a la emisión de las declaraciones, y éste se niega a permitir su intervención, la organización de oposición afectada podrá acudir a la acción de protección de los derechos de oposición en los términos del artículo 28 de la Ley 1909 de 2018. En todo caso, la réplica se otorgará con b"
+    "titulo": "Artículo 162.- Derecho de Réplica. Las organizaciones políticas que se declaren en oposición, tendrán el derecho de réplica en los medi",
+    "texto": "Derecho de Réplica. Las organizaciones políticas que se declaren en oposición, tendrán el derecho de réplica en los medios de comunicación social de acuerdo a la cobertura y correspondencia del nivel territorial, frente a tergiversaciones graves y evidentes o ataques públicos proferidos por el Alcalde, Secretarios de Despacho, Directores o Gerentes de Entidades Descentralizadas y por cualquier otro alto funcionario oficial. Cuando los ataques mencionados se produzcan en alocuciones o intervenciones oficiales, haciendo uso de los espacios que la ley reserva para este tipo de funcionarios en los medios de comunicación social del Estado o que utilicen el espectro electromagnético, se solicitará la protección del derecho en los términos establecidos en la ley y se concederá en condiciones de equidad para que el representante de la organización de oposición pueda responder en forma oportuna, y con tiempos y medios similares, y que en todo caso garanticen una amplia difusión. Cuando los ataques mencionados por una intervención o declaración de los funcionarios enunciados, transmitida en los noticieros y programas de opinión que se emitan en los medios de comunicación social del Estado, que utilicen el espectro electromagnético, el medio de comunicación donde se emitió la declaración deberá dar la oportunidad a la organización de oposición afectada de responder y controvertir el ataque. Cuando el medio de comunicación en el cual se haya emitido el ataque haya dado oportunidad de respuesta, no procederá en ningún caso el derecho de réplica. Si el medio no concede la oportunidad de responder al afectado y quien así se considere contacta al medio de comunicación, dentro de los tres días siguientes a la emisión de las declaraciones, y éste se niega a permitir su intervención, la organización de oposición afectada podrá acudir a la acción de protección de los derechos de oposición en los términos del artículo 28 de la Ley 1909 de 2018. En todo caso, la réplica se otorgará con base en el principio de buena fe y de forma oportuna, y con tiempo y medio proporcionales, y en un espacio por lo menos similar al que suscitó su ejercicio, y en todo caso que garantice una difusión amplia con respeto por la libertad del noticiero o espacio de opinión para elaborar la respectiva nota informativa o de opinión. Los contenidos completos de la réplica deben estar disponibles en la versión electrónica de los medios de comunicación. Parágrafo único. Para la aplicación del presente artículo se deberán tener en cuenta las disposiciones contenidas en el artículo 13 de la Ley 1909 de 2018 y la Resolución 3134 de 2018 del Consejo Nacional Electoral, en lo que sea referente a los Concejos Municipales o Distritales."
   },
   "163": {
     "numero": 163,
-    "titulo": "Artículo 163.- Participación en la Mesa directiva de Plenaria",
+    "titulo": "Artículo 163.- Participación en la Mesa directiva de Plenaria del Concejo. Las organizaciones políticas declaradas en oposición y con r",
     "texto": "Participación en la Mesa directiva de Plenaria del Concejo. Las organizaciones políticas declaradas en oposición y con representación en la Corporación Pública, tendrán participación en la primera vicepresidencia de la mesa directiva de la Plenaria del Concejo. Los candidatos para ocupar la plaza que le corresponda a la oposición solo podrán ser postulados por dichas organizaciones. La organización política que hubiese ocupado este lugar en la mesa directiva no podrá volver a ocuparlo hasta tanto no lo hagan las demás declaradas en oposición, salvo que por unanimidad así lo decidan. Esta representación debe alternarse en períodos sucesivos entre hombres y mujeres de conformidad con el estatuto de oposición, siempre que ello fuere posible. Parágrafo único. No podrá ser elegido en la Mesa Directiva quien haya pertenecido a la misma el año inmediatamente anterior, así fuere parcialmente."
   },
   "164": {
     "numero": 164,
-    "titulo": "Artículo 164.- Participación en la Agenda del Concejo. Los",
-    "texto": "Participación en la Agenda del Concejo. Los voceros de las bancadas de las organizaciones políticas declaradas en oposición y con representación en el Concejo, según sus prioridades y de común acuerdo entre ellos, tendrán derecho a determinar el orden del día de la sesión plenaria y Pnentes, una (1) vez durante cada período de sesiones ordinarias de la Corporación Pública. El orden del día podrá incluir debates de control político. La mesa directiva deberá acogerse y respetar ese orden del día. El orden del día que por derecho propio determinan los voceros de las bancadas de las organizaciones políticas declaradas en oposición, sólo podrá ser modificado por ellos mismos. Parágrafo 1. Para la aplicación del presente artículo, el vocero de la bancada declarada en oposición, deberá informar a la Mesa Directiva con tres (3) días de antelación el ejercicio del derecho. Parágrafo 2. Será considerada falta grave la inasistencia, sin causa justificada, por parte del funcionario de la administración municipal citado a debate de control político durante las sesiones en donde el orden el día haya sido determinado por las organizaciones políticas declaradas en oposición."
+    "titulo": "Artículo 164.- Participación en la Agenda del Concejo. Los voceros de las bancadas de las organizaciones políticas declaradas en oposic",
+    "texto": "Participación en la Agenda del Concejo. Los voceros de las bancadas de las organizaciones políticas declaradas en oposición y con representación en el Concejo, según sus prioridades y de común acuerdo entre ellos, tendrán derecho a determinar el orden del día de la sesión plenaria y Pnentes, una (1) vez durante cada período de sesiones ordinarias de la Corporación Pública. El orden del día podrá incluir debates de control político. La mesa directiva deberá acogerse y respetar ese orden del día. El orden del día que por derecho propio determinan los voceros de las bancadas de las organizaciones políticas declaradas en oposición, sólo podrá ser modificado por ellos mismos. \n\nParágrafo \n1. Para la aplicación del presente artículo, el vocero de la bancada declarada en oposición, deberá informar a la Mesa Directiva con tres (3) días de antelación el ejercicio del derecho. \n\nParágrafo \n2. Será considerada falta grave la inasistencia, sin causa justificada, por parte del funcionario de la administración municipal citado a debate de control político durante las sesiones en donde el orden el día haya sido determinado por las organizaciones políticas declaradas en oposición."
   },
   "165": {
     "numero": 165,
-    "titulo": "Artículo 165.- Derecho a Participar en las Herramientas de",
+    "titulo": "Artículo 165.- Derecho a Participar en las Herramientas de Comunicación de la Corporación Pública de Elección Popular. Las organizacion",
     "texto": "Derecho a Participar en las Herramientas de Comunicación de la Corporación Pública de Elección Popular. Las organizaciones políticas con representación en el concejo, declaradas en oposición tendrán derecho a una participación adecuada y equitativa en los programas de radio, televisión, publicaciones escritas y demás herramientas de comunicación que estén a cargo de la respectiva corporación pública de elección popular. Parágrafo único. Para la aplicación del presente artículo se deberán tener en cuenta las disposiciones contenidas en el artículo 13 de la ley 1909 de 2018 y la Resolución 3134 de 2018 del Consejo Nacional Electoral, en lo que sea referente a los Concejos Municipales o Distritales."
   },
   "166": {
     "numero": 166,
-    "titulo": "Artículo 166.- Transparencia y Rendición de Cuentas en el",
+    "titulo": "Artículo 166.- Transparencia y Rendición de Cuentas en el Plan de Desarrollo y Planes Plurianuales de Inversión. En el marco de la apro",
     "texto": "Transparencia y Rendición de Cuentas en el Plan de Desarrollo y Planes Plurianuales de Inversión. En el marco de la aprobación de los planes plurianuales de inversiones de los Planes de Desarrollo del nivel municipal, el respectivo Gobierno deberá hacer público en los portales web institucionales los programas y proyectos que se pretendan ejecutar. Además, deberán publicarse las modificaciones o adiciones a su articulado presentadas en el trámite de la construcción de dichos planes plurianuales y los Concejales autores de las mismas. El gobierno municipal realizará audiencias públicas para que la ciudadanía pueda conocer los proyectos de inversión en el marco de los planes plurianuales y pueda presentar propuestas de priorización de las respectivas inversiones. Estas audiencias deberán realizarse según el caso, por localidades, comunas o barrios. Igualmente, antes de finalizar cada año del período constitucional, el alcalde municipal, presentará al Concejo, un informe de cumplimiento de metas del Plan de Desarrollo y ejecución del presupuesto de inversión. La Administración Municipal deberá poner a disposición de la ciudadanía el informe en la página web y demás canales digitales que para tal efecto disponga cada entidad. El informe será debatido en plenaria del Concejo dentro de los treinta (30) días siguientes de su radicación. Para ello, las organizaciones políticas declaradas en oposición y en independencia tendrán derecho a que se realice una sesión exclusiva en el Concejo para exponer sus posturas y argumentos frente a dicho informe. La presencia del gobierno será obligatoria. Parágrafo único. En el informe deberá especificarse el cumplimiento de metas sobre el Plan de Desarrollo y el monto total de la inversión que se realizó en el municipio, en los corregimientos, comunas o localidades, la distribución sectorial de la inversión, los programas que se implementaron en cada sector y la entidad competente de su ejecución."
   },
   "167": {
     "numero": 167,
-    "titulo": "Articulo 167.- Curules en las corporaciones públicas de",
+    "titulo": "Artículo 167.- Curules en las corporaciones públicas de elección popular de las entidades territoriales. El candidato que siga en votos",
     "texto": "Curules en las corporaciones públicas de elección popular de las entidades territoriales. El candidato que siga en votos a quien la autoridad electoral declare elegido Alcalde Distrital o Municipal, tendrá derecho personal a ocupar, en su orden, una curul en el Concejo, durante el periodo constitucional de esta corporación. Con la organización política a que pertenezca, podrá intervenir en las opciones previstas en el artículo 132 del reglamento y hará parte de la misma organización política. Posterior a la declaratoria de elección del cargo de Alcalde y previo al del Concejo, el candidato que ocupó el segundo puesto en votación, deberá manifestar por escrito ante la comisión escrutadora competente, su decisión de aceptar o no una curul en el Concejo. Otorgadas la credencial de alcalde, la autoridad electoral le expedirá, previa aceptación, la credencial como concejal a quien ocupó el segundo puesto en la votación para el mismo cargo y aplicará la regla general prevista en el artículo 263 de la Constitución para la distribución de las curules restantes de Concejos Distritales y Municipales. Si no hay aceptación de la curul se aplicará la regla general prevista en el artículo 263 de la Constitución política para la distribución de todas las curules del Concejo."
   },
   "168": {
     "numero": 168,
-    "titulo": "Artículo 168.- Pérdida de derechos de la oposición. Los",
+    "titulo": "Artículo 168.- Pérdida de derechos de la oposición. Los derechos reconocidos en la Ley 1909 de 2018 a las organizaciones políticas se m",
     "texto": "Pérdida de derechos de la oposición. Los derechos reconocidos en la Ley 1909 de 2018 a las organizaciones políticas se mantendrán mientras esté vigente la declaración de oposición. En caso contrario se perderán. En consecuencia, la Autoridad Electoral cancelará el correspondiente registro como organización política de oposición y reasignará los espacios en radio y televisión. A su vez, el Concejo elegirá un nuevo miembro de la mesa directiva. CAPITULO II DERECHOS DE LOS INDEPENDIENTES"
   },
   "169": {
     "numero": 169,
-    "titulo": "Artículo 169.- Derechos de los Independientes. Las",
-    "texto": "Derechos de los Independientes. Las organizaciones políticas que cuentan con representación en la corporación pública de elección popular, que no hacen parte del gobierno, ni de la oposición, deberán declararse como independientes. Sin perjuicio de los que le asisten a toda organización política, tendrán los siguientes derechos: 1. Participar en las herramientas de comunicación corporación pública de elección popular. de la 2. Postular los candidatos a la mesa directiva del Concejo, en ausencia de organizaciones políticas declaradas en oposición, o de postulaciones realizadas por éstas últimas. Si la organización modifica su declaración política, el Concejo elegirá nuevo miembro de la mesa directiva. TÍTULO XIII CAPITULO ÚNICO OTRAS DISPOSICIONES:"
+    "titulo": "Artículo 169.- Derechos de los Independientes. Las organizaciones políticas que cuentan con representación en la corporación pública de",
+    "texto": "Derechos de los Independientes. Las organizaciones políticas que cuentan con representación en la corporación pública de elección popular, que no hacen parte del gobierno, ni de la oposición, deberán declararse como independientes. Sin perjuicio de los que le asisten a toda organización política, tendrán los siguientes derechos: \n1. Participar en las herramientas de comunicación corporación pública de elección popular. de la \n2. Postular los candidatos a la mesa directiva del Concejo, en ausencia de organizaciones políticas declaradas en oposición, o de postulaciones realizadas por éstas últimas. Si la organización modifica su declaración política, el Concejo elegirá nuevo miembro de la mesa directiva. TÍTULO XIII CAPITULO ÚNICO OTRAS DISPOSICIONES:"
   },
   "170": {
     "numero": 170,
-    "titulo": "Artículo 170.- Ejecución de las sanciones por violación al",
+    "titulo": "Artículo 170.- Ejecución de las sanciones por violación al Régimen de Bancadas. Las sanciones en firme impuestas a los Concejales miemb",
     "texto": "Ejecución de las sanciones por violación al Régimen de Bancadas. Las sanciones en firme impuestas a los Concejales miembros de ésta Corporación por los partidos que avalan la bancada correspondiente, se ejecutarán mediante resolución de la Mesa Directiva que se notificará personalmente al disciplinado."
   },
   "171": {
     "numero": 171,
-    "titulo": "Artículo 171.- Todos los Concejales y funcionarios del Concejo",
+    "titulo": "Artículo 171.- Todos los Concejales y funcionarios del Concejo procurarán obtener un correo electrónico, para efectos de satisfacer el ",
     "texto": "Todos los Concejales y funcionarios del Concejo procurarán obtener un correo electrónico, para efectos de satisfacer el principio de eficiencia en las actuaciones administrativas. Al efecto, deberán ejercer sus funciones teniendo en cuenta la legislación de comercio electrónico contenida en la ley 527 de 1999."
   },
   "172": {
     "numero": 172,
-    "titulo": "Artículo 172.- Conforme al",
-    "texto": "Conforme al"
+    "titulo": "Artículo 172.- Conforme al Artículo 4°. Del Acto Legislativo 02 de 2015, se compila e integra al presente reglamento en los siguientes ",
+    "texto": "Conforme al Artículo 4°. Del Acto Legislativo 02 de 2015, se compila e integra al presente reglamento en los siguientes términos: Los miembros de las Corporaciones Públicas de elección popular no tendrán suplentes. Solo podrán ser reemplazados en los casos de faltas absolutas o temporales que determine la ley, por los candidatos no elegidos que, según el orden de inscripción o votación obtenida, le sigan en forma sucesiva y descendente en la misma lista electoral. En ningún caso podrán ser reemplazados quienes sean condenados por delitos comunes relacionados con pertenencia, promoción o financiación a grupos armados ilegales o actividades de narcotráfico; dolosos contra la administración pública; contra los mecanismos de participación democrática, ni por Delitos de Lesa Humanidad. Tampoco quienes renuncien habiendo sido vinculados formalmente en Colombia a procesos penales por la comisión de tales delitos, ni las faltas temporales de aquellos contra quienes se profiera orden de captura dentro de los respectivos procesos. Para efectos de conformación de quórum se tendrá como número de miembros la totalidad de los integrantes de la Corporación con excepción de aquellas curules que no puedan ser reemplazadas. La misma regla se aplicará en los eventos de impedimentos o recusaciones aceptadas. Si por faltas absolutas que no den lugar a reemplazo los miembros de cuerpos colegiados elegidos en una misma circunscripción electoral quedan reducidos a la mitad o menos, el Consejo Nacional Electoral convocará a elecciones para llenar las vacantes, siempre y cuando falten más de veinticuatro (24) meses para la terminación del periodo. Parágrafo Transitorio. Mientras el legislador regula el régimen de reemplazos, se aplicarán las siguientes reglas: i) Constituyen faltas absolutas que dan lugar a reemplazo la muerte; la incapacidad física absoluta para el ejercicio del cargo; la declaración de nulidad de la elección; la renuncia justificada y aceptada por la respectiva corporación; la sanción disciplinaria consistente en destitución, y la pérdida de investidura; ii) Constituyen faltas temporales que dan lugar a reemplazo, la licencia de maternidad y la medida de aseguramiento privativa de la libertad por delitos distintos a los mencionados en el presente artículo. La prohibición de reemplazos se aplicará para las investigaciones judiciales que se iniciaron a partir de la vigencia del Acto Legislativo número 01 de 2009, con excepción del relacionado con la comisión de delitos contra la administración pública que se aplicará para las investigaciones que se inicien a partir de la vigencia del acto legislativo 02 de 2015."
   },
   "173": {
     "numero": 173,
-    "titulo": "Artículo 173.- Pago de Honorarios. De acuerdo con artículo 65",
+    "titulo": "Artículo 173.- Pago de Honorarios. De acuerdo con artículo 65 de la ley 136 de 1994 el reconocimiento de honorarios se realizará a los ",
     "texto": "Pago de Honorarios. De acuerdo con artículo 65 de la ley 136 de 1994 el reconocimiento de honorarios se realizará a los miembros de los Concejos de las entidades territoriales por la asistencia comprobada a las sesiones plenarias. Parágrafo. Al reconocimiento y pago de honorarios por su asistencia comprobada a las sesiones plenarias de la corporación, conforme a la reglamentación legal. TITULO XIII CAPITULO ÚNICO VIGENCIA Y REVISIÓN"
   },
   "174": {
     "numero": 174,
-    "titulo": "Artículo 174.- Vigencia. El presente acuerdo rige a partir de la",
+    "titulo": "Artículo 174.- Vigencia. El presente acuerdo rige a partir de la fecha de su promulgación.",
     "texto": "Vigencia. El presente acuerdo rige a partir de la fecha de su promulgación."
   },
   "175": {
     "numero": 175,
-    "titulo": "Artículo 175.- Revisión jurídica. Para dar cumplimiento al",
+    "titulo": "Artículo 175.- Revisión jurídica. Para dar cumplimiento al precepto contenido en el artículo 305, numeral 10, de la Constitución Políti",
     "texto": "Revisión jurídica. Para dar cumplimiento al precepto contenido en el artículo 305, numeral 10, de la Constitución Política, copia del acuerdo que contiene el Presente reglamento será enviado por el alcalde al señor Gobernador del Departamento, dentro de los cinco (5) días siguientes al acto de sanción por parte del respectivo alcalde."
   },
   "176": {
     "numero": 176,
-    "titulo": "Artículo 176.- Divulgación.- La Mesa Directiva del Concejo hará",
-    "texto": "Divulgación.- La Mesa Directiva del Concejo hará la publicación de éste Reglamento en página web y gaceta cuando la hubiere, e informará a los Concejales, los ex Concejales, los empleados del Concejo, las autoridades municipales, las autoridades eclesiásticas y militares, las juntas administradoras locales, las juntas de acción comunal, las organizaciones cívicas, los directores de escuelas y colegios, las bibliotecas y casas de la cultura, y los funcionarios y empleados judiciales con sede en el municipio, respecto de su vigencia."
+    "titulo": "Artículo 176.- Divulgación.- La Mesa Directiva del Concejo hará la publicación de éste Reglamento en página web y gaceta cuando la hubi",
+    "texto": "Divulgación.- La Mesa Directiva del Concejo hará la publicación de éste Reglamento en página web y gaceta cuando la hubiere, e informará a los Concejales, los ex Concejales, los empleados del Concejo, las autoridades municipales, las autoridades eclesiásticas y militares, las juntas administradoras locales, las juntas de acción comunal, las organizaciones cívicas, los directores de escuelas y colegios, las bibliotecas y casas de la cultura, y los funcionarios y empleados judiciales con sede en el"
   },
   "177": {
     "numero": 177,
-    "titulo": "Artículo 177.- El presente acuerdo rige a partir de su publicación.",
-    "texto": "El presente acuerdo rige a partir de su publicación. PUBLIQUESE Y CUMPLASE Se expide en el Honorable Concejo Municipal de El Cerrito – Valle del Cauca a los veinticinco (25) días del mes de Noviembre de 2025. DIEGO FERNANDO HOYOS R. JUAN SEBASTIAN PEDROZA T. Presidente Primer Vicepresidente NICOLAS BELALCAZAR M. Segundo Vicepresidente BEATRIZ EUGENIA MOLINA P. Secretaria General Concejo Municipal El Cerrito – Valle del Cauca Periodo 2024 – 2027 Honorable Concejal Heidy Yoled Azcarate Nieves Honorable Concejal Nicolás Belalcazar Manzano Honorable Concejal Hoover Henry Cadena Barona Honorable Concejal Victorino Caicedo Hinestroza Honorable Concejal Pedro Luis Calle Pareja Honorable Concejal Edison García Pernía Honorable Concejal Diego Fernando Hoyos Rivera Honorable Concejal Carlos Andrés Marín Sánchez Honorable Concejal Oscar Eduardo Martínez García Honorable Concejal Cesar Tulio Martínez Prado Honorable Concejal Albert Montaño Pérez Honorable Concejal Manuel Santiago Murcillo Peláez Honorable Concejal Juan Sebastián Pedroza Tovar Honorable Concejal Nery Riascos Alomia Honorable Concejal Héctor Fabio Rivadeneira Galeano LA SUSCRITA SECRETARIA GENERAL “POR MEDIO DEL CUAL SE ABROGA EL ACUERDO NÚMERO 004 DE MAYO 29 DE 2018 Y SE DETERMINA EL NUEVO REGLAMENTO INTERNO DEL CONCEJO MUNICIPAL DE EL CERRITO VALLE DEL CAUCA”. Fue iniciativa del Señor Presidente del Honorable Concejo Municipal DIEGO FERNANDO HOYOS RIVERA Se dio el siguiente trámite: ESTUDIO PRIMER DEBATE: COMISION TERCERA PERMANENTE DE EDUCACIÓN, SERVICIOS PÚBLICOS Y ASUNTOS ADMINISTRATIVOS, el día veintiuno (21) de noviembre del dos mil veinticinco (2025). SEGUNDO DEBATE: Sesión ordinaria del veinticinco (25) de noviembre del dos mil veinticinco (2025). REMISIÓN Hoy veinticinco (25) de noviembre del dos mil veinticinco (2025), estoy remitiendo el Acuerdo No 024 de noviembre 25 de 2025, para su respectiva sanción. BEATRIZ EUGENIA MOLINA POLANCO Secretaria General"
+    "titulo": "Artículo 177.- municipio, respecto de su vigencia.Artículo 177.- El presente acuerdo rige a partir de su publicación. PUBLIQUESE Y CUMP",
+    "texto": "municipio, respecto de su vigencia.Artículo 177.- El presente acuerdo rige a partir de su publicación. PUBLIQUESE Y CUMPLASE Se expide en el Honorable Concejo Municipal de El Cerrito – Valle del Cauca a los veinticinco (25) días del mes de Noviembre de 2025. DIEGO FERNANDO HOYOS R. JUAN SEBASTIAN PEDROZA T. Presidente Primer Vicepresidente NICOLAS BELALCAZAR M. Segundo Vicepresidente BEATRIZ EUGENIA MOLINA P. Secretaria General Concejo Municipal El Cerrito – Valle del Cauca Periodo 2024 – 2027 Honorable Concejal Heidy Yoled Azcarate Nieves Honorable Concejal Nicolás Belalcazar Manzano Honorable Concejal Hoover Henry Cadena Barona Honorable Concejal Victorino Caicedo Hinestroza Honorable Concejal Pedro Luis Honorable Concejal Edison García Pernía Honorable Concejal Diego Fernando Hoyos Rivera Honorable Concejal Carlos Andrés Marín Sánchez Honorable Concejal Oscar Eduardo Martínez García Honorable Concejal Cesar Tulio Martínez Prado Honorable Concejal Albert Montaño Pérez Honorable Concejal Manuel Santiago Murcillo Peláez Honorable Concejal Juan Sebastián Pedroza Tovar Honorable Concejal Nery Riascos Alomia Honorable Concejal Héctor Fabio Rivadeneira Galeano LA SUSCRITA SECRETARIA GENERAL “POR MEDIO DEL CUAL SE ABROGA EL ACUERDO NÚMERO 004 DE MAYO 29 DE 2018 Y SE DETERMINA EL NUEVO REGLAMENTO INTERNO DEL Fue iniciativa del Señor Presidente del Honorable Concejo Municipal DIEGO FERNANDO HOYOS RIVERA Se dio el siguiente trámite: ESTUDIO PRIMER DEBATE: COMISION TERCERA PERMANENTE DE EDUCACIÓN, SERVICIOS PÚBLICOS Y ASUNTOS ADMINISTRATIVOS, el día veintiuno (21) de noviembre del dos mil veinticinco (2025). SEGUNDO DEBATE: Sesión ordinaria del veinticinco (25) de noviembre del dos mil veinticinco (2025). REMISIÓN Hoy veinticinco (25) de noviembre del dos mil veinticinco (2025), estoy remitiendo el Acuerdo No 024 de noviembre 25 de 2025, para su respectiva sanción. BEATRIZ EUGENIA MOLINA POLANCO Secretaria General"
+  },
+  "0": {
+    "numero": 0,
+    "titulo": "Artículo 0.- Preámbulo y Considerandos del Acuerdo 024 de 2025",
+    "texto": "REGLAMENTO INTERNO CONSIDERANDO: ..................................................................................................................2 ACUERDA .................................................................................................................................5 DISPOSICIONES PRELIMINARES ...................................................................................5 EL CONCEJO COMO CORPORACIÓN POLÍTICO ADMINISTRATIVA Y POPULAR. 5 DEL CONCEJO..............................................................................................................11 PRINCIPIOS RECTORES Y CRITERIOS DE INTERPRETACIÓN ....................................... 14 DEL CONCEJO Y LAS BANCADAS .......................................................................................... 15 ESTRUCTURA ORGÁNICA DEL CONCEJO ........................................................................... 21 CONCEJO PLENO................................................................................................................22 INAUGURACIÓN. POSESIÓN. PERIODO DE SESIONES. ACTAS. PUBLICIDAD. ....... 22 FUNCIONES. DELEGACIÓN. PROHIBICIONES. .................................................................. 28 DIGNATARIOS ......................................................................................................................36 DEL PRESIDENTE, VICEPRESIDENTE. MESA DIRECTIVA. COMITÉ DE COORDINACIÓN POLÍTICA. ....................................................................................................... 37 DEBERES Y DERECHOS DE LOS CONCEJALES ....................................................48 De los Deberes. .............................................................................................................................. 48 DE LOS DERECHOS. ................................................................................................................... 51 SECRETARIO........................................................................................................................64 Designación. Requisitos. Periodo. Funciones........................................................................ 64 COMISIONES ........................................................................................................................67 Clases de Comisiones. ................................................................................................................. 68 COMISIONES PERMANENTES .................................................................................................. 70 COMISIÓN LEGAL PARA LA EQUIDAD DE LA MUJER ..................................................... 78 SESIONES ..............................................................................................................................81 Reuniones. Citaciones. Orden Interno y Sesiones en General. ........................................ 82 ORDEN DEL DÍA. .......................................................................................................................... 87 DEBATES ........................................................................................................................................ 88 VOTACIONES ................................................................................................................................. 95 DEL CONTROL POLÍTICO .............................................................................................100 PROCESO NORMATIVO ..................................................................................................108 ACUERDOS MUNICIPALES ...................................................................................................... 108 PRIMER DEBATE ........................................................................................................................ 111 SEGUNDO DEBATE ................................................................................................................... 115 DE LAS OBJECIONES .....................................................................................................118 MOTIVOS PLAZOS ...................................................................................................................... 118 TRÁMITE DE LAS OBJECIONES ............................................................................................ 118 CABILDO ABIERTO ..........................................................................................................120 DISPOSICIONES GENERALES ESTATUTO DE LA OPOSICIÓN .................................... 123 DERECHOS DE LA OPOSICIÓN ............................................................................................. 124 DERECHOS DE LOS INDEPENDIENTES ............................................................................. 131 OTRAS DISPOSICIONES:.......................................................................................................... 132 VIGENCIA Y REVISIÓN ............................................................................................................. 134 PROYECTO DE ACUERDO No. 024 DE 2025 (NOVIEMBRE 25 DE 2025) “Por medio del cual se Abroga el Acuerdo Número 004 de Mayo 29 de 2018 y se determina el Nuevo Reglamento Interno del Concejo Municipal de El Cerrito – Valle del Cauca” El Concejo Municipal de El Cerrito (Valle del Cauca) en ejercicio de sus funciones Constitucionales y legales, especialmente las previstas en el artículo 313 de la Constitución Política de 1991 y los artículos 31, 32 y 71 de la ley 136 de 1994, la ley 1551 de 2012 y, CONSIDERANDO: a) Que según el artículo 312 de la Constitución Política, modificado por el artículo 5 del Acto Legislativo 01 de 2007, manifiesta que “En cada municipio habrá una corporación político-administrativa elegida popularmente para períodos de cuatro (4) años que se denominará Concejo Municipal, integrada por no menos de 7 ni más de 21 miembros, según lo determine la ley, de acuerdo con la población respectiva”. Que estas Corporaciones podrán ejercer control político sobre la administración municipal; b) Que corresponde a los Concejos ejercer las atribuciones que enumera la Constitución Política en su artículo 313, así como las que a su vez señalan la Ley 136 de 1994, ley 617 de 2000, Ley 1551 de 2012 y demás que la Constitución y la ley le asignen; c) Que el artículo 72 del Decreto 1333 de 1986 en concordancia con el Art. 31 de la ley 136 de 1994 “por la cual se dictan normas tendientes a modernizar la organización y el funcionamiento de los municipios” establece la obligación para los Concejos de expedir un reglamento interno para su funcionamiento, en el cual se incluyan, entre otras, las normas referentes a las comisiones, a la actuación de los Concejales y la validez de las convocatorias y de las sesiones; d) Que de conformidad con el artículo 21 de la ley 974 de 2005, a partir del 19 de julio del mismo año entró en vigencia el denominado Régimen de Bancadas para la actuación de tales organismos en las Corporaciones Públicas de Elección Popular, el cual es aplicable en lo pertinente a los Concejos Municipales según lo dispone el artículo 19 de la referida normatividad. e) Que el Acto Legislativo 01 de 2007 fortalece el proceso de control político mediante la inclusión de la Moción de Censura y el fortalecimiento de la Moción de Observación como herramientas que podrán usar para sancionar políticamente la actuación irregular o deficiente gestión de quienes desempeñan funciones públicas en la administración municipal; f) Que fue expedida la Ley 1148 de 2007, que crea nuevos derechos para los concejales, incrementa las sesiones ordinarias, reduce el régimen de prohibiciones para los familiares de los Concejales y establece la posibilidad de sesionar a distancia previo el cumplimiento de unos requisitos. g) Que mediante el Acto Legislativo 01 de 2009 o Reforma Política, fueron modificados algunos derechos y atribuciones del Concejo Municipal, se eliminó la posibilidad de remplazar las faltas temporales, se desapareció la posibilidad de pedir licencia y se dictan disposiciones relacionadas con la actuación en bancada y el régimen de los Partidos y Movimientos Políticos. h) Que mediante la Ley 1368 de 2009 fueron creados nuevos derechos para los Concejales, se modificó la forma de Liquidar los Honorarios, se creó el reconocimiento de transporte, se eliminó la retención en la fuente a los honorarios de algunos concejales y se creó la libertad de profesión u oficio. i) Que mediante la expedición de la ley 1551 de 2012 fueron creados derechos para los Concejales en materia pensional, categorización de los municipios y elección de personeros, se dictaron otras disposiciones y en consecuencia se debe reformar el reglamento interno de la corporación. j) Que mediante el acto legislativo 02 de 2015, en el cual se ajustan el número de curules de la Corporación cediendo un lugar a quien haya ocupado la segunda votación más alta para el cargo de alcalde en el respectivo municipio – en caso de que quiera aceptarse la mentada curul durante el periodo de la correspondiente corporación. Teniendo en cuenta la vigencia establecida en el Art. 1º, Parágrafo transitorio. k) Que en virtud de la Ley 1909 de 2018, por medio de la cual se adopta el ESTATUTO DE LA OPOSICIÓN, “el cual establece el marco general para el ejercicio y la protección especial del derecho a la oposición de las organizaciones políticas y algunos derechos de las organizaciones independientes.” l) Que teniendo en cuenta la expedición de la Ley 1981 de 2019 \"Por medio del cual se modifica la ley 136 de 1994, el Decreto ley 1421 de 1993 y el Decreto Extraordinario 1222 de 1986, se dictan normas para crear la Comisión para la Equidad de la Mujer en los Concejos y Asambleas y se dictan otras disposiciones\" m) Que mediante la expedición de la Ley 2436 de 2024, se crea la modalidad de Licencia de Maternidad para Mujeres Electas en Corporaciones Públicas, se promueve la igualdad y la participación política de las mujeres, se modifica la Ley 5ª de 1992 y se dictan otras disposiciones –Licencia de maternidad para mujeres en política–. n) Que mediante la expedición de la Ley 2453 del 2025, se establecieron medidas para prevenir, atender, rechazar y sancionar la violencia contra las mujeres en política y hacer efectivo su derecho a la participación en todos los niveles. o) Que mediante la expedición de la Ley 2461 del 2025, se fortalece las corporaciones públicas municipales de elección popular, se reconoce la actividad de los concejales y se dictan otras disposiciones. p) Que se hace necesario adecuar el Reglamento Interno del Concejo Municipal de EL Cerrito – Valle del Cauca a los preceptos normativos mencionados puesto que es deber de las autoridades administrativas coordinar sus actuaciones de conformidad con la Constitución y la Ley para el adecuado cumplimiento de los fines del Estado. Por lo anterior el Honorable Concejo Municipal de EL Cerrito – Valle del Cauca, ACUERDA"
   }
 };
 
 const EXAMENES = {
   "1": [
     {
+      "p": "¿Cuántos miembros puede tener como mínimo el Concejo Municipal?",
+      "ops": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "r": 1
+    },
+    {
       "p": "¿Cuántos miembros puede tener como máximo el Concejo Municipal?",
       "ops": [
-        "7",
         "15",
+        "18",
         "21",
         "25"
       ],
@@ -1219,16 +1215,196 @@ const EXAMENES = {
         "5 años"
       ],
       "r": 2
-    }
-  ],
-  "2": [
+    },
+    {
+      "p": "¿En qué artículo de la Constitución se fundamentan las atribuciones del Concejo?",
+      "ops": [
+        "Art. 312",
+        "Art. 313",
+        "Art. 314",
+        "Art. 315"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿El Concejo Municipal es autónomo en materia administrativa y presupuestal?",
+      "ops": [
+        "Solo en materia administrativa",
+        "Solo en materia presupuestal",
+        "Sí, en ambas materias",
+        "No tiene autonomía"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué ley regula el régimen municipal en Colombia?",
+      "ops": [
+        "Ley 617 de 2000",
+        "Ley 136 de 1994",
+        "Ley 80 de 1993",
+        "Ley 99 de 1993"
+      ],
+      "r": 1
+    },
     {
       "p": "¿Dónde sesiona ordinariamente el Concejo?",
       "ops": [
         "En Cali",
+        "En la gobernación",
         "En la cabecera municipal",
-        "En cualquier municipio del Valle",
         "En Bogotá"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué es el quórum deliberatorio?",
+      "ops": [
+        "La mayoría absoluta de los miembros",
+        "La cuarta parte de los integrantes",
+        "La mitad más uno",
+        "Las dos terceras partes"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Qué acuerdo deroga el Acuerdo 024 de 2025?",
+      "ops": [
+        "Acuerdo 001 de 2016",
+        "Acuerdo 004 de 2018",
+        "Acuerdo 010 de 2020",
+        "Acuerdo 002 de 2015"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuándo fue expedido el Acuerdo 024?",
+      "ops": [
+        "Enero 2025",
+        "Mayo 2025",
+        "Noviembre 2025",
+        "Diciembre 2025"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué son las bancadas en el Concejo?",
+      "ops": [
+        "Grupos de funcionarios administrativos",
+        "Grupos de concejales del mismo partido o movimiento político",
+        "Comisiones especiales del alcalde",
+        "Grupos de estudio técnico"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué ley regula las bancadas en corporaciones públicas?",
+      "ops": [
+        "Ley 974 de 2005",
+        "Ley 136 de 1994",
+        "Ley 617 de 2000",
+        "Ley 1551 de 2012"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Qué es el control político del Concejo?",
+      "ops": [
+        "La aprobación del presupuesto",
+        "La vigilancia y seguimiento a la gestión de la administración municipal",
+        "La elección del Alcalde",
+        "La revisión de contratos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué Acto Legislativo eliminó los suplentes de los concejales?",
+      "ops": [
+        "Acto Legislativo 01 de 2003",
+        "Acto Legislativo 01 de 2009",
+        "Acto Legislativo 02 de 2015",
+        "Acto Legislativo 01 de 2007"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué pasa si los miembros de una corporación quedan reducidos a la mitad o menos por faltas absolutas?",
+      "ops": [
+        "Se disuelve el Concejo",
+        "El CNE convoca a elecciones si faltan más de 24 meses",
+        "El Alcalde asume las funciones",
+        "Se convocan nuevos integrantes de la lista"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos vicepresidentes tiene la Mesa Directiva del Concejo de El Cerrito?",
+      "ops": [
+        "Uno",
+        "Dos",
+        "Tres",
+        "Ninguno"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué ley creó derechos para concejales en materia pensional?",
+      "ops": [
+        "Ley 1368 de 2009",
+        "Ley 1551 de 2012",
+        "Ley 617 de 2000",
+        "Ley 136 de 1994"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué ley fortaleció las corporaciones públicas municipales de elección popular en 2025?",
+      "ops": [
+        "Ley 2436 de 2024",
+        "Ley 2453 de 2025",
+        "Ley 2461 de 2025",
+        "Ley 1909 de 2018"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Cuál es la estructura orgánica básica del Concejo Municipal?",
+      "ops": [
+        "Plenaria, Mesa Directiva y Comisiones Permanentes",
+        "Presidente, Secretario y Tesorero",
+        "Junta Directiva y Comités",
+        "Plenaria y Subcomisiones"
+      ],
+      "r": 0
+    }
+  ],
+  "2": [
+    {
+      "p": "¿Cuándo se inaugura el período del Concejo?",
+      "ops": [
+        "1 de enero",
+        "1 de marzo",
+        "1 de junio",
+        "Fecha de posesión del Alcalde"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Cuántos períodos de sesiones ordinarias tiene el Concejo al año?",
+      "ops": [
+        "Uno",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Cuántos días dura cada período de sesiones ordinarias?",
+      "ops": [
+        "20 días",
+        "30 días",
+        "60 días",
+        "90 días"
       ],
       "r": 1
     },
@@ -1251,6 +1427,106 @@ const EXAMENES = {
         "Circulares"
       ],
       "r": 2
+    },
+    {
+      "p": "¿Cuándo puede sesionar el Concejo extraordinariamente?",
+      "ops": [
+        "Solo en enero",
+        "Por convocatoria del Alcalde",
+        "Cuando lo decide el Presidente del Concejo",
+        "Solo en diciembre"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es la publicidad de las sesiones del Concejo?",
+      "ops": [
+        "Las sesiones son secretas",
+        "Las sesiones son públicas y pueden ser transmitidas",
+        "Solo los periodistas pueden asistir",
+        "Solo los concejales pueden asistir"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué son las sesiones solemnes?",
+      "ops": [
+        "Sesiones para votar acuerdos",
+        "Sesiones de carácter especial o conmemorativo",
+        "Sesiones secretas",
+        "Sesiones de control político"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos días dura el tercer período de sesiones ordinarias?",
+      "ops": [
+        "30 días",
+        "60 días",
+        "90 días",
+        "El que determine el Concejo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede el Concejo sesionar fuera de la cabecera municipal?",
+      "ops": [
+        "Nunca",
+        "Solo con autorización del Gobernador",
+        "Sí, cuando hay razones de orden público u otras causas justificadas",
+        "Solo en la capital del departamento"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué sucede si el Alcalde no convoca sesiones extraordinarias cuando es urgente?",
+      "ops": [
+        "El Concejo no puede sesionar",
+        "Los concejales pueden autoconvocarse",
+        "El Gobernador convoca",
+        "La Mesa Directiva convoca"
+      ],
+      "r": 3
+    },
+    {
+      "p": "¿Cuál es una función exclusiva del Concejo?",
+      "ops": [
+        "Ejecutar el presupuesto",
+        "Reglamentar los usos del suelo",
+        "Nombrar al Personero",
+        "B y C son correctas"
+      ],
+      "r": 3
+    },
+    {
+      "p": "¿Qué es la delegación de funciones del Concejo?",
+      "ops": [
+        "Transferir funciones al Alcalde",
+        "No existe en el régimen municipal",
+        "Ceder temporalmente funciones a comisiones",
+        "Delegar en el Gobernador"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué prohíbe el régimen de incompatibilidades a los concejales?",
+      "ops": [
+        "Votar proyectos de acuerdo",
+        "Ejercer cargos públicos remunerados mientras ejercen como concejales",
+        "Asistir a sesiones",
+        "Participar en debates"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué son las sesiones de control político?",
+      "ops": [
+        "Sesiones para aprobar el presupuesto",
+        "Sesiones donde el Concejo vigila la gestión de la administración",
+        "Sesiones para elegir dignatarios",
+        "Sesiones de capacitación"
+      ],
+      "r": 1
     }
   ],
   "3": [
@@ -1265,14 +1541,14 @@ const EXAMENES = {
       "r": 2
     },
     {
-      "p": "¿Qué es la Mesa Directiva?",
+      "p": "¿Por cuánto tiempo es elegida la Mesa Directiva?",
       "ops": [
-        "Un comité externo",
-        "Órgano de dirección interna del Concejo",
-        "El equipo del Alcalde",
-        "Una comisión permanente"
+        "Por todo el período",
+        "Por 2 años",
+        "Por 1 año (enero a diciembre)",
+        "Por 6 meses"
       ],
-      "r": 1
+      "r": 2
     },
     {
       "p": "¿Cuántos vicepresidentes tiene el Concejo?",
@@ -1283,6 +1559,76 @@ const EXAMENES = {
         "Ninguno"
       ],
       "r": 1
+    },
+    {
+      "p": "¿Qué es el Comité de Coordinación Política?",
+      "ops": [
+        "Un comité administrativo",
+        "Un órgano de coordinación entre bancadas y la Mesa Directiva",
+        "Una comisión permanente",
+        "El equipo del Alcalde en el Concejo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién dirige el debate en sesión plenaria?",
+      "ops": [
+        "El Secretario",
+        "El Alcalde",
+        "El Presidente del Concejo",
+        "Cualquier concejal"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué pasa si el Presidente del Concejo falta?",
+      "ops": [
+        "Suspende la sesión",
+        "Asume el Primer Vicepresidente",
+        "Asume el Secretario",
+        "Asume el concejal de mayor edad"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede el Presidente del Concejo votar en las decisiones?",
+      "ops": [
+        "Nunca",
+        "Solo en caso de empate",
+        "Sí, siempre",
+        "Solo en temas de presupuesto"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cómo se elige el Presidente del Concejo?",
+      "ops": [
+        "Lo designa el Alcalde",
+        "Lo nombra el Gobernador",
+        "Lo elige la plenaria de concejales",
+        "Lo designa el partido con más curules"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Cuál es una función del Presidente del Concejo?",
+      "ops": [
+        "Ejecutar el presupuesto municipal",
+        "Convocar y presidir las sesiones",
+        "Nombrar al Alcalde encargado",
+        "Aprobar contratos municipales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede un concejal ser elegido Presidente dos años consecutivos?",
+      "ops": [
+        "Sí, sin restricción",
+        "No, según lo determine el reglamento",
+        "Solo si tiene mayoría absoluta",
+        "Solo si su bancada lo apoya"
+      ],
+      "r": 1
     }
   ],
   "4": [
@@ -1290,9 +1636,9 @@ const EXAMENES = {
       "p": "¿Qué son los honorarios de los concejales?",
       "ops": [
         "Un salario fijo mensual",
-        "El pago por asistencia a sesiones",
+        "El pago por asistencia a sesiones debidamente certificada",
         "Una bonificación anual",
-        "Una pensión"
+        "Una pensión vitalicia"
       ],
       "r": 1
     },
@@ -1307,6 +1653,16 @@ const EXAMENES = {
       "r": 1
     },
     {
+      "p": "¿Qué ley regula los honorarios de los concejales?",
+      "ops": [
+        "Ley 136 de 1994",
+        "Ley 617 de 2000",
+        "Ley 1368 de 2009",
+        "Todas las anteriores"
+      ],
+      "r": 3
+    },
+    {
       "p": "¿Qué ley regula la violencia contra las mujeres en política?",
       "ops": [
         "Ley 136 de 1994",
@@ -1315,26 +1671,136 @@ const EXAMENES = {
         "Ley 974 de 2005"
       ],
       "r": 1
+    },
+    {
+      "p": "¿Pueden los concejales ejercer la abogacía ante entidades públicas?",
+      "ops": [
+        "Sí, sin restricción",
+        "No, está prohibido durante su período",
+        "Solo ante entidades nacionales",
+        "Solo fuera del municipio"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es una incompatibilidad de los concejales?",
+      "ops": [
+        "Una obligación legal",
+        "Una prohibición para ejercer ciertas actividades durante el período",
+        "Un beneficio especial",
+        "Un requisito de elección"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuándo cesan las incompatibilidades de los concejales?",
+      "ops": [
+        "Al terminar el período",
+        "Al día siguiente de la renuncia",
+        "Al cabo de 6 meses después de cesar en el cargo",
+        "Nunca cesan"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué es el régimen de inhabilidades?",
+      "ops": [
+        "Condiciones que impiden ser elegido o ejercer el cargo",
+        "Beneficios especiales para concejales",
+        "Obligaciones tributarias",
+        "Sanciones disciplinarias"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Tiene derecho el concejal a reconocimiento de transporte?",
+      "ops": [
+        "No, solo honorarios",
+        "Sí, por cada sesión a la que asiste",
+        "Solo si vive fuera del municipio",
+        "Solo en sesiones extraordinarias"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué ley creó la Licencia de Maternidad para mujeres en política?",
+      "ops": [
+        "Ley 2453 de 2025",
+        "Ley 2436 de 2024",
+        "Ley 1981 de 2019",
+        "Ley 1909 de 2018"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es un deber de los concejales?",
+      "ops": [
+        "Asistir puntualmente a las sesiones",
+        "Votar siempre con su bancada",
+        "Aprobar el presupuesto sin debate",
+        "Elegir al Alcalde"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Cuál es un derecho de los concejales?",
+      "ops": [
+        "Percibir honorarios por sesiones",
+        "Dirigir la administración municipal",
+        "Contratar con el municipio",
+        "Nombrar funcionarios"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Pueden los concejales celebrar contratos con el municipio?",
+      "ops": [
+        "Sí, libremente",
+        "No, está prohibido",
+        "Solo contratos de prestación de servicios",
+        "Solo contratos menores"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué sucede si un concejal no asiste injustificadamente a las sesiones?",
+      "ops": [
+        "Se le descuentan los honorarios",
+        "Se le sanciona penalmente",
+        "Se declara vacante su curul automáticamente",
+        "No pasa nada"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Qué ley garantiza la equidad de género en el Concejo?",
+      "ops": [
+        "Ley 581 de 2000",
+        "Ley 1981 de 2019",
+        "Ley 2453 de 2025",
+        "Ley 136 de 1994"
+      ],
+      "r": 1
     }
   ],
   "5": [
     {
-      "p": "¿Quién designa al Secretario del Concejo?",
+      "p": "¿Quién designa al Secretario General del Concejo?",
       "ops": [
         "El Alcalde",
         "El Gobernador",
-        "El Concejo en pleno",
+        "El Concejo en pleno por mayoría",
         "La Mesa Directiva"
       ],
       "r": 2
     },
     {
-      "p": "¿El Secretario del Concejo tiene periodo fijo?",
+      "p": "¿El Secretario del Concejo es de libre nombramiento y remoción?",
       "ops": [
-        "Sí, 4 años",
-        "Sí, 2 años",
-        "No, es de libre nombramiento",
-        "Sí, 1 año"
+        "No, tiene período fijo de 4 años",
+        "No, tiene período fijo de 2 años",
+        "Sí, es de libre nombramiento y remoción del Concejo",
+        "No, lo nombra el Alcalde"
       ],
       "r": 2
     },
@@ -1347,6 +1813,56 @@ const EXAMENES = {
         "Elegir comisionados"
       ],
       "r": 2
+    },
+    {
+      "p": "¿Qué requisitos debe cumplir el Secretario General?",
+      "ops": [
+        "Solo ser bachiller",
+        "Título profesional y experiencia según la ley",
+        "Solo experiencia laboral",
+        "Ser elegido popularmente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿El Secretario puede ser concejal al mismo tiempo?",
+      "ops": [
+        "Sí",
+        "No, son cargos incompatibles",
+        "Solo si tiene permiso del Concejo",
+        "Solo si es elegido por el Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué hace el Secretario durante las votaciones?",
+      "ops": [
+        "Vota en caso de empate",
+        "Registra y certifica los votos",
+        "No participa",
+        "Dirige el debate"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿El Secretario puede ser reelegido?",
+      "ops": [
+        "No",
+        "Sí, según las normas aplicables",
+        "Solo una vez",
+        "Solo si lo aprueba el Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Ante quién responde el Secretario General?",
+      "ops": [
+        "Solo ante el Presidente del Concejo",
+        "Ante el Concejo en pleno",
+        "Ante el Alcalde",
+        "Ante el Gobernador"
+      ],
+      "r": 1
     }
   ],
   "6": [
@@ -1361,12 +1877,12 @@ const EXAMENES = {
       "r": 1
     },
     {
-      "p": "¿Qué es la Comisión para la Equidad de la Mujer?",
+      "p": "¿Qué ley creó la Comisión para la Equidad de la Mujer?",
       "ops": [
-        "Una comisión accidental",
-        "Una comisión legal obligatoria creada por la Ley 1981 de 2019",
-        "Una comisión voluntaria",
-        "Una comisión del Alcalde"
+        "Ley 136 de 1994",
+        "Ley 1981 de 2019",
+        "Ley 974 de 2005",
+        "Ley 617 de 2000"
       ],
       "r": 1
     },
@@ -1379,16 +1895,106 @@ const EXAMENES = {
         "Con autorización del Gobernador"
       ],
       "r": 2
+    },
+    {
+      "p": "¿Qué son las comisiones accidentales?",
+      "ops": [
+        "Comisiones permanentes de segundo nivel",
+        "Comisiones creadas para un fin específico y temporal",
+        "Comisiones del Alcalde",
+        "Subcomisiones permanentes"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántas comisiones permanentes tiene el Concejo de El Cerrito?",
+      "ops": [
+        "Una",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién designa a los miembros de las comisiones permanentes?",
+      "ops": [
+        "El Alcalde",
+        "La plenaria del Concejo",
+        "El Presidente del Concejo",
+        "El Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Por cuánto tiempo son elegidos los integrantes de las comisiones permanentes?",
+      "ops": [
+        "Por todo el período",
+        "Por 2 años",
+        "Por 1 año",
+        "Por 6 meses"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué es la Comisión Legal para la Equidad de la Mujer?",
+      "ops": [
+        "Una comisión accidental",
+        "Una comisión legal obligatoria en todos los concejos",
+        "Una comisión voluntaria",
+        "Una comisión creada por el Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Pueden las comisiones citar funcionarios a debate?",
+      "ops": [
+        "No, solo la plenaria puede",
+        "Sí, dentro de sus competencias",
+        "Solo con autorización del Alcalde",
+        "Solo el Presidente puede citar"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué hace una comisión permanente con un proyecto de acuerdo?",
+      "ops": [
+        "Lo aprueba definitivamente",
+        "Lo estudia y rinde ponencia ante la plenaria",
+        "Lo archiva",
+        "Lo envía al Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuáles son las materias de las comisiones permanentes del Concejo de El Cerrito?",
+      "ops": [
+        "Solo temas fiscales",
+        "Plan de desarrollo, presupuesto, gobierno y obras públicas",
+        "Solo temas de contratación",
+        "Solo temas ambientales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede una comisión aprobar acuerdos municipales?",
+      "ops": [
+        "Sí, definitivamente",
+        "No, solo los debate; la aprobación es de la plenaria",
+        "Sí, si hay quórum",
+        "Solo acuerdos de trámite"
+      ],
+      "r": 1
     }
   ],
   "7": [
     {
-      "p": "¿Qué es el quórum?",
+      "p": "¿Qué es el quórum decisorio?",
       "ops": [
-        "El número de sesiones al año",
-        "El número mínimo de concejales para sesionar válidamente",
-        "El orden del día",
-        "El tiempo máximo de debate"
+        "La cuarta parte de los integrantes",
+        "La mayoría de los miembros de la corporación",
+        "La tercera parte",
+        "Las dos terceras partes"
       ],
       "r": 1
     },
@@ -1403,12 +2009,142 @@ const EXAMENES = {
       "r": 1
     },
     {
-      "p": "¿Cómo se toman las decisiones en el Concejo?",
+      "p": "¿Qué es la moción de observación?",
       "ops": [
-        "Por decisión del Presidente",
-        "Por votación de los concejales presentes",
-        "Por decreto del Alcalde",
-        "Por orden del Gobernador"
+        "Una sanción que implica retiro del funcionario",
+        "Una felicitación pública",
+        "Un llamado de atención sin retiro del funcionario",
+        "Una citación obligatoria"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué es el orden del día?",
+      "ops": [
+        "La lista de concejales presentes",
+        "El programa de temas a tratar en cada sesión",
+        "El horario de llegada",
+        "El reglamento de sesiones"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos votos se requieren para aprobar una moción de censura?",
+      "ops": [
+        "Mayoría simple",
+        "Mitad más uno de los integrantes de la corporación",
+        "Dos terceras partes",
+        "Unanimidad"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué pasa si el funcionario renuncia antes de la votación de la moción de censura?",
+      "ops": [
+        "Se archiva la moción",
+        "La renuncia no obsta para que sea aprobada la moción",
+        "Se suspende el proceso",
+        "Se reinicia el debate"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuánto tiempo después de terminar el debate se realiza la votación de la moción de censura?",
+      "ops": [
+        "Inmediatamente",
+        "Entre el tercero y el décimo día siguientes",
+        "Al mes siguiente",
+        "En la próxima sesión ordinaria"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué tipos de votación existen en el Concejo?",
+      "ops": [
+        "Solo votación pública",
+        "Ordinaria, nominal y secreta",
+        "Solo votación secreta",
+        "Solo votación nominal"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuándo se usa la votación secreta?",
+      "ops": [
+        "Siempre",
+        "Para elecciones de dignatarios",
+        "Nunca",
+        "Solo para temas fiscales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es el debate en el Concejo?",
+      "ops": [
+        "La aprobación de un proyecto",
+        "El espacio de discusión y deliberación sobre un tema",
+        "La lectura del acta",
+        "La votación"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuánto tiempo tiene un concejal para hablar en un debate?",
+      "ops": [
+        "Sin límite",
+        "El tiempo que determine el reglamento o la plenaria",
+        "Solo 1 minuto",
+        "Solo 10 minutos máximo en total"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es la citación a debate de control político?",
+      "ops": [
+        "Una sanción a un concejal",
+        "La convocatoria a un funcionario para que responda ante el Concejo",
+        "Una sesión ordinaria",
+        "Una reunión del Alcalde con el Concejo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con cuántos días de anticipación deben hacerse las citaciones a funcionarios?",
+      "ops": [
+        "1 día",
+        "3 días",
+        "5 días",
+        "10 días"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Puede sesionar el Concejo sin quórum?",
+      "ops": [
+        "Sí, en cualquier caso",
+        "No, sin quórum las decisiones son nulas",
+        "Solo para temas de trámite",
+        "Solo el Presidente puede autorizar"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es la sesión permanente?",
+      "ops": [
+        "Una sesión que se extiende hasta completar el orden del día",
+        "Una sesión que dura todo el año",
+        "Una sesión secreta",
+        "Una sesión del Presidente solo"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Quién elabora el orden del día de cada sesión?",
+      "ops": [
+        "El Alcalde",
+        "El Presidente del Concejo con el Secretario",
+        "Los concejales en grupo",
+        "El Gobernador"
       ],
       "r": 1
     }
@@ -1435,14 +2171,134 @@ const EXAMENES = {
       "r": 1
     },
     {
-      "p": "¿Qué sucede si un proyecto es negado en primer debate?",
+      "p": "¿Qué es el ponente de un proyecto?",
       "ops": [
-        "Se archiva definitivamente",
-        "Puede apelarse",
-        "Se aprueba automáticamente",
-        "Va directo a segundo debate"
+        "El concejal que lo rechaza",
+        "El concejal designado para estudiarlo e informar ante la comisión o plenaria",
+        "El Alcalde que lo propone",
+        "El Secretario que lo archiva"
       ],
       "r": 1
+    },
+    {
+      "p": "¿Qué pasa si un proyecto es negado en primer debate?",
+      "ops": [
+        "Pasa automáticamente a segundo debate",
+        "Se archiva y no puede presentarse en el mismo período",
+        "Se devuelve al autor para correcciones",
+        "Va al Alcalde para sanción"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es la iniciativa legislativa popular?",
+      "ops": [
+        "La facultad del Alcalde de presentar proyectos",
+        "El derecho ciudadano de presentar proyectos de acuerdo",
+        "La potestad del Gobernador",
+        "El derecho del Personero"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué son los acuerdos municipales?",
+      "ops": [
+        "Decisiones del Alcalde",
+        "Las decisiones normativas del Concejo Municipal",
+        "Contratos del municipio",
+        "Resoluciones internas"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién sanciona los acuerdos municipales?",
+      "ops": [
+        "El Gobernador",
+        "El Presidente del Concejo",
+        "El Alcalde Municipal",
+        "El Secretario del Concejo"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Cuánto tiempo tiene el Alcalde para sancionar un acuerdo?",
+      "ops": [
+        "3 días",
+        "5 días",
+        "10 días",
+        "20 días"
+      ],
+      "r": 3
+    },
+    {
+      "p": "¿Qué es el archivo de un proyecto de acuerdo?",
+      "ops": [
+        "Su aprobación definitiva",
+        "Su retiro por el autor",
+        "Su rechazo definitivo impidiendo que siga su trámite",
+        "Su envío al Alcalde"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Puede el autor retirar su proyecto antes de ser aprobado?",
+      "ops": [
+        "No",
+        "Sí, antes de iniciar el debate en comisión",
+        "Solo con autorización del Presidente",
+        "Solo si el Alcalde lo permite"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es la ponencia de un proyecto?",
+      "ops": [
+        "La votación final",
+        "El informe escrito del ponente recomendando aprobar o no el proyecto",
+        "El texto original del proyecto",
+        "La objeción del Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué pasa con proyectos del Alcalde que el Concejo no debate en el período?",
+      "ops": [
+        "Se aprueban automáticamente",
+        "Se archivan definitivamente",
+        "Pueden continuar en el siguiente período según el reglamento",
+        "Se convierten en decretos"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Cuántos debates se realizan en comisión y cuántos en plenaria?",
+      "ops": [
+        "Ambos en plenaria",
+        "Primero en comisión, luego en plenaria",
+        "Ambos en comisión",
+        "Depende del Presidente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué se requiere para que un proyecto de iniciativa ciudadana sea válido?",
+      "ops": [
+        "Solo una firma",
+        "El número de firmas que establezca la ley",
+        "Aprobación del Alcalde",
+        "Autorización del Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es la unidad de materia en los proyectos de acuerdo?",
+      "ops": [
+        "Que traten un solo tema coherente",
+        "Que sean presentados por un solo autor",
+        "Que solo tengan un artículo",
+        "Que sean aprobados en una sola sesión"
+      ],
+      "r": 0
     }
   ],
   "9": [
@@ -1467,12 +2323,62 @@ const EXAMENES = {
       "r": 1
     },
     {
-      "p": "¿Quién revisa los acuerdos municipales?",
+      "p": "¿Quién revisa los acuerdos municipales objetados por ilegalidad?",
       "ops": [
         "El Presidente de la República",
         "El Gobernador del departamento",
-        "El Ministro del Interior",
+        "El Tribunal Administrativo del Valle",
         "El Consejo de Estado"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué sucede si el Concejo insiste en el acuerdo objetado por inconveniencia?",
+      "ops": [
+        "El Alcalde debe sancionarlo",
+        "Va al Gobernador para decidir",
+        "Se archiva definitivamente",
+        "El Alcalde puede vetarlo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué sucede si el Alcalde no objeta ni sanciona un acuerdo en el plazo legal?",
+      "ops": [
+        "El acuerdo es nulo",
+        "El Presidente del Concejo lo sanciona",
+        "El acuerdo queda sancionado por ministerio de ley",
+        "Se archiva"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Puede el Concejo insistir en un acuerdo objetado?",
+      "ops": [
+        "No, si el Alcalde objeta se archiva",
+        "Sí, con la mayoría requerida por el reglamento",
+        "Solo si lo aprueba el Gobernador",
+        "Solo en sesiones extraordinarias"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es una objeción por inconveniencia?",
+      "ops": [
+        "Cuando el acuerdo viola la ley",
+        "Cuando el Alcalde considera que no es oportuno o conveniente",
+        "Cuando hay errores de forma",
+        "Cuando falta firma del Secretario"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es una objeción por ilegalidad?",
+      "ops": [
+        "Cuando el acuerdo no conviene políticamente",
+        "Cuando el Alcalde cree que viola normas superiores",
+        "Cuando hay errores tipográficos",
+        "Cuando no hay quórum suficiente"
       ],
       "r": 1
     }
@@ -1492,7 +2398,7 @@ const EXAMENES = {
       "p": "¿Con cuántas firmas ciudadanas se puede solicitar un Cabildo Abierto?",
       "ops": [
         "100 firmas",
-        "El 5 por mil del censo electoral",
+        "El 5 por mil del censo electoral vigente",
         "500 firmas",
         "1000 firmas"
       ],
@@ -1502,9 +2408,69 @@ const EXAMENES = {
       "p": "¿El Concejo está obligado a responder los temas del Cabildo Abierto?",
       "ops": [
         "No, es opcional",
-        "Sí, dentro de la semana siguiente",
+        "Sí, dentro de la semana siguiente al Cabildo",
         "Solo si el tema le compete",
         "Nunca"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué ley regula el Cabildo Abierto?",
+      "ops": [
+        "Ley 136 de 1994",
+        "Ley 1757 de 2015",
+        "Ley 617 de 2000",
+        "Ley 974 de 2005"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién puede ser vocero en un Cabildo Abierto?",
+      "ops": [
+        "Solo el Alcalde",
+        "Solo los concejales",
+        "Los ciudadanos o representantes de las organizaciones que solicitaron el cabildo",
+        "Solo el Personero"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Sobre qué temas puede versar un Cabildo Abierto?",
+      "ops": [
+        "Solo sobre presupuesto",
+        "Asuntos de interés local que sean de competencia del Concejo",
+        "Solo sobre obras públicas",
+        "Solo sobre servicios públicos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con cuánta anticipación debe convocarse el Cabildo Abierto?",
+      "ops": [
+        "Con 1 día",
+        "Con 5 días",
+        "Con el tiempo que establezca el reglamento",
+        "Con 30 días"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Pueden asistir al Cabildo Abierto funcionarios de la administración?",
+      "ops": [
+        "No, solo concejales y ciudadanos",
+        "Sí, pueden ser citados e interrogados",
+        "Solo el Alcalde puede asistir",
+        "Solo el Secretario de Gobierno"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es la difusión del Cabildo Abierto?",
+      "ops": [
+        "La transmisión televisiva obligatoria",
+        "La publicación de la convocatoria para que la comunidad se entere y participe",
+        "El informe al Gobernador",
+        "El reporte a la Procuraduría"
       ],
       "r": 1
     }
@@ -1539,6 +2505,76 @@ const EXAMENES = {
         "Antes de las elecciones"
       ],
       "r": 1
+    },
+    {
+      "p": "¿Qué derechos tiene la oposición en el Concejo?",
+      "ops": [
+        "Ninguno especial",
+        "Acceso a la información, réplica y participación en debates",
+        "Solo votar en contra",
+        "Solo presentar proyectos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué son los partidos o movimientos independientes?",
+      "ops": [
+        "Los que no se declaran ni en gobierno ni en oposición",
+        "Los que apoyan al gobierno",
+        "Los que están en oposición",
+        "Los que no participaron en elecciones"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Puede un partido cambiar su declaración de oposición a gobierno?",
+      "ops": [
+        "No, es definitiva",
+        "Sí, en los tiempos y condiciones que establece la ley",
+        "Solo con autorización del CNE",
+        "Solo al inicio del período"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué es el derecho de réplica de la oposición?",
+      "ops": [
+        "El derecho a vetar decisiones",
+        "El derecho a responder públicamente las declaraciones del gobierno",
+        "El derecho a no asistir a sesiones",
+        "El derecho a impugnar elecciones"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Tiene la oposición derecho a acceder a documentos de la administración?",
+      "ops": [
+        "No, es información reservada",
+        "Sí, tienen derecho especial de acceso a la información pública",
+        "Solo con autorización judicial",
+        "Solo el Personero puede acceder"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué sesión exclusiva tiene derecho a pedir la oposición?",
+      "ops": [
+        "Una sesión anual sobre cualquier tema",
+        "Una sesión sobre el Plan de Desarrollo y Presupuesto",
+        "Una sesión para elegir dignatarios",
+        "Una sesión mensual de control"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué pasa si se vulneran los derechos de la oposición?",
+      "ops": [
+        "No tiene consecuencias",
+        "Pueden acudir a las instancias legales correspondientes",
+        "Solo pueden protestar públicamente",
+        "Pueden disolver el Concejo"
+      ],
+      "r": 1
     }
   ],
   "12": [
@@ -1569,6 +2605,56 @@ const EXAMENES = {
         "La Mesa Directiva del Concejo",
         "El Secretario General",
         "El Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cada cuánto debe revisarse el reglamento interno?",
+      "ops": [
+        "Cada año",
+        "Al inicio de cada período de gobierno",
+        "Cuando lo decida el Alcalde",
+        "Cada 10 años"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué tipo de acto jurídico es el Reglamento Interno del Concejo?",
+      "ops": [
+        "Un decreto",
+        "Un acuerdo municipal",
+        "Una resolución",
+        "Una ordenanza"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuáles son las sanciones previstas en el reglamento?",
+      "ops": [
+        "Solo multas económicas",
+        "Llamado de atención, suspensión de la palabra y otras disciplinarias",
+        "Solo la expulsión",
+        "Solo amonestaciones verbales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué sucede con los asuntos no previstos en el reglamento?",
+      "ops": [
+        "Se archivan",
+        "Se resuelven conforme a la Constitución, la ley y los principios del reglamento",
+        "Los decide el Alcalde",
+        "Los decide el Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿El reglamento interno puede contradecir la Constitución?",
+      "ops": [
+        "Sí, si lo aprueba la mayoría",
+        "No, debe sujetarse a la Constitución y la ley",
+        "Solo en temas procedimentales",
+        "Depende de la situación"
       ],
       "r": 1
     }
