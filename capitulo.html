@@ -5,44 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Módulo — Concejo Study</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
   <style>
-    :root, [data-theme="dark"] {
-      --gold:#C9A84C; --gold-light:#E8CC7A;
-      --bg:#0A0E1A; --bg2:#111827;
-      --surface:#1E2740; --surface2:#243050; --surface-hover:#2A3860;
-      --text:#E8EAF0; --text2:#9AA3B8; --text3:#6B7A99;
-      --border:rgba(255,255,255,0.07);
-      --shadow:rgba(0,0,0,0.4);
-      --green:#34D399; --red:#F87171;
-      --hero-bg:linear-gradient(135deg,#0D1529 0%,#111827 100%);
-      --paragrafo-bg:rgba(201,168,76,0.07);
-      --subtitulo-border:rgba(255,255,255,0.06);
-      --indice-bg:rgba(201,168,76,0.08);
-      --consider-bg:rgba(79,126,255,0.08);
-      --consider-color:#4F7EFF;
-    }
-    [data-theme="light"] {
-      --gold:#A67C2E; --gold-light:#C9A84C;
-      --bg:#F4F6FB; --bg2:#FFFFFF;
-      --surface:#FFFFFF; --surface2:#EEF1F8; --surface-hover:#E3E8F4;
-      --text:#1A1F33; --text2:#4A5270; --text3:#8892AA;
-      --border:rgba(0,0,0,0.09);
-      --shadow:rgba(0,0,0,0.1);
-      --green:#059669; --red:#DC2626;
-      --hero-bg:linear-gradient(135deg,#1A237E 0%,#1565C0 100%);
-      --paragrafo-bg:rgba(166,124,46,0.07);
-      --subtitulo-border:rgba(0,0,0,0.08);
-      --indice-bg:rgba(166,124,46,0.07);
-      --consider-bg:rgba(21,101,192,0.07);
-      --consider-color:#1565C0;
-    }
-
-    *{margin:0;padding:0;box-sizing:border-box;}
-    body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;transition:background 0.3s,color 0.3s;}
-
     .theme-toggle{position:fixed;top:16px;right:16px;z-index:999;background:var(--surface);border:1px solid var(--border);border-radius:50px;padding:8px 14px;cursor:pointer;font-size:13px;font-family:'DM Sans',sans-serif;font-weight:600;color:var(--text);display:flex;align-items:center;gap:6px;box-shadow:0 2px 12px var(--shadow);transition:all 0.2s;}
     .theme-toggle:hover{background:var(--surface2);}
-
     nav{background:var(--bg2);border-bottom:1px solid var(--border);padding:14px 24px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:100;box-shadow:0 1px 0 var(--border);}
     .nav-back{color:var(--text2);text-decoration:none;font-size:13px;display:flex;align-items:center;gap:6px;transition:color 0.2s;}
     .nav-back:hover{color:var(--gold);}
@@ -50,7 +16,6 @@
     .nav-progress{margin-left:auto;margin-right:120px;display:flex;align-items:center;gap:10px;font-size:12px;color:var(--text2);flex-shrink:0;}
     .nav-prog-bar{width:80px;height:4px;background:var(--surface2);border-radius:2px;overflow:hidden;}
     .nav-prog-fill{height:100%;background:var(--gold);border-radius:2px;transition:width 0.3s;}
-
     .cap-header{background:var(--hero-bg);padding:36px 24px 30px;border-bottom:1px solid var(--border);position:relative;overflow:hidden;}
     .cap-header::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(255,255,255,0.05) 0%,transparent 60%);}
     .cap-header-inner{max-width:760px;margin:0 auto;position:relative;}
@@ -58,7 +23,6 @@
     .cap-icon-big{font-size:40px;margin-bottom:12px;display:block;}
     .cap-nombre{font-family:'Playfair Display',serif;font-size:clamp(22px,4vw,34px);font-weight:900;color:#fff;margin-bottom:8px;line-height:1.2;}
     .cap-sub{font-size:14px;color:rgba(255,255,255,0.7);line-height:1.5;}
-
     main{max-width:760px;margin:0 auto;padding:32px 20px 80px;}
     .art-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:10px;}
     .art-counter{font-size:13px;color:var(--text2);}
@@ -67,12 +31,9 @@
     .art-dot{width:8px;height:8px;border-radius:50%;background:var(--surface2);cursor:pointer;transition:all 0.2s;}
     .art-dot.active{background:var(--gold);transform:scale(1.3);}
     .art-dot.leido{background:var(--gold-light);opacity:0.5;}
-
     .art-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px;margin-bottom:20px;box-shadow:0 2px 8px var(--shadow);}
     .art-num-badge{display:inline-flex;align-items:center;background:var(--paragrafo-bg);border:1px solid var(--gold);color:var(--gold);font-size:11px;font-weight:600;letter-spacing:1px;padding:4px 12px;border-radius:100px;margin-bottom:14px;}
     .art-titulo{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--text);margin-bottom:18px;line-height:1.3;}
-
-    /* CUERPO DEL ARTÍCULO */
     .art-body{font-size:14px;line-height:1.85;color:var(--text2);}
     .art-body .bloque-p{margin-bottom:12px;color:var(--text2);}
     .art-body .numeral{display:flex;gap:12px;margin-bottom:10px;padding:6px 0;border-bottom:1px solid var(--border);}
@@ -82,21 +43,25 @@
     .art-body .paragrafo-label{color:var(--gold);font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:6px;}
     .art-body .paragrafo-texto{color:var(--text2);font-size:14px;line-height:1.7;}
     .art-body .subtitulo-line{color:var(--text);font-weight:600;font-size:13px;margin:16px 0 10px;padding-bottom:4px;border-bottom:1px solid var(--subtitulo-border);}
-    /* Índice */
-    .indice-box{background:var(--indice-bg);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:12px 16px;margin-bottom:16px;}
-    .indice-box-label{color:var(--gold);font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px;}
-    .indice-item{display:flex;align-items:baseline;gap:6px;padding:5px 0;border-bottom:1px solid var(--border);}
+    .indice-box{background:var(--indice-bg);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:14px 16px;margin-bottom:18px;}
+    .indice-box-label{color:var(--gold);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:10px;}
+    .indice-item{display:flex;align-items:baseline;gap:10px;padding:6px 0;border-bottom:1px solid var(--border);}
     .indice-item:last-child{border-bottom:none;}
-    .indice-titulo{color:var(--text);font-size:13px;flex:1;}
+    .indice-titulo{color:var(--text);font-size:13px;flex:1;font-weight:500;}
     .indice-pagina{color:var(--gold);font-size:12px;font-weight:700;white-space:nowrap;}
-    /* Considerandos */
-    .consider-box{background:var(--consider-bg);border-left:3px solid var(--consider-color);border-radius:0 8px 8px 0;padding:12px 16px;margin-bottom:16px;}
-    .consider-label{color:var(--consider-color);font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:8px;}
-    .consider-item{display:flex;gap:10px;margin-bottom:10px;}
+    .encabezado-box{background:var(--consider-bg);border-left:3px solid var(--consider-color);border-radius:0 8px 8px 0;padding:16px;margin-bottom:18px;}
+    .encabezado-epigrafe{font-size:11px;font-weight:700;letter-spacing:1px;color:var(--consider-color);text-transform:uppercase;margin-bottom:8px;}
+    .encabezado-titulo{font-family:'Playfair Display',serif;font-style:italic;font-size:15px;color:var(--text);margin-bottom:10px;line-height:1.5;}
+    .encabezado-intro{font-size:13px;color:var(--text2);line-height:1.6;}
+    .consider-box{background:var(--consider-bg);border-left:3px solid var(--consider-color);border-radius:0 8px 8px 0;padding:14px 16px;margin-bottom:16px;}
+    .consider-label{color:var(--consider-color);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:10px;}
+    .consider-item{display:flex;gap:10px;margin-bottom:12px;}
     .consider-letra{color:var(--gold);font-weight:700;font-size:13px;min-width:24px;flex-shrink:0;}
-    .consider-texto{color:var(--text2);font-size:14px;line-height:1.7;}
-
-    /* BOTONES */
+    .consider-texto{color:var(--text2);font-size:13.5px;line-height:1.7;}
+    .acuerda-box{background:var(--paragrafo-bg);border:1px solid var(--gold);border-radius:8px;padding:14px 16px;text-align:center;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif;font-size:16px;letter-spacing:1px;margin-top:8px;margin-bottom:18px;}
+    .articulo-inicial-box{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:16px;margin-top:8px;}
+    .articulo-inicial-num{display:inline-flex;align-items:center;background:var(--gold);color:#000;font-size:12px;font-weight:700;letter-spacing:0.5px;padding:4px 12px;border-radius:100px;margin-bottom:10px;}
+    .articulo-inicial-texto{color:var(--text);font-size:14px;line-height:1.75;}
     .art-btns{display:flex;gap:12px;margin-bottom:32px;}
     .btn{flex:1;padding:12px 20px;border-radius:10px;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;transition:all 0.2s;display:flex;align-items:center;justify-content:center;gap:8px;}
     .btn-secondary{background:var(--surface2);color:var(--text);border:1px solid var(--border);}
@@ -104,8 +69,6 @@
     .btn-primary{background:var(--gold);color:#000;font-weight:600;}
     .btn-primary:hover{background:var(--gold-light);}
     .btn:disabled{opacity:0.35;cursor:not-allowed;}
-
-    /* EXAMEN */
     .exam-section{background:var(--surface);border:2px solid var(--gold);border-radius:16px;padding:28px;display:none;box-shadow:0 4px 20px var(--shadow);}
     .exam-section.visible{display:block;}
     .exam-header{display:flex;align-items:center;gap:12px;margin-bottom:8px;}
@@ -139,6 +102,7 @@
     .btn-complete{width:100%;margin-top:16px;padding:14px;background:var(--green);color:#fff;border:none;border-radius:10px;font-family:'DM Sans',sans-serif;font-size:15px;font-weight:600;cursor:pointer;transition:all 0.2s;}
     .btn-retry{width:100%;margin-top:10px;padding:13px;background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;cursor:pointer;}
     .btn-retry:hover{background:var(--surface-hover);}
+    .no-exam-msg{text-align:center;padding:24px;color:var(--text3);font-size:13px;background:var(--surface);border:1px dashed var(--border);border-radius:12px;}
   </style>
 </head>
 <body>
@@ -205,8 +169,9 @@
 </main>
 
 <script src="js/contenido.js"></script>
+<script src="js/app.js"></script>
+<script src="js/examenes.js"></script>
 <script>
-  // ── TEMA ──
   function toggleTheme(){
     const html=document.documentElement;
     const newTheme=html.getAttribute('data-theme')==='dark'?'light':'dark';
@@ -220,9 +185,8 @@
   document.getElementById('theme-icon').textContent=savedTheme==='dark'?'☀️':'🌙';
   document.getElementById('theme-label').textContent=savedTheme==='dark'?'Modo claro':'Modo oscuro';
 
-  // ── LÓGICA ──
   const params=new URLSearchParams(location.search);
-  const capId=parseInt(params.get('id'))||1;
+  const capId=parseInt(params.get('id'))||0;
   const cap=CAPITULOS.find(c=>c.id===capId);
   if(!cap)location.href='index.html';
 
@@ -236,43 +200,40 @@
   document.getElementById('cap-sub').textContent=cap.subtitulo;
   document.title=cap.nombre+' — Concejo Study';
 
-  function formatPreambulo(raw){
-    const lines=raw.split('\n');
-    let tocHTML='',textLines=[];
-    let inTOC=true;
-    for(const line of lines){
-      const t=line.trim();
-      if(!t)continue;
-      if(inTOC&&/\.{3,}/.test(t)){
-        const parts=t.split(/\.{3,}/);
-        if(parts.length>=2){
-          const titulo=parts[0].trim();
-          const pagina=parts[parts.length-1].trim();
-          if(titulo&&pagina)
-            tocHTML+=`<div class="indice-item"><span class="indice-titulo">${titulo}</span><span class="indice-pagina">Pág. ${pagina}</span></div>`;
-        }
-      } else {
-        inTOC=false;
-        textLines.push(t);
-      }
+  function formatPreambulo(art){
+    let html='';
+    if(art.encabezado){
+      const e=art.encabezado;
+      html+=`<div class="encabezado-box">
+        <div class="encabezado-epigrafe">${e.epigrafe}</div>
+        <div class="encabezado-titulo">${e.titulo_acuerdo}</div>
+        <div class="encabezado-intro">${e.introduccion}</div>
+      </div>`;
     }
-    let html=`<div class="indice-box"><div class="indice-box-label">📋 Tabla de Contenido</div>${tocHTML}</div>`;
-    if(textLines.length){
-      const full=textLines.join(' ');
-      const partes=full.split(/(?=\b[a-p]\)\s)/);
-      html+=`<div class="consider-box"><div class="consider-label">⚖️ Considerandos y Fundamentos Legales</div>`;
-      partes.forEach(c=>{
-        const t=c.trim();
-        if(!t)return;
-        if(/^[a-p]\)\s/.test(t)){
-          const letra=t.match(/^([a-p]\))/)[1];
-          const contenido=t.slice(letra.length).trim();
-          html+=`<div class="consider-item"><span class="consider-letra">${letra}</span><span class="consider-texto">${contenido}</span></div>`;
-        } else {
-          html+=`<div class="bloque-p">${t}</div>`;
-        }
+    if(art.toc && art.toc.length){
+      html+='<div class="indice-box"><div class="indice-box-label">📋 Tabla de Contenido</div>';
+      art.toc.forEach(entry=>{
+        const pag = entry.pagina ? `Pág. ${entry.pagina}` : '';
+        html+=`<div class="indice-item"><span class="indice-titulo">${entry.titulo}</span><span class="indice-pagina">${pag}</span></div>`;
       });
-      html+=`</div>`;
+      html+='</div>';
+    }
+    if(art.considerandos && art.considerandos.length){
+      html+='<div class="consider-box"><div class="consider-label">⚖️ Considerandos y Fundamentos Legales</div>';
+      art.considerandos.forEach(c=>{
+        html+=`<div class="consider-item"><span class="consider-letra">${c.letra}</span><span class="consider-texto">${c.texto}</span></div>`;
+      });
+      html+='</div>';
+    }
+    if(art.encabezado && art.encabezado.acuerda){
+      html+=`<div class="acuerda-box">${art.encabezado.acuerda}</div>`;
+    }
+    if(art.encabezado && art.encabezado.articulo_inicial){
+      const ai = art.encabezado.articulo_inicial;
+      html+=`<div class="articulo-inicial-box">
+        <div class="articulo-inicial-num">Artículo ${ai.numero}</div>
+        <div class="articulo-inicial-texto">${ai.texto}</div>
+      </div>`;
     }
     return html;
   }
@@ -283,25 +244,41 @@
     while(i<lines.length){
       const line=lines[i].trim();
       if(!line){i++;continue;}
-      if(/^Parágrafo\s+\d/i.test(line)){
-        const label=line.match(/^(Parágrafo\s+\d+[°º]?\.?)/i)?.[1]||'Parágrafo';
+
+      // Parágrafo (with number, "único", or just "Parágrafo.")
+      if(/^Parágrafo(\s+\d|\s+único|\.\s*$|\.\s+\S)/i.test(line)){
+        const label=line.match(/^(Parágrafo\s*(?:\d+[°º]?|único)?\.?)/i)?.[1]||'Parágrafo';
         let body=line.slice(label.length).trim();
         while(i+1<lines.length){
           const next=lines[i+1].trim();
-          if(!next||/^Parágrafo\s+\d/i.test(next)||/^\d{1,2}\.\s/.test(next))break;
+          if(!next||/^Parágrafo(\s+\d|\s+único|\.)/i.test(next)||/^\d{1,2}(\.\d{1,2})*\.\s/.test(next))break;
           body+=' '+next;i++;
         }
         html+=`<div class="paragrafo-box"><div class="paragrafo-label">${label}</div><div class="paragrafo-texto">${body}</div></div>`;
-      } else if(/^\d{1,2}\.\s/.test(line)){
+      }
+      // Nested numeral like 1.1. 2.16. 2.24.
+      else if(/^\d{1,2}\.\d{1,2}\.\s/.test(line)){
+        const m=line.match(/^(\d{1,2}\.\d{1,2}\.)\s(.*)/);
+        let body=m[2];
+        while(i+1<lines.length){
+          const next=lines[i+1].trim();
+          if(!next||/^\d{1,2}(\.\d{1,2})?\.\s/.test(next)||/^Parágrafo(\s+\d|\s+único|\.)/i.test(next))break;
+          body+=' '+next;i++;
+        }
+        html+=`<div class="numeral" style="margin-left:18px;"><span class="numeral-num">${m[1]}</span><span class="numeral-text">${body}</span></div>`;
+      }
+      // Simple numeral like 1. 2. 24.
+      else if(/^\d{1,2}\.\s/.test(line)){
         const m=line.match(/^(\d{1,2}\.)\s(.*)/);
         let body=m[2];
         while(i+1<lines.length){
           const next=lines[i+1].trim();
-          if(!next||/^\d{1,2}\.\s/.test(next)||/^Parágrafo\s+\d/i.test(next))break;
+          if(!next||/^\d{1,2}(\.\d{1,2})?\.\s/.test(next)||/^Parágrafo(\s+\d|\s+único|\.)/i.test(next))break;
           body+=' '+next;i++;
         }
         html+=`<div class="numeral"><span class="numeral-num">${m[1]}</span><span class="numeral-text">${body}</span></div>`;
-      } else if(/^(Según el |De conformidad |Conforme al )/.test(line)){
+      }
+      else if(/^(Según el |De conformidad |Conforme al )/.test(line)){
         html+=`<div class="subtitulo-line">${line}</div>`;
       } else {
         html+=`<div class="bloque-p">${line}</div>`;
@@ -312,6 +289,7 @@
   }
 
   function getTitle(art){
+    if(art.tipo==='preambulo') return art.titulo;
     const first=art.texto.split('\n')[0].trim();
     const dot=first.indexOf('.');
     if(dot>0&&dot<100)return first.substring(0,dot+1);
@@ -334,17 +312,29 @@
     currentIdx=idx;leidos.add(idx);
     const artNum=artNums[idx];
     const art=ARTICULOS[String(artNum)];
-    const esP=artNum===0;
+    const esP=art.tipo==='preambulo';
+
     document.getElementById('art-num-real').textContent=esP?'Preámbulo':artNum;
     document.getElementById('art-pos-label').textContent=`(${idx+1} de ${artNums.length} en este módulo)`;
     document.getElementById('art-badge').textContent=esP?'Preámbulo y Considerandos':'Artículo '+artNum;
-    document.getElementById('art-titulo').textContent=esP?'Índice y Considerandos — Acuerdo 024 de 2025':getTitle(art);
-    document.getElementById('art-body').innerHTML=esP?formatPreambulo(art.texto):formatTexto(art.texto);
+    document.getElementById('art-titulo').textContent=esP?'Índice General y Considerandos':getTitle(art);
+    document.getElementById('art-body').innerHTML=esP?formatPreambulo(art):formatTexto(art.texto);
+
     document.getElementById('btn-prev').disabled=idx===0;
     const isLast=idx===artNums.length-1;
     const btnNext=document.getElementById('btn-next');
-    if(isLast){btnNext.textContent='Ir al Examen ✏️';btnNext.onclick=showExam;}
-    else{btnNext.textContent='Siguiente →';btnNext.onclick=nextArt;}
+    const hasExam = EXAMENES[capId] && EXAMENES[capId].length>0;
+    if(isLast && hasExam){
+      btnNext.textContent='Ir al Examen ✏️';
+      btnNext.onclick=showExam;
+      btnNext.style.display='flex';
+    } else if(isLast && !hasExam){
+      btnNext.style.display='none';
+    } else {
+      btnNext.textContent='Siguiente →';
+      btnNext.onclick=nextArt;
+      btnNext.style.display='flex';
+    }
     document.getElementById('exam-section').classList.remove('visible');
     renderDots();updateProgress();
     window.scrollTo({top:0,behavior:'smooth'});
@@ -356,6 +346,7 @@
 
   function showExam(){
     const allQ=EXAMENES[capId]||[];
+    if(allQ.length===0) return;
     const shuffled=[...allQ].sort(()=>Math.random()-0.5);
     examQuestions=shuffled.slice(0,Math.min(20,shuffled.length));
     currentQ=0;answers={};
