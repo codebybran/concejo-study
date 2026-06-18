@@ -1,6 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
-// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Título I + Título II + Título III cargados. Títulos IV-XIII pendientes.
+// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Título I + Título II + Título III + Título IV cargados. Títulos V-XIII pendientes.
 
 const CAPITULOS = [
   {
@@ -79,6 +79,32 @@ const CAPITULOS = [
       40,
       41,
       42
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "TÍTULO IV",
+    "nombre": "Deberes y Derechos de los Concejales",
+    "subtitulo": "Deberes, Derechos, Honorarios, Seguridad Social y Equidad de Género en Política",
+    "icono": "⚖️",
+    "articulos": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
     ]
   }
 ];
@@ -539,6 +565,91 @@ const ARTICULOS = {
     "numero": 42,
     "titulo": "Comité de Coordinación Política",
     "texto": "Comité de Coordinación Política. Conformado por el Presidente de la corporación y los Jefes, Voceros o Coordinadores de las Bancadas y presidido por el primero de los nombrados, se reunirá por lo menos una vez a la semana durante cada periodo de sesiones, para el desarrollo de las siguientes funciones:\n1. Proponer la agenda de trabajo de la corporación.\n2. Coordinar con la presidencia el orden del día de las sesiones plenarias a celebrar.\n3. Promover y ejecutar acciones de concertación política."
+  },
+  "43": {
+    "numero": 43,
+    "titulo": "Deberes",
+    "texto": "Deberes. Como todo servidor público, el concejal tiene el deber de cumplir y hacer que se cumplan los deberes contenidos en la Constitución, los tratados de Derecho Internacional Humanitario, los demás ratificados por el Congreso, las leyes, los decretos, las ordenanzas, los acuerdos distritales y municipales, los reglamentos y los manuales de funciones, las decisiones judiciales y disciplinarias, los contratos de trabajo y las órdenes superiores emitidas por funcionario competente, siendo responsable por su infracción y por omisión o extralimitación en el ejercicio de sus funciones.\nEspecialmente tendrá los siguientes deberes:\n1. Asistir puntualmente a las sesiones del Concejo en pleno y de las comisiones a que pertenezca.\n2. Respetar el presente reglamento.\n3. Guardar secreto sobre los asuntos que demanden reserva.\n4. Abstenerse de invocar su condición de Concejal para la obtención de algún provecho personal indebido.\n5. Utilizar adecuadamente los bienes y recursos asignados para el desempeño de su función.\n6. Tratar con respeto, imparcialidad y rectitud a las personas con que tenga relación por razón del servicio.\n7. Ejercer sus funciones consultando permanentemente los intereses del bien común, y teniendo siempre presente que los servicios que presta constituyen el reconocimiento y efectividad de un derecho y buscan la satisfacción de las necesidades generales de todos los ciudadanos.\n8. Abstenerse de incurrir en alguna de las causales de pérdida de la investidura, previstas en el artículo 48 de la ley 617 de 2000.\n9. Declarar, bajo juramento, el monto de sus bienes y rentas, antes de tomar posesión del cargo y al retirarse del mismo.\n10. Poner en conocimiento de la corporación o de la comisión de ética las situaciones de carácter moral o económico que lo inhiban para participar en el trámite de los asuntos sometidos a su consideración, conforme al artículo 70 de la ley 136 de 1994, así como las incompatibilidades en que pueda estar incurso. El Concejal deberá consignar la información sobre su actividad económica privada en el libro correspondiente, que tiene carácter público.\n11. Actuar exclusivamente en la bancada del Partido o Movimiento Político por el cual fue elegido y con sujeción a los parámetros de actuación que determinen aquellas y sus estatutos, salvo en los asuntos determinados como de conciencia.\n12. Custodiar y cuidar la documentación e información que por razón de su cargo o función conserve bajo su cuidado o a la cual tenga acceso, e impedir o evitar la sustracción, destrucción, ocultamiento o utilización indebida.\n13. Tratar con respeto, imparcialidad y rectitud a las personas con que tenga relación por razón del servicio.\n14. Desempeñar el cargo o función sin obtener o pretender beneficios adicionales a las contraprestaciones legales cuando a ellas tenga derecho.\n15. Acreditar los requisitos exigidos por la ley para la posesión y el desempeño del cargo.\n16. Permitir a los representantes del Ministerio Público, fiscales, jueces y demás autoridades competentes el acceso inmediato a los lugares donde deban adelantar sus actuaciones e investigaciones y el examen de los libros de registro, documentos y diligencias correspondientes. Así mismo, prestarles la colaboración necesaria para el desempeño de sus funciones.\n17. Explicar inmediata y satisfactoriamente al nominador, a la Procuraduría General de la Nación o a la personería, cuando estos lo requieran, la procedencia del incremento patrimonial obtenido durante el ejercicio del cargo, función o servicio.\n18. Denunciar los delitos, contravenciones y faltas disciplinarias de los cuales tuviere conocimiento, salvo las excepciones de ley.\n19. Acatar y poner en práctica los mecanismos que se diseñen para facilitar la participación de la comunidad en la planeación del desarrollo, la concertación y la toma de decisiones en la gestión administrativa de acuerdo con lo preceptuado en la ley."
+  },
+  "44": {
+    "numero": 44,
+    "titulo": "Derechos",
+    "texto": "Derechos. El Concejal tiene los siguientes derechos principales:\n1. A voz, durante las sesiones y conforme al reglamento.\n2. A voto, participando en las votaciones que se realicen en las plenarias y en las comisiones a que pertenezca. Voto nominal y público, remoto y excepcionalmente secreto.\n3. A citar, en ejercicio del control político que corresponde a la corporación, a los funcionarios que autoriza la ley.\n4. A formar parte de una comisión permanente.\n5. Al reconocimiento y pago de honorarios por su asistencia comprobada a las sesiones plenarias de la corporación, conforme a la reglamentación legal.\n6. Al pago oportuno de los honorarios causados cada mes por concepto de su asistencia comprobada a las sesiones ordinarias y extraordinarias, como máximo dentro de los primeros cinco (5) días del mes siguiente al mes que fueron causados estos honorarios. (artículo 3 Ley 2461 de 2025)\n7. A la cotización al Sistema de Seguridad Social; pensión, salud, ARL y cajas de compensación familiar, la cual será a cargo al presupuesto central de la administración municipal, sin que esto implique vínculo laboral con la entidad territorial. (Artículo 4 Ley 2461 de 2025)\n8. Al pago de los gastos de viaje incurridos con ocasión del cumplimiento de comisiones oficiales dentro y fuera del municipio. La autorización previa para dichos viajes deberá ser aprobada por la plenaria del Concejo Municipal y estar debidamente justificada. (Artículo 6 Ley 2461 de 2025)\n9. A un seguro de vida y a la atención médico asistencial, de conformidad con los artículos 66, 68 y 69 de la ley 136 de 1994 y la jurisprudencia de la Corte Constitucional contenida en la sentencia C-043 de 2003, el decreto 3171 de 2004, Ley 1148 de 2007 y ley 1551 de 2012.\n10. Al reconocimiento del valor de transporte, en los casos en que resida en zona rural y deba desplazarse hasta la cabecera municipal para asistir a las sesiones plenarias o de comisión, con cargo al presupuesto general del municipio si pertenece a municipios de 4, 5 o 6 categoría y al presupuesto del Concejo para las demás categorías, con sujeción a la reglamentación que expida el Concejo Municipal a iniciativa del alcalde mediante acuerdo, de conformidad con el artículo 2 de la Ley 1368 de 2009.\n11. A ser beneficiario del Fondo de Solidaridad Pensional para que se le subsidie el 75% del valor de la cotización siempre y cuando cumpla los requisitos contenidos en el Decreto Nacional 1788 de 2013.\n12. A recibir capacitación para el mejor desempeño de sus funciones. De manera gratuita recibirá capacitación del SENA, la ESAP y las Corporaciones Autónomas Regionales. A recibir capacitación con cargo al presupuesto del Municipio y del Concejo.\n13. A agremiarse libremente y a que se respete su decisión.\n14. A participar en política y apoyar públicamente a los candidatos del partido al que pertenezca fuera del recinto oficial del Concejo.\n15. A ejercer libremente su profesión u oficio, siempre y cuando con ello no se interfiera en las funciones que ejerce como Servidor Público, ni se trate de asuntos en los cuales el municipio o sus entidades descentralizadas sean parte, ni implique vinculación como empleados públicos o trabajadores oficiales.\n16. A recibir protección del Municipio y del Estado, así como de las entidades públicas de seguridad, cuando en su contra existan amenazas provenientes por grupos al margen de la ley o como consecuencia del ejercicio de sus funciones públicas.\n17. A sesionar por cualquier medio de comunicación y a distancia cuando las circunstancias de orden público o amenazas contra su integridad personal y la de su familia así lo ameriten, previa autorización del presidente de la corporación.\n18. A postularse para ser beneficiario de un subsidio de vivienda para la adquisición de vivienda nueva, usada, construcción en lote propio o mejoramiento de vivienda con cargo a la Bolsa Especial de Vivienda para Concejales.\n19. A presentar proyectos de acuerdo de iniciativa propia, que no sean exclusiva del alcalde y a que se les dé trámite al interior de la Corporación.\n20. A que cualquier autoridad pública del municipio le suministre la información solicitada para el correcto ejercicio de sus funciones públicas sin exigir el pago de copias para tal fin.\n21. A recibir tratamiento cortés con arreglo a los principios básicos de las relaciones humanas.\n22. A los derechos consagrados en la Constitución, los tratados internacionales ratificados por el Congreso, las leyes, las ordenanzas, los acuerdos municipales, los reglamentos y manuales de funciones, las convenciones colectivas y los contratos de trabajo.\n23. A ejercer individualmente las actividades propias de su dignidad."
+  },
+  "45": {
+    "numero": 45,
+    "titulo": "Liquidación de Honorarios",
+    "texto": "Liquidación de Honorarios. Atendiendo a la categorización establecida en la Ley 617 del 2000, el valor de los honorarios por cada sesión a que asistan los concejales será señalado en tabla indicada en el artículo 66 de la Ley 136 de 1994, modificado por el artículo 2 de la Ley 2461 de 2025, y a partir de enero del siguiente año de la entrada en vigencia de la Ley 2461 de 2025; los honorarios se incrementaran cada año en un porcentaje equivalente a la variación del IPC correspondiente al año inmediatamente anterior.\nEn los municipios de categoría especial, primera y segunda se pagarán anualmente ciento cincuenta (150) sesiones ordinarias y hasta cuarenta (40) extraordinarias al año. En los municipios de categorías tercera a sexta, se pagarán anualmente ochenta (80) sesiones ordinarias y hasta cuarenta (40) sesiones extraordinarias al año.\nParágrafo primero. Los honorarios son incompatibles con cualquier asignación proveniente del tesoro público del respectivo municipio, excepto con aquellas originadas en pensiones o sustituciones pensionales y las demás excepciones previstas en la Ley 4ª de 1992.\nParágrafo segundo. Se exceptúan los concejales de la ciudad de Bogotá, por cuanto el Decreto-ley 1421 de 1993, regula la materia.\nParágrafo tercero. El incremento en el valor de los honorarios de los concejales de municipios de quinta y sexta categoría estará a cargo del presupuesto central de la administración municipal, podrán ser concurrentes con los recursos del Gobierno Nacional, Presupuesto General de la Nación y se garantice en las proyecciones anuales, respetando la disponibilidad presupuestal, el Marco Fiscal de Mediano Plazo y el Marco de Gasto del Mediano Plazo.\nParágrafo cuarto. Para el pago de los honorarios y la seguridad social de los concejales, la administración municipal podrá utilizar recursos del propósito general del Sistema General de Participaciones, realizando los traslados presupuestales correspondientes."
+  },
+  "46": {
+    "numero": 46,
+    "titulo": "Reconocimiento de Transporte",
+    "texto": "Reconocimiento de Transporte. Reconocer el valor de transporte, durante las sesiones plenarias y de comisión, a los Concejales que residan en zonas rurales y deban desplazarse desde y hasta la cabecera municipal, sede principal del funcionamiento de las corporaciones municipales. Estos gastos de transporte serán asumidos, en el caso de los municipios pertenecientes a categorías cuarta, quinta y sexta con cargo a la sección presupuestal del sector central del municipio, y no se tendrán en cuenta como gasto de funcionamiento de la administración, para el cálculo de los indicadores de límite de gastos de funcionamiento fijados por la Ley 617 de 2000.\nPara estos efectos, los Concejos Municipales a iniciativa de los alcaldes deberán expedir el reglamento en donde se fije el reconocimiento de transporte, atendiendo criterios razonables, con anterioridad al periodo de sesiones siguientes a la promulgación de la presente ley. Los pagos efectuados a los Concejales por gastos de transporte a que se refiere el presente artículo, no estarán sujetos a retención en la fuente."
+  },
+  "47": {
+    "numero": 47,
+    "titulo": "Pago Oportuno Honorarios",
+    "texto": "Pago Oportuno Honorarios. Todos los concejales del país tendrán derecho a recibir el pago de los honorarios causados cada mes por concepto de su participación en sesiones ordinarias y extraordinarias, como máximo dentro de los primeros 5 días del mes siguiente al mes en el cual fueron causados estos honorarios. (Ley 2461 de 2025)"
+  },
+  "48": {
+    "numero": 48,
+    "titulo": "Cotización al Sistema de Seguridad Social",
+    "texto": "Cotización al Sistema de Seguridad Social. Los concejales de todas las diferentes categorías de los municipios y distritos del país tendrán derecho a la cotización al Sistema de Seguridad Social; pensión, salud, ARL y cajas de compensación familiar, la cual se hará con cargo al presupuesto central de la administración municipal, sin que esto implique vínculo laboral con la entidad territorial.\nEn todo caso, la administración municipal estará encargada de la liquidación y pago de las planillas de los concejales.\nParágrafo. Los costos en seguridad social de los concejales, en ningún caso se tendrá en cuenta en los límites de gastos de los concejos de los que trata el artículo 10 de la Ley 617 de 2000. (Ley 2461 de 2025)"
+  },
+  "49": {
+    "numero": 49,
+    "titulo": "Cotización al Sistema de Seguridad Social (Afiliación)",
+    "texto": "Cotización al Sistema de Seguridad Social. Para la afiliación de los concejales al sistema de seguridad social en pensión, salud, ARL y cajas de compensación familiar la administración municipal deberá realizar los aportes al régimen contributivo con cargo al presupuesto central de la administración municipal o podrá solicitar el pago del monto que faltare al Ministerio de Hacienda y Crédito Público respetando la disponibilidad presupuestal, el Marco Fiscal de Mediano Plazo y el Marco de Gasto del Mediano Plazo.\nEl ingreso base de cotización, que trata este artículo, será el resultante de sumar el valor total de los honorarios anuales que reciben los concejales por la asistencia a las sesiones ordinarias dividido entre doce (12). (Ley 2461 de 2025)."
+  },
+  "50": {
+    "numero": 50,
+    "titulo": "Gastos De Viaje",
+    "texto": "Gastos De Viaje. Los concejos municipales podrán pagar del rubro de gasto de funcionamiento, los gastos de viajes de sus concejales con ocasión del cumplimiento de comisiones oficiales dentro y fuera del municipio. La autorización previa para dichos viajes deberá ser aprobada por la plenaria del Concejo Municipal y estar debidamente justificada. Los concejales rendirán un informe detallado sobre las actividades realizadas en la comisión. (Ley 2461 de 2025)."
+  },
+  "51": {
+    "numero": 51,
+    "titulo": "Retención en la Fuente",
+    "texto": "Retención en la Fuente. La retención en la fuente a los pagos efectuados por cada periodo sesionado en los términos del artículo 23 de la Ley 136 de 1994, correspondiente a honorarios a los Concejales no declarantes del impuesto sobre la renta y complementarios, será la que resulte de aplicar a dichos pagos la tabla establecida para tal efecto.\nParágrafo 1. La Secretaria del Concejo Municipal solicitará por escrito a los Concejales, que manifiesten bajo esta misma modalidad (por escrito) a la Corporación si son declarantes del impuesto sobre la renta y complementarios, para efectos de determinar si les es aplicable el presente artículo.\nParágrafo 2. A los Concejales que sean declarantes del impuesto sobre la renta y complementarios se les aplicará una retención en la fuente del 10% sobre el valor de los honorarios que perciban en cada periodo legal de sesiones ordinarias o en periodo de sesiones extraordinarias."
+  },
+  "52": {
+    "numero": 52,
+    "titulo": "Violencia contra las mujeres en política",
+    "texto": "Violencia contra las mujeres en política. Se entiende por violencia contra las mujeres en ejercicio de su derecho a la participación política, toda acción, conducta u omisión realizada de forma directa o a través de terceros en el ámbito público o privado que, basada en elementos de género, cause daño o sufrimiento a una o varias mujeres o a sus familias, sin distinción de su afinidad política o ideológica, y que tenga por objeto o resultado menoscabar, restringir, impedir, desestimular, dificultar o anular el reconocimiento, goce y ejercicio de sus derechos políticos, en el marco de los procesos electorales, de participación ciudadana y representación democrática y el ejercicio de la función pública.\nLa violencia contra las mujeres en política puede incluir, entre otras, violencia verbal, física, sexual, psicológica, moral, económica o patrimonial, digital y simbólica.\nParágrafo. Se entenderá que las acciones, conductas u omisiones se basan en elementos de género, cuando se dirijan a una mujer por su condición de mujer, y tengan un impacto diferenciado en ella o en la población que representa."
+  },
+  "53": {
+    "numero": 53,
+    "titulo": "Definiciones sobre violencia contra las mujeres en política",
+    "texto": "Violencia contra las mujeres en política. Para los efectos de la aplicación del presente capitulo, se tendrán en cuenta las siguientes definiciones:\n1. Violencia por razón de género contra las mujeres: Es la violencia contra la mujer basada en roles y estereotipos de género que perpetúa su posición subordinada con respecto al hombre, como en el caso de las amenazas y agresiones verbales sexistas, el acoso y la violencia sexual; y que vulnera sus derechos humanos y libertades fundamentales en las esferas política, económica, social, cultural civil, tanto si se producen en la vida pública como en la vida privada.\n2. Interseccionalidad: Son los elementos por los cuales las mujeres son violentadas de manera simultánea a su género, sexo, orientación sexual, edad, raza, nacionalidad, religión, situación de discapacidad, etnia, ascendencia o cualquier otra característica o forma de identidad con la que se busque discriminar y/o poner en peligro a las mujeres, individual o colectivamente.\n3. Participación ciudadana de las mujeres: Se entiende como el derecho de las mujeres a intervenir en la postulación, conformación, ejercicio y control del poder político y la toma de decisiones en la esfera pública, de manera complementaria a los procesos electorales. Estas formas de participación incluyen el ejercicio de los mecanismos, formas, espacios, canales e instancias de participación ciudadana.\n4. Presunción de Riesgo extraordinario de género: Cuando las amenazas sean contra mujeres, lideresas y defensoras de derechos humanos, debe aplicarse la presunción de riesgo extraordinario de género. Esta presunción a favor de las mujeres en ejercicio de su derecho a la participación política debe concretarse en que, en los eventos en que ellas acudan a las autoridades para solicitar protección, la autoridad competente debe partir de que la solicitante, en efecto, se encuentra en riesgo extraordinario contra su vida, seguridad e integridad personal y tales riesgos se concretarían con actos de violencia de género."
+  },
+  "54": {
+    "numero": 54,
+    "titulo": "Categorías de violencia contra las mujeres en política",
+    "texto": "Categorías de violencia contra las mujeres en política. Para los efectos de la aplicación del presente capitulo, la definen el tipo de violencia en las siguientes categorías:\n1. Violencia psicológica: Acción u omisión destinada a degradar y/o controlar las acciones, comportamientos, creencias y decisiones de las mujeres, por medio de coerción, acoso, boicot social, amenazas hostigamientos u ofensas verbales y/o escritas de violencia física y/o violencia sexual en su contra o en contra de su familia, entre otras formas de violencia psicológica.\n2. Violencia simbólica: Es aquella que a través de actos recurrentes de violencia contra las mujeres refuerza los estereotipos de género usando imágenes, gestos, comentarios, íconos o signos que reproducen la idea de dominación, desigualdad y discriminación en las relaciones sociales, sujetas a los procesos electorales y sus funciones públicas naturalizando la subordinación de la mujer en la sociedad y limitando su derecho a participar sin obstáculos en la vida pública. La violencia simbólica afecta principalmente a las mujeres de manera colectiva y a sus agendas políticas.\n3. Violencia económica: Acciones y omisiones que buscan controlar, restringir, impedir y/o anular el acceso a los recursos económicos y patrimoniales, asignados a las mujeres para ejercer política.\n4. Violencia física: Acciones que generan afectaciones a la integridad física de una mujer o de su familia. Se refiere a lesiones, homicidios, feminicidios, secuestros, desapariciones y maltratos, con el objetivo de limitar la actividad política.\n5. Violencia sexual: Cualquier acto de naturaleza sexual que se causa y/o tiene consecuencias en el contexto del ejercicio de la política, y a su vez resulta, o es probable que resulte, en daño físico, psicológico y emocional. Asimismo, estas acciones pueden tener como objetivo obligar a las mujeres a intercambiar favores sexuales para ganar una candidatura en el partido o movimiento político; o conseguir financiación para la campaña o acceso a recursos patrimoniales de la colectividad, e incluso anular o limitar la voluntad de la mujer.\n6. Violencia digital: Cualquier manifestación o acto de violencia contra las mujeres en ejercicio de su derecho a la participación política o que la afecta en forma desproporcionada cometido con la asistencia del uso de las Tecnologías de la Información y Comunicación o agravado por este; a través del uso de redes sociales, plataformas digitales, correo electrónico, aplicaciones móviles, celular o cualquier medio tecnológico desde el que se pueda acceder a Internet o a otros entornos digitales."
+  },
+  "55": {
+    "numero": 55,
+    "titulo": "Manifestaciones de violencia contra las mujeres en política",
+    "texto": "Manifestaciones de violencia contra las mujeres en política. Las acciones, conductas u omisiones constitutivas de violencia contra las mujeres en política pueden manifestarse de manera física, sexual, psicológica, simbólica, digital y/o económica, y tienen el propósito de limitar, restringir o menoscabar su representación política, su liderazgo, su capacidad electoral o imagen pública o los derechos políticos de las mujeres en razón de su género, siendo algunas de ellas las siguientes:\n1. Aquellas conductas que atenten contra la vida e integridad personal de las mujeres con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como las agresiones físicas, el homicidio, el secuestro, el feminicidio, actos discriminatorios, hostigamiento, extorsión, constreñimiento ilegal, entre otras.\n2. Aquellas conductas que atenten contra la libertad, integridad y formación sexual con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como acoso, proposiciones, tocamientos, agresiones, o invitaciones sexuales que influyan en sus aspiraciones políticas o las condiciones de su actividad política, entre otras.\n3. Aquellas conductas que atenten contra la integridad moral con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como injuriar, calumniar, reproducir mensajes de odio, realizar expresiones que denigren, desacrediten o descalifiquen, a las mujeres por su género, restringir los canales de comunicación en cualquier medio virtual o físico, divulgar material o información íntima o privada, entre otras.\n4. Aquellas conductas que atenten contra los Derechos políticos, mecanismos de participación democrática o aquellas que atenten contra la Seguridad Pública, las cuales se encuentran consagradas en el Capítulo 1 del Título XII del Código Penal, que se lleven a cabo con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como restringir o anular el derecho al voto libre y secreto, proporcionar intencionalmente a las mujeres, a las autoridades administrativas, electorales información falsa, errónea o incompleta.\n5. Aquellas conductas que atenten contra la debida administración de justicia con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como usar las acciones judiciales de forma temeraria o de mala fe en un proceso administrativo o judicial, obstaculizar o impedir el acceso a la justicia para proteger sus derechos políticos, electorales o desconocer las decisiones adoptadas, imponer sanciones injustificadas o abusivas, entre otras.\n6. Aquellas conductas que atenten contra la libertad de expresión con el objeto de limitar, anular o restringir sus derechos políticos o electorales, tales como restringir o anular su libertad de expresión en los canales de comunicación, entre otras.\n7. Suministrar intencionalmente a las mujeres que aspiran u ocupan un cargo de elección popular o en el ejercicio de sus derechos políticos, información falsa, errada, incompleta o imprecisa u omitir información a la mujer, que impida o induzca al incorrecto ejercicio de sus atribuciones o de sus derechos políticos o electorales en condiciones de igualdad e impedir que asistan a cualquier actividad que implique toma de decisiones.\n8. Limitar o negar arbitrariamente el uso de cualquier recurso y/o atribución inherente al cargo político que ocupa la mujer, incluido el pago de salarios y de prestaciones asociadas al ejercicio del cargo en condiciones de igualdad.\n9. Restringir el uso de la palabra de las mujeres en ejercicio de sus derechos políticos o electorales, impidiendo el derecho a voz de acuerdo con la normativa aplicable y en condiciones de igualdad.\n10. Discriminar a las mujeres en el ejercicio de sus derechos políticos, por encontrarse en estado de embarazo, parto, puerperio, o el ejercicio de la maternidad, impedir o restringir su reincorporación al cargo tras hacer uso de la licencia de maternidad, o de cualquier otra licencia contemplada en la normativa relacionada.\n11. Imponer con base en estereotipos de género la realización de actividades y tareas ajenas a las funciones y atribuciones de su cargo o posición, o que tengan como resultado la limitación del ejercicio de la función política.\n12. Instrumentalizar a la mujer a permanecer dentro del proceso electoral en contra de su voluntad, incluyendo la continuación de trámites sin su consentimiento y que comprometan sus derechos políticos.\n13. Obstaculizar en razón del género, los derechos de asociación y afiliación a todo tipo de organizaciones políticas y civiles.\n14. Suplantar la identidad de una mujer por cualquier medio incluyendo entornos digitales con el objetivo o el resultado de menoscabar o afectar negativamente su candidatura, imagen pública y/o limitar o anular sus derechos políticos o electorales como parte de su función política.\nParágrafo 1°. Las manifestaciones descritas en el presente artículo no son exhaustivas, pueden ser concurrentes, y los hechos deberán analizarse e investigarse por las autoridades competentes con enfoque de género, con seguimiento al principio de debida diligencia y a las medidas de protección de los derechos humanos de las mujeres."
+  },
+  "56": {
+    "numero": 56,
+    "titulo": "Prohibición de actos de violencia política contra la mujer en debates",
+    "texto": "Durante el desarrollo de los debates se encuentra prohibido cualquier acto que se pueda configurar como manifestaciones de violencia de conformidad con los artículos precedentes; en concordancia con la Ley 2453 de 2025 y cualquier otra que la complemente, modifique y adicione."
+  },
+  "57": {
+    "numero": 57,
+    "titulo": "Prohibición de actos de violencia política contra la mujer en debates (reiteración)",
+    "texto": "Durante el desarrollo de los debates se encuentra prohibido cualquier acto que se pueda configurar como manifestaciones de violencia de conformidad con los artículos precedentes; en concordancia con la Ley 2453 de 2025 y cualquier otra que la complemente, modifique y adicione."
+  },
+  "58": {
+    "numero": 58,
+    "titulo": "Canales de comunicación para garantizar derechos políticos de las mujeres",
+    "texto": "El concejo municipal, en cabeza de la mesa directiva garantizará canales de comunicación para todas las mujeres en ejercicio o goce de sus derechos políticos y de participación democrática.\nLos cuales se harán conocer a la comunidad, por los medios que tengan a su alcance."
+  },
+  "59": {
+    "numero": 59,
+    "titulo": "Rendición de cuentas prevención de violencia política contra las mujeres",
+    "texto": "Rendición de cuentas prevención de violencia política contra las mujeres. En el último periodo de sesiones de cada anualidad el concejo municipal rendirá cuentas públicas de las medidas y acciones realizadas para prevenir, rechazar y sancionar actuaciones de violencia política contra las mujeres en el desarrollo de las sesiones y espacios públicos de debate y participación."
   }
 };
 
@@ -1475,6 +1586,308 @@ const EXAMENES = {
         "Proponer la agenda de trabajo de la corporación",
         "Elegir al Secretario General",
         "Sancionar a los Concejales"
+      ],
+      "r": 1
+    }
+  ],
+  "4": [
+    {
+      "p": "Según el Art. 43, ¿cuál es uno de los deberes del Concejal?",
+      "ops": [
+        "Revelar información reservada",
+        "Guardar secreto sobre los asuntos que demanden reserva",
+        "Usar su cargo para beneficio personal",
+        "Faltar a las sesiones libremente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué debe declarar el Concejal antes de tomar posesión y al retirarse del cargo, según el Art. 43?",
+      "ops": [
+        "Su afiliación política",
+        "El monto de sus bienes y rentas, bajo juramento",
+        "Su historial académico",
+        "Sus antecedentes familiares"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 43, ¿en qué bancada debe actuar el Concejal?",
+      "ops": [
+        "En cualquiera que elija libremente",
+        "Exclusivamente en la del Partido o Movimiento Político por el cual fue elegido",
+        "En la del Alcalde",
+        "En ninguna, los Concejales no pertenecen a bancadas"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es un derecho del Concejal según el Art. 44?",
+      "ops": [
+        "A voto secreto siempre",
+        "A voz durante las sesiones conforme al reglamento",
+        "A no asistir a las sesiones",
+        "A ser remunerado sin asistir"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 44, ¿qué tipo de voto tienen los Concejales en general?",
+      "ops": [
+        "Voto secreto siempre",
+        "Voto nominal y público, remoto y excepcionalmente secreto",
+        "Voto delegado",
+        "Voto por correspondencia"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Dentro de cuántos días debe pagarse el honorario mensual de los Concejales según el Art. 44 numeral 6?",
+      "ops": [
+        "Los primeros 5 días del mes siguiente",
+        "Los primeros 10 días",
+        "Los primeros 15 días",
+        "Al final del mes"
+      ],
+      "r": 0
+    },
+    {
+      "p": "Según el Art. 44, ¿a qué porcentaje de subsidio del Fondo de Solidaridad Pensional puede ser beneficiario un Concejal?",
+      "ops": [
+        "50%",
+        "65%",
+        "75%",
+        "100%"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué entidades dan capacitación gratuita a los Concejales según el Art. 44 numeral 12?",
+      "ops": [
+        "Universidades privadas",
+        "El SENA, la ESAP y las Corporaciones Autónomas Regionales",
+        "El Ministerio de Educación",
+        "Solo el Concejo Municipal"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 45, ¿cuántas sesiones ordinarias anuales se pagan en municipios de categoría especial, primera y segunda?",
+      "ops": [
+        "80 sesiones",
+        "100 sesiones",
+        "150 sesiones",
+        "200 sesiones"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Cuántas sesiones ordinarias anuales se pagan en municipios de categoría tercera a sexta según el Art. 45?",
+      "ops": [
+        "50 sesiones",
+        "80 sesiones",
+        "100 sesiones",
+        "150 sesiones"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo Segundo del Art. 45, ¿qué Concejales se exceptúan de esta liquidación de honorarios?",
+      "ops": [
+        "Los de municipios pequeños",
+        "Los de la ciudad de Bogotá",
+        "Los de categoría especial",
+        "Ninguno, todos están incluidos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con qué se incrementan anualmente los honorarios de los Concejales según el Art. 45?",
+      "ops": [
+        "Con el salario mínimo",
+        "Con un porcentaje equivalente a la variación del IPC del año anterior",
+        "Con un 10% fijo",
+        "No se incrementan"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 46, ¿a quiénes se les reconoce el valor de transporte?",
+      "ops": [
+        "A todos los Concejales por igual",
+        "A los Concejales que residan en zonas rurales y deban desplazarse a la cabecera municipal",
+        "Solo al Presidente del Concejo",
+        "A ningún Concejal"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Están sujetos a retención en la fuente los pagos de transporte a Concejales según el Art. 46?",
+      "ops": [
+        "Sí, siempre",
+        "No, no estarán sujetos a retención en la fuente",
+        "Solo si superan cierto monto",
+        "Depende del municipio"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 47, ¿bajo qué ley se establece el pago oportuno de honorarios?",
+      "ops": [
+        "Ley 136 de 1994",
+        "Ley 617 de 2000",
+        "Ley 2461 de 2025",
+        "Ley 1551 de 2012"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿A qué tienen derecho los Concejales en materia de seguridad social según el Art. 48?",
+      "ops": [
+        "Solo a salud",
+        "Pensión, salud, ARL y cajas de compensación familiar",
+        "Solo a pensión",
+        "Ninguno, no aplica para Concejales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Implica vínculo laboral con la entidad territorial la cotización a seguridad social de los Concejales, según el Art. 48?",
+      "ops": [
+        "Sí, siempre",
+        "No, no implica vínculo laboral",
+        "Solo en municipios grandes",
+        "Depende del Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 49, ¿cómo se calcula el ingreso base de cotización de los Concejales?",
+      "ops": [
+        "Es un valor fijo nacional",
+        "El total de honorarios anuales por sesiones ordinarias dividido entre doce (12)",
+        "Es el salario mínimo legal",
+        "Lo determina cada Concejal libremente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién debe aprobar previamente los gastos de viaje por comisiones oficiales de los Concejales según el Art. 50?",
+      "ops": [
+        "El Alcalde",
+        "La plenaria del Concejo Municipal",
+        "El Secretario General",
+        "El Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 51, ¿qué porcentaje de retención en la fuente se aplica a los Concejales declarantes de renta?",
+      "ops": [
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué se entiende por violencia contra las mujeres en política según el Art. 52?",
+      "ops": [
+        "Solo agresiones físicas",
+        "Toda acción, conducta u omisión que cause daño basada en elementos de género y afecte sus derechos políticos",
+        "Solo violencia verbal",
+        "Únicamente delitos sexuales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 53, ¿qué es la 'interseccionalidad'?",
+      "ops": [
+        "Un tipo de votación",
+        "Los elementos por los cuales las mujeres son violentadas de manera simultánea por género, raza, edad u otras características",
+        "Un cargo dentro del Concejo",
+        "Un mecanismo de participación ciudadana"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué establece la presunción de riesgo extraordinario de género según el Art. 53?",
+      "ops": [
+        "Que las mujeres deben demostrar el riesgo siempre",
+        "Que ante solicitud de protección de mujeres lideresas, la autoridad debe partir de que existe riesgo extraordinario",
+        "Que no aplica ninguna protección especial",
+        "Que solo aplica para mujeres mayores de 50 años"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 54, ¿qué es la violencia simbólica contra las mujeres en política?",
+      "ops": [
+        "Agresión física directa",
+        "Actos que refuerzan estereotipos de género mediante imágenes, gestos o comentarios que naturalizan la subordinación de la mujer",
+        "Un tipo de delito sexual",
+        "Restricción económica únicamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál de estas es una categoría de violencia contra la mujer en política según el Art. 54?",
+      "ops": [
+        "Violencia digital",
+        "Violencia deportiva",
+        "Violencia académica",
+        "Violencia turística"
+      ],
+      "r": 0
+    },
+    {
+      "p": "Según el Art. 55, ¿es exhaustiva la lista de manifestaciones de violencia política contra la mujer?",
+      "ops": [
+        "Sí, son las únicas posibles",
+        "No, no son exhaustivas y pueden ser concurrentes",
+        "Solo aplican 5 de las 14 mencionadas",
+        "Solo aplica en campañas electorales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué prohíbe el Art. 56 durante el desarrollo de los debates?",
+      "ops": [
+        "Cualquier intervención de las bancadas",
+        "Cualquier acto que configure manifestaciones de violencia contra las mujeres en política",
+        "Las votaciones nominales",
+        "Las citaciones de control político"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 58, ¿quién garantiza los canales de comunicación para las mujeres en ejercicio de sus derechos políticos?",
+      "ops": [
+        "El Alcalde",
+        "El concejo municipal, en cabeza de la mesa directiva",
+        "El Gobernador",
+        "La Procuraduría"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 59, ¿cuándo debe el Concejo rendir cuentas sobre prevención de violencia política contra las mujeres?",
+      "ops": [
+        "Cada mes",
+        "En el último periodo de sesiones de cada anualidad",
+        "Solo al final del periodo de 4 años",
+        "Nunca es obligatorio"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿En qué ley se fundamentan principalmente las disposiciones sobre violencia política contra las mujeres en los Arts. 52 al 59?",
+      "ops": [
+        "Ley 136 de 1994",
+        "Ley 2453 de 2025",
+        "Ley 617 de 2000",
+        "Ley 974 de 2005"
       ],
       "r": 1
     }
