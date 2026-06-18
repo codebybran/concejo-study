@@ -1,6 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
-// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Título I + Título II + Título III + Título IV cargados. Títulos V-XIII pendientes.
+// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Título I + Título II + Título III + Título IV + Título V cargados. Títulos VI-XIII pendientes.
 
 const CAPITULOS = [
   {
@@ -105,6 +105,17 @@ const CAPITULOS = [
       57,
       58,
       59
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "TÍTULO V",
+    "nombre": "El Secretario",
+    "subtitulo": "Designación, Requisitos, Periodo y Funciones del Secretario General",
+    "icono": "📝",
+    "articulos": [
+      60,
+      61
     ]
   }
 ];
@@ -650,6 +661,16 @@ const ARTICULOS = {
     "numero": 59,
     "titulo": "Rendición de cuentas prevención de violencia política contra las mujeres",
     "texto": "Rendición de cuentas prevención de violencia política contra las mujeres. En el último periodo de sesiones de cada anualidad el concejo municipal rendirá cuentas públicas de las medidas y acciones realizadas para prevenir, rechazar y sancionar actuaciones de violencia política contra las mujeres en el desarrollo de las sesiones y espacios públicos de debate y participación."
+  },
+  "60": {
+    "numero": 60,
+    "titulo": "Designación, requisitos y período",
+    "texto": "Designación, requisitos y período. El secretario será elegido por el Concejo para período institucional de un (1) año, comprendido entre el primero (1) de enero y el treinta y uno (31) de diciembre, sin importar la fecha de su elección y posesión. La nombrada elección deberá darse con estricto cumplimiento de los parámetros constitucionales y legales.\nAtendiendo a lo dispuesto en la Constitución y la Ley, la elección de Servidores Públicos atribuida a Corporaciones Públicas deberá estar precedida de una Convocatoria Pública reglada por la Ley en las que se fijen requisitos y procedimientos que garanticen los principios de publicidad, transparencia, participación ciudadana, equidad de género y criterios de méritos para su elección.\nPara ser Secretario General del Concejo se deberá acreditar título de bachiller o experiencia administrativa mínima de dos (2) años.\nLa primera elección de este funcionario se realizará dentro de los diez (10) primeros días del mes de enero correspondiente a la iniciación del período constitucional del Concejo. Para los tres años subsiguientes del mismo período constitucional, la elección o reelección tendrá lugar en el mes de noviembre, correspondiente al último período ordinario de sesiones, iniciando funciones a partir del primero (1) de enero siguiente.\nParágrafo 1. El secretario electo del Concejo tomará posesión dentro de los quince (15) días hábiles siguientes a la elección y en caso de existir fuerza mayor o caso fortuito que impida la posesión en ese periodo de tiempo, se podrá prorrogar por quince días más. La posesión la hará el Presidente del Concejo Municipal y para ello no se requiere de la realización de una sesión plenaria.\nPara la posesión del secretario del concejo, éste deberá acreditar los requisitos exigidos por la Ley y presentar la documentación exigida por la Ley 190 de 1995, en especial los mismos exigidos para la posesión de los Concejales contemplados en el presente reglamento.\nSi vencido el termino para que el secretario electo tome posesión del cargo y no lo ha hecho por su culpa o dolo, el Presidente del Concejo declarará vacante el cargo y convocará nuevamente a elección, en la cual no podrá participar como candidato la persona electa en la primera elección que no se posesionó.\nParágrafo 2. La renuncia del Secretario General del Concejo genera vacancia absoluta del cargo. El nuevo Secretario será elegido por lo que resta del periodo hasta el 31 de diciembre. En este caso mientras se realiza la nueva elección, dicho cargo será asumido de manera Ad-Hoc por el concejal que el Presidente de la Corporación designe para cada sesión, resaltando que por ese hecho no perderá su derecho a voz y voto en la respectiva sesión.\nParágrafo 3. En caso de elección del secretario (a) general del Concejo Municipal se deberá agotar el trámite dispuesto en la Constitución y la Ley."
+  },
+  "61": {
+    "numero": 61,
+    "titulo": "Funciones del secretario del Concejo",
+    "texto": "Funciones del secretario del Concejo. Son funciones y deberes del secretario de la corporación:\n1. Asistir a todas las sesiones.\n2. Realizar la convocatoria a sesiones que se programen por autorización del Presidente y de la Mesa Directiva, de conformidad con lo previsto en este reglamento.\n3. Llevar y firmar las actas, de acuerdo con la sana costumbre y el reglamento, así como certificar la fidelidad de su contenido.\n4. Dar lectura a los proyectos, proposiciones y demás documentos y mensajes que deban ser leídos en sesión plenaria.\n5. Informar sobre los resultados de toda clase de votación que se cumpla en la corporación.\n6. Elaborar las comunicaciones oficiales que deban ser enviadas por el presidente o por la mesa directiva.\n7. Informar regularmente al presidente de todos los documentos y mensajes dirigidos a la corporación, acusar oportunamente su recibo, y mantener organizado y actualizado un registro de entrega y devolución de los mismos y de los enviados a las comisiones permanentes.\n8. Recibir y dar trámite a todo documento o petición que llegue al Concejo con destino a la Presidencia y a la Secretaría General de la Corporación.\n9. Recibir y radicar los proyectos de acuerdo, y repartirlos a la comisión correspondiente para su trámite en primer debate.\n10. Llevar los siguientes libros: el de actas; el de registro de intereses privados de los Concejales de que trata el artículo 70 inciso segundo de la ley 136 de 1994, y el de registro de participación ciudadana a que se refiere el artículo 77 de la misma ley.\n11. Organizar el archivo del Concejo, acompañado del índice de los acuerdos municipales expedidos, las resoluciones dictadas y las actas aprobadas.\n12. Dirigir y publicar la Gaceta del Concejo cuando a ello hubiere lugar y por disposición del Presidente de la Corporación.\n13. Recibir la inscripción de constitución de las Bancadas existentes al interior del Concejo Municipal junto con sus estatutos y publicar los documentos constitutivos de las mismas.\n14. Velar porque el archivo se encuentre en estricto orden y en cumplimiento con los parámetros de la Ley.\n15. Mantener la Corporación al día con la actualización del Modelo Estándar de Control Interno -MECI-, e informar a la mesa directiva sobre cualquier cambio o falta de cumplimiento de estas normas.\n16. Los demás deberes que señale la corporación, la mesa directiva o el presidente, y las inherentes a la naturaleza del cargo.\nParágrafo único. Las faltas absolutas del secretario se suplen con una nueva elección, en el menor término posible. En caso de falta temporal, la mesa directiva procederá a designar uno.\nNo puede ser designado secretario, en propiedad, un miembro del Concejo. Las Faltas Temporales del Secretario General de Concejo que no sean superior a diez (10) días, podrán ser suplidas de manera Ad-Hoc por un Concejal, quien por ese hecho no perderá su derecho a voz y voto en la respectiva sesión."
   }
 };
 
@@ -1888,6 +1909,208 @@ const EXAMENES = {
         "Ley 2453 de 2025",
         "Ley 617 de 2000",
         "Ley 974 de 2005"
+      ],
+      "r": 1
+    }
+  ],
+  "5": [
+    {
+      "p": "¿Cuál es el período institucional del Secretario del Concejo según el Art. 60?",
+      "ops": [
+        "Seis meses",
+        "Un (1) año, del 1 de enero al 31 de diciembre",
+        "Dos años",
+        "Cuatro años, igual al de los Concejales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué debe preceder la elección del Secretario según el Art. 60?",
+      "ops": [
+        "Una decisión unilateral del Presidente",
+        "Una Convocatoria Pública reglada por la Ley",
+        "Una recomendación del Alcalde",
+        "Ningún requisito previo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué requisitos mínimos debe acreditar una persona para ser Secretario General del Concejo según el Art. 60?",
+      "ops": [
+        "Título universitario obligatorio",
+        "Título de bachiller o experiencia administrativa mínima de dos (2) años",
+        "Ser abogado",
+        "Ser Concejal en ejercicio"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Dentro de qué plazo se realiza la primera elección del Secretario al iniciar el período constitucional, según el Art. 60?",
+      "ops": [
+        "Los primeros 5 días de enero",
+        "Los primeros 10 días de enero",
+        "Los primeros 15 días de enero",
+        "El primer mes completo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Para los tres años subsiguientes del período constitucional, ¿en qué mes se realiza la elección o reelección del Secretario según el Art. 60?",
+      "ops": [
+        "Diciembre",
+        "Enero",
+        "Noviembre",
+        "Octubre"
+      ],
+      "r": 2
+    },
+    {
+      "p": "Según el Parágrafo 1 del Art. 60, ¿dentro de cuántos días hábiles debe el Secretario electo tomar posesión?",
+      "ops": [
+        "10 días hábiles",
+        "15 días hábiles",
+        "20 días hábiles",
+        "30 días hábiles"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Es posible prorrogar el plazo de posesión del Secretario por fuerza mayor o caso fortuito según el Parágrafo 1 del Art. 60?",
+      "ops": [
+        "No, el plazo es improrrogable",
+        "Sí, se puede prorrogar por quince días más",
+        "Sí, pero solo cinco días más",
+        "Solo si lo aprueba el Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién posesiona al Secretario electo del Concejo según el Parágrafo 1 del Art. 60?",
+      "ops": [
+        "El Alcalde",
+        "El Presidente del Concejo Municipal",
+        "El Gobernador",
+        "El Secretario anterior"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Se requiere sesión plenaria para la posesión del Secretario según el Parágrafo 1 del Art. 60?",
+      "ops": [
+        "Sí, es obligatorio",
+        "No, no se requiere sesión plenaria",
+        "Solo en el primer año",
+        "Solo si lo solicita un Concejal"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué documentación debe presentar el Secretario para su posesión según el Parágrafo 1 del Art. 60?",
+      "ops": [
+        "Solo su hoja de vida",
+        "La exigida por la Ley 190 de 1995, similar a la de los Concejales",
+        "Ningún documento adicional",
+        "Solo su cédula de ciudadanía"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Si el Secretario electo no toma posesión por su culpa o dolo, ¿qué ocurre según el Art. 60?",
+      "ops": [
+        "Se le otorga un nuevo plazo indefinido",
+        "El Presidente declara vacante el cargo y convoca nueva elección",
+        "No pasa nada, sigue en el cargo",
+        "Asume automáticamente el Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "En la nueva elección tras la no posesión, ¿puede participar la persona que no se posesionó la primera vez, según el Art. 60?",
+      "ops": [
+        "Sí, sin restricciones",
+        "No, no podrá participar como candidato",
+        "Solo si paga una multa",
+        "Solo si lo aprueba el Concejo por unanimidad"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 2 del Art. 60, ¿qué genera la renuncia del Secretario General?",
+      "ops": [
+        "Una falta temporal",
+        "Vacancia absoluta del cargo",
+        "Ninguna consecuencia legal",
+        "La disolución del Concejo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Mientras se elige nuevo Secretario tras una renuncia, ¿quién asume el cargo de manera Ad-Hoc según el Parágrafo 2 del Art. 60?",
+      "ops": [
+        "El Alcalde",
+        "El concejal que el Presidente designe para cada sesión",
+        "El Vicepresidente Primero obligatoriamente",
+        "Nadie, el cargo queda vacío"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Pierde el Concejal su derecho a voz y voto al asumir como Secretario Ad-Hoc según el Parágrafo 2 del Art. 60?",
+      "ops": [
+        "Sí, lo pierde mientras ejerce esa función",
+        "No, conserva su derecho a voz y voto",
+        "Solo pierde el derecho a voto",
+        "Solo pierde el derecho a voz"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es una función del Secretario del Concejo según el Art. 61?",
+      "ops": [
+        "Presidir las sesiones plenarias",
+        "Llevar y firmar las actas, certificando la fidelidad de su contenido",
+        "Sancionar los acuerdos municipales",
+        "Elegir a los miembros de la Mesa Directiva"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 61 numeral 10, ¿cuáles son los libros que debe llevar el Secretario?",
+      "ops": [
+        "Solo el libro de actas",
+        "El de actas, el de registro de intereses privados y el de participación ciudadana",
+        "Solo el libro contable",
+        "Ningún libro es obligatorio"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién dirige y publica la Gaceta del Concejo según el Art. 61 numeral 12?",
+      "ops": [
+        "El Presidente del Concejo directamente",
+        "El Secretario, cuando a ello hubiere lugar y por disposición del Presidente",
+        "El Alcalde",
+        "Cualquier Concejal designado"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede ser designado Secretario en propiedad un miembro del Concejo, según el Parágrafo único del Art. 61?",
+      "ops": [
+        "Sí, sin restricción",
+        "No, no puede ser designado secretario en propiedad un miembro del Concejo",
+        "Solo si renuncia a su curul",
+        "Solo en municipios pequeños"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cómo se suplen las faltas temporales del Secretario que no superen los diez (10) días, según el Parágrafo único del Art. 61?",
+      "ops": [
+        "Quedan sin suplir",
+        "De manera Ad-Hoc por un Concejal, sin perder su voz y voto",
+        "Las asume el Alcalde",
+        "Se cierra la Secretaría temporalmente"
       ],
       "r": 1
     }
