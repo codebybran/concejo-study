@@ -1,6 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
-// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Título I + Título II cargados. Títulos III-XIII pendientes.
+// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Título I + Título II + Título III cargados. Títulos IV-XIII pendientes.
 
 const CAPITULOS = [
   {
@@ -60,6 +60,25 @@ const CAPITULOS = [
       30,
       31,
       32
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "TÍTULO III",
+    "nombre": "Dignatarios",
+    "subtitulo": "Presidente, Vicepresidente, Mesa Directiva y Comité de Coordinación Política",
+    "icono": "👔",
+    "articulos": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
     ]
   }
 ];
@@ -470,6 +489,56 @@ const ARTICULOS = {
     "numero": 32,
     "titulo": "Prohibiciones",
     "texto": "Prohibiciones. Conforme a lo preceptuado por el artículo 41 de la ley 136 de 1994, le es prohibido al Concejo:\n1. Obligar a los habitantes, sean domiciliados o transeúntes, a contribuir con dineros o servicios para fiestas o regocijos públicos.\n2. Aplicar o destinar los bienes y rentas municipales a objetos distintos del servicio público.\n3. Intervenir en asuntos que no sean de su competencia, por medio de acuerdos o de resoluciones.\n4. Dar votos de aplauso o de censura a actos oficiales. Con todo, la corporación podrá pedir la revocación de los que estime ilegales o inconvenientes, exponiendo los motivos en que se funde.\n5. Privar a los vecinos de otros municipios de los derechos, garantías o protección de que disfruten los de su propio municipio.\n6. Decretar actos de proscripción o persecución contra personas naturales o jurídicas.\n7. Decretar auxilios o donaciones a favor de personas naturales o jurídicas de derecho privado.\n8. Tomar parte en el trámite o decisión de asuntos que no son de su competencia.\n9. Adscribirse al interior de una Bancada diferente a la del partido o movimiento político por el cual fue elegido.\n10. Omitir las directrices de actuación que coordinadamente determinen los miembros de la Bancada a la cual pertenece, salvo en lo relacionado con los asuntos determinados como de conciencia en los Estatutos del partido o movimiento político al cual pertenece.\n11. De conformidad con el artículo 291 de la Constitución Política, los Concejales no podrán aceptar cargo alguno en la administración pública, y si lo hicieren perderán su investidura."
+  },
+  "33": {
+    "numero": 33,
+    "titulo": "Presidencia y Vicepresidencias",
+    "texto": "Presidencia y Vicepresidencias. En cumplimiento de lo estipulado en el artículo 28 de la ley 136 de 1994, el Concejo Municipal tendrá un presidente y dos vicepresidentes quienes en Conjunto integran la Mesa Directiva, cuyas funciones se enuncian en los artículos subsiguientes. Los integrantes de la mesa directiva del Concejo ostentan una dignidad que en ningún caso es asimilable a un nuevo cargo o empleo público y su periodo será de un año institucional del primero (1) de enero al treinta y uno (31) de diciembre del respectivo año independientemente del día de su posesión. Toda situación atípica frente a su elección o investidura como Presidente o Vicepresidente, se entenderá que se hará por el resto del periodo legal respectivo."
+  },
+  "34": {
+    "numero": 34,
+    "titulo": "Elección del Presidente",
+    "texto": "Elección del Presidente. Será Presidente de la Corporación, el Concejal que obtenga la mayoría simple de los votos de los Concejales asistentes a la sesión Plenaria que conformen quórum decisorio. En un eventual empate entre dos o más candidatos, se repetirá la votación hasta por tres veces y de persistir el empate se procederá a dirimirlo por sorteo o suerte entre los candidatos empatados en la misma sesión. El Presidente que esté ejerciendo establecerá el mecanismo de dicho sorteo o suerte.\nParágrafo 1. Los aspirantes al cargo de Presidente, deberán presentar ante la plenaria de la Corporación su programa de acción anual de conformidad con la norma técnica de calidad en la gestión pública.\nParágrafo 2. El procedimiento señalado para elección de Presidente será el mismo para elegir al Primer y Segundo Vicepresidente. Así mismo, se deberán tener en cuenta las disposiciones detalladas en el artículo 88 del presente reglamento.\nParágrafo 3. No podrá ser Presidente del Concejo quien haya pertenecido a la Mesa Directiva el año inmediatamente anterior así fuere parcialmente."
+  },
+  "35": {
+    "numero": 35,
+    "titulo": "Posesión del Presidente",
+    "texto": "Posesión del Presidente. El Presidente electo de la Mesa Directiva del Concejo Municipal se posesionará ante quien se encuentre actuando como tal, jurando cumplir fiel y cabalmente con las funciones propias de Presidente dentro del marco de la Constitución, las Leyes y los Acuerdos Municipales, con la dignidad y el decoro que su investidura exige, de conformidad con los parámetros estipulados en el presente reglamento.\nParágrafo único. En el primer año del periodo constitucional, tratándose de la posesión del presidente del Concejo, se procederá de conformidad con el artículo 25 del presente reglamento."
+  },
+  "36": {
+    "numero": 36,
+    "titulo": "Funciones del presidente del Concejo",
+    "texto": "Funciones del presidente del Concejo. Son funciones del presidente del Concejo:\n1. Convocar, presidir y dirigir las sesiones del Concejo en pleno.\n2. Liderar la representación política del Concejo Municipal.\n3. Cuidar que los Concejales concurran puntualmente a las sesiones, requiriendo con apremio si fuere el caso, la presencia de los ausentes que no estén legalmente excusados, y mantener el orden interno.\n4. Cumplir y hacer cumplir el reglamento, y decidir las cuestiones o dudas que se presenten sobre la aplicación del mismo. Contra esta decisión, cualquier Concejal puede apelar ante la Plenaria y ésta adoptar otra posición.\n5. Disponer el reparto de los proyectos de acuerdo presentados, ordenar su debido trámite y en el momento oportuno, designar ponente y coordinador de ponentes cuando fueren dos o más los designados para un mismo proyecto de acuerdo.\n6. Rechazar las iniciativas que no se avengan con el principio de unidad de materia, respecto de todo proyecto de acuerdo, pero sus decisiones serán apelables ante la plenaria de la corporación.\n7. Suscribir los proyectos de acuerdo aprobados en las comisiones permanentes y en las plenarias, así como someter a discusión y firmar las respectivas actas.\n8. Sancionar y publicar los proyectos de acuerdo cuando la plenaria rechazare las objeciones por inconveniencia presentadas por el alcalde, y éste no los sancionare dentro del término legal de ocho (8) días.\n9. Llevar la debida representación de la corporación, y fomentar las buenas relaciones interinstitucionales.\n10. Designar las comisiones accidentales que demande la corporación, sus integrantes y coordinador.\n11. Dar curso, fuera de la sesión, a las comunicaciones y demás documentos o mensajes recibidos.\n12. Nombrar y remover los empleados de la Corporación que sean de libre nombramiento y remoción.\n13. Cuidar que el secretario y los demás empleados de la corporación cumplan debidamente sus funciones y deberes.\n14. Disponer las medidas conducentes para hacer efectiva la suspensión provisional de la elección de un Concejal, destitución o toda aquella, dispuesta por la jurisdicción contencioso-administrativa, o la suspensión provisional del desempeño de funciones dentro de un proceso disciplinario o penal.\n15. Tomar las medidas conducentes para hacer efectiva la decisión de la autoridad judicial competente en relación con la declaratoria de nulidad de la elección de un Concejal o la declaratoria de interdicción.\n16. Aceptar la renuncia que, voluntariamente, sea presentada por un Concejal con indicación de la fecha a partir de la cual se quiere hacer. Si el Concejo se encuentra en receso la aceptación de la renuncia de los Concejales es función del alcalde.\n17. Dar posesión al Concejal que entre a reemplazar a otro, así como al secretario, y a los subalternos si los hubiere.\n18. Declarar la vacancia absoluta de los Concejales y llamar al candidato que según el artículo 134 de la Constitución deba llenar una vacancia absoluta, dentro de los tres (3) días hábiles siguientes a la declaratoria, para que tome posesión del cargo vacante que corresponde.\n19. Hacer efectivas las sanciones impuestas por los órganos de control fiscal y administrativo competentes, respecto de concejales y empleados de la corporación.\n20. Presidir la mesa directiva y las sesiones plenarias ordinarias y extraordinarias.\n21. Actuar como ordenador de gasto en relación con el presupuesto de la corporación contenido en el Presupuesto General del Municipio, con sujeción a la ley orgánica del presupuesto y a la reglamentación de la mesa directiva en tratándose de pago a concejales.\n22. Celebrar a nombre de la corporación los contratos legalmente autorizados, con observancia de las normas contenidas en el Estatuto General de Contratación de la Administración Pública.\n23. Decidir por fuera de la sesión plenaria el curso que debe darse a las comunicaciones y demás documentos que se reciban.\n24. Solicitar a las entidades públicas o privadas en nombre del Concejo Municipal los documentos e informes que se requieran para el cumplimiento de las funciones que corresponde a su cargo.\n25. Formular ante las autoridades competentes las consultas que juzgue pertinentes para la buena marcha de la Corporación.\n26. Vigilar el funcionamiento del Concejo Municipal en todos los órdenes y coordinar con el Comandante de la Policía, la seguridad al interior del Concejo.\n27. Coordinar con la Alcaldía Municipal la oportuna y suficiente dotación de los elementos de trabajo para el adecuado funcionamiento de la Corporación.\n28. Resolver los derechos de petición que se presenten ante la Corporación, así como los que se dirijan ante los Concejales y hagan referencia exclusivamente a actuaciones o decisiones tomadas por el Concejo.\n29. Presentar, al término de su gestión, un informe sobre la labor cumplida.\n30. Representar al Concejo Municipal ante la Federación Nacional de Concejos, FENACON, en los seminarios, reuniones, congresos, proyectos y demás, pudiendo delegar esta función en otro concejal.\n31. Fomentar las buenas relaciones de la Corporación con el gobierno y con los demás Concejos del país.\n32. Requerir a las comisiones para que presenten sus informes dentro de los términos legales o en el que se les haya fijado.\n33. Las demás dispuestas por la Constitución y la ley."
+  },
+  "37": {
+    "numero": 37,
+    "titulo": "Faltas Absolutas o Temporales del Presidente",
+    "texto": "Faltas Absolutas o Temporales del Presidente. Las faltas absolutas del presidente del Concejo determinarán la celebración de una nueva elección por el resto del período, en tanto que las faltas temporales serán suplidas por el Primer Vicepresidente y si no fuere posible por el Segundo Vicepresidente.\nCuando se presente falta absoluta del Presidente del Concejo y mientras se surte el proceso de elección del nuevo presidente, asumirá las funciones de presidente de manera provisional el primer vicepresidente y en su ausencia lo hará el Segundo Vicepresidente.\nA falta del Presidente, del Primer Vicepresidente y Segundo Vicepresidente, para presidir una sesión plenaria, deberá nombrarse un Presidente ad hoc."
+  },
+  "38": {
+    "numero": 38,
+    "titulo": "Recurso en vía Gubernativa",
+    "texto": "Recurso en vía Gubernativa. Las decisiones del Presidente del Concejo en materia política, son apelables ante la Plenaria de la Corporación."
+  },
+  "39": {
+    "numero": 39,
+    "titulo": "Funciones de los vicepresidentes del Concejo",
+    "texto": "Funciones de los vicepresidentes del Concejo. Las funciones de los vicepresidentes primero y segundo consisten en formar parte de la mesa directiva y, en su orden, reemplazar al presidente en sus faltas temporales, pues las absolutas se suplen con una nueva elección, para el resto del período. Desempeñan, además, otras funciones que les encomiende el presidente o la plenaria de la corporación, siempre que sean legales y ajustadas al presente reglamento.\nLlevar a cabo las funciones de control interno cuando no exista el comité del mismo dentro de la corporación.\n1. Son funciones del Primer Vicepresidente:\n1.1. Suplir al Presidente en sus ausencias temporales o accidentales.\n1.2. Asumir las funciones de Presidente Provisional cuando exista falta absoluta del presidente mientras se surte la nueva elección.\n1.3. Coordinar con los Presidentes de las Comisiones las reuniones, invitaciones o citaciones que se vayan a realizar en una Comisión.\n1.4. Organizar, en coordinación con el Presidente del Concejo, todo evento que promueva de manera positiva la imagen del Concejo.\n1.5. Realizar la revisión y supervisión de los procesos contractuales que se adelanten en la Corporación, verificando el cumplimiento de los requisitos de ley.\n1.6. Revisar y aprobar el contenido de la Gaceta del Concejo antes de ser publicada (cuando a ello hubiere lugar).\n1.7. Suscribir las decisiones más importantes o relevantes, que se tomen en el Concejo Municipal distintas a las adoptadas por acuerdo municipal. Se exceptúa la suscripción de los contratos.\n2. Son funciones del Segundo Vicepresidente:\n2.1. Suplir al Presidente o al Vicepresidente Primero en las ausencias temporales o accidentales.\n2.2. Asumir las funciones de Presidente Provisional cuando exista falta absoluta del presidente mientras se surte la nueva elección y hay ausencia del primer vicepresidente.\n2.3. Evaluar el Plan de Trabajo de la Secretaría General del Concejo y verificar que todas las actas de un periodo de sesiones se encuentren aprobadas por la plenaria.\n2.4. Darle inducción a los Concejales que lleguen por primera vez a la Corporación.\n2.5. Integrar, por derecho propio, las comisiones especiales de ética y de estudio de hojas de vida que conforme el Presidente de la Corporación.\n2.6. Suscribir las decisiones más importantes o relevantes, que se tomen en el Concejo Municipal distintas a las adoptadas por acuerdo municipal. Se exceptúa la suscripción de contratos."
+  },
+  "40": {
+    "numero": 40,
+    "titulo": "De la Mesa Directiva",
+    "texto": "De la Mesa Directiva. La Plenaria del Concejo Municipal integrará y elegirá para un período institucional de un (1) año la Mesa Directiva del Concejo Municipal y de las Comisiones Permanentes.\nEn la conformación de la Mesa Directiva tendrá participación las bancadas de los partidos o movimientos políticos. Ningún partido podrá tener más de un integrante en la Mesa Directiva del Concejo salvo que no exista otro candidato habilitado para ocupar la dignidad correspondiente o quien tenga derecho a ocuparla renuncie expresamente a él. De la renuncia de un partido o de un Concejal habilitado para ocupar la Mesa Directiva se dejará constancia escrita o en el acta de la respectiva sesión.\nEn todo caso, de conformidad con el Estatuto de Oposición, el partido o movimiento político que se declare en oposición al gobierno municipal, tendrá participación en la mesa directiva de acuerdo a las reglas establecidas en el artículo 148 de este reglamento.\nParágrafo 1. Ningún concejal podrá ser reelegido en dos períodos consecutivos en la respectiva mesa directiva.\nParágrafo 2. La Mesa Directiva de la Corporación será la encargada de definir la agenda general del Concejo Municipal, la cual ha de ser concertada con los Coordinadores, jefes o voceros de las Bancadas con presencia en la Corporación.\nParágrafo 3. Constituye causal de mala conducta la no aceptación de una dignidad de la Mesa Directiva por un Concejal que sea el único habilitado para ocuparla, siempre que no medie alguna circunstancia de fuerza mayor o caso fortuito aceptada por la Plenaria. De esta situación se pondrá en conocimiento por parte de la Mesa Directiva a la autoridad disciplinaria correspondiente para los fines pertinentes.\nParágrafo 4. Cuando por cualquier circunstancia no sea posible ocupar en propiedad una de las dignidades que conforman la Mesa Directiva, le corresponderá, de manera Ad hoc, asumir esa dignidad al Concejal que según orden alfabético de apellido este de primero. Si el Concejal ya hace parte de la Mesa Directiva o no se encuentra presente en la correspondiente sesión, se continuará con el que sigue. El nombramiento Ad hoc de un Concejal en la Mesa Directiva no lo inhabilita para integrarla en el año siguiente."
+  },
+  "41": {
+    "numero": 41,
+    "titulo": "Funciones de la Mesa Directiva",
+    "texto": "Funciones de la Mesa Directiva. Como órgano de orientación y dirección del Concejo, le corresponde:\n1. Elaborar el Plan de Acción que ha de regir para el año de su ejercicio, lo anterior, de conformidad con el Modelo Integrado de Planeación y Gestión – MIPG.\n2. Integrar las Comisiones Accidentales para dar primer debate a los proyectos de acuerdo, cuando no se hubieren conformado las comisiones permanentes o cuando no exista competencia a alguna de ellas.\n3. Adoptar las decisiones y medidas necesarias y procedentes para una mejor organización interna, en orden a una eficiente labor administrativa.\n4. Elaborar el proyecto de presupuesto anual del Concejo, y enviarlo al alcalde para su consideración en el proyecto de acuerdo definitivo sobre Presupuesto (rentas y gastos del municipio).\n5. Controlar la ejecución del presupuesto anual del Concejo; y ejercer el control interno, el cual estará en cabeza de alguna de las dos vicepresidencias. Sin que ello implique que no se pueda conformar un comité de control interno o lo ejerza algún Concejal más.\n6. Vigilar el funcionamiento de las comisiones y velar por el cumplimiento oportuno de las actividades encomendadas.\n7. Solicitar al tribunal administrativo departamental la declaratoria de pérdida de la investidura de Concejal, en los términos del parágrafo segundo del artículo 48 de la ley 617 de 2000.\n8. Autorizar comisiones oficiales de Concejales fuera de la sede del Concejo, siempre que no impliquen utilización de recursos del presupuesto de la Corporación.\n9. Expedir mociones de duelo y de reconocimiento cuando sean conducentes.\n10. Autorizar la asistencia de los Concejales a los seminarios de Capacitación con cargo al rubro de capacitación del presupuesto del Concejo en los términos del Concepto 908A del Consejo de Estado.\n11. Aceptar la renuncia; conceder licencias, vacaciones y permisos al personero, con fundamento en la atribución conferida en el inciso final del artículo 172 de la ley 136 de 1994.\n12. Dictar las resoluciones para el efecto de reconocimiento de honorarios a los Concejales que por su asistencia comprobada a las sesiones plenarias que tengan derecho, y ordenar su publicación en el medio oficial de información del Concejo (art. 65, inciso final, de la ley 136 de 1994).\n13. Suscribir, junto con el secretario de la corporación, las resoluciones y proposiciones.\n14. Regular el número de las comisiones permanentes y los asuntos de que conocerán.\n15. Remitir al alcalde para su sanción, los proyectos de acuerdo que hayan sido aprobados por el Concejo en los dos debates reglamentarios.\n16. Recibir la renuncia del presidente de la corporación y someterla a consideración de la plenaria.\n17. Garantizar que las bancadas con presencia en el Concejo, sesionen por lo menos una vez al mes en el lugar determinado por aquellas. Lo anterior teniendo en cuenta los Estatutos de cada partido.\n18. Determinar, previa votación de un proyecto de acuerdo, la celebración de sesiones de las bancadas con presencia en el Concejo con el objeto de que aquellas determinen el alcance de sus votos para dotar de un mayor grado de eficiencia el proceso de votación.\n19. Darles cumplimiento a las sanciones disciplinarias impuestas por los Partidos y Movimientos Políticos a los Concejales de las Bancadas con presencia en la Corporación.\n20. Acreditar a los voceros de las Bancadas para efectos de determinar las intervenciones de estas, en las sesiones en las que se voten Proyectos de Acuerdo o se adelante proceso de control político según las reglas de procedimiento determinadas precedentemente.\n21. Garantizar que en cada Comisión permanente tenga presencia al menos un miembro de las diferentes Bancadas que tenga presencia en la Corporación, cuando existan suficientes integrantes en la misma.\n22. Las demás establecidas en la ley o en el presente reglamento.\nParágrafo único. Durante los períodos de sesiones, la mesa directiva se reunirá por lo menos una vez a la semana, el día y hora que sea convocada por su presidente. Sus decisiones se tomarán por mayoría y de cada reunión deberá quedar constancia en acta."
+  },
+  "42": {
+    "numero": 42,
+    "titulo": "Comité de Coordinación Política",
+    "texto": "Comité de Coordinación Política. Conformado por el Presidente de la corporación y los Jefes, Voceros o Coordinadores de las Bancadas y presidido por el primero de los nombrados, se reunirá por lo menos una vez a la semana durante cada periodo de sesiones, para el desarrollo de las siguientes funciones:\n1. Proponer la agenda de trabajo de la corporación.\n2. Coordinar con la presidencia el orden del día de las sesiones plenarias a celebrar.\n3. Promover y ejecutar acciones de concertación política."
   }
 };
 
@@ -1104,6 +1173,308 @@ const EXAMENES = {
         "Adscribirse a una bancada diferente a la de su partido o movimiento por el cual fue elegido",
         "Votar con su bancada",
         "Asistir a reuniones de bancada"
+      ],
+      "r": 1
+    }
+  ],
+  "3": [
+    {
+      "p": "¿Cuántos integrantes conforman la Mesa Directiva del Concejo según el Art. 33?",
+      "ops": [
+        "Dos: presidente y un vicepresidente",
+        "Tres: un presidente y dos vicepresidentes",
+        "Cuatro miembros",
+        "Solo el presidente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿La dignidad de Presidente o Vicepresidente del Concejo equivale a un nuevo cargo o empleo público?",
+      "ops": [
+        "Sí, es un nuevo empleo público",
+        "No, en ningún caso es asimilable a un nuevo cargo o empleo público",
+        "Solo si dura más de un año",
+        "Depende del municipio"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es el periodo de la Mesa Directiva según el Art. 33?",
+      "ops": [
+        "Dos años calendario",
+        "Un año institucional, del 1 de enero al 31 de diciembre",
+        "Cuatro años",
+        "Seis meses"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué tipo de mayoría se requiere para elegir al Presidente del Concejo según el Art. 34?",
+      "ops": [
+        "Mayoría absoluta",
+        "Mayoría simple de los Concejales asistentes con quórum decisorio",
+        "Dos terceras partes",
+        "Unanimidad"
+      ],
+      "r": 1
+    },
+    {
+      "p": "En caso de empate persistente en la elección del Presidente, ¿cómo se dirime según el Art. 34?",
+      "ops": [
+        "Gana el de mayor edad",
+        "Por sorteo o suerte entre los candidatos empatados",
+        "Decide el Alcalde",
+        "Se aplaza un año"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántas veces como máximo se repite la votación en caso de empate antes de recurrir al sorteo, según el Art. 34?",
+      "ops": [
+        "Una vez",
+        "Dos veces",
+        "Tres veces",
+        "Cinco veces"
+      ],
+      "r": 2
+    },
+    {
+      "p": "Según el Parágrafo 3 del Art. 34, ¿quién NO puede ser Presidente del Concejo?",
+      "ops": [
+        "Quien sea el concejal más joven",
+        "Quien haya pertenecido a la Mesa Directiva el año inmediatamente anterior, aunque sea parcialmente",
+        "Quien pertenezca a la oposición",
+        "Quien tenga menos de 5 años de experiencia"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 35, ¿ante quién se posesiona el Presidente electo de la Mesa Directiva?",
+      "ops": [
+        "Ante el Alcalde",
+        "Ante el Gobernador",
+        "Ante quien se encuentre actuando como tal",
+        "Ante el Secretario General únicamente"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Cuál de las siguientes es una función del presidente del Concejo según el Art. 36?",
+      "ops": [
+        "Sancionar acuerdos como Alcalde",
+        "Convocar, presidir y dirigir las sesiones del Concejo en pleno",
+        "Nombrar al Personero sin intervención del Concejo",
+        "Ejercer función judicial"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 36, ¿qué puede hacer un Concejal si no está de acuerdo con una decisión del Presidente sobre la aplicación del reglamento?",
+      "ops": [
+        "Nada, la decisión es definitiva",
+        "Apelar ante la Plenaria",
+        "Acudir directamente a un juez",
+        "Renunciar a su cargo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 36 numeral 18, ¿cuántos días hábiles tiene el Presidente para llamar al candidato que llene una vacancia absoluta?",
+      "ops": [
+        "2 días",
+        "3 días",
+        "5 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién acepta la renuncia voluntaria de un Concejal cuando el Concejo está en receso, según el Art. 36 numeral 16?",
+      "ops": [
+        "El Presidente del Concejo",
+        "El Secretario General",
+        "El Alcalde",
+        "El Gobernador"
+      ],
+      "r": 2
+    },
+    {
+      "p": "Según el Art. 36, ¿ante qué organismo representa el Presidente al Concejo en seminarios y congresos?",
+      "ops": [
+        "La Procuraduría",
+        "FENACON (Federación Nacional de Concejos)",
+        "El Ministerio del Interior",
+        "El Congreso de la República"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién suple las faltas temporales del Presidente del Concejo según el Art. 37?",
+      "ops": [
+        "El Secretario General",
+        "El Primer Vicepresidente, y si no es posible, el Segundo",
+        "El Alcalde",
+        "Cualquier Concejal de mayor edad"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 37, ¿qué ocurre con las faltas absolutas del Presidente?",
+      "ops": [
+        "Las suple automáticamente el Vicepresidente de forma indefinida",
+        "Determinan la celebración de una nueva elección por el resto del período",
+        "No requieren acción alguna",
+        "Se nombra directamente al Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué se nombra cuando faltan el Presidente, el Primer y el Segundo Vicepresidente para presidir una sesión, según el Art. 37?",
+      "ops": [
+        "Un Presidente ad hoc",
+        "Se cancela la sesión obligatoriamente",
+        "Asume el Secretario General",
+        "Asume el Alcalde"
+      ],
+      "r": 0
+    },
+    {
+      "p": "Según el Art. 38, ¿ante quién son apelables las decisiones del Presidente del Concejo en materia política?",
+      "ops": [
+        "Ante el Tribunal Administrativo",
+        "Ante la Plenaria de la Corporación",
+        "Ante el Gobernador",
+        "Ante el Consejo de Estado"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es una función del Primer Vicepresidente según el Art. 39?",
+      "ops": [
+        "Sancionar acuerdos municipales",
+        "Suplir al Presidente en sus ausencias temporales o accidentales",
+        "Elegir al Personero",
+        "Presidir el Concejo de forma permanente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 39, ¿qué función tiene el Segundo Vicepresidente respecto a los Concejales nuevos?",
+      "ops": [
+        "Sancionarlos",
+        "Darles inducción cuando lleguen por primera vez a la Corporación",
+        "Elegirlos",
+        "Removerlos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién integra y elige la Mesa Directiva del Concejo según el Art. 40?",
+      "ops": [
+        "El Alcalde",
+        "El Gobernador",
+        "La Plenaria del Concejo Municipal",
+        "El Secretario General"
+      ],
+      "r": 2
+    },
+    {
+      "p": "Según el Art. 40, ¿cuántos integrantes de un mismo partido pueden estar en la Mesa Directiva, como regla general?",
+      "ops": [
+        "Hasta tres",
+        "No más de uno, salvo excepciones",
+        "Sin límite",
+        "Solo dos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 1 del Art. 40, ¿puede un Concejal ser reelegido en dos periodos consecutivos en la Mesa Directiva?",
+      "ops": [
+        "Sí, sin restricción",
+        "No, está prohibido",
+        "Solo si su partido lo solicita",
+        "Solo en caso de empate"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿A quién corresponde definir la agenda general del Concejo según el Parágrafo 2 del Art. 40?",
+      "ops": [
+        "Al Alcalde",
+        "A la Mesa Directiva, concertada con los voceros de las Bancadas",
+        "Al Secretario General únicamente",
+        "Al Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 4 del Art. 40, ¿a quién corresponde asumir Ad hoc una dignidad de la Mesa Directiva si no se puede ocupar en propiedad?",
+      "ops": [
+        "Al Concejal de mayor edad",
+        "Al Concejal que según orden alfabético de apellido esté de primero",
+        "Al Secretario General",
+        "Al Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es una función de la Mesa Directiva según el Art. 41?",
+      "ops": [
+        "Elegir al Alcalde",
+        "Elaborar el Plan de Acción anual conforme al MIPG",
+        "Sancionar acuerdos municipales",
+        "Nombrar al Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 41 numeral 7, ¿a quién puede solicitar la Mesa Directiva la declaratoria de pérdida de investidura de un Concejal?",
+      "ops": [
+        "A la Procuraduría",
+        "Al tribunal administrativo departamental",
+        "Al Consejo de Estado",
+        "Al Congreso"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con qué frecuencia mínima se reúne la Mesa Directiva durante los periodos de sesiones según el Parágrafo único del Art. 41?",
+      "ops": [
+        "Una vez al mes",
+        "Una vez a la semana",
+        "Cada dos semanas",
+        "Solo cuando hay sesión plenaria"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién conforma el Comité de Coordinación Política según el Art. 42?",
+      "ops": [
+        "Solo el Presidente del Concejo",
+        "El Presidente de la corporación y los Jefes, Voceros o Coordinadores de las Bancadas",
+        "El Alcalde y su gabinete",
+        "El Secretario General y los Concejales nuevos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con qué frecuencia se reúne el Comité de Coordinación Política según el Art. 42?",
+      "ops": [
+        "Una vez al mes",
+        "Por lo menos una vez a la semana durante cada periodo de sesiones",
+        "Solo al inicio del año",
+        "Cada quince días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es una función del Comité de Coordinación Política según el Art. 42?",
+      "ops": [
+        "Aprobar el presupuesto municipal",
+        "Proponer la agenda de trabajo de la corporación",
+        "Elegir al Secretario General",
+        "Sancionar a los Concejales"
       ],
       "r": 1
     }
