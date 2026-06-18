@@ -1,6 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
-// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-IX cargados. Títulos X-XIII pendientes.
+// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-X cargados. Títulos XI-XIII pendientes.
 // TOC con enlaces directos a módulos (campo 'modulo' en cada entrada del índice)
 
 const CAPITULOS = [
@@ -233,6 +233,20 @@ const CAPITULOS = [
       139,
       140
     ]
+  },
+  {
+    "id": 10,
+    "titulo": "TÍTULO X",
+    "nombre": "De las Objeciones",
+    "subtitulo": "Motivos, Plazos y Trámite de las Objeciones del Alcalde",
+    "icono": "⚠️",
+    "articulos": [
+      141,
+      142,
+      143,
+      144,
+      145
+    ]
   }
 ];
 
@@ -420,17 +434,17 @@ const ARTICULOS = {
       {
         "titulo": "DE LAS OBJECIONES",
         "pagina": "118",
-        "modulo": null
+        "modulo": 10
       },
       {
         "titulo": "MOTIVOS PLAZOS",
         "pagina": "118",
-        "modulo": null
+        "modulo": 10
       },
       {
         "titulo": "TRÁMITE DE LAS OBJECIONES",
         "pagina": "118",
-        "modulo": null
+        "modulo": 10
       },
       {
         "titulo": "CABILDO ABIERTO",
@@ -1224,6 +1238,31 @@ const ARTICULOS = {
     "numero": 140,
     "titulo": "Revisión de los acuerdos por el Gobernador",
     "texto": "Revisión de los acuerdos por el Gobernador. Dentro de los cinco (5) días siguientes a la sanción, el alcalde enviará copia del acuerdo al Gobernador del departamento para que cumpla con la atribución del numeral 10 del artículo 305 de la Constitución; en consecuencia, el Gobernador por motivos de inconstitucionalidad o de ilegalidad, podrá remitir los acuerdos al respectivo Tribunal Administrativo para que decida sobre su validez.\nLa revisión no suspende los efectos jurídicos de los acuerdos.\nLos acuerdos son de obligatorio cumplimiento mientras no sean derogados, o suspendidos o anulados por la jurisdicción contencioso-administrativa."
+  },
+  "141": {
+    "numero": 141,
+    "titulo": "Motivos",
+    "texto": "Motivos. Los proyectos de acuerdo aprobados por el Concejo podrán ser objetados por el alcalde por los dos motivos siguientes: por considerarlos inconvenientes (objeción de inconveniencia) o por estimarlos contrarios a la Constitución Política o al ordenamiento jurídico del país (objeción de derecho)."
+  },
+  "142": {
+    "numero": 142,
+    "titulo": "Plazos",
+    "texto": "Plazos. El alcalde dispone de cinco (5) días para devolver con objeciones un proyecto de no más de veinte artículos, de diez (10) días cuando el proyecto sea de veintiuno a cincuenta artículos y hasta de veinte (20) días cuando el proyecto exceda de cincuenta artículos."
+  },
+  "143": {
+    "numero": 143,
+    "titulo": "Devolución con objeciones",
+    "texto": "Devolución con objeciones. Si el Concejo se encuentra sesionando, el proyecto devuelto será incluido por la mesa directiva en el orden del día de la siguiente sesión plenaria, en la cual el presidente nombrará una comisión accidental para que estudie los argumentos del alcalde en un plazo no mayor de tres (3) días.\nSi el Concejo estuviere en receso, el alcalde lo convocará a sesiones extraordinarias en la semana siguiente a la presentación de las objeciones, por un término no superior a cinco (5) días."
+  },
+  "144": {
+    "numero": 144,
+    "titulo": "Objeciones por inconveniencia",
+    "texto": "Objeciones por inconveniencia. La comisión puede proponer que las objeciones sean declaradas fundadas, parcialmente fundadas, o infundadas.\nSi la plenaria declara las objeciones fundadas, el proyecto se archivará.\nSi decide declarar las objeciones parcialmente fundadas, el proyecto una vez corregido será devuelto y el alcalde lo sancionará dentro de los ocho (8) días siguientes.\nSi decide declarar las objeciones infundadas, el proyecto será devuelto y el alcalde deberá sancionarlo en plazo que no excederá de ocho (8) días.\nEn los dos últimos casos, si el alcalde omite el cumplimiento de sus obligaciones, el presidente del Concejo procederá a sancionar y promulgar el acuerdo correspondiente de conformidad como lo establece el Art. 4º de la Ley 177 de 1994."
+  },
+  "145": {
+    "numero": 145,
+    "titulo": "Objeciones de derecho",
+    "texto": "Objeciones de derecho. Para las objeciones jurídicas se seguirá el mismo procedimiento dispuesto en el artículo inmediatamente anterior.\nSi las objeciones jurídicas no fueren acogidas, el alcalde enviará dentro de los diez días siguientes, el proyecto acompañado de una exposición de motivos de las objeciones al Tribunal Administrativo que tenga jurisdicción en el municipio. Si el Tribunal las considera fundadas, el proyecto se archivará. Si decidiere que son infundadas, el alcalde sancionará el proyecto dentro de los tres días siguientes al recibo de la comunicación respectiva. Si el tribunal considera parcialmente vaciado el proyecto, así lo indicará al Concejo para que se reconsidere.\nCumplido este trámite, el proyecto se remitirá de nuevo el Tribunal para fallo definitivo.\nParágrafo único. Objeciones de Derecho al Proyecto de presupuesto. Si el proyecto objetado fuere el de presupuesto, deberá enviarlo al Tribunal Administrativo dentro de los cinco (5) días siguientes a su recibo, y esta corporación se pronunciará dentro de los veinte (20) días hábiles siguientes. Mientras el tribunal decide regirá el proyecto de presupuesto presentado oportunamente por el alcalde, bajo su directa responsabilidad (decreto 111 de 1996, art. 109).\nSi las objeciones son declaradas fundadas por el tribunal, el proyecto se archivará y si son declaradas infundadas, el alcalde podrá sancionarlo dentro de los tres (3) días siguientes al recibo de la comunicación oficial. Pero, considerado parcialmente viciado, así lo indicará al Concejo para que se reconsidere y rehaga, oído el respectivo secretario de la alcaldía; cumplido este trámite, será devuelto al tribunal para fallo definitivo."
   }
 };
 
@@ -3874,6 +3913,208 @@ const EXAMENES = {
         "A la Contraloría General"
       ],
       "r": 1
+    }
+  ],
+  "10": [
+    {
+      "p": "Según el Art. 141, ¿cuáles son los dos motivos por los que el Alcalde puede objetar un proyecto de acuerdo?",
+      "ops": [
+        "Por falta de presupuesto y por error de forma",
+        "Por inconveniencia y por ser contrario a la Constitución o el ordenamiento jurídico (objeción de derecho)",
+        "Solo por inconveniencia",
+        "Solo por motivos jurídicos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cómo se denomina la objeción cuando el Alcalde considera el proyecto contrario a la Constitución, según el Art. 141?",
+      "ops": [
+        "Objeción de inconveniencia",
+        "Objeción de derecho",
+        "Objeción presupuestal",
+        "Objeción técnica"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 142, ¿cuántos días tiene el Alcalde para devolver con objeciones un proyecto de no más de 20 artículos?",
+      "ops": [
+        "3 días",
+        "5 días",
+        "8 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos días tiene el Alcalde para objetar un proyecto de 21 a 50 artículos según el Art. 142?",
+      "ops": [
+        "5 días",
+        "10 días",
+        "15 días",
+        "20 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 142, ¿cuántos días tiene el Alcalde para objetar un proyecto que exceda de 50 artículos?",
+      "ops": [
+        "10 días",
+        "15 días",
+        "20 días",
+        "30 días"
+      ],
+      "r": 2
+    },
+    {
+      "p": "Si el Concejo está sesionando cuando llega un proyecto objetado, ¿qué hace la mesa directiva según el Art. 143?",
+      "ops": [
+        "Lo ignora hasta el siguiente periodo",
+        "Lo incluye en el orden del día de la siguiente sesión plenaria",
+        "Lo archiva automáticamente",
+        "Lo remite directamente al Tribunal"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuánto tiempo tiene la comisión accidental para estudiar los argumentos del Alcalde según el Art. 143?",
+      "ops": [
+        "1 día",
+        "No mayor de tres (3) días",
+        "5 días",
+        "8 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Si el Concejo está en receso cuando llegan las objeciones, ¿qué debe hacer el Alcalde según el Art. 143?",
+      "ops": [
+        "Esperar al siguiente periodo ordinario",
+        "Convocar a sesiones extraordinarias en la semana siguiente, por término no superior a 5 días",
+        "Archivar el proyecto definitivamente",
+        "Enviarlo directamente al Tribunal"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 144, ¿en cuántas categorías puede la comisión proponer que se declaren las objeciones por inconveniencia?",
+      "ops": [
+        "Dos: fundadas o infundadas",
+        "Tres: fundadas, parcialmente fundadas o infundadas",
+        "Cuatro categorías distintas",
+        "Solo una categoría"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué ocurre si la plenaria declara fundadas las objeciones por inconveniencia, según el Art. 144?",
+      "ops": [
+        "El proyecto se aprueba igualmente",
+        "El proyecto se archivará",
+        "Se envía al Tribunal Administrativo",
+        "El Alcalde debe renunciar"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Si las objeciones son declaradas parcialmente fundadas, ¿en cuántos días debe sancionar el Alcalde el proyecto corregido según el Art. 144?",
+      "ops": [
+        "3 días",
+        "5 días",
+        "8 días siguientes",
+        "10 días"
+      ],
+      "r": 2
+    },
+    {
+      "p": "Si las objeciones son declaradas infundadas, ¿qué plazo tiene el Alcalde para sancionar el proyecto según el Art. 144?",
+      "ops": [
+        "No excederá de 8 días",
+        "No excederá de 15 días",
+        "Inmediatamente",
+        "No tiene plazo"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Qué sucede si el Alcalde omite sancionar el proyecto en los casos de objeciones parcialmente fundadas o infundadas, según el Art. 144?",
+      "ops": [
+        "El proyecto queda archivado",
+        "El presidente del Concejo procederá a sancionar y promulgar el acuerdo",
+        "Se inicia un nuevo debate",
+        "Se convoca a elecciones"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué ley fundamenta la facultad del presidente del Concejo de sancionar el acuerdo cuando el Alcalde omite hacerlo, según el Art. 144?",
+      "ops": [
+        "Ley 136 de 1994",
+        "Ley 177 de 1994, Art. 4º",
+        "Ley 617 de 2000",
+        "Ley 1551 de 2012"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 145, ¿qué procedimiento se sigue para las objeciones de derecho?",
+      "ops": [
+        "Un procedimiento totalmente distinto",
+        "El mismo procedimiento dispuesto para las objeciones por inconveniencia",
+        "No tienen procedimiento definido",
+        "Se decide directamente en el Tribunal sin pasar por el Concejo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Si las objeciones jurídicas no son acogidas por el Concejo, ¿a quién debe enviar el Alcalde el proyecto según el Art. 145?",
+      "ops": [
+        "A la Procuraduría",
+        "Al Tribunal Administrativo con jurisdicción en el municipio",
+        "Al Congreso de la República",
+        "Al Consejo de Estado directamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Dentro de cuántos días debe el Alcalde enviar el proyecto al Tribunal tras no acogerse las objeciones jurídicas, según el Art. 145?",
+      "ops": [
+        "5 días",
+        "10 días siguientes",
+        "15 días",
+        "20 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Si el Tribunal considera fundadas las objeciones jurídicas según el Art. 145, ¿qué ocurre con el proyecto?",
+      "ops": [
+        "Se aprueba de todas formas",
+        "El proyecto se archivará",
+        "Se envía de nuevo al Concejo sin más trámite",
+        "El Alcalde debe sancionarlo igual"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo único del Art. 145, ¿dentro de cuántos días debe el Alcalde enviar al Tribunal un proyecto de presupuesto objetado?",
+      "ops": [
+        "3 días",
+        "5 días siguientes a su recibo",
+        "8 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Dentro de cuántos días hábiles debe pronunciarse el Tribunal sobre el proyecto de presupuesto objetado, según el Parágrafo único del Art. 145?",
+      "ops": [
+        "10 días hábiles",
+        "15 días hábiles",
+        "20 días hábiles siguientes",
+        "30 días hábiles"
+      ],
+      "r": 2
     }
   ]
 };
