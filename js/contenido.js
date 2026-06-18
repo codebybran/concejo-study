@@ -1,6 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
-// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-VIII cargados. Títulos IX-XIII pendientes.
+// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-IX cargados. Títulos X-XIII pendientes.
 // TOC con enlaces directos a módulos (campo 'modulo' en cada entrada del índice)
 
 const CAPITULOS = [
@@ -198,6 +198,41 @@ const CAPITULOS = [
       113,
       114
     ]
+  },
+  {
+    "id": 9,
+    "titulo": "TÍTULO IX",
+    "nombre": "Proceso Normativo",
+    "subtitulo": "Acuerdos Municipales, Primer Debate y Segundo Debate",
+    "icono": "📜",
+    "articulos": [
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140
+    ]
   }
 ];
 
@@ -365,22 +400,22 @@ const ARTICULOS = {
       {
         "titulo": "PROCESO NORMATIVO",
         "pagina": "108",
-        "modulo": null
+        "modulo": 9
       },
       {
         "titulo": "ACUERDOS MUNICIPALES",
         "pagina": "108",
-        "modulo": null
+        "modulo": 9
       },
       {
         "titulo": "PRIMER DEBATE",
         "pagina": "111",
-        "modulo": null
+        "modulo": 9
       },
       {
         "titulo": "SEGUNDO DEBATE",
         "pagina": "115",
-        "modulo": null
+        "modulo": 9
       },
       {
         "titulo": "DE LAS OBJECIONES",
@@ -1059,6 +1094,136 @@ const ARTICULOS = {
     "numero": 114,
     "titulo": "Publicidad de los debates de Control Político",
     "texto": "Los debates de Control Político serán públicos y a él podrán concurrir miembros de la comunidad, medios de comunicación, funcionarios de la administración municipal, veedores municipales y demás organismos nacionales e internacionales que quieran presenciar el mismo."
+  },
+  "115": {
+    "numero": 115,
+    "titulo": "Iniciativa",
+    "texto": "Iniciativa. La presentación de los proyectos de acuerdo ante la secretaría del Concejo, deberá hacerse en original y copia e incluirá su texto distribuido en título, encabezamiento, considerandos (en caso de ser necesario) y parte dispositiva (articulado); irán acompañados de la correspondiente exposición de motivos y conservarán el principio de unidad de materia. Sin el cumplimiento de estos requisitos, la presidencia devolverá el proyecto para su corrección.\nSon titulares de la iniciativa cualquiera de los Concejales individualmente considerados o agrupados en bancadas, así como también el alcalde, quien podrá actuar por intermedio del secretario o de los respectivos secretarios del despacho ejecutivo.\nEn las materias relacionadas con sus atribuciones, también tienen iniciativa el personero, el contralor y las juntas administradoras locales con jurisdicción en corregimientos o comunas del territorio del municipio.\nDel mismo modo, los acuerdos pueden ser de iniciativa popular en los términos que contempla la Ley 134 de 1994 modificado por la Ley 1757 de 2015 art. 9º literal \"c\" y sus concordantes y aquellas que la modifiquen o adicionen. Este medio de participación ciudadana, conforme a la respectiva ley, consiste en el derecho político de un grupo de ciudadanos que representen no menos del diez por ciento (10%) del censo electoral vigente en el municipio, para presentar proyectos de acuerdo. Se exceptúan los proyectos que sean de iniciativa exclusiva del alcalde; los que versen sobre asuntos presupuestales, fiscales o tributarios, y los de preservación y restablecimiento del orden público. El vocero presentará el proyecto respectivo y será convocado e intervendrá en todas las etapas del trámite.\nDe conformidad con los artículos 313 numeral 6 y 315 numeral 5 de la Constitución y 71 de la ley 136 de 1994, sólo por iniciativa del alcalde podrán ser dictados o reformados los acuerdos que versen sobre las siguientes materias:\n1. Planes de desarrollo y de ordenamiento territorial.\n2. Presupuesto anual de rentas y gastos.\n3. Estructura de la administración municipal y las funciones de sus dependencias, así como las escalas de remuneración correspondientes a las distintas categorías de empleos.\n4. Establecimientos públicos y empresas industriales o comerciales.\n5. Sociedades de economía mixta.\n6. Celebración de contratos.\n7. Facultades temporales y precisas al alcalde, de aquellas que corresponden al Concejo.\n8. Las demás que determinen la Constitución o la ley.\nParágrafo único. El alcalde, antes de su aprobación en plenaria, podrá coadyuvar en el impulso de cualquier proyecto de su iniciativa que curse en el Concejo cuando las circunstancias lo justifiquen."
+  },
+  "116": {
+    "numero": 116,
+    "titulo": "Distribución del proyecto",
+    "texto": "Distribución del proyecto. Por disposición del presidente de la corporación, el proyecto recibido, una vez radicado y debidamente clasificado (por materia, autor, clase y comisión), será remitido por la secretaría a la comisión permanente respectiva. En ésta también se le radicará y clasificará, como acto previo a su tramitación en primer debate.\nParágrafo. La presidencia procurará que los acuerdos de especial importancia o que consten de más de diez (10) artículos, sean dados a conocer a los Concejales por cualquier medio idóneo, por lo menos con un (1) día de antelación al inicio del debate programado."
+  },
+  "117": {
+    "numero": 117,
+    "titulo": "Ponente",
+    "texto": "Ponente. Corresponde al presidente de la corporación designar ponente o ponentes para cada proyecto de acuerdo, que será el mismo en los dos debates reglamentarios. Si las circunstancias lo aconsejan, podrá designar varios ponentes y un coordinador de los mismos. Teniendo en cuenta la significación, urgencia y extensión del trabajo, señalará un término para la presentación de las ponencias entre uno (1) y diez (10) días, prorrogable por una sola vez hasta por cinco (5) días más. En caso de incumplimiento se procederá a su reemplazo y dará trámite al organismo disciplinario correspondiente para lo de su competencia.\nParágrafo único. Antes de presentarse ponencia para primer debate, el proyecto podrá ser retirado por su autor. En los demás eventos se requerirá la aceptación de la comisión respectiva o de la plenaria."
+  },
+  "118": {
+    "numero": 118,
+    "titulo": "Acumulación de proyectos",
+    "texto": "Acumulación de proyectos. Sólo en primer debate y antes de rendirse ponencia, el proyecto o proyectos que se refieran a un mismo tema podrán ser remitidos con nota explicativa por el presidente de la comisión al ponente del proyecto en estudio, quien a su juicio podrá acumularlos. Si ya los proyectos cursaren simultáneamente, en las mismas condiciones podrán acumularse por decisión de la presidencia."
+  },
+  "119": {
+    "numero": 119,
+    "titulo": "Requisitos legales",
+    "texto": "Requisitos legales. Ningún proyecto será acuerdo municipal sin los requisitos siguientes:\n1. Haber sido aprobado en primer debate en la comisión permanente respectiva o en la accidental si fuere el caso.\n2. Haber sido aprobado en segundo debate en la plenaria de la corporación.\n3. Haber obtenido la sanción ejecutiva por parte del alcalde.\nParágrafo único. Para la obligatoriedad del acuerdo, es indispensable su promulgación."
+  },
+  "120": {
+    "numero": 120,
+    "titulo": "Presentación de la ponencia y apertura del debate",
+    "texto": "Presentación de la ponencia y apertura del debate. Presentada y leída la ponencia, se someterá a discusión la proposición con que termina. El debate será abierto tan pronto la comisión decida dar primer debate al proyecto.\nSi la ponencia propone archivar o negar el proyecto, esta propuesta será sometida a votación al final del debate.\nA la aprobación del proyecto se procederá en este orden: articulado, considerandos, encabezamiento, título."
+  },
+  "121": {
+    "numero": 121,
+    "titulo": "Discusión",
+    "texto": "Discusión. En la discusión de la ponencia, el ponente intervendrá para dar explicaciones, aclarar los temas debatidos y ordenar el trabajo.\nSe considerarán las modificaciones propuestas por el ponente, y las que puedan ser presentadas por Concejales o autoridades municipales con derecho a voz.\nEl respectivo presidente podrá ordenar los debates por artículos, grupo de artículos, materia o atendiendo a las enmiendas presentadas, según lo aconseje la naturaleza del proyecto, la conexidad entre las pretensiones y la mayor claridad."
+  },
+  "122": {
+    "numero": 122,
+    "titulo": "Enmiendas",
+    "texto": "Enmiendas. Al tiempo de discutir el texto serán consideradas las modificaciones, adiciones o supresiones propuestas por el Ponente u otro Concejal, pertenezcan o no a la Comisión; por los secretarios de despachos o jefes de organismos descentralizados, Personero, Contralor, integrantes de las juntas administradoras locales, voceros de la iniciativa popular y representantes de la comunidad, en materias de su interés. Aquellas que la Comisión apruebe serán incluidas en el Texto Definitivo.\nLas enmiendas que se pretendan realizar a las iniciativas presentadas ante el cuerpo colegiado (Concejo Municipal) no podrán cambiar el sentido del acto en estudio.\nParágrafo único. Presentación de Enmiendas. Toda enmienda a los Proyectos de Acuerdo que estuvieren en curso en las Comisiones Permanentes observará los siguientes requisitos:\n1. El plazo para la presentación es hasta el cierre de la discusión del texto, mediante escrito dirigido a la Presidencia de la Comisión.\n2. Las enmiendas podrán hacerse a la totalidad del Proyecto o a parte del articulado.\n3. Las enmiendas deberán presentarse en forma de articulado, con el debido sustento legal o el fundamento de conveniencia, según el caso."
+  },
+  "123": {
+    "numero": 123,
+    "titulo": "Enmiendas a la Totalidad",
+    "texto": "Enmiendas a la Totalidad. Serán enmiendas a la totalidad, aquellas que versen sobre la oportunidad, los principios o el espíritu del Proyecto; o las que propongan un texto completo alternativo al del proyecto, conservando el propósito de la iniciativa original."
+  },
+  "124": {
+    "numero": 124,
+    "titulo": "Enmiendas al Articulado",
+    "texto": "Enmiendas al Articulado. Estas podrán ser de supresión, modificación o adición a algunos artículos o disposiciones del Proyecto."
+  },
+  "125": {
+    "numero": 125,
+    "titulo": "Enmiendas que Impliquen Erogación o Disminución de Ingresos",
+    "texto": "Enmiendas que Impliquen Erogación o Disminución de Ingresos. Las enmiendas a un Proyecto de Acuerdo que supongan gasto público como: adición, disminución de partidas y apertura de rubros presupuestales, siempre requerirán certificación de disponibilidad presupuestal de la Secretaría de Hacienda y de impacto fiscal; sin este requisito se suspenderá el debate de la respectiva enmienda. (Art. 82 inciso 2°, Decreto 111 de 1996 y la ley 819 de 2003)"
+  },
+  "126": {
+    "numero": 126,
+    "titulo": "Participación ciudadana",
+    "texto": "Participación ciudadana. En cumplimiento del precepto contenido en el artículo 77 de la ley 136 de 1994, toda persona natural o jurídica podrá presentar observaciones escritas sobre cualquier proyecto de acuerdo cuyo estudio y examen se esté adelantando en una de las comisiones permanentes, previa fijación de día, hora y duración de las intervenciones por la mesa directiva. Las mismas serán publicadas oportunamente en la Gaceta del Concejo."
+  },
+  "127": {
+    "numero": 127,
+    "titulo": "Proyecto aprobado",
+    "texto": "Proyecto aprobado. Cerrado el debate y aprobado el proyecto, éste pasará de nuevo al ponente para su revisión y ordenación con las modificaciones que le hayan sido introducidas. Así mismo consignará la totalidad de las propuestas que hubieren sido consideradas en la comisión y las razones de las que fueron rechazadas.\nEl informe a la plenaria para efectos del segundo debate será suscrito por el ponente, o ponentes, y autorizado con las firmas del presidente y secretario de la comisión.\nA dicho informe serán anexadas las razones que hagan constar por escrito los Concejales que votaron en contra del proyecto."
+  },
+  "128": {
+    "numero": 128,
+    "titulo": "Negación o Archivo de Proyectos",
+    "texto": "Negación o Archivo de Proyectos. El Proyecto que no recibiere Aprobación en Primer Debate, durante cualquiera de los períodos de sesiones ordinarias y extraordinarias de un período constitucional, será archivado; para que el Concejo se pronuncie sobre él deberá presentarse nuevamente. (Art. 75, Ley 136 de 1994.)\nCuando el informe de ponencia propone negar o archivar el proyecto, se debatirá esta propuesta y se someterá a votación.\nAprobado el archivo del proyecto, la secretaría de la Comisión Permanente informará al proponente, ponente o coordinador, indicando las causas de la decisión, los recursos y términos que tiene para apelar esta decisión."
+  },
+  "129": {
+    "numero": 129,
+    "titulo": "Apelación de Proyecto Negado u ordenado su archivo",
+    "texto": "Apelación de Proyecto Negado u ordenado su archivo. El Proyecto de Acuerdo que hubiere sido negado y ordenado su archivo en Primer Debate, podrá ser nuevamente considerado por el Concejo mediante el recurso de apelación, a solicitud de su autor, de cualquier Concejal, del Gobierno Municipal o del vocero de los proponentes en el caso de la iniciativa popular. (Art. 73 Ley 136/94.)"
+  },
+  "130": {
+    "numero": 130,
+    "titulo": "Trámite de la Apelación",
+    "texto": "Trámite de la Apelación. Planteado el recurso dentro de los cinco (5) días siguientes a la notificación de la decisión, el Presidente de la Comisión lo remitirá de inmediato al Presidente del Concejo, quien integrará, dentro de los tres (3) días siguientes, una Comisión Accidental para su estudio.\nEsta Comisión rendirá informe a la Plenaria, dentro de los ocho (8) días hábiles siguientes. La Plenaria, dentro de los dos (2) días hábiles siguientes, decidirá si acoge o rechaza la apelación. En el Primer evento, la Presidencia remitirá el Proyecto a una Comisión accidental o permanente que tenga relación o afinidad con el tema diferente de la de origen del proyecto, para que surta el trámite de Primer Debate. Si fuere negada la apelación se procederá a su archivo definitivo."
+  },
+  "131": {
+    "numero": 131,
+    "titulo": "Proyectos en Tránsito o en Estudio",
+    "texto": "Proyectos en Tránsito o en Estudio. Son aquellos que reciben aprobación en Primer Debate y queda pendiente el Segundo Debate para un nuevo período de sesiones del Concejo o un nuevo periodo constitucional, salvo cuando se cite a extraordinarias para dar continuidad al estudio y aprobación o negación del proyecto; cuando se trate de un nuevo periodo constitucional, se repartirá de nuevo la Ponencia y se nombrarán nuevos ponentes, si cambian los inicialmente designados. (Art. 75 Ley 136 de 1994)."
+  },
+  "132": {
+    "numero": 132,
+    "titulo": "Proyectos en Suspensión",
+    "texto": "Proyectos en Suspensión. Son aquellos que se encuentran en estudio en la comisión permanente o accidental y que aún no han sido votado(s), sus efectos se causan cuando deba suspenderse su trámite o su curso normal por disposición de la misma comisión o por reglamentación."
+  },
+  "133": {
+    "numero": 133,
+    "titulo": "Definición de Segundo Debate",
+    "texto": "Definición. Segundo Debate es el conocimiento a fondo y discusión que la Plenaria les da a los proyectos de acuerdo, para su aprobación o no."
+  },
+  "134": {
+    "numero": 134,
+    "titulo": "Convocatoria para segundo debate",
+    "texto": "Convocatoria para segundo debate. La Convocatoria la realiza el Presidente del Concejo. La fecha será fijada tres (3) días hábiles después de repartido el informe de ponencia para segundo (2°) debate, este reparto se realizará el mismo día del primer (1°) debate y aprobación, estos serán estudiados en el estricto orden en que hayan sido radicados ante la Secretaría General del Concejo.\nLa Secretaría General invitará a las autoridades y comunidades comprometidas en cada uno de los proyectos de acuerdo."
+  },
+  "135": {
+    "numero": 135,
+    "titulo": "Contenido del Informe de Ponencia para Segundo Debate",
+    "texto": "Contenido del Informe de Ponencia para Segundo Debate. En el informe de Ponencia para Segundo Debate, el Ponente(s) deberá(n) consignar la totalidad de las propuestas que fueron consideradas por la Comisión, las aprobadas y, las razones del rechazo de las negadas. La omisión de este requisito imposibilitará a la Plenaria la discusión del Proyecto, hasta tanto el informe cumpla esta disposición.\nEl Informe de Ponencia para Segundo (2°) Debate, será suscrito por el Presidente de la Comisión Permanente o por quien haya hecho sus veces; por el Ponente o Coordinador de Ponentes y por el Secretario de la misma."
+  },
+  "136": {
+    "numero": 136,
+    "titulo": "Discusión en Segundo Debate",
+    "texto": "Discusión en Segundo Debate. Leída la Ponencia por el Secretario General, el Ponente o Coordinador podrá explicar a la Plenaria, en forma sucinta, la significación y el alcance del Proyecto. A continuación, lo harán los Concejales interesados y las autoridades municipales con derecho a voz. Concluida la explicación, podrán intervenir los funcionarios, voceros y representantes de la comunidad.\nAprobada la proposición con que termina el informe de ponencia, se inicia la discusión del Texto Definitivo, el cual se discutirá globalmente, salvo que un Concejal solicite el análisis del articulado uno a uno o por bloques."
+  },
+  "137": {
+    "numero": 137,
+    "titulo": "Enmiendas en Segundo Debate",
+    "texto": "Enmiendas. Se admitirán en la plenaria las enmiendas que tengan por finalidad subsanar errores, yerros o incorrecciones técnicas, terminológicas o gramaticales, así como las que no impliquen un cambio sustancial.\nNo se considerarán las enmiendas negadas en primer debate, salvo que se surtan por el procedimiento de la apelación.\nParágrafo único. En todo caso se tendrán en cuenta los parámetros establecidos en el artículo 107 y siguientes de éste reglamento en lo que sea aplicable."
+  },
+  "138": {
+    "numero": 138,
+    "titulo": "Devolución del proyecto a la comisión de origen",
+    "texto": "Devolución del proyecto a la comisión de origen. De la iniciativa aprobada por la comisión podrá ser devuelta a ésta, para su reexamen en primer debate, cuando se observen serias discrepancias con la misma y se presenten razones de conveniencia. Si la comisión persiste en su posición, resolverá la plenaria.\nLa devolución del proyecto es también posible por la presidencia, cuando como consecuencia de las enmiendas introducidas o de la votación de los artículos, el texto resultare incongruente, incomprensible, confuso o repetitivo en algunos puntos, o fuere necesario realizar ajustes numéricos o de cifras, con el fin de, que en el plazo que se determine, se efectúe una redacción armónica que deje a salvo los acuerdos de la Mayoría. Devuelto el proyecto, la plenaria lo aprobará o rechazará en su conjunto, sin reabrir el debate concluido."
+  },
+  "139": {
+    "numero": 139,
+    "titulo": "Aprobación",
+    "texto": "Aprobación. Declarada la suficiente ilustración, el presidente someterá a votación el contenido del proyecto en este orden: el articulado, los considerandos, el encabezamiento y el título. Así aprobado el proyecto, preguntará a la corporación si quiere que se convierta en acuerdo municipal.\nLa mesa directiva, dentro de los cinco (5) días hábiles siguientes, remitirá al alcalde para su sanción el proyecto de acuerdo aprobado por el Concejo.\nSi el alcalde no objetare dicho proyecto, lo sancionará como acuerdo y ordenará su promulgación. El acuerdo sancionado será publicado en la Gaceta del Concejo o en medio que se considere de acuerdo con las disposiciones contenidas en la Ley 136 de 1994, Ley 1551 de 2012 y Ley 1437 de 2011, dentro de los diez (10) días siguientes.\nEl proyecto votado negativamente por la plenaria, al entenderse rechazado, se archivará; podrá ser presentado de nuevo para que se someta a su consideración."
+  },
+  "140": {
+    "numero": 140,
+    "titulo": "Revisión de los acuerdos por el Gobernador",
+    "texto": "Revisión de los acuerdos por el Gobernador. Dentro de los cinco (5) días siguientes a la sanción, el alcalde enviará copia del acuerdo al Gobernador del departamento para que cumpla con la atribución del numeral 10 del artículo 305 de la Constitución; en consecuencia, el Gobernador por motivos de inconstitucionalidad o de ilegalidad, podrá remitir los acuerdos al respectivo Tribunal Administrativo para que decida sobre su validez.\nLa revisión no suspende los efectos jurídicos de los acuerdos.\nLos acuerdos son de obligatorio cumplimiento mientras no sean derogados, o suspendidos o anulados por la jurisdicción contencioso-administrativa."
   }
 };
 
@@ -3405,6 +3570,308 @@ const EXAMENES = {
         "Cederlo a otro funcionario de la misma dependencia para que complemente la información",
         "Cederlo a un Concejal",
         "Cederlo a un ciudadano externo"
+      ],
+      "r": 1
+    }
+  ],
+  "9": [
+    {
+      "p": "Según el Art. 115, ¿qué porcentaje del censo electoral se requiere para presentar un proyecto de acuerdo de iniciativa popular?",
+      "ops": [
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quiénes tienen iniciativa para presentar proyectos de acuerdo según el Art. 115?",
+      "ops": [
+        "Solo el Alcalde",
+        "Concejales, el Alcalde, el Personero, el Contralor y las JAL en sus materias",
+        "Solo los Concejales",
+        "Solo la comunidad organizada"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál de estas materias requiere iniciativa exclusiva del Alcalde según el Art. 115?",
+      "ops": [
+        "Nombramiento de Personero",
+        "Presupuesto anual de rentas y gastos",
+        "Elección de Mesa Directiva",
+        "Aprobación de actas"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 116, ¿con cuánta antelación debe darse a conocer un acuerdo de más de 10 artículos antes del debate?",
+      "ops": [
+        "Sin antelación",
+        "Al menos un (1) día",
+        "Al menos 3 días",
+        "Al menos una semana"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién designa al ponente de un proyecto de acuerdo según el Art. 117?",
+      "ops": [
+        "La plenaria por votación",
+        "El presidente de la corporación",
+        "El Alcalde",
+        "El Secretario General"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 117, ¿entre cuántos días se fija el término para presentar ponencias?",
+      "ops": [
+        "Entre 1 y 5 días",
+        "Entre 1 y 10 días, prorrogable por 5 más",
+        "Entre 5 y 15 días",
+        "Entre 10 y 20 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuándo puede el autor retirar su proyecto sin necesidad de aceptación de la comisión, según el Parágrafo del Art. 117?",
+      "ops": [
+        "En cualquier momento",
+        "Antes de presentarse ponencia para primer debate",
+        "Después de aprobado en segundo debate",
+        "Nunca puede retirarlo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 119, ¿cuáles son los requisitos para que un proyecto sea acuerdo municipal?",
+      "ops": [
+        "Solo aprobación en primer debate",
+        "Aprobación en primer y segundo debate, y sanción ejecutiva del alcalde",
+        "Solo sanción del Gobernador",
+        "Solo publicación en la Gaceta"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué se requiere para la obligatoriedad de un acuerdo según el Parágrafo único del Art. 119?",
+      "ops": [
+        "Su aprobación únicamente",
+        "Su promulgación",
+        "La firma del Gobernador",
+        "Su archivo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 120, ¿en qué orden se procede a la aprobación de un proyecto?",
+      "ops": [
+        "Título, encabezamiento, considerandos, articulado",
+        "Articulado, considerandos, encabezamiento, título",
+        "Considerandos, título, articulado, encabezamiento",
+        "No hay un orden establecido"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién interviene para dar explicaciones y aclarar temas durante la discusión según el Art. 121?",
+      "ops": [
+        "El Secretario General",
+        "El ponente",
+        "El Alcalde",
+        "El Presidente del Concejo únicamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 122, ¿pueden las enmiendas cambiar el sentido del acto en estudio?",
+      "ops": [
+        "Sí, sin restricción",
+        "No, no podrán cambiar el sentido del acto en estudio",
+        "Solo si lo aprueba el Alcalde",
+        "Solo en segundo debate"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Hasta cuándo es el plazo para presentar enmiendas según el Parágrafo único del Art. 122?",
+      "ops": [
+        "Hasta el inicio del debate",
+        "Hasta el cierre de la discusión del texto",
+        "Después de aprobado el proyecto",
+        "No hay plazo límite"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 123, ¿qué son las enmiendas a la totalidad?",
+      "ops": [
+        "Las que corrigen errores ortográficos",
+        "Las que versan sobre la oportunidad, principios o espíritu del Proyecto, o proponen un texto alternativo completo",
+        "Las que solo modifican un artículo",
+        "Las que eliminan el proyecto"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 125, ¿qué se requiere para enmiendas que impliquen gasto público?",
+      "ops": [
+        "Solo aprobación de la plenaria",
+        "Certificación de disponibilidad presupuestal y de impacto fiscal de la Secretaría de Hacienda",
+        "Aprobación del Gobernador",
+        "Ninguna certificación especial"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 126, ¿dónde se publican las observaciones ciudadanas sobre un proyecto de acuerdo?",
+      "ops": [
+        "En el periódico local",
+        "En la Gaceta del Concejo",
+        "En redes sociales únicamente",
+        "No se publican"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué pasa con un proyecto que no recibe aprobación en primer debate durante ningún periodo de sesiones del periodo constitucional, según el Art. 128?",
+      "ops": [
+        "Se aprueba automáticamente",
+        "Será archivado y deberá presentarse nuevamente",
+        "Pasa directamente a segundo debate",
+        "Lo decide el Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 129, ¿quién puede apelar un proyecto negado y archivado en primer debate?",
+      "ops": [
+        "Solo el autor",
+        "El autor, cualquier Concejal, el Gobierno Municipal o el vocero de la iniciativa popular",
+        "Solo el Alcalde",
+        "Nadie puede apelar"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Dentro de cuántos días siguientes a la notificación debe plantearse el recurso de apelación según el Art. 130?",
+      "ops": [
+        "3 días",
+        "5 días",
+        "8 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 130, ¿dentro de cuántos días debe la Comisión Accidental rendir informe a la Plenaria sobre la apelación?",
+      "ops": [
+        "3 días hábiles",
+        "5 días hábiles",
+        "8 días hábiles",
+        "15 días hábiles"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué son los Proyectos en Tránsito o en Estudio según el Art. 131?",
+      "ops": [
+        "Los que nunca fueron debatidos",
+        "Los que recibieron aprobación en Primer Debate y queda pendiente el Segundo Debate",
+        "Los que fueron archivados definitivamente",
+        "Los proyectos del Alcalde exclusivamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 133, ¿qué es el Segundo Debate?",
+      "ops": [
+        "La primera revisión del proyecto",
+        "El conocimiento a fondo y discusión que la Plenaria da a los proyectos para su aprobación o no",
+        "Una votación simbólica",
+        "Un trámite administrativo sin debate"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos días hábiles después de repartido el informe de ponencia se fija la fecha del segundo debate, según el Art. 134?",
+      "ops": [
+        "1 día hábil",
+        "3 días hábiles",
+        "5 días hábiles",
+        "8 días hábiles"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 135, ¿quién suscribe el Informe de Ponencia para Segundo Debate?",
+      "ops": [
+        "Solo el ponente",
+        "El Presidente de la Comisión, el Ponente o Coordinador, y el Secretario de la misma",
+        "Solo el Secretario General",
+        "Solo el Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cómo se discute el Texto Definitivo en segundo debate según el Art. 136?",
+      "ops": [
+        "Siempre artículo por artículo obligatoriamente",
+        "Globalmente, salvo que un Concejal solicite análisis uno a uno o por bloques",
+        "Solo por votación directa sin discusión",
+        "Lo decide el Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 137, ¿qué tipo de enmiendas se admiten en la plenaria (segundo debate)?",
+      "ops": [
+        "Cualquier tipo de enmienda sin restricción",
+        "Las que subsanen errores técnicos, terminológicos o gramaticales, sin cambio sustancial",
+        "Solo enmiendas de fondo",
+        "Ninguna enmienda está permitida"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Pueden considerarse en segundo debate las enmiendas negadas en primer debate, según el Art. 137?",
+      "ops": [
+        "Sí, sin restricción",
+        "No, salvo que se surtan por el procedimiento de apelación",
+        "Solo si lo aprueba el Alcalde",
+        "Solo en sesiones extraordinarias"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 139, ¿en qué orden se somete a votación el proyecto en la aprobación final?",
+      "ops": [
+        "Título, encabezamiento, considerandos, articulado",
+        "Articulado, considerandos, encabezamiento, título",
+        "Solo se vota el articulado",
+        "Se vota todo junto sin orden"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Dentro de cuántos días hábiles remite la mesa directiva el proyecto aprobado al alcalde para su sanción, según el Art. 139?",
+      "ops": [
+        "3 días hábiles",
+        "5 días hábiles",
+        "8 días hábiles",
+        "10 días hábiles"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 140, ¿a quién envía el alcalde copia del acuerdo sancionado dentro de los cinco días siguientes?",
+      "ops": [
+        "A la Procuraduría",
+        "Al Gobernador del departamento",
+        "Al Presidente de la República",
+        "A la Contraloría General"
       ],
       "r": 1
     }
