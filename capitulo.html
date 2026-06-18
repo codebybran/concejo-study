@@ -45,8 +45,16 @@
     .art-body .subtitulo-line{color:var(--text);font-weight:600;font-size:13px;margin:16px 0 10px;padding-bottom:4px;border-bottom:1px solid var(--subtitulo-border);}
     .indice-box{background:var(--indice-bg);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:14px 16px;margin-bottom:18px;}
     .indice-box-label{color:var(--gold);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:10px;}
-    .indice-item{display:flex;align-items:baseline;gap:10px;padding:6px 0;border-bottom:1px solid var(--border);}
+    .indice-item{display:flex;align-items:baseline;gap:10px;padding:0;border-bottom:1px solid var(--border);}
     .indice-item:last-child{border-bottom:none;}
+    .indice-link{display:flex;align-items:baseline;gap:10px;padding:9px 6px;width:100%;text-decoration:none;border-radius:6px;transition:background 0.15s;cursor:pointer;}
+    .indice-link:hover{background:var(--surface-hover);}
+    .indice-link .indice-titulo{color:var(--gold);text-decoration:underline;text-decoration-color:transparent;transition:text-decoration-color 0.15s;}
+    .indice-link:hover .indice-titulo{text-decoration-color:var(--gold);}
+    .indice-static{display:flex;align-items:baseline;gap:10px;padding:9px 6px;width:100%;opacity:0.65;}
+    .indice-tag{font-size:10px;font-weight:700;letter-spacing:0.5px;padding:2px 9px;border-radius:100px;white-space:nowrap;flex-shrink:0;}
+    .indice-tag.disponible{background:var(--gold);color:#000;}
+    .indice-tag.pendiente{background:var(--surface2);color:var(--text3);}
     .indice-titulo{color:var(--text);font-size:13px;flex:1;font-weight:500;}
     .indice-pagina{color:var(--gold);font-size:12px;font-weight:700;white-space:nowrap;}
     .encabezado-box{background:var(--consider-bg);border-left:3px solid var(--consider-color);border-radius:0 8px 8px 0;padding:16px;margin-bottom:18px;}
@@ -213,8 +221,12 @@
     if(art.toc && art.toc.length){
       html+='<div class="indice-box"><div class="indice-box-label">📋 Tabla de Contenido</div>';
       art.toc.forEach(entry=>{
-        const pag = entry.pagina ? `Pág. ${entry.pagina}` : '';
-        html+=`<div class="indice-item"><span class="indice-titulo">${entry.titulo}</span><span class="indice-pagina">${pag}</span></div>`;
+        const tieneModulo = entry.modulo!==null && entry.modulo!==undefined && CAPITULOS.some(c=>c.id===entry.modulo);
+        if(tieneModulo){
+          html+=`<div class="indice-item"><a class="indice-link" href="capitulo.html?id=${entry.modulo}"><span class="indice-titulo">${entry.titulo}</span><span class="indice-tag disponible">Ir al módulo →</span></a></div>`;
+        } else {
+          html+=`<div class="indice-item"><div class="indice-static"><span class="indice-titulo">${entry.titulo}</span><span class="indice-tag pendiente">Próximamente</span></div></div>`;
+        }
       });
       html+='</div>';
     }

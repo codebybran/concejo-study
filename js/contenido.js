@@ -1,6 +1,7 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
 // CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Título I + Título II + Título III + Título IV + Título V cargados. Títulos VI-XIII pendientes.
+// TOC con enlaces directos a módulos (campo 'modulo' en cada entrada del índice)
 
 const CAPITULOS = [
   {
@@ -138,171 +139,213 @@ const ARTICULOS = {
     "toc": [
       {
         "titulo": "REGLAMENTO INTERNO",
-        "pagina": null
+        "pagina": null,
+        "modulo": null
       },
       {
         "titulo": "CONSIDERANDO:",
-        "pagina": "2"
+        "pagina": "2",
+        "modulo": 0
       },
       {
         "titulo": "ACUERDA",
-        "pagina": "5"
+        "pagina": "5",
+        "modulo": 0
       },
       {
         "titulo": "DISPOSICIONES PRELIMINARES",
-        "pagina": "5"
+        "pagina": "5",
+        "modulo": 1
       },
       {
         "titulo": "EL CONCEJO COMO CORPORACIÓN POLÍTICO ADMINISTRATIVA Y POPULAR",
-        "pagina": "5"
+        "pagina": "5",
+        "modulo": 1
       },
       {
         "titulo": "DEL CONCEJO",
-        "pagina": "11"
+        "pagina": "11",
+        "modulo": 1
       },
       {
         "titulo": "PRINCIPIOS RECTORES Y CRITERIOS DE INTERPRETACIÓN",
-        "pagina": "14"
+        "pagina": "14",
+        "modulo": 1
       },
       {
         "titulo": "DEL CONCEJO Y LAS BANCADAS",
-        "pagina": "15"
+        "pagina": "15",
+        "modulo": 1
       },
       {
         "titulo": "ESTRUCTURA ORGÁNICA DEL CONCEJO",
-        "pagina": "21"
+        "pagina": "21",
+        "modulo": 1
       },
       {
         "titulo": "CONCEJO PLENO",
-        "pagina": "22"
+        "pagina": "22",
+        "modulo": 2
       },
       {
         "titulo": "INAUGURACIÓN. POSESIÓN. PERIODO DE SESIONES. ACTAS. PUBLICIDAD",
-        "pagina": "22"
+        "pagina": "22",
+        "modulo": 2
       },
       {
         "titulo": "FUNCIONES. DELEGACIÓN. PROHIBICIONES",
-        "pagina": "28"
+        "pagina": "28",
+        "modulo": 2
       },
       {
         "titulo": "DIGNATARIOS",
-        "pagina": "36"
+        "pagina": "36",
+        "modulo": 3
       },
       {
         "titulo": "DEL PRESIDENTE, VICEPRESIDENTE. MESA DIRECTIVA. COMITÉ DE COORDINACIÓN POLÍTICA",
-        "pagina": "37"
+        "pagina": "37",
+        "modulo": 3
       },
       {
         "titulo": "DEBERES Y DERECHOS DE LOS CONCEJALES",
-        "pagina": "48"
+        "pagina": "48",
+        "modulo": 4
       },
       {
         "titulo": "De los Deberes",
-        "pagina": "48"
+        "pagina": "48",
+        "modulo": 4
       },
       {
         "titulo": "DE LOS DERECHOS",
-        "pagina": "51"
+        "pagina": "51",
+        "modulo": 4
       },
       {
         "titulo": "SECRETARIO",
-        "pagina": "64"
+        "pagina": "64",
+        "modulo": 5
       },
       {
         "titulo": "Designación. Requisitos. Periodo. Funciones",
-        "pagina": "64"
+        "pagina": "64",
+        "modulo": 5
       },
       {
         "titulo": "COMISIONES",
-        "pagina": "67"
+        "pagina": "67",
+        "modulo": null
       },
       {
         "titulo": "Clases de Comisiones",
-        "pagina": "68"
+        "pagina": "68",
+        "modulo": null
       },
       {
         "titulo": "COMISIONES PERMANENTES",
-        "pagina": "70"
+        "pagina": "70",
+        "modulo": null
       },
       {
         "titulo": "COMISIÓN LEGAL PARA LA EQUIDAD DE LA MUJER",
-        "pagina": "78"
+        "pagina": "78",
+        "modulo": null
       },
       {
         "titulo": "SESIONES",
-        "pagina": "81"
+        "pagina": "81",
+        "modulo": null
       },
       {
         "titulo": "Reuniones. Citaciones. Orden Interno y Sesiones en General",
-        "pagina": "82"
+        "pagina": "82",
+        "modulo": null
       },
       {
         "titulo": "ORDEN DEL DÍA",
-        "pagina": "87"
+        "pagina": "87",
+        "modulo": null
       },
       {
         "titulo": "DEBATES",
-        "pagina": "88"
+        "pagina": "88",
+        "modulo": null
       },
       {
         "titulo": "VOTACIONES",
-        "pagina": "95"
+        "pagina": "95",
+        "modulo": null
       },
       {
         "titulo": "DEL CONTROL POLÍTICO",
-        "pagina": "100"
+        "pagina": "100",
+        "modulo": null
       },
       {
         "titulo": "PROCESO NORMATIVO",
-        "pagina": "108"
+        "pagina": "108",
+        "modulo": null
       },
       {
         "titulo": "ACUERDOS MUNICIPALES",
-        "pagina": "108"
+        "pagina": "108",
+        "modulo": null
       },
       {
         "titulo": "PRIMER DEBATE",
-        "pagina": "111"
+        "pagina": "111",
+        "modulo": null
       },
       {
         "titulo": "SEGUNDO DEBATE",
-        "pagina": "115"
+        "pagina": "115",
+        "modulo": null
       },
       {
         "titulo": "DE LAS OBJECIONES",
-        "pagina": "118"
+        "pagina": "118",
+        "modulo": null
       },
       {
         "titulo": "MOTIVOS PLAZOS",
-        "pagina": "118"
+        "pagina": "118",
+        "modulo": null
       },
       {
         "titulo": "TRÁMITE DE LAS OBJECIONES",
-        "pagina": "118"
+        "pagina": "118",
+        "modulo": null
       },
       {
         "titulo": "CABILDO ABIERTO",
-        "pagina": "120"
+        "pagina": "120",
+        "modulo": null
       },
       {
         "titulo": "DISPOSICIONES GENERALES ESTATUTO DE LA OPOSICIÓN",
-        "pagina": "123"
+        "pagina": "123",
+        "modulo": null
       },
       {
         "titulo": "DERECHOS DE LA OPOSICIÓN",
-        "pagina": "124"
+        "pagina": "124",
+        "modulo": null
       },
       {
         "titulo": "DERECHOS DE LOS INDEPENDIENTES",
-        "pagina": "131"
+        "pagina": "131",
+        "modulo": null
       },
       {
         "titulo": "OTRAS DISPOSICIONES",
-        "pagina": "132"
+        "pagina": "132",
+        "modulo": null
       },
       {
         "titulo": "VIGENCIA Y REVISIÓN",
-        "pagina": "134"
+        "pagina": "134",
+        "modulo": null
       }
     ],
     "considerandos": [
