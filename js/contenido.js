@@ -1,6 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
-// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Título I + Título II + Título III + Título IV + Título V cargados. Títulos VI-XIII pendientes.
+// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-VI cargados. Títulos VII-XIII pendientes.
 // TOC con enlaces directos a módulos (campo 'modulo' en cada entrada del índice)
 
 const CAPITULOS = [
@@ -117,6 +117,35 @@ const CAPITULOS = [
     "articulos": [
       60,
       61
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "TÍTULO VI",
+    "nombre": "Comisiones",
+    "subtitulo": "Clases de Comisiones, Comisiones Permanentes y Comisión Legal para la Equidad de la Mujer",
+    "icono": "👥",
+    "articulos": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
     ]
   }
 ];
@@ -235,22 +264,22 @@ const ARTICULOS = {
       {
         "titulo": "COMISIONES",
         "pagina": "67",
-        "modulo": null
+        "modulo": 6
       },
       {
         "titulo": "Clases de Comisiones",
         "pagina": "68",
-        "modulo": null
+        "modulo": 6
       },
       {
         "titulo": "COMISIONES PERMANENTES",
         "pagina": "70",
-        "modulo": null
+        "modulo": 6
       },
       {
         "titulo": "COMISIÓN LEGAL PARA LA EQUIDAD DE LA MUJER",
         "pagina": "78",
-        "modulo": null
+        "modulo": 6
       },
       {
         "titulo": "SESIONES",
@@ -714,6 +743,106 @@ const ARTICULOS = {
     "numero": 61,
     "titulo": "Funciones del secretario del Concejo",
     "texto": "Funciones del secretario del Concejo. Son funciones y deberes del secretario de la corporación:\n1. Asistir a todas las sesiones.\n2. Realizar la convocatoria a sesiones que se programen por autorización del Presidente y de la Mesa Directiva, de conformidad con lo previsto en este reglamento.\n3. Llevar y firmar las actas, de acuerdo con la sana costumbre y el reglamento, así como certificar la fidelidad de su contenido.\n4. Dar lectura a los proyectos, proposiciones y demás documentos y mensajes que deban ser leídos en sesión plenaria.\n5. Informar sobre los resultados de toda clase de votación que se cumpla en la corporación.\n6. Elaborar las comunicaciones oficiales que deban ser enviadas por el presidente o por la mesa directiva.\n7. Informar regularmente al presidente de todos los documentos y mensajes dirigidos a la corporación, acusar oportunamente su recibo, y mantener organizado y actualizado un registro de entrega y devolución de los mismos y de los enviados a las comisiones permanentes.\n8. Recibir y dar trámite a todo documento o petición que llegue al Concejo con destino a la Presidencia y a la Secretaría General de la Corporación.\n9. Recibir y radicar los proyectos de acuerdo, y repartirlos a la comisión correspondiente para su trámite en primer debate.\n10. Llevar los siguientes libros: el de actas; el de registro de intereses privados de los Concejales de que trata el artículo 70 inciso segundo de la ley 136 de 1994, y el de registro de participación ciudadana a que se refiere el artículo 77 de la misma ley.\n11. Organizar el archivo del Concejo, acompañado del índice de los acuerdos municipales expedidos, las resoluciones dictadas y las actas aprobadas.\n12. Dirigir y publicar la Gaceta del Concejo cuando a ello hubiere lugar y por disposición del Presidente de la Corporación.\n13. Recibir la inscripción de constitución de las Bancadas existentes al interior del Concejo Municipal junto con sus estatutos y publicar los documentos constitutivos de las mismas.\n14. Velar porque el archivo se encuentre en estricto orden y en cumplimiento con los parámetros de la Ley.\n15. Mantener la Corporación al día con la actualización del Modelo Estándar de Control Interno -MECI-, e informar a la mesa directiva sobre cualquier cambio o falta de cumplimiento de estas normas.\n16. Los demás deberes que señale la corporación, la mesa directiva o el presidente, y las inherentes a la naturaleza del cargo.\nParágrafo único. Las faltas absolutas del secretario se suplen con una nueva elección, en el menor término posible. En caso de falta temporal, la mesa directiva procederá a designar uno.\nNo puede ser designado secretario, en propiedad, un miembro del Concejo. Las Faltas Temporales del Secretario General de Concejo que no sean superior a diez (10) días, podrán ser suplidas de manera Ad-Hoc por un Concejal, quien por ese hecho no perderá su derecho a voz y voto en la respectiva sesión."
+  },
+  "62": {
+    "numero": 62,
+    "titulo": "Diversas comisiones",
+    "texto": "Diversas comisiones. Además de las comisiones legales permanentes y la comisión legal para la equidad de la mujer, el Concejo integrará comisiones especiales y comisiones accidentales.\nLas comisiones especiales son la comisión de ética y la comisión de acreditación documental."
+  },
+  "63": {
+    "numero": 63,
+    "titulo": "Comisión de ética",
+    "texto": "Comisión de ética. El Concejo integrará una comisión de ética, encargada de conocer los casos de conflicto de intereses y las violaciones al régimen de inhabilidades, incompatibilidades y prohibiciones de los Concejales, así como del comportamiento indecoroso, irregular o inmoral que pueda afectar a miembros o empleados de la corporación en su gestión pública. Estará conformada por tres (3) Concejales, elegidos de la misma manera que las comisiones permanentes; se pronunciará en reserva y por la unanimidad de sus integrantes. La plenaria será informada acerca de sus conclusiones con el fin de adoptar, previo debate, decisiones acordes con la ley.\nCualquier persona podrá recusar ante la comisión de ética a un Concejal, cuando tenga conocimiento de una causal de impedimento. Si se aceptare la recusación, el presidente del Concejo procederá a la designación de un nuevo ponente, si fuere el caso, o dispondrá que el recusado se abstenga de participar en el respectivo debate y en la votación."
+  },
+  "64": {
+    "numero": 64,
+    "titulo": "Comisión de acreditación documental",
+    "texto": "Comisión de acreditación documental. Integrada por tres (3) Concejales, es designada por la plenaria de la corporación por el período constitucional. Revisa la lista enviada por el Consejo Nacional Electoral sobre los Concejales electos y la documentación presentada por éstos; si llegare a encontrar irregularidad en una documentación, llevará el caso a la plenaria, en donde se tomará la decisión pertinente.\nEsta comisión revisará también la documentación de los llamados a ocupar una curul en reemplazo de los titulares.\nÉsta comisión está también llamada a revisar las hojas de vida de los candidatos a Personeros, Secretarios de los Concejos y todo aquel funcionario que la corporación tenga a su cargo."
+  },
+  "65": {
+    "numero": 65,
+    "titulo": "Comisiones accidentales",
+    "texto": "Comisiones accidentales. El presidente nombrará comisiones accidentales de carácter transitorio para el cumplimiento de asuntos específicos tales como protocolo, transmisión de mensajes, escrutinio de las votaciones internas, presentación de informes a la plenaria sobre asuntos de interés para la corporación, estudio en primer debate de proyectos de acuerdo cuando no se hayan integrado las comisiones permanentes y cuando no se sepa a qué comisión permanente corresponde el estudio de un proyecto según el tema de que se trate.\nSin perjuicio de lo dicho, serán funciones específicas de las Comisiones Accidentales:\n1. Recibir sectores de la comunidad para el conocimiento de las situaciones y problemas relacionados con el Municipio en sus diferentes aspectos.\n2. Presentar a la Plenaria del Concejo o de las comisiones permanentes informe escrito sobre la gestión adelantada.\n3. Escrutar el resultado de las votaciones.\n4. Recibir dignatarios o personalidades que invite el Concejo Municipal.\n5. Presentar informe escrito sobre las objeciones del Alcalde Municipal a los proyectos de acuerdo.\n6. Preparar proyectos de acuerdo de especial interés para la Corporación y el Municipio.\n7. Dar primer debate a los proyectos de acuerdo cuando no se han integrado las comisiones permanentes o cuando no sea posible identificar a que comisión permanente corresponde el estudio de un proyecto por el tema de que se trate.\n8. Presentar informe a la plenaria sobre la reconsideración solicitada por el autor o cualquier Concejal de un proyecto de acuerdo negado y archivado en primer debate.\n9. Llevar a cabo las funciones que le sean asignadas por el respectivo presidente de la Corporación y de las Comisiones Permanentes.\nParágrafo único. Dichas comisiones deberán ser integradas máximo hasta por tres (3) Concejales, asegurando la representación de las bancadas. En su designación el Presidente definirá el término para la presentación del informe sobre el tema, que deberá ser por escrito y radicado en la secretaría para la programación de la sesión correspondiente."
+  },
+  "66": {
+    "numero": 66,
+    "titulo": "Número, Integración y Funciones legales",
+    "texto": "Número. Integración. Funciones legales. En el Concejo funcionará un mínimo de dos (2) y hasta un máximo de cuatro (4) comisiones permanentes, cada una integrada por una tercera o cuarta parte de los Concejales miembros de la Corporación, en caso de que el cociente no sea un número entero, la Mesa Directiva del Concejo mediante acto administrativo resolverá a qué comisión o comisiones asigna el mayor número de Concejales.\nDe acuerdo con la ley, en las comisiones se surtirá el primer debate a los proyectos de acuerdo que, por competencia, le sean remitidos por la secretaría de la corporación. Tendrán prelación los de iniciativa popular y los presentados por las Bancadas con presencia en el Concejo municipal.\nLos informes de las comisiones permanentes se presentarán por escrito y llevarán la firma del ponente, y anexo al mismo irá la certificación de aprobación o no aprobación del proyecto de acuerdo en primer debate, suscrito por el presidente; la opinión diferente, si la hubiere, se presentará en informe separado. El informe completo y su anexo serán remitidos a la Secretaría General de Concejo. Si el proyecto de acuerdo fue aprobado el Secretario lo remitirá a la Mesa Directiva del Concejo para que se fije fecha de sesión plenaria, para efectos de que el proyecto de acuerdo reciba segundo debate. Si el proyecto de acuerdo no fue aprobado por la comisión el Secretario informará a su autor quién dentro de los cinco (5) días siguientes a la notificación podrá solicitar su reconsideración ante la plenaria. Lo anterior no impide que cualquier Concejal pueda solicitar que el proyecto sea nuevamente considerado por el Concejo dentro del mismo lapso de tiempo. Transcurridos los cinco (5) días sin que se haya solicitado la reconsideración del proyecto, el mismo quedará archivado definitivamente y para que el Concejo se vuelva a pronunciar sobre él, deberá ser nuevamente presentado.\nCualquier comisión permanente podrá citar a persona natural o jurídica para que en sesión especial rinda declaraciones orales o escritas, sobre hechos relacionados directamente con asuntos de interés público, investigados por la misma. Los citados podrán abstenerse de asistir solo por causa debidamente justificada y aceptada por la comisión respectiva, excusa que deberá ser presentada al menos dos (2) días antes de la fecha de citación, exceptuando los casos de fuerza mayor o caso fortuito que se presenten el mismo día en que fue citado el funcionario.\nLa renuencia de los citados a comparecer o a rendir declaraciones requeridas, sin que medie justa causa aceptada por la comisión, será sancionada por las autoridades jurisdiccionales o disciplinarias competentes, según el caso y las normas vigentes para los casos de desacato a las autoridades. El presidente de la Comisión adelantará el trámite ante la autoridad judicial o disciplinaria para que se surta el correspondiente proceso.\nEl fundamento legal de atribución en relación con la competencia en el caso en particular es el artículo 40 de la ley 136 de 1994.\nTodo Concejal deberá hacer parte de una comisión permanente y en ningún caso podrá pertenecer a dos o más comisiones permanentes. Un Concejal puede pertenecer a una comisión permanente, a una comisión legal y a una comisión especial o accidental simultáneamente.\nParágrafo 1. Los reemplazos de los Concejales titulares, por falta temporal en caso de licencia de maternidad o absoluta de éstos, harán parte de la comisión permanente a que pertenece o pertenecía el titular de la curul.\nParágrafo 2. Si no se justificare disponer de un empleado como secretario, o el secretario general no pudiere cumplir esta labor, el presidente de la respectiva comisión podrá designar como secretario a uno de sus miembros.\nParágrafo 3. En los eventos en que las comisiones permanentes no se hayan reglamentado o integrado, los informes serán rendidos por comisiones accidentales nombradas para el efecto por la mesa directiva de la corporación.\nParágrafo 4. En caso de existir empate entre los miembros de las comisiones permanentes en la votación de proyectos de acuerdo el mismo será reconsiderado por esta en sesión que se realizará en un día distinto al del sufragio, y de persistir el empate la iniciativa será archivada. Resaltando que el mismo podrá ser reconsiderado por el cabildo de conformidad con lo establecido en el artículo 73 de la Ley 136 de 1994."
+  },
+  "67": {
+    "numero": 67,
+    "titulo": "Elección",
+    "texto": "Elección. Las comisiones permanentes, tan pronto sean reglamentadas por la Mesa Directiva, deberán ser integradas y elegidas en Sesión Plenaria que se llevará a cabo a más tardar dentro de los tres (3) días hábiles siguientes a la integración y elección de la Mesa Directiva del Concejo Municipal, dando participación en ellas a los miembros de los diversos partidos o movimientos políticos que integran las Bancadas y teniendo en cuenta la especialización o preferencias de los candidatos.\nCada comisión permanente elegirá, el día de su instalación, un presidente que ejercerá su cargo durante un (1) año institucional y no podrá ser reelegido para el período inmediato. A él corresponde dirigir los debates y señalar día y hora para la reunión de la comisión, sin que la misma pueda coincidir con horario de sesión plenaria.\nCada año los Concejales a consideración de la plenaria y mediante proposición realizadas por uno o más concejales podrán proponer la modificación de la integración de las Comisiones Permanentes, debiendo, en lo posible, hacer parte de cada una de ellas durante el período constitucional.\nParágrafo único. Lo anterior sin perjuicio de ser reelegido en la misma comisión."
+  },
+  "68": {
+    "numero": 68,
+    "titulo": "Materia de Estudio de las Comisiones",
+    "texto": "Materia de Estudio de las Comisiones. Las Comisiones Permanentes se dedicarán en sus deliberaciones al examen de los temas especializados que le sean propios en materia normativa y de control político, al análisis y evaluación de los informes que deben rendir los funcionarios de la administración, aprobar o negar en primer debate los Proyectos de Acuerdo que sean sometidos a su consideración y a la realización de los debates que hayan sido aprobados en la Comisión sobre asuntos propios de su competencia. No se podrán tramitar en diferentes comisiones los mismos temas para efectos de realizar control político."
+  },
+  "69": {
+    "numero": 69,
+    "titulo": "Distribución de materias",
+    "texto": "Distribución de materias. Los asuntos que deba tratar el Concejo Municipal y que por su naturaleza no estén claramente definidos como responsabilidad de sus Comisiones Permanentes, serán distribuidos para su estudio por el Presidente del Concejo a la Comisión Permanente que él designe o a la Comisión Accidental que integre para que asuma su estudio en primer debate."
+  },
+  "70": {
+    "numero": 70,
+    "titulo": "Comisiones y Sesiones conjuntas – generalidades",
+    "texto": "Comisiones y Sesiones conjuntas – generalidades. Las Comisiones Permanentes podrán ser convocadas a Comisión Conjunta y desarrollar sesiones conjuntas por el Presidente de la Corporación."
+  },
+  "71": {
+    "numero": 71,
+    "titulo": "Definición de Comisión Conjunta",
+    "texto": "Definición. Se considera Comisión Conjunta y se desarrollará sesión conjunta cuando dos comisiones permanentes se reúnen para dar primer debate a un proyecto de acuerdo, cuya materia les es común. Ella tiene lugar cuando lo dispone la plenaria, el presidente de la corporación o mediante proposición aprobada de una Comisión Permanente."
+  },
+  "72": {
+    "numero": 72,
+    "titulo": "Presidencia de la Comisión y Sesión Conjunta",
+    "texto": "Presidencia de la Comisión y Sesión Conjunta. La sesión conjunta será presidida por el Presidente de la Comisión donde haya sido radicado el proyecto de acuerdo para estudio ó en caso contrario por quien designe el presidente de la Corporación, siempre y cuando tenga competencia en su estudio."
+  },
+  "73": {
+    "numero": 73,
+    "titulo": "Informe de Ponencia de sesión conjunta",
+    "texto": "Informe de Ponencia de sesión conjunta. En el término indicado por la Presidencia de la Corporación, se presentará el Informe de Ponencia ante la Secretaría del Concejo. Si hubiere varios informes de ponencia, el primero radicado será la base para el Debate."
+  },
+  "74": {
+    "numero": 74,
+    "titulo": "Quórum en Sesión Conjunta",
+    "texto": "Quórum en Sesión Conjunta. El Quórum decisorio será el que se requiera para cada una de las Comisiones individualmente consideradas."
+  },
+  "75": {
+    "numero": 75,
+    "titulo": "Votación en sesión conjunta",
+    "texto": "Votación en sesión conjunta. Concluido el debate cada Comisión votará por separado. La decisión final será la resultante de la sumatoria de los votos emitidos en una y otra Comisión, con lo cual se entenderá surtido el Primer Debate.\nParágrafo 1º. Actuará como secretario de la sesión el Secretario General de la Corporación.\nParágrafo 2º. En caso de votación, cada comisión permanente deberá decidir separadamente."
+  },
+  "76": {
+    "numero": 76,
+    "titulo": "Comisiones Permanentes Particulares",
+    "texto": "Comisiones Permanentes Particulares. Para efectos de integrar las Comisiones Permanentes Particulares del Concejo Municipal, la Plenaria deberá integrar preferentemente las Comisiones permanentes siguientes: Comisión Primera Permanente del Plan de Desarrollo, Comisión Segunda Permanente de Gobierno y Comisión Tercera Permanente de Presupuesto y Hacienda Pública."
+  },
+  "77": {
+    "numero": 77,
+    "titulo": "Materias objeto de desarrollo de las Comisiones Permanentes Particulares",
+    "texto": "Materias objeto de desarrollo de las Comisiones Permanentes Particulares. En ejercicio de sus funciones normativas y de Control Político, las Materias objeto de desarrollo por parte de las Comisiones Permanentes Particulares antes señaladas serán las siguientes:\n1. Comisión Primera Permanente de Presupuesto y Hacienda Pública: Será la encargada de ejercer las funciones normativas y de control político en los asuntos relacionados con las siguientes materias:\n1.1. Plan de inversiones del Municipio y el componente financiero que contengan los Planes de Desarrollo Económico, Social y de Obras Públicas.\n1.2. Establecimiento, reforma o eliminación de tributos, contribuciones, impuestos y sobretasas, exenciones tributarias, sistemas de retención y anticipos.\n1.3. Normas orgánicas del Presupuesto y expedición anual del presupuesto de rentas y gastos.\n1.4. Los recursos de gastos e inversión para el municipio.\n1.5. Definición de las escalas de remuneración para las distintas categorías de empleos de la Administración Municipal.\n1.6. Cupo global de endeudamiento.\n1.7. Estudio de las facultades pro-témpore al Alcalde Municipal sobre materias de competencia de esta comisión.\n1.8. Examen del balance general y demás estados contables del municipio, presentados por el Alcalde, firmados por el secretario de Hacienda y presentación al Concejo Municipal de sus conclusiones.\n1.9. Examen del informe sobre el estado de las finanzas del municipio y análisis de las políticas económicas adoptadas por la Administración.\n1.10. Las demás que le sean asignadas por el Presidente del Concejo o su Mesa Directiva.\n2. Comisión Segunda Permanente del Plan de Desarrollo: Será la encargada del manejo de los asuntos relacionados con las siguientes materias:\n2.1. Eficiente prestación de los servicios a cargo del Municipio, en el marco de la Constitución y la Ley.\n2.2. Organización y funcionamiento de las veedurías ciudadanas, la descentralización, la desconcentración y el control social de los servicios públicos.\n2.3. Plan General de Desarrollo Económico y Social.\n2.4. Plan General de Ordenamiento físico y territorial del Municipio.\n2.5. Plan Vial.\n2.6. Reglamentación del uso del suelo y el espacio público del Municipio.\n2.7. Desarrollo físico de las áreas rurales del Municipio.\n2.8. División del territorio Municipal.\n2.9. Planeación y asesoría a las Juntas Administradoras Locales en la elaboración del Plan de Desarrollo Económico y Social.\n2.10. Preservación y defensa del patrimonio ecológico, los recursos naturales y del medio ambiente.\n2.11. Vigilancia y control de la prestación de los servicios públicos domiciliarios y del transporte público y seguridad.\n2.12. Divulgación, fomento y pedagogía de los procesos de participación ciudadana.\n2.13. Estudio de facultades pro tempore al Alcalde Municipal en las materias antes relacionadas.\n2.14. Las demás que sean asignadas por el presidente de la Corporación o la Mesa Directiva.\n3. Comisión Tercera Permanente de Gobierno: Será la encargada de ejercer las funciones normativas y de control político en los asuntos relacionados con las siguientes materias:\n3.1. Normas de Tránsito, Transporte y seguridad.\n3.2. Normas de regulación, preservación y defensa del patrimonio cultural.\n3.3. Estudio de facultades Pro-Témpore al Alcalde sobre materias de competencia de esta comisión.\n3.4. Normas sobre la estructura de la Administración Central y sus funciones, creación y supresión de empleos, creación, constitución, supresión, transformación y fusión de establecimientos públicos, empresas industriales y comerciales, sociedades de economía mixta y participación del Municipio en otras entidades de carácter asociativo.\n3.5. Normas sobre la organización de la Personería.\n3.6. Reglamento Interno del Concejo y determinación de la estructura orgánica del mismo.\n3.7. Normas sobre educación, salud, bienestar social, deporte, recreación, turismo y cultura ciudadana.\n3.8. Atención de organizaciones sindicales, comunitarias y sociales.\n3.9. Derechos humanos.\n3.10. Desplazamientos, en caso de urgencia, en representación del Concejo Municipal.\nLas demás que la Mesa Directiva considere convenientes."
+  },
+  "78": {
+    "numero": 78,
+    "titulo": "Definición de la Comisión Legal para la Equidad de la Mujer",
+    "texto": "Definición. La Comisión Legal para la Equidad de la Mujer tiene como propósito fomentar la participación de la mujer en el ejercicio de la labor normativa y de control político, buscando contribuir en la eliminación de cualquier situación de desigualdad y discriminación que se presente en el ejercicio de la ciudadanía por parte de las mujeres, luchar contra la violencia de género, promover el empoderamiento de la mujer y la equidad de género en el Municipio de El Cerrito – Valle del Cauca."
+  },
+  "79": {
+    "numero": 79,
+    "titulo": "Composición e Integración de la Comisión Legal para la Equidad de la Mujer",
+    "texto": "Composición e Integración. La comisión Legal para la equidad de la Mujer estará conformada preferentemente por todas las mujeres cabildantes de la Corporación. Los Concejales hombres podrán de igual forma participar voluntariamente de ella.\nParágrafo 1. La Comisión Legal para la equidad de la Mujer deberá contar con una Mesa Directiva, que estará conformada por un Presidente y un Vicepresidente elegidos por un año, el cual coincidirá con el periodo de la Mesa Directiva del Concejo Municipal; sin la posibilidad de ser reelegidos.\nParágrafo 2. Si el Concejo Municipal no cuenta con una cuota de participación femenina, igualmente tiene la obligación de conformar la Comisión Legal para la Equidad de la Mujer con los Concejales hombres.\nParágrafo 3. La comisión para la equidad de la mujer por poseer naturaleza jurídica legal, no le será aplicable la regla de renovación anual con respecto a las mujeres que integran la comisión, pues éstas tendrán asiento permanente durante el periodo constitucional. Los concejales hombres que conformen la comisión, serán elegidos anualmente garantizando la participación a todas las organizaciones políticas.\nParágrafo 4. Si no se justificare disponer de un empleado como secretario, actuará como secretario de la comisión el Secretario General de la Corporación; si el secretario general no pudiere cumplir esta labor, el presidente de la respectiva comisión podrá designar como secretario a uno de sus miembros."
+  },
+  "80": {
+    "numero": 80,
+    "titulo": "Funciones y/o atribuciones de la Comisión Legal para la Equidad de la Mujer",
+    "texto": "Funciones y/o atribuciones de la Comisión Legal para la Equidad de la Mujer. La Comisión Legal para la equidad de la Mujer tendrá las siguientes funciones y/o atribuciones:\n1. Elaborar proyectos de acuerdo que propendan en la realización de los derechos humanos, civiles, políticos, económicos, sociales y culturales de las mujeres, con el acompañamiento de la Alcaldía Municipal, las organizaciones y grupos de mujeres, centros de investigación y demás organizaciones que defienden los derechos de las mujeres en el municipio de El Cerrito – Valle del Cauca.\n2. Ejercer el control político en los diversos organismos de la Administración Municipal en relación con la formulación y desarrollo de planes, programas, proyectos y políticas públicas dirigidas al reconocimiento, promoción, realización, ampliación, protección y restitución de los derechos civiles, políticos, económicos, sociales y culturales de las mujeres, así como el seguimiento a las iniciativas relacionadas con los temas de género.\n3. Proponer y velar por que en el proceso de discusión y aprobación del Plan Municipal de Desarrollo y del Presupuesto Municipal, se incluyan programas, proyectos y acciones que hagan efectiva la realización de los derechos civiles, políticos, económicos, sociales y culturales de las mujeres.\n4. Promover e incentivar la participación de las mujeres en los cargos de elección popular y de designación.\n5. Ser interlocutoras de las organizaciones y grupos de mujeres establecidas en la ciudad.\n6. Promover y celebrar audiencias públicas, foros, seminarios, simposios, encuentros, mesas de trabajo, conversatorios y demás estrategias de comunicación para desarrollar, informar y divulgar los temas relacionados con los derechos de las mujeres.\n7. Hacer seguimiento a los procesos de verdad justicia y reparación para los delitos cometidos contra las mujeres durante el conflicto armado interno en sus territorios a los que haya lugar.\n8. Hacer seguimiento sobre los resultados de los procesos de investigación y/o sanción, existentes en los distintos entes de control, relacionados con las violaciones de los derechos civiles, políticos, económicos, sociales, culturales y a la integridad física y sexual de las mujeres.\n9. Tramitar ante las Comisiones Permanentes las observaciones, adiciones y modificaciones que consideren pertinentes o que por escrito hagan llegar a la Comisión para la Equidad de la Mujer, las y los ciudadanos con respecto a proyectos de acuerdo alusivos a los derechos humanos, civiles, políticos, económicos, sociales y culturales de las mujeres.\n10. Las demás que le asigne la ley o reciba por Delegación de la Mesa Directiva del Concejo Municipal de El Cerrito – Valle del Cauca.\n11. Trabajar articuladamente con la Comisión Legal para la Equidad de la Mujer del Congreso de la República en iniciativas que contribuyan a la defensa y fortalecimiento de los derechos y libertades de las mujeres en Colombia.\n12. Solicitar el acompañamiento interinstitucional de organismos municipales, nacionales e internacionales, entidades públicas o privadas y asociaciones de mujeres para el desarrollo de su misión institucional, desarrollar proyectos de investigación, de promoción, defensa y divulgación de los derechos civiles, políticos, económicos, sociales y culturales de las mujeres.\n13. Darse su propio Reglamento."
+  },
+  "81": {
+    "numero": 81,
+    "titulo": "Instalación y Sesiones de la Comisión Legal para la Equidad de la Mujer",
+    "texto": "Instalación y Sesiones. La Comisión Legal para la Equidad de la Mujer se instalará en un lapso no mayor de diez (10) días hábiles después de la instalación de la mesa directiva del Concejo Municipal y se reunirá por convocatoria de su Mesa Directiva, como mínimo una vez al mes o cuando lo considere necesario. Las decisiones de la Comisión serán adoptadas por mayoría simple.\nParágrafo Transitorio. La primera comisión Legal para la Equidad de la Mujer se instalará en un lapso no mayor de diez (10) días hábiles después de la sanción de este acuerdo."
   }
 };
 
@@ -2154,6 +2283,308 @@ const EXAMENES = {
         "De manera Ad-Hoc por un Concejal, sin perder su voz y voto",
         "Las asume el Alcalde",
         "Se cierra la Secretaría temporalmente"
+      ],
+      "r": 1
+    }
+  ],
+  "6": [
+    {
+      "p": "Según el Art. 62, ¿cuáles son las comisiones especiales que integra el Concejo?",
+      "ops": [
+        "Comisión de presupuesto y comisión de ética",
+        "Comisión de ética y comisión de acreditación documental",
+        "Comisión de género y comisión de transporte",
+        "Comisión legal y comisión accidental"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos Concejales conforman la Comisión de Ética según el Art. 63?",
+      "ops": [
+        "Dos (2)",
+        "Tres (3)",
+        "Cuatro (4)",
+        "Cinco (5)"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cómo se pronuncia la Comisión de Ética según el Art. 63?",
+      "ops": [
+        "Por mayoría simple y públicamente",
+        "En reserva y por unanimidad de sus integrantes",
+        "Por votación nominal pública",
+        "Por sorteo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién puede recusar ante la comisión de ética a un Concejal según el Art. 63?",
+      "ops": [
+        "Solo otro Concejal",
+        "Cualquier persona que tenga conocimiento de una causal de impedimento",
+        "Solo el Alcalde",
+        "Solo el Procurador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 64, ¿cuántos Concejales integran la Comisión de Acreditación Documental?",
+      "ops": [
+        "Dos (2)",
+        "Tres (3)",
+        "Cuatro (4)",
+        "Toda la plenaria"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué revisa la Comisión de Acreditación Documental según el Art. 64?",
+      "ops": [
+        "El presupuesto municipal",
+        "La lista del Consejo Nacional Electoral y la documentación de los Concejales electos",
+        "Las actas de sesiones anteriores",
+        "Los proyectos de acuerdo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién nombra las comisiones accidentales según el Art. 65?",
+      "ops": [
+        "La plenaria por votación",
+        "El presidente del Concejo",
+        "El Secretario General",
+        "El Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos Concejales como máximo integran una comisión accidental según el Parágrafo único del Art. 65?",
+      "ops": [
+        "Dos (2)",
+        "Tres (3)",
+        "Cinco (5)",
+        "Sin límite"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 66, ¿cuál es el número mínimo y máximo de comisiones permanentes en el Concejo?",
+      "ops": [
+        "Mínimo 1, máximo 3",
+        "Mínimo 2, máximo 4",
+        "Mínimo 3, máximo 5",
+        "Solo una comisión permanente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué proyectos tienen prelación en las comisiones permanentes según el Art. 66?",
+      "ops": [
+        "Los presentados por el Alcalde",
+        "Los de iniciativa popular y los presentados por las Bancadas",
+        "Los más antiguos",
+        "Los de mayor presupuesto"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 66, ¿dentro de cuántos días puede el autor de un proyecto no aprobado solicitar su reconsideración ante la plenaria?",
+      "ops": [
+        "3 días",
+        "5 días",
+        "8 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede un Concejal pertenecer a dos o más comisiones permanentes según el Art. 66?",
+      "ops": [
+        "Sí, sin restricción",
+        "No, en ningún caso podrá pertenecer a dos o más comisiones permanentes",
+        "Solo si lo aprueba la plenaria",
+        "Solo en municipios grandes"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 4 del Art. 66, ¿qué ocurre si hay empate en la votación de un proyecto en comisión y persiste tras la reconsideración?",
+      "ops": [
+        "Se aprueba automáticamente",
+        "La iniciativa será archivada",
+        "Pasa directamente a la plenaria",
+        "Decide el Presidente del Concejo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 67, ¿dentro de cuántos días hábiles deben integrarse y elegirse las comisiones permanentes tras la elección de la Mesa Directiva?",
+      "ops": [
+        "2 días",
+        "3 días",
+        "5 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es el período del presidente de cada comisión permanente según el Art. 67?",
+      "ops": [
+        "Seis meses",
+        "Un (1) año institucional",
+        "Dos años",
+        "Cuatro años"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede el presidente de una comisión permanente ser reelegido para el período inmediato según el Art. 67?",
+      "ops": [
+        "Sí, sin restricción",
+        "No podrá ser reelegido para el período inmediato",
+        "Solo si lo aprueba la bancada",
+        "Solo una vez más"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 68, ¿a qué se dedican las Comisiones Permanentes en sus deliberaciones?",
+      "ops": [
+        "Solo a temas de presupuesto",
+        "Al examen de temas especializados en materia normativa y de control político",
+        "Solo a elecciones internas",
+        "Solo a resolver quejas ciudadanas"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién distribuye los asuntos no definidos claramente entre las comisiones permanentes, según el Art. 69?",
+      "ops": [
+        "El Secretario General",
+        "El Presidente del Concejo",
+        "El Alcalde",
+        "La Mesa Directiva de oficio sin intervención del Presidente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 71, ¿cuándo se considera que existe una Comisión Conjunta?",
+      "ops": [
+        "Cuando lo decide el Alcalde",
+        "Cuando dos comisiones permanentes se reúnen para dar primer debate a un proyecto de materia común",
+        "Cuando se unen todas las comisiones",
+        "Nunca está permitido"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién preside la sesión conjunta según el Art. 72?",
+      "ops": [
+        "El Presidente del Concejo siempre",
+        "El Presidente de la Comisión donde fue radicado el proyecto, o quien designe el presidente de la Corporación",
+        "El Secretario General",
+        "El Concejal más antiguo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 75, ¿cómo se determina la decisión final en una sesión conjunta?",
+      "ops": [
+        "Gana la comisión con más integrantes",
+        "Es la sumatoria de los votos emitidos en una y otra Comisión",
+        "Decide el Presidente del Concejo",
+        "Se promedia el resultado"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién actúa como secretario en una sesión conjunta según el Parágrafo 1 del Art. 75?",
+      "ops": [
+        "El secretario de cada comisión por separado",
+        "El Secretario General de la Corporación",
+        "El Concejal más joven",
+        "No se requiere secretario"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 76, ¿cuáles son las Comisiones Permanentes Particulares que debe integrar preferentemente la Plenaria?",
+      "ops": [
+        "Solo Comisión de Hacienda",
+        "Plan de Desarrollo, Gobierno, y Presupuesto y Hacienda Pública",
+        "Solo Comisión de Ética",
+        "Comisión de Transporte únicamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 77, ¿qué materia corresponde a la Comisión Primera Permanente de Presupuesto y Hacienda Pública?",
+      "ops": [
+        "Educación y salud",
+        "Plan de inversiones, tributos, presupuesto y endeudamiento",
+        "Tránsito y transporte",
+        "Derechos humanos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 77, ¿qué materia corresponde a la Comisión Segunda Permanente del Plan de Desarrollo?",
+      "ops": [
+        "Solo presupuesto",
+        "Servicios públicos, ordenamiento territorial, plan vial y medio ambiente",
+        "Solo derechos humanos",
+        "Solo tránsito"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 77, ¿qué materia corresponde a la Comisión Tercera Permanente de Gobierno?",
+      "ops": [
+        "Solo presupuesto municipal",
+        "Tránsito, patrimonio cultural, estructura administrativa, educación, salud y derechos humanos",
+        "Solo cupo de endeudamiento",
+        "Solo plan vial"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 78, ¿cuál es el propósito de la Comisión Legal para la Equidad de la Mujer?",
+      "ops": [
+        "Manejar el presupuesto municipal",
+        "Fomentar la participación de la mujer y luchar contra la violencia de género",
+        "Resolver conflictos de tránsito",
+        "Administrar la Gaceta del Concejo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 79, ¿quiénes conforman preferentemente la Comisión Legal para la Equidad de la Mujer?",
+      "ops": [
+        "Solo el Presidente del Concejo",
+        "Todas las mujeres cabildantes de la Corporación; los hombres pueden participar voluntariamente",
+        "Solo Concejales hombres",
+        "Solo personal administrativo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 3 del Art. 79, ¿se renueva anualmente el asiento de las mujeres en la comisión?",
+      "ops": [
+        "Sí, cada año",
+        "No, las mujeres tendrán asiento permanente durante el periodo constitucional",
+        "Solo cada dos años",
+        "Depende de la bancada"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿En qué lapso debe instalarse la Comisión Legal para la Equidad de la Mujer tras la instalación de la Mesa Directiva, según el Art. 81?",
+      "ops": [
+        "5 días hábiles",
+        "10 días hábiles",
+        "15 días hábiles",
+        "30 días hábiles"
       ],
       "r": 1
     }
