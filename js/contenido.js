@@ -1,6 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
-// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-VI cargados. Títulos VII-XIII pendientes.
+// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-VIII cargados. Títulos IX-XIII pendientes.
 // TOC con enlaces directos a módulos (campo 'modulo' en cada entrada del índice)
 
 const CAPITULOS = [
@@ -147,6 +147,57 @@ const CAPITULOS = [
       80,
       81
     ]
+  },
+  {
+    "id": 7,
+    "titulo": "TÍTULO VII",
+    "nombre": "Sesiones",
+    "subtitulo": "Reuniones, Citaciones, Orden del Día, Debates y Votaciones",
+    "icono": "🗣️",
+    "articulos": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "TÍTULO VIII",
+    "nombre": "Del Control Político",
+    "subtitulo": "Citaciones, Moción de Observación y Moción de Censura",
+    "icono": "🔍",
+    "articulos": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114
+    ]
   }
 ];
 
@@ -284,32 +335,32 @@ const ARTICULOS = {
       {
         "titulo": "SESIONES",
         "pagina": "81",
-        "modulo": null
+        "modulo": 7
       },
       {
         "titulo": "Reuniones. Citaciones. Orden Interno y Sesiones en General",
         "pagina": "82",
-        "modulo": null
+        "modulo": 7
       },
       {
         "titulo": "ORDEN DEL DÍA",
         "pagina": "87",
-        "modulo": null
+        "modulo": 7
       },
       {
         "titulo": "DEBATES",
         "pagina": "88",
-        "modulo": null
+        "modulo": 7
       },
       {
         "titulo": "VOTACIONES",
         "pagina": "95",
-        "modulo": null
+        "modulo": 7
       },
       {
         "titulo": "DEL CONTROL POLÍTICO",
         "pagina": "100",
-        "modulo": null
+        "modulo": 8
       },
       {
         "titulo": "PROCESO NORMATIVO",
@@ -843,6 +894,171 @@ const ARTICULOS = {
     "numero": 81,
     "titulo": "Instalación y Sesiones de la Comisión Legal para la Equidad de la Mujer",
     "texto": "Instalación y Sesiones. La Comisión Legal para la Equidad de la Mujer se instalará en un lapso no mayor de diez (10) días hábiles después de la instalación de la mesa directiva del Concejo Municipal y se reunirá por convocatoria de su Mesa Directiva, como mínimo una vez al mes o cuando lo considere necesario. Las decisiones de la Comisión serán adoptadas por mayoría simple.\nParágrafo Transitorio. La primera comisión Legal para la Equidad de la Mujer se instalará en un lapso no mayor de diez (10) días hábiles después de la sanción de este acuerdo."
+  },
+  "82": {
+    "numero": 82,
+    "titulo": "Sesiones Ordinarias – Reuniones",
+    "texto": "Sesiones Ordinarias – Reuniones. Durante el periodo para el cual fue elegido el Concejo Municipal se reunirá por derecho propio cuatro (4) veces al año en periodos de sesiones ordinarias, así: el primer día calendario de los meses de febrero, mayo, agosto y noviembre para municipios de categorías tercera, cuarta, quinta y sexta.\nDurante dichos periodos y sus prórrogas, todos los días de la semana son hábiles para las reuniones del Concejo y sus comisiones. Los horarios serán señalados por los respectivos presidentes.\nLas Comisiones Permanentes sesionarán válidamente para ejercer sus funciones de control político en todo tiempo y momento correspondiente al periodo constitucional de elección de los Concejales, y para ejercer sus funciones normativas durante los períodos de sesiones ordinarias, sus prórrogas y extraordinarias.\nLas sesiones plenarias, al igual que las sesiones de las comisiones permanentes, durarán máximo cuatro (4) horas, a partir del momento en que el presidente las declarare abiertas. Pero, por decisión del órgano respectivo, podrán ser suspendidas o prorrogadas, o ser objeto de declaratoria de sesión permanente.\nDurante el desarrollo de las sesiones el Presidente podrá ordenar hasta dos (2) recesos por el término que considere necesario, con la aprobación de la mayoría de los asistentes a la sesión que conformen quórum decisorio. Vencido el término, reanudará la sesión sin interrupción alguna.\nCada período de sesiones ordinarias tendrá una duración de treinta (30) días calendario, prorrogables hasta por diez días (10) calendario más. La prórroga de las sesiones ordinarias se decidirá mediante proposición presentada por cualquier Concejal y ser aprobada por la mayoría simple de la plenaria."
+  },
+  "83": {
+    "numero": 83,
+    "titulo": "Modalidades de sesión",
+    "texto": "El Concejo podrá sesionar bajo las siguientes modalidades:\n1. Sesión Plenaria. Es la reunión de la mayoría de los Concejales para tratar asuntos que, por la Constitución y la Ley, son de su competencia.\n1.1. Sesión Inaugural. Es aquélla con la cual se inicia cada nuevo período Constitucional del Concejo.\n1.2. Sesión de Instalación. Es aquella sesión con la cual se inicia todo período legal.\n1.3. Sesión de Clausura. Corresponde a la última sesión plenaria de la Corporación en cada Período Ordinario y la última de las Sesiones Extraordinarias. (Art. 131 Reglamento Interno)\n1.4. Sesión Secreta. La Corporación puede constituirse en Sesión Secreta cuando, por requerirlo el asunto que haya de tratarse, lo disponga la Mesa Directiva, o cuando en tal sentido se apruebe una Proposición.\n1.5. Sesiones Especiales.\n1.5.1. Cuando el Concejo se reúne a solicitud de la comunidad con el lleno de los requisitos señalados en éste reglamento y sólo se tratarán los asuntos para los cuales fue convocada.\n1.5.2. Cuando por alguna situación atípica debe reunirse el Concejo encontrándose en periodo de receso y deba cumplir o atender asuntos de orden constitucional o legal.\n1.6. Cabildo Abierto. Cuando el Concejo se reúne previo el lleno de los requisitos establecidos en la Ley 1757 de 2015 acerca de los mecanismos de participación ciudadana y democrática, así como de la Ley 388 de 1997 – Ordenamiento Territorial – y de este Reglamento.\n2. Sesión de Comisiones.\n2.1. Sesiones de Comisiones Permanentes. Son aquéllas en las cuales se surte el Primer Debate a los Proyectos de Acuerdo, se hacen citaciones de conformidad con el artículo 40 de la ley 136 de 1994 y se tratan los asuntos que la Corporación determine pertinentes, en cumplimiento de sus funciones.\n2.2. Sesiones de Comisiones Accidentales. Son aquellas en las cuales se reúnen los Concejales designados para tratar los asuntos que se les haya encomendado.\nParágrafo único. Para efecto de sesiones conjuntas se tomarán en cuenta las reglas señaladas en éste reglamento."
+  },
+  "84": {
+    "numero": 84,
+    "titulo": "Citaciones y Orden Interno",
+    "texto": "Citaciones. La citación a las sesiones plenarias y a las comisiones, deberá hacerse a los Concejales por los presidentes, cuando al finalizar una sesión informe el día y la hora de la siguiente reunión, o por orden de éstos, a través de la secretaría, de manera expresa y oportuna, dejando constancia de la misma, por lo menos con veinticuatro (24) horas de anticipación, salvo en los casos de urgencia en que deba reunirse la plenaria o las Comisiones Permanentes.\nTratándose de elección de funcionarios o de integración de comisión, la citación se hará con tres (3) días de anticipación, dando a conocer a los Concejales citados el cargo por proveer, el nombre del candidato o candidatos nominados, su programación en el orden del día y la hora de la reunión.\nOrden Interno. Al recinto destinado para la realización de las sesiones del Concejo, podrán ingresar los miembros de la corporación, quienes participen con derecho a voz en sus deliberaciones, el personal administrativo y de seguridad, así como periodistas. La presidencia podrá autorizar el ingreso de otras autoridades y de particulares cuando no se afecte el normal desarrollo de las sesiones.\nEn dicho recinto, tendrán sillas determinadas los Concejales y los funcionarios de primer nivel del municipio.\nTratándose de reuniones no reservadas, a las barras podrán ingresar libremente las personas, pero el presidente regulará su ingreso cuando las circunstancias lo exijan y ejercerá el control aconsejable. Durante la sesión, podrá pedir que guarden compostura y silencio, y/o solicitar a la autoridad policial mandar salir a los perturbadores, e incluso ordenar el despeje de las barras.\nPara el mantenimiento del orden, el presidente impondrá a quien faltare al respeto debido a la corporación o ultrajare de palabra a cualquiera de sus miembros, según la gravedad de la falta, alguna de estas sanciones:\n1. Llamamiento al orden.\n2. Declaración pública de haber faltado al orden y al respeto debido.\n3. Suspensión en el uso de la palabra.\n4. Suspensión del derecho a continuar interviniendo en el debate o en la sesión.\n5. Desalojo inmediato del recinto.\n6. Suspensión del derecho a intervenir en los debates de la corporación por un lapso no inferior a dos (2) días ni superior a diez (10). Esta decisión es apelable ante la plenaria.\nParágrafo 1. Ninguna persona podrá portar armas en el recinto del Concejo, también estará prohibido ingerir bebidas alcohólicas, sustancias alucinógenas o fumar así se trate de cigarrillos electrónicos.\nParágrafo 2. En el caso de inasistencia reiterada del Concejal, sin excusa justificada, la mesa directiva comunicará al Tribunal Administrativo para originar la pérdida de investidura o a la Procuraduría General de la Nación como quiera que se constituiría como Falta a sus deberes como Servidor Público."
+  },
+  "85": {
+    "numero": 85,
+    "titulo": "Orden de las sesiones",
+    "texto": "Orden de las sesiones. Llegada la hora para la cual ha sido convocada la sesión, el Presidente ordenará al secretario llamar a lista para verificar el quórum constitucional. Si a pesar del apremio a los ausentes, no se presentare el quórum requerido, transcurrida una (1) hora los asistentes podrán retirarse hasta nueva citación.\nVerificado el quórum, el presidente declarará abierta la sesión y ordenará al secretario dar lectura al orden del día.\nDurante el desarrollo de la sesión, los Concejales y quienes hayan sido citados o invitados deberán observar las reglas de consideración y respeto, procurando enaltecer el espíritu de la democracia.\nSi por haberse turbado el orden de la sesión, fuere conveniente diferir el tratamiento de un asunto previsto en la agenda del día, el presidente podrá disponer su aplazamiento hasta la sesión siguiente. Esta decisión es susceptible de apelación inmediata ante la plenaria, por cualquier Concejal.\nEn relación con el orden en el que deberán adelantarse las sesiones, se considerarán como faltas de los Concejales:\n1. El desconocimiento de los deberes que impone este reglamento, la Constitución y la Ley.\n2. El cometer actos de desorden e irrespeto en el recinto de sesiones.\n3. No presentar las ponencias en los plazos señalados, salvo excusa legítima."
+  },
+  "86": {
+    "numero": 86,
+    "titulo": "Sesiones Extraordinarias",
+    "texto": "Sesiones Extraordinarias. El Concejo Municipal sesionará extraordinariamente por convocatoria que haga el Alcalde Municipal y por el término que éste le fije. Durante el período de sesiones extraordinarias el Concejo únicamente se ocupará de los asuntos que el Alcalde convoque, sin perjuicio de que éste ejerza la función de control político que le corresponde en todo tiempo y las funciones propias para el correcto funcionamiento de la Corporación."
+  },
+  "87": {
+    "numero": 87,
+    "titulo": "Orden del día",
+    "texto": "Orden del día. La serie de asuntos que se someten en cada sesión a la información, discusión y decisión del Concejo pleno y sus comisiones permanentes, se llaman Orden del Día, el cual seguirá el siguiente orden y orientación:\n1. Llamado a lista y verificación de quórum.\n2. Lectura, discusión y aprobación del orden del día.\n3. Lectura, discusión y aprobación del acta de la sesión anterior.\n4. Citaciones a debate.\n5. Lectura y aprobación de proposiciones.\n6. Intervención de funcionarios citados o invitados.\n7. Lectura de comunicaciones.\n8. Proyectos de acuerdo que versen sobre planeación o el presupuesto municipal.\n9. Proyectos de acuerdo objetados por el alcalde.\n10. Informe de las comisiones permanentes.\n11. Proyectos de acuerdo para segundo debate. Se dará prelación a los de iniciativa popular, así como aquellos presentados por las Bancadas; los demás seguirán el orden de presentación de las ponencias.\n12. Informe de comisiones especiales y accidentales.\n13. Proposiciones y asuntos varios.\nParágrafo 1. El orden del día será elaborado por la mesa directiva y llevará la firma de sus integrantes y la del secretario.\nParágrafo 2. El orden del día puede ser alterado, a sugerencia de uno de los Concejales asistentes, por la respectiva plenaria o comisión, sin desconocer la prelación que por ley tiene la intervención de funcionarios citados en el ejercicio del control político que corresponde a la corporación.\nParágrafo 3. Previamente a cada sesión, será publicado el orden del día por un medio idóneo; éste incluye la fijación de su texto en un lugar visible de la secretaría, con no menos de una (1) hora de anticipación a la reunión."
+  },
+  "88": {
+    "numero": 88,
+    "titulo": "Orden del día para elecciones",
+    "texto": "Orden del día para elecciones. El día que se realizaré cualquier elección, el orden del día contendrá exclusivamente los siguientes puntos:\n1. Llamado a lista y verificación del quórum.\n2. Lectura, discusión y aprobación del orden del día.\n3. Aprobación de actas.\n4. Elecciones.\n5. Comunicaciones y varios."
+  },
+  "89": {
+    "numero": 89,
+    "titulo": "Concepto de Debate",
+    "texto": "Concepto. El debate, que es el sometimiento a discusión de cualquier proyecto o proposición sobre cuya adopción deba resolver el Concejo o una de sus comisiones, empieza al abrirlo el presidente y termina con la votación general.\nLa presidencia declara abierto un debate y permite su desarrollo cuando exista quórum deliberatorio. Las decisiones sólo pueden tomarse con la mayoría requerida."
+  },
+  "90": {
+    "numero": 90,
+    "titulo": "Intervenciones (Uso de la Palabra)",
+    "texto": "Intervenciones (Uso de la Palabra). Para hacer uso de la palabra, se requiere autorización previa de la presidencia. Ella se concederá con sujeción al orden establecido en el artículo 17 del presente reglamento."
+  },
+  "91": {
+    "numero": 91,
+    "titulo": "Interpelación",
+    "texto": "Interpelación. Es la solicitud al orador para que conceda el uso de la palabra, exclusivamente para la formulación de preguntas o de aclaración de algún aspecto que aquel esté tratando y requiere la autorización de la Presidencia.\nLa interpelación tendrá una duración máxima e improrrogable de diez (10) minutos. Si excede este límite o no se dirige solicitud de aclaración o pregunta, el presidente le retirará la autorización para interpelar y dispondrá que el orador continúe su exposición.\nEl orador podrá solicitar al Presidente no conceder la autorización de interpelación hasta tanto termine su intervención. En ningún caso se concederá más de dos (2) interpelaciones al orador.\nLos oradores en uso de la palabra sólo podrán ser interpelados cuando se trate de la formulación de preguntas o en solicitud de aclaraciones; si no fuere concisa y pertinente, el presidente podrá retirar la autorización para interpelar."
+  },
+  "92": {
+    "numero": 92,
+    "titulo": "Derecho de réplica",
+    "texto": "Derecho de réplica. En todo debate se garantizará el derecho de réplica, a favor de quien sea contradicho en sus argumentos o cuando se expresen juicios de valor o inexactitudes. Al aludido o titular del derecho de réplica, se le concederá el uso de la palabra por cinco (5) minutos.\nEl presidente, al valorar la importancia del debate, podrá ampliar o reducir el número y el tiempo de las intervenciones.\nA las alusiones no se podrá contestar sino en la misma sesión o en la siguiente, en caso de que el aludido no se encontrare presente.\nCuando la alusión afecte el decoro o la dignidad de un partido o movimiento político con representación en el Concejo, el Presidente podrá conceder a uno de sus voceros el uso de la palabra por el mismo tiempo y en las condiciones indicadas."
+  },
+  "93": {
+    "numero": 93,
+    "titulo": "Mociones",
+    "texto": "Mociones. Moción: Es una proposición especial que presentan uno o varios Concejales para recuperar el orden en el tratamiento de los temas o el debido procedimiento o la suficiente ilustración y la Presidencia la someterá a votación de inmediato. La moción es de tres clases:\n1. Moción de Orden: Cuando exista dispersión en el tratamiento del tema correspondiente al orden del día, se podrá solicitar Moción de Orden, con el fin de que las intervenciones se centren en el tema que se está tratando.\n2. Moción de Procedimiento: Cuando se considere que en el curso de la sesión no se está cumpliendo con lo dispuesto en el Reglamento Interno del Concejo, se podrá solicitar Moción de Procedimiento.\n3. Moción de Suficiente Ilustración: Cuando se considere que el debate sobre algún tema deba cerrarse porque existe suficiente ilustración respecto de este, cualquier Concejal podrá proponer que la plenaria acepte la moción de Suficiente Ilustración siempre y cuando hayan transcurrido más de cuarenta y cinco (45) minutos desde cuando se inició la discusión.\nEl presidente, previa consulta con los miembros de la mesa directiva, aceptará o negará la proposición, decisión que podrá ser apelada de inmediato. Declarada la suficiente ilustración, se entrará a votar.\nPara tales efectos el Presidente someterá a votación la proposición inmediatamente.\n4. Moción de suspender o levantar la sesión: También podrá proponer el aplazamiento de un debate en curso y que se decida la fecha para su continuación.\nEn el desarrollo de una sesión, si se propone que ella sea suspendida o levantada, debido a una moción de duelo o por circunstancias de fuerza mayor, se someterá a votación sin necesidad de debate alguno.\nLa proposición para declarar sesión permanente, presentada en los últimos treinta (30) minutos de la duración ordinaria de la sesión, será votada sin lugar a discusión previa.\nEn cualquier momento podrá solicitarse la verificación del quórum, a lo cual procederá de inmediato la presidencia. Comprobada la falta de quórum, se levantará la sesión.\nParágrafo 1. Durante la discusión de un asunto, cualquier Concejal podrá presentar mociones que decidirá la presidencia inmediatamente.\nParágrafo 2. El autor de una moción o proposición oral, podrá retirarla en cualquier momento, pero antes de ser sometida a votación o ser objeto de modificaciones."
+  },
+  "94": {
+    "numero": 94,
+    "titulo": "Proposiciones",
+    "texto": "Proposiciones. Uno o más Concejales pueden presentar, por escrito y firmada, una proposición de las que admiten discusión, sin necesidad de incluir razones o argumentos.\nPuesta en consideración, el autor o el vocero de los proponentes podrá hacer uso de la palabra para sustentarla.\nLas proposiciones podrán ser:\n1. Principal: Es la que se presenta por primera vez a consideración y decisión de la plenaria o de una comisión.\n2. Supresivas: Cuando se propone suprimir total o parcialmente uno o más artículos de un proyecto de acuerdo, el contenido de un informe, ponencia o una proposición.\n3. Aditivas: Cuando se propone adicionar los artículos de un proyecto de acuerdo, o el texto de informe, ponencia o proposición.\n4. Sustitutivas: Cuando se propone sustituir el título, atribuciones o el articulado de un proyecto de acuerdo, el texto de un informe o una proposición. Esta proposición deberá presentarse por escrito de manera clara, concreta y completa. Se discute y vota primero. Si es aprobada, la inicial queda negada y viceversa. No podrá haber ninguna proposición sustitutiva de la sustitutiva. La proposición sustitutiva tiende a reemplazar a la principal. Se discute y decide primero que aquella que pretende sustituir. Aprobada la sustitutiva, desaparece la principal.\n5. Divisivas: Cuando se propone dividir un artículo o capítulo de un proyecto de acuerdo o el texto de un informe, ponencia o proposición.\n6. Asociativas: Cuando se propone reunir artículos o capítulos de un Proyecto de Acuerdo o ponencia.\n7. Transpositivas: Cuando se propone cambiar de ubicación uno o varios títulos o artículos de un proyecto de acuerdo o ponencia.\n8. De Citación: Cuando se propone citar para debate a funcionarios o autoridades de la administración municipal o Distrital. Las proposiciones de citación que versen sobre temas, asuntos o materias similares deberán ser acumuladas para ordenar y hacer más productiva la programación y el desarrollo de los debates, cuando así lo disponga el Presidente respectivo.\n9. De reconocimiento: Cuando se propone exaltar y reconocer la vida y obra de personas naturales o jurídicas. Este tipo de proposición solamente podrá presentarse ante la Plenaria de la Corporación, previo el cumplimiento de los requisitos que señale la Mesa Directiva.\n10. Modificativa: Es la que aclara la principal. Puede ser mediante la variación de su redacción sin cambiar el contenido material, o dividiendo o reuniendo sus temas para su mayor comprensión o claridad, o por otro procedimiento similar.\nParágrafo 1º. No será admisible la proposición sustitutiva de sustitutiva, ni modificativa de modificativa. Aprobada una modificación, se tendrá por rechazado el artículo o texto original. Por el contrario, negada una proposición de modificación, continuará abierta la discusión sobre la disposición original; pero sobre ésta podrá plantearse una nueva y última modificación. Cerrada la discusión sobre el artículo de un proyecto, el presidente preguntará a la plenaria o comisión si adopta el artículo original aprobado, o si adopta la modificación propuesta.\nParágrafo 2º. Corresponde a la Mesa Directiva de la Corporación reglamentar lo correspondiente a las proposiciones de reconocimiento."
+  },
+  "95": {
+    "numero": 95,
+    "titulo": "Prohibiciones durante el uso de la palabra",
+    "texto": "Prohibiciones. Durante las sesiones ordinarias y extraordinarias en uso de la palabra el Concejal no podrá:\n1. Referirse a un tema diferente al que se encuentra en discusión y el desconocimiento de este deber obligará a la Presidencia a llamar la atención y suspender el derecho para continuar en la intervención.\n2. Dar lectura a discursos escritos, salvo notas o apuntes tomados para auxiliar la memoria.\n3. Hablar más de una vez cuando se trate de proposiciones para alterar o diferir el orden del día; cuestiones de orden; proposiciones de suspensión o que dispongan iniciar o continuar en el orden del día; apelaciones por lo resuelto en la presidencia o revocatorias; proposiciones para que un proyecto regrese a primer debate."
+  },
+  "96": {
+    "numero": 96,
+    "titulo": "Uso de la palabra de Funcionarios",
+    "texto": "Uso de la palabra de Funcionarios. Los funcionarios citados o invitados por la Corporación hablarán en el momento en que el Presidente de la Plenaria o de las Comisiones Permanentes les conceda el uso de la palabra. Lo harán únicamente para referirse al tema debatido y tendrán para ello hasta treinta (30) minutos. Si estiman que necesitan más tiempo, deberán solicitar autorización al Presidente para continuar con el tema a tratar. En este caso el Presidente de la Plenaria o la Comisión Permanente fijará el tiempo adicional para su intervención."
+  },
+  "97": {
+    "numero": 97,
+    "titulo": "Incumplimiento de una citación",
+    "texto": "Incumplimiento de una citación. Si el funcionario citado reglamentariamente para un debate incumple la citación sin justa causa, no radica el informe o el mismo es presentado extemporáneamente, o no da respuesta completa y veraz al cuestionario, el Presidente del Concejo o de la Comisión Permanente, según sea el caso, oficiosamente deberá dar traslado al organismo competente para que realice la correspondiente investigación disciplinaria.\nParágrafo único. El funcionario citado no podrá delegar su asistencia salvo por justa causa debidamente comprobada y aceptada previamente por la Mesa Directiva. Se entiende por justa causa la calamidad doméstica, la grave perturbación del orden público, la enfermedad debidamente certificada, la comisión de servicios y los períodos legales de vacaciones."
+  },
+  "98": {
+    "numero": 98,
+    "titulo": "Uso de la palabra de invitados y Comunidad",
+    "texto": "Uso de la palabra de invitados y Comunidad. Para efectos de foros, debates de control político, la comunidad invitada a la Corporación hablará en el momento en que el Presidente de la Plenaria o de las comisiones permanentes les conceda el uso de la palabra. Lo harán únicamente para referirse al tema y tendrá para ello hasta quince (15) minutos. Si estiman que necesitan más tiempo, deberán solicitar Autorización del Presidente para continuar con el tema a tratar, en cuyo caso el Presidente de la Plenaria o de la Comisión Permanente fijará el tiempo adicional para su intervención."
+  },
+  "99": {
+    "numero": 99,
+    "titulo": "Grabación y Transcripción de las sesiones",
+    "texto": "Grabación y Transcripción de las sesiones. Las sesiones del Concejo podrán ser grabadas en su totalidad. La grabación y la digitación del contenido de las grabaciones será responsabilidad del secretario de la corporación. En su transcripción se deberá conservar la fidelidad de lo expresado. Las grabaciones y su transcripción deberán conservarse en las condiciones de archivo apropiadas con copia de seguridad y su propósito será el de atender las solicitudes o consultas que eleven los honorables Concejales, las autoridades competentes o personas interesadas."
+  },
+  "100": {
+    "numero": 100,
+    "titulo": "Reglas en materia de votaciones",
+    "texto": "Reglas en materia de votaciones. Cada Concejal tiene derecho a un voto, el cual es personal, intransferible e indelegable, el cual deberá reflejar las posiciones adoptadas por la Bancada a la que pertenece el votante, si el partido político del Concejal así lo determina.\nEl voto además es irrenunciable, pues una vez cerrada la discusión de un proyecto de acuerdo o de una proposición, los Concejales están obligados a votar afirmativa o negativamente, salvo su excusa, con autorización del presidente, cuando no haya estado presente en la primera decisión, o en el caso en que manifieste tener conflicto de interés en el asunto que se debate.\nNo existe la posibilidad de formular \"salvamentos de voto\" por ser ésta una facultad exclusivamente jurisdiccional.\nTratándose de elecciones, los Concejales deberán votar por uno de los candidatos o en blanco.\nEn toda votación el número de votos debe ser igual al número de Concejales presentes al momento de ejercer este derecho; si el resultado no coincide, el presidente anulará la elección y ordenará su repetición.\nMientras se halle en curso una votación, no se concederá el uso de la palabra, ni la presidencia aceptará que un Concejal se retire del recinto, salvo que previamente haya ejercido su derecho al voto.\nParágrafo. En las elecciones que efectúe el Concejo, se considera como voto en blanco la papeleta que, depositada en la urna, no contenga escrito alguno o cuando así se expresa. El voto será nulo cuando corresponde a un nombre distinto al de las personas por las cuales se está votando, o contiene un nombre ilegible, o contiene más de un nombre."
+  },
+  "101": {
+    "numero": 101,
+    "titulo": "Modos de votación",
+    "texto": "Modos de votación. En el Concejo existen tres modos de votación:\n1. Ordinaria: Se efectúa dando los Concejales, con la mano, un golpe sobre el pupitre. Si se pidiere verificación, los que quieran el \"Sí\" se pondrán de pie y enseguida los que quieran el \"No\"; el secretario los contará e informará su número y el resultado de la votación. Se acudirá a la votación ordinaria en todos los casos en que no se requiera votación nominal o secreta.\n2. Nominal: Si la votación no debe ser secreta, puede ser nominal, a petición de cualquier Concejal, con el respaldo de la mayoría de los asistentes. En este caso, cada Concejal, al ser llamado en orden alfabético de apellidos por el secretario, contestará individualmente y en voz alta, \"Sí\" o \"No\". El resultado de la votación nominal se consignará en el acta, con expresión de los nombres de los Concejales que votaron por el \"Sí\" y de quienes votaron por el \"No\".\n3. Secreta: La votación secreta no permite identificar la forma como vota el Concejal. La votación secreta se hará por medio de:\n3.1. Balotas. Cada Concejal deposita una balota blanca para expresar su voto afirmativo o negra si fuere negativo.\n3.2. Papeletas. Cada Concejal escribirá en una papeleta, el nombre del candidato o el número de la plancha a elegir si fuere la forma. Una vez terminada la votación, el Secretario procederá a la incineración de las papeletas.\nParágrafo primero. Para el conteo en ambas modalidades, la Presidencia designará una Comisión Escrutadora, conformada por dos (2) Concejales de diferentes partidos políticos, quienes verificarán la votación y expresarán en voz alta el resultado.\nParágrafo segundo. Solo se podrá efectuar votación secreta para la elección de funcionarios que corresponda al Concejo y elección de Mesa Directiva cuando por plenaria fuere aprobada esta forma de votación. Cuando deba efectuarse votación secreta, el secretario llamará a cada Concejal por orden alfabético de apellidos, para que deposite la papeleta en la urna. Éste procederá depositando en la urna la respectiva papeleta, marcada con la leyenda \"Sí\" o \"No\", o tratándose de votación para elección de dignatarios estos deberán indicar el nombre por quien se manifieste su intensión.\nParágrafo tercero. El Concejal puede solicitar que su voto conste en el acta, si así lo indica en forma inmediata y públicamente.\n4. Remota: Se usará en los casos en que una Congresista haya optado por la modalidad de licencia de maternidad para mujeres en política, o esta haya sido extensiva a la licencia de paternidad, y siempre que la naturaleza de la iniciativa así lo permita. Esta modalidad se realizará utilizando Tecnologías de la Información y las Telecomunicaciones."
+  },
+  "102": {
+    "numero": 102,
+    "titulo": "Votación por partes",
+    "texto": "Votación por partes. Un proyecto de acuerdo podrá ser objeto de votación por partes, de modo que sus artículos, o la enmienda o la proposición, sean sometidos a votación separadamente. La solicitud puede provenir de un Concejal o de quien tenga la iniciativa jurídica; si no hay consenso, decidirá la mesa directiva, después de abrir discusión hasta por un máximo de diez (10) minutos. Si se apoyare la moción, las partes que sean aprobadas serán sometidas luego a votación en conjunto."
+  },
+  "103": {
+    "numero": 103,
+    "titulo": "Empates",
+    "texto": "Empates. En caso de empate en la votación de un proyecto, se procederá a una segunda votación en la misma sesión o en la inmediatamente siguiente, según lo disponga la presidencia. De presentarse nuevamente empate, se entenderá negada la propuesta o archivado el proyecto.\nSi el empate se produce en votación para elección de un funcionario, ésta se repetirá y si el empate subsiste, se decidirá por la suerte."
+  },
+  "104": {
+    "numero": 104,
+    "titulo": "Reglas especiales en materia de elecciones",
+    "texto": "Reglas especiales en materia de elecciones. Al acto de elección se citará con tres (3) días de anticipación, conforme a la ley. En la fecha y hora indicada, el presidente abrirá la votación secreta.\nCada votante escribirá en su papeleta el nombre de uno de los candidatos al cargo por proveer y la depositará en la urna dispuesta para el efecto, en el orden de llamado a lista por el secretario.\nPreviamente, el presidente designará una comisión escrutadora, encargada de contar las papeletas depositadas e informar del resultado, indicando el número de votos obtenido por cada uno de los candidatos, los votos en blanco, los votos nulos, y el total de votos. Entregado el resultado, la presidencia preguntará a la corporación si declara legalmente elegido para el cargo o dignidad de que se trate y en el período correspondiente, al candidato que ha obtenido la mayoría de los votos. Si es Concejal que se hallare presente, o secretario reelegido, se le tomará el juramento de rigor; si se trata de funcionario que deba acreditar requisitos, se dispondrá su posesión para otra oportunidad dentro del término legal.\nParágrafo 1. En caso de que la plenaria mediante proposición solicitare a la mesa directiva la realización de la elección de los miembros de la mesa directiva siguiente periodo por votación nominal y pública, ésta podrá llevarse a cabo mediante las reglas de la ley 1431 de 2011 (votación nominal y pública) cuya votación estará sujeta quien obtenga la mayoría de votos. En todo caso para la elección del Primer Vicepresidente deberá tenerse en cuenta por derecho propio, a los miembros de los partidos que se declaren en oposición de conformidad con la Ley.\nParágrafo 2. Con el fin de prevenir acusaciones o demandas, los Concejales, al hacer una elección, tendrán en consideración el régimen de incompatibilidades y prohibiciones de que tratan los artículos 126 y 292 de la Constitución Política y 49 de la ley 617 de 2000."
+  },
+  "105": {
+    "numero": 105,
+    "titulo": "Funciones de control",
+    "texto": "Funciones de control. Corresponde al Concejo ejercer función de control político a la administración municipal, a la personería municipal y a la contraloría municipal. Con tal fin podrá exigir informes escritos o citar a los secretarios de la Alcaldía, Directores de departamentos administrativos o entidades descentralizadas del orden municipal, al contralor y al personero, así como a cualquier funcionario municipal, excepto el alcalde, para que haga declaraciones orales sobre asuntos relacionados con la marcha del municipio.\nIgualmente, los Concejos municipales podrán invitar a los diferentes funcionarios del Orden Departamental, así como a los representantes legales de los organismos descentralizados y de los establecimientos públicos del orden nacional, con sedes en el respectivo departamento o municipio, en relación con temas de interés local."
+  },
+  "106": {
+    "numero": 106,
+    "titulo": "Características del control",
+    "texto": "Características del control. El control que ejerce el Concejo tiene como fundamento la conveniencia política para el municipio, por ende, se entenderá por Control Político la exigencia de responsabilidad política que se le hace a los funcionarios que ejercen el poder en la rama ejecutiva del nivel municipal, al personero y al contralor, quienes deben rendir cuentas al Concejo por el cumplimiento de las funciones que le fueron asignadas previa y específicamente por mandato legal, constitucional o reglamentario."
+  },
+  "107": {
+    "numero": 107,
+    "titulo": "Citaciones a funcionarios",
+    "texto": "Citaciones a funcionarios. La Plenaria del Concejo podrá citar a funcionarios de la administración pública municipal, para que en sesión rindan informes y/o absuelvan cuestionarios previamente enviados por la Corporación. La solicitud de citación se hará por cualquier Concejal o bancada mediante proposición que deberá ser aprobada por la mayoría simple de los asistentes a la respectiva sesión.\nAprobada la proposición, el Concejal o la Bancada citante radicarán en la Secretaria General del Concejo dentro del día hábil siguiente, el cuestionario propuesto para la sesión de control político. La Secretaría del Concejo colocará a disposición de los demás Concejales el cuestionario radicado con el propósito de que en el término de dos (02) días, le puedan adicionar otras preguntas. Vencido el anterior término se dispondrá por parte de la Mesa Directiva según el procedimiento indicado en el siguiente parágrafo.\nParágrafo 1. Procedimiento. Las citaciones se harán con una antelación mínima de cinco (5) días hábiles antes de la fecha programada para el debate, mediante acta escrita aprobada y firmada por la Mesa Directiva, que contenga fecha, lugar, hora y el respectivo formulario de preguntas.\nEl debate no podrá extenderse a asuntos ajenos al cuestionario y deberá encabezar el orden del día de la sesión. También podrá el Concejo solicitar informaciones escritas a otras autoridades municipales. En todo caso, las citaciones e informaciones deberán referirse a asuntos propios del cargo del respectivo funcionario.\nPara la elaboración de los formularios, se tendrá en cuenta dos aspectos:\n1. Los temas sobre los cuales se debe ejercer el control político teniendo en cuenta el espíritu de la Constitución que actualmente nos rige y la legislación vigente en áreas tales como: el cumplimiento de planes y programas, el manejo fiscal, la contratación municipal, la conservación y recuperación del medio ambiente, la prevención de hechos y la atención a la población afectada en casos de alto riesgo, el orden público, los derechos humanos, la seguridad y la convivencia y los aspectos de participación y democracia.\n2. Los procedimientos que permitan hacer una calificación cuantitativa y/o cualitativa no solo de una obra o programa, sino del conjunto de la actuación de los funcionarios o personas citadas. Para ello es deseable contar con tablas o matrices que se pueden encontrar en el Manual de Indicadores de Control Político que permiten a través de variables e indicadores calificar de una forma técnica y objetiva dicha actuación.\nDos días antes del debate como mínimo, el funcionario citado deberá entregar a la secretaría general del Concejo la respuesta por escrito y en medio magnético, con los soportes documentales que den veracidad o hayan sido relacionados en la absolución del cuestionario, la cual el secretario hará llegar por tardar un día antes de la sesión a todos los Concejales.\nParágrafo 2. Citaciones de Comisiones Permanentes. Las comisiones permanentes podrán citar a cualquier persona natural o jurídica para que en sesión especial rinda manifestaciones orales o escritas, sobre hechos relacionados directamente con el municipio. Los llamados a comparecer ante el Cabildo podrán abstenerse de participar solamente por causa debidamente justificada. De persistir la conducta del citado de no comparecer ante el llamado que hace la Corporación, dicho comportamiento será sancionado por la autoridad jurisdiccional competente como un incidente de desacato.\nParágrafo 3. Pluralidad de citaciones. Sólo tratándose de asuntos similares, podrán citarse varios funcionarios para la misma sesión.\nParágrafo 4. Citaciones no realizadas. Para llevar a cabo la citación, alguno de los Concejales citantes deberá estar presente al inicio y durante el debate, de lo contrario se cancelará. En el caso de que ninguno asista a la sesión, no podrá citarse nuevamente a los funcionarios sobre los mismos temas hasta el mismo período de sesiones del siguiente año, a menos que medien causas debidamente justificadas y aceptadas por la corporación."
+  },
+  "108": {
+    "numero": 108,
+    "titulo": "Uso de la palabra de Funcionarios en Control Político",
+    "texto": "Uso de la palabra de Funcionarios. En debates de Control Político los funcionarios citados o invitados por la Corporación hablarán en el momento en que el Presidente de la Plenaria o de las Comisiones Permanentes les conceda el uso de la palabra. Lo harán únicamente para referirse al tema debatido y tendrán para ello hasta sesenta (60) minutos a criterio del Presidente de la Plenaria o de la Comisión. Si estiman que necesitan más tiempo, deberán solicitar autorización al Presidente para continuar con el tema a tratar. En este caso el Presidente de la Plenaria o la Comisión Permanente fijará el tiempo adicional para su intervención.\nEn las sesiones de control político al funcionario citado deberá concedérsele el uso de la palabra, para que se refiera a cada uno de los puntos controvertidos en el debate. El primer punto del orden del día de la sesión del Concejo será la intervención del funcionario citado si así se estima conveniente dado el grado de importancia del tema. Posteriormente tomarán la palabra los Concejales citantes por un máximo de 30 minutos cada uno, seguidos en su orden por los Concejales que se adhirieron la citación con un máximo de 15 minutos cada uno y finalmente los demás Concejales con un máximo de 10 minutos cada uno. Finalmente, uno de los citantes podrá intervenir de nuevo por 15 minutos para recoger las conclusiones del debate.\nParágrafo único. El funcionario citado podrá ceder tiempo de su intervención a otro funcionario de la misma dependencia para que éste intervenga y complemente la información una vez el citado haya finalizado la absolución del cuestionario ante la Plenaria del Concejo o ante la Comisión Permanente citante."
+  },
+  "109": {
+    "numero": 109,
+    "titulo": "Incumplimiento de una citación (Control Político)",
+    "texto": "Incumplimiento de una citación. Si el funcionario citado reglamentariamente para un debate incumple la citación sin justa causa, no radica el informe o el mismo es presentado extemporáneamente, o no da respuesta completa y veraz al cuestionario, el Presidente del Concejo o de la Comisión Permanente, según sea el caso, oficiosamente deberá dar traslado al organismo competente para que realice la correspondiente investigación disciplinaria.\nLa inasistencia de un Secretario de Despacho a una citación hecha por el Concejo sin una excusa válidamente justificada o el incumplimiento a los requerimientos hechos por la Corporación dará lugar a que mediante proposición se solicite moción de censura para el funcionario cuando el municipio tenga una población superior a 25 mil habitantes o moción de observación para municipios con población inferior al mismo número de habitantes.\nParágrafo único. El funcionario citado no podrá delegar su asistencia salvo por justa causa debidamente comprobada y aceptada por la Mesa Directiva, enviada mínimo con dos (02) días de antelación a la fecha de citación. Se entiende por justa causa la calamidad doméstica, la grave perturbación del orden público, la enfermedad debidamente certificada, la comisión de servicios y los períodos legales de vacaciones. Corresponde al Presidente del Concejo aceptar la delegación hecha por el funcionario citado o aplazar y fijar nueva fecha para el debate."
+  },
+  "110": {
+    "numero": 110,
+    "titulo": "Uso de la palabra de invitados y Comunidad (Control Político)",
+    "texto": "Uso de la palabra de invitados y Comunidad. Para efectos de foros, debates de control político, la comunidad invitada a la Corporación hablará en el momento en que el Presidente de la Plenaria o de las comisiones permanentes les conceda el uso de la palabra, para lo cual deberán inscribirse ante la secretaria del concejo municipal con una (1) hora de antelación a la sesión. Una vez realizada la inscripción los mismos podrán realizar su intervención únicamente para referirse al tema y tendrá para ello hasta quince (15) minutos a discreción del presidente. Si estiman que necesitan más tiempo, deberán solicitar autorización del Presidente para continuar con el tema a tratar, en cuyo caso el Presidente de la Plenaria o de la Comisión Permanente fijará el tiempo adicional para su intervención."
+  },
+  "111": {
+    "numero": 111,
+    "titulo": "Moción de observación",
+    "texto": "Moción de observación. Por moción de observación se entiende el acto mediante el cual el Concejo en pleno, previo debate, observa la actuación de uno o varios funcionarios.\nParágrafo 1. Procedimiento. Al finalizar el debate y con la firma de por lo menos la tercera parte de los miembros de la corporación, se podrá proponer que el Concejo observe las decisiones del funcionario citado. La propuesta se votará en plenaria entre el tercero y el décimo día siguiente a la terminación del debate. Aprobada la moción por el voto de la mitad más uno de los miembros de la corporación, se comunicará al alcalde. Si fuere rechazada, no podrá presentarse otra sobre la misma materia, a menos que hechos nuevos la justifiquen.\nParágrafo 2. Votación. La votación se hará entre el tercero y el décimo día siguientes a la terminación del debate, con audiencia pública del funcionario respectivo. La votación será remota o nominal y pública, en este caso, cada Concejal, al ser llamado en orden alfabético de apellidos por el secretario, contestará individualmente y en voz alta, \"Sí\" o \"No\". El resultado de la votación nominal se consignará en el acta, con expresión de los nombres de los Concejales que votaron por el \"Sí\" y de quienes votaron por el \"No\". La aprobación de la moción de observación requerirá el voto afirmativo de las dos terceras partes de los miembros que integran la Corporación. Si fuere rechazada, no podrá presentarse otra sobre la misma materia a menos que la motiven hechos nuevos."
+  },
+  "112": {
+    "numero": 112,
+    "titulo": "Moción de Censura",
+    "texto": "Moción de Censura. Por moción de censura se entiende el acto mediante el cual el Concejo en Pleno, después de realizado el debate de control político, censura la actuación de uno o varios funcionarios.\nParágrafo 1. Procedimiento. La moción de censura deberá ser propuesta por la mitad más uno de los miembros que componen el Concejo Municipal. Se propondrá moción de censura contra los Secretarios de Despacho del Alcalde por asuntos relacionados con las funciones propias del cargo o por desatención a los requerimientos y citaciones del Concejo.\nParágrafo 2. Votación. La votación se hará entre el tercero y el décimo día siguientes a la terminación del debate, con audiencia pública del funcionario respectivo. La votación será remota o nominal y pública, en este caso, cada Concejal, al ser llamado en orden alfabético de apellidos por el secretario, contestará individualmente y en voz alta, \"Sí\" o \"No\". El resultado de la votación nominal se consignará en el acta, con expresión de los nombres de los Concejales que votaron por el \"Sí\" y de quienes votaron por el \"No\". La aprobación de la moción de censura requerirá el voto afirmativo de las dos terceras partes de los miembros que integran la Corporación. Una vez aprobada, el funcionario quedará separado de su cargo. Si fuere rechazada, no podrá presentarse otra sobre la misma materia a menos que la motiven hechos nuevos. La renuncia del funcionario respecto del cual se haya promovido moción de censura no obsta para que la misma sea aprobada conforme a lo previsto en este artículo.\nParágrafo 3. Redondeo. Para el cálculo de las dos terceras partes de los miembros del Concejo se tendrán en cuenta las reglas de aproximación numérica y redondeo. Si el resultado es inferior a punto cinco (.5) se aproximará al número entero que antecede al resultado; si el resultado es igual o superior a punto cinco (.5) se aproximará al número entero que le sigue al resultado. La misma regla se aplicará para la moción de observación.\nParágrafo 4. Empates. En caso de empate en la votación de una moción de censura o de observación, se procederá a una segunda votación en la misma sesión o en la inmediatamente siguiente, según lo disponga la presidencia. De presentarse nuevamente empate, se entenderá negada la moción de censura u observación contra el funcionario."
+  },
+  "113": {
+    "numero": 113,
+    "titulo": "Retiro del Funcionario",
+    "texto": "Retiro del Funcionario. Aprobada la moción de censura para un secretario de la administración municipal, el Presidente del Concejo comunicará mediante escrito dirigido al Alcalde la decisión de la Corporación para que éste proceda con la designación en el cargo de un nuevo secretario. El funcionario censurado deberá realizar el empalme respectivo de su cargo con el nuevo funcionario designado de conformidad con las disposiciones legales sobre la materia.\nParágrafo único. El desacato por parte de la Administración a la decisión del Concejo de censurar a un funcionario dará lugar a las sanciones legales y disciplinarias de los organismos judiciales y de control. En todo caso ningún funcionario podrá seguir en el ejercicio de sus funciones una vez se la haya censurado por parte del Concejo.\nLa Secretaría del Concejo informará a los organismos judiciales y de control sobre cualquier contravención o desacato a las decisiones tomadas por la Plenaria de la Corporación."
+  },
+  "114": {
+    "numero": 114,
+    "titulo": "Publicidad de los debates de Control Político",
+    "texto": "Los debates de Control Político serán públicos y a él podrán concurrir miembros de la comunidad, medios de comunicación, funcionarios de la administración municipal, veedores municipales y demás organismos nacionales e internacionales que quieran presenciar el mismo."
   }
 };
 
@@ -2585,6 +2801,610 @@ const EXAMENES = {
         "10 días hábiles",
         "15 días hábiles",
         "30 días hábiles"
+      ],
+      "r": 1
+    }
+  ],
+  "7": [
+    {
+      "p": "¿Cuántas veces al año se reúne el Concejo en sesiones ordinarias según el Art. 82?",
+      "ops": [
+        "Dos veces",
+        "Tres veces",
+        "Cuatro veces",
+        "Seis veces"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Cuál es la duración máxima de las sesiones plenarias según el Art. 82?",
+      "ops": [
+        "Dos horas",
+        "Tres horas",
+        "Cuatro horas",
+        "Seis horas"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Cuántos recesos puede ordenar el Presidente durante una sesión según el Art. 82?",
+      "ops": [
+        "Uno",
+        "Hasta dos (2)",
+        "Hasta tres (3)",
+        "Sin límite"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es la duración de cada período de sesiones ordinarias según el Art. 82?",
+      "ops": [
+        "20 días calendario",
+        "30 días calendario, prorrogables hasta 10 más",
+        "45 días calendario",
+        "60 días calendario"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 83, ¿qué es la Sesión Inaugural?",
+      "ops": [
+        "La última sesión del año",
+        "Aquella con la cual se inicia cada nuevo período Constitucional del Concejo",
+        "Una sesión secreta",
+        "Una sesión de comisión accidental"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuándo puede constituirse el Concejo en Sesión Secreta según el Art. 83?",
+      "ops": [
+        "Nunca está permitido",
+        "Cuando lo disponga la Mesa Directiva o se apruebe una Proposición",
+        "Solo si lo pide el Alcalde",
+        "Solo en época electoral"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 84, ¿con cuánta anticipación debe hacerse la citación ordinaria a sesiones?",
+      "ops": [
+        "12 horas",
+        "24 horas",
+        "48 horas",
+        "72 horas"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con cuántos días de anticipación se cita para elección de funcionarios según el Art. 84?",
+      "ops": [
+        "1 día",
+        "3 días",
+        "5 días",
+        "7 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 84, ¿qué está prohibido en el recinto del Concejo?",
+      "ops": [
+        "Hablar en público",
+        "Portar armas, ingerir alcohol o fumar incluso cigarrillos electrónicos",
+        "Tomar notas",
+        "Usar corbata"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es la sanción más grave que puede imponer el presidente por faltas al orden según el Art. 84?",
+      "ops": [
+        "Solo una multa económica",
+        "Suspensión del derecho a intervenir en debates entre 2 y 10 días",
+        "Expulsión definitiva del Concejo",
+        "Ninguna sanción está permitida"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 85, ¿qué ocurre si no se presenta el quórum requerido transcurrida una hora?",
+      "ops": [
+        "Se suspende indefinidamente",
+        "Los asistentes podrán retirarse hasta nueva citación",
+        "Se multa a los ausentes",
+        "Se cancela el periodo de sesiones"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién convoca las sesiones extraordinarias según el Art. 86?",
+      "ops": [
+        "El Presidente del Concejo",
+        "El Alcalde Municipal",
+        "El Gobernador",
+        "El Secretario General"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 87, ¿cuál es el primer punto del Orden del Día?",
+      "ops": [
+        "Lectura de comunicaciones",
+        "Llamado a lista y verificación de quórum",
+        "Proposiciones varias",
+        "Informe de comisiones"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién elabora el orden del día según el Parágrafo 1 del Art. 87?",
+      "ops": [
+        "El Alcalde",
+        "La mesa directiva",
+        "El Secretario solo",
+        "Cualquier Concejal"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 88, en el orden del día para elecciones, ¿qué puntos se tratan exclusivamente?",
+      "ops": [
+        "Todos los puntos normales más elecciones",
+        "Quórum, orden del día, actas, elecciones y comunicaciones",
+        "Solo elecciones",
+        "Debates de control político"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 89, ¿cuándo empieza y termina el debate?",
+      "ops": [
+        "Empieza al abrirlo el presidente y termina con la votación general",
+        "Empieza con la votación y termina al cerrarlo el secretario",
+        "No tiene inicio ni fin definido",
+        "Dura toda la sesión"
+      ],
+      "r": 0
+    },
+    {
+      "p": "¿Cuál es la duración máxima de una interpelación según el Art. 91?",
+      "ops": [
+        "5 minutos",
+        "10 minutos",
+        "15 minutos",
+        "20 minutos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántas interpelaciones máximo se conceden a un orador según el Art. 91?",
+      "ops": [
+        "Una",
+        "Dos",
+        "Tres",
+        "Sin límite"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 92, ¿cuánto tiempo se concede para ejercer el derecho de réplica?",
+      "ops": [
+        "Tres minutos",
+        "Cinco minutos",
+        "Diez minutos",
+        "Quince minutos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuáles son las tres clases de moción según el Art. 93?",
+      "ops": [
+        "De orden, de procedimiento y de suficiente ilustración",
+        "De aplauso, de censura y de duelo",
+        "De citación, de reconocimiento y modificativa",
+        "De votación, de quórum y de receso"
+      ],
+      "r": 0
+    },
+    {
+      "p": "Según el Art. 93, ¿cuántos minutos deben haber transcurrido desde el inicio de la discusión para proponer Moción de Suficiente Ilustración?",
+      "ops": [
+        "20 minutos",
+        "30 minutos",
+        "45 minutos",
+        "60 minutos"
+      ],
+      "r": 2
+    },
+    {
+      "p": "Según el Art. 94, ¿qué es una proposición sustitutiva?",
+      "ops": [
+        "La que se presenta por primera vez",
+        "La que propone sustituir el título, atribuciones o articulado de un proyecto",
+        "La que divide un artículo",
+        "La que reúne artículos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Es admisible una proposición sustitutiva de la sustitutiva según el Art. 94?",
+      "ops": [
+        "Sí, sin restricción",
+        "No, no podrá haber ninguna proposición sustitutiva de la sustitutiva",
+        "Solo si lo aprueba la mesa directiva",
+        "Solo en casos urgentes"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 95, ¿qué tiene prohibido el Concejal durante el uso de la palabra?",
+      "ops": [
+        "Hacer preguntas",
+        "Dar lectura a discursos escritos, salvo notas o apuntes para auxiliar la memoria",
+        "Pedir la palabra",
+        "Votar"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuánto tiempo tienen los funcionarios citados para hablar según el Art. 96?",
+      "ops": [
+        "15 minutos",
+        "20 minutos",
+        "30 minutos",
+        "45 minutos"
+      ],
+      "r": 2
+    },
+    {
+      "p": "Según el Art. 97, ¿qué debe hacer el Presidente si un funcionario citado incumple sin justa causa?",
+      "ops": [
+        "Ignorar la situación",
+        "Dar traslado al organismo competente para investigación disciplinaria",
+        "Imponer una multa directamente",
+        "Suspender la sesión"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos modos de votación existen en el Concejo según el Art. 101?",
+      "ops": [
+        "Dos",
+        "Tres, además de la remota",
+        "Cuatro sin contar la remota",
+        "Cinco"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 101, ¿cómo se realiza la votación ordinaria?",
+      "ops": [
+        "Por papeleta secreta",
+        "Dando un golpe sobre el pupitre con la mano",
+        "Por llamado nominal",
+        "Por medios electrónicos únicamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿En qué casos se usa la votación remota según el Art. 101?",
+      "ops": [
+        "Siempre que el Concejal lo solicite",
+        "Cuando un Concejal esté en licencia de maternidad o paternidad extensiva, si la naturaleza de la iniciativa lo permite",
+        "Solo en sesiones extraordinarias",
+        "Nunca está permitida"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 103, ¿qué ocurre si persiste el empate en la votación de un proyecto tras una segunda votación?",
+      "ops": [
+        "Se aprueba automáticamente",
+        "Se entenderá negada la propuesta o archivado el proyecto",
+        "Decide el Alcalde",
+        "Se somete a cabildo abierto obligatoriamente"
+      ],
+      "r": 1
+    }
+  ],
+  "8": [
+    {
+      "p": "Según el Art. 105, ¿a quiénes ejerce el Concejo función de control político?",
+      "ops": [
+        "Solo al Alcalde",
+        "A la administración municipal, la personería y la contraloría municipal",
+        "Solo a la Policía Nacional",
+        "Solo al Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede el Concejo citar directamente al Alcalde para declaraciones orales según el Art. 105?",
+      "ops": [
+        "Sí, sin restricciones",
+        "No, el Alcalde está exceptuado de esta citación directa",
+        "Solo una vez al año",
+        "Solo si lo aprueba el Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 106, ¿en qué se fundamenta el control que ejerce el Concejo?",
+      "ops": [
+        "En la conveniencia económica",
+        "En la conveniencia política para el municipio",
+        "En decisiones judiciales",
+        "En la opinión pública únicamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién puede solicitar una citación a un funcionario según el Art. 107?",
+      "ops": [
+        "Solo el Presidente del Concejo",
+        "Cualquier Concejal o bancada mediante proposición aprobada por mayoría simple",
+        "Solo el Alcalde",
+        "Solo la Procuraduría"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 1 del Art. 107, ¿con cuántos días hábiles de antelación mínima se hacen las citaciones?",
+      "ops": [
+        "3 días",
+        "5 días",
+        "8 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos días antes del debate debe el funcionario citado entregar su respuesta escrita según el Art. 107?",
+      "ops": [
+        "Un día antes",
+        "Dos días antes como mínimo",
+        "Cinco días antes",
+        "Una semana antes"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 4 del Art. 107, ¿qué ocurre si ningún Concejal citante asiste a la sesión de citación?",
+      "ops": [
+        "Se repite automáticamente al día siguiente",
+        "No podrá citarse nuevamente sobre los mismos temas hasta el siguiente período de sesiones del año siguiente",
+        "Se cancela el período de sesiones",
+        "El funcionario queda exonerado permanentemente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos minutos tienen los funcionarios citados para hablar en debates de Control Político según el Art. 108?",
+      "ops": [
+        "30 minutos",
+        "45 minutos",
+        "60 minutos",
+        "90 minutos"
+      ],
+      "r": 2
+    },
+    {
+      "p": "Según el Art. 108, ¿cuánto tiempo máximo tienen los Concejales citantes para intervenir?",
+      "ops": [
+        "15 minutos",
+        "30 minutos",
+        "45 minutos",
+        "60 minutos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuánto tiempo tienen los Concejales que se adhirieron a la citación según el Art. 108?",
+      "ops": [
+        "10 minutos",
+        "15 minutos",
+        "20 minutos",
+        "30 minutos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 109, ¿qué debe hacer el Presidente si un funcionario incumple una citación sin justa causa?",
+      "ops": [
+        "Nada, no hay consecuencias",
+        "Dar traslado al organismo competente para investigación disciplinaria",
+        "Aplicar una multa directamente",
+        "Suspender al funcionario de inmediato"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 109, ¿en qué municipios procede moción de censura por inasistencia de un Secretario sin excusa?",
+      "ops": [
+        "En municipios con menos de 25 mil habitantes",
+        "En municipios con población superior a 25 mil habitantes",
+        "En todos los municipios sin excepción",
+        "Solo en la capital del departamento"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con cuántos días de antelación debe enviarse la justa causa para no asistir a una citación según el Parágrafo único del Art. 109?",
+      "ops": [
+        "Un día",
+        "Dos días",
+        "Cinco días",
+        "Una semana"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 110, ¿con cuánto tiempo de antelación deben inscribirse los miembros de la comunidad para hablar en debates de control político?",
+      "ops": [
+        "30 minutos",
+        "1 hora",
+        "2 horas",
+        "1 día"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántos minutos tiene la comunidad invitada para hablar según el Art. 110?",
+      "ops": [
+        "10 minutos",
+        "15 minutos",
+        "20 minutos",
+        "30 minutos"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 111, ¿qué es la moción de observación?",
+      "ops": [
+        "Una sanción penal",
+        "El acto mediante el cual el Concejo observa la actuación de uno o varios funcionarios, previo debate",
+        "Una multa económica",
+        "Un voto de aplauso"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con la firma de cuántos miembros se puede proponer la moción de observación según el Parágrafo 1 del Art. 111?",
+      "ops": [
+        "La mitad más uno",
+        "Por lo menos la tercera parte de los miembros",
+        "Dos terceras partes",
+        "La totalidad"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué votación se requiere para aprobar la moción de observación según el Parágrafo 2 del Art. 111?",
+      "ops": [
+        "Mayoría simple",
+        "Voto afirmativo de las dos terceras partes de los miembros",
+        "Mitad más uno",
+        "Unanimidad"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 112, ¿quién puede proponer la moción de censura?",
+      "ops": [
+        "Un solo Concejal",
+        "La mitad más uno de los miembros que componen el Concejo Municipal",
+        "Solo el Presidente del Concejo",
+        "Solo el Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Contra quiénes se propone la moción de censura según el Parágrafo 1 del Art. 112?",
+      "ops": [
+        "Contra el Alcalde directamente",
+        "Contra los Secretarios de Despacho del Alcalde",
+        "Contra el Gobernador",
+        "Contra los Concejales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 2 del Art. 112, ¿qué porcentaje de votos se requiere para aprobar la moción de censura?",
+      "ops": [
+        "Mayoría simple",
+        "Mitad más uno",
+        "Las dos terceras partes de los miembros",
+        "Unanimidad"
+      ],
+      "r": 2
+    },
+    {
+      "p": "¿Qué sucede una vez aprobada la moción de censura según el Art. 112?",
+      "ops": [
+        "El funcionario sigue en su cargo",
+        "El funcionario quedará separado de su cargo",
+        "Se suspende por un mes",
+        "Se le impone una multa"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿La renuncia del funcionario impide que se apruebe la moción de censura ya iniciada, según el Art. 112?",
+      "ops": [
+        "Sí, la detiene completamente",
+        "No, la renuncia no obsta para que la moción sea aprobada conforme a lo previsto",
+        "Solo si renuncia antes del debate",
+        "Depende del Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 3 del Art. 112 sobre redondeo, ¿qué ocurre si el resultado es igual o superior a punto cinco (.5)?",
+      "ops": [
+        "Se aproxima al número entero anterior",
+        "Se aproxima al número entero que le sigue al resultado",
+        "Se descarta el cálculo",
+        "Se repite la votación"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 4 del Art. 112, ¿qué ocurre si persiste el empate en la votación de una moción de censura?",
+      "ops": [
+        "Se aprueba automáticamente",
+        "Se entenderá negada la moción de censura u observación",
+        "Decide el Alcalde",
+        "Se posterga indefinidamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 113, ¿a quién comunica el Presidente del Concejo la decisión de censura aprobada?",
+      "ops": [
+        "A la Procuraduría",
+        "Al Alcalde, para que designe un nuevo secretario",
+        "Al Gobernador",
+        "A la Contraloría"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede un funcionario censurado seguir ejerciendo sus funciones según el Parágrafo único del Art. 113?",
+      "ops": [
+        "Sí, hasta que se nombre su reemplazo",
+        "No, en ningún caso podrá seguir en el ejercicio de sus funciones una vez censurado",
+        "Solo por 30 días más",
+        "Solo si apela la decisión"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 114, ¿son públicos los debates de Control Político?",
+      "ops": [
+        "No, son siempre privados",
+        "Sí, son públicos y pueden concurrir miembros de la comunidad, medios y veedores",
+        "Solo son públicos si lo aprueba el Alcalde",
+        "Solo asisten los Concejales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién designa al nuevo secretario tras una moción de censura aprobada, según el Art. 113?",
+      "ops": [
+        "El Concejo Municipal",
+        "El Alcalde",
+        "El Gobernador",
+        "La Procuraduría"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 108, ¿qué puede hacer el funcionario citado con parte de su tiempo de intervención?",
+      "ops": [
+        "No puede cederlo bajo ninguna circunstancia",
+        "Cederlo a otro funcionario de la misma dependencia para que complemente la información",
+        "Cederlo a un Concejal",
+        "Cederlo a un ciudadano externo"
       ],
       "r": 1
     }
