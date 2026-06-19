@@ -1,6 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
-// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-X cargados. Títulos XI-XIII pendientes.
+// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-XI cargados. Títulos XII-XIII pendientes.
 // TOC con enlaces directos a módulos (campo 'modulo' en cada entrada del índice)
 
 const CAPITULOS = [
@@ -247,6 +247,25 @@ const CAPITULOS = [
       144,
       145
     ]
+  },
+  {
+    "id": 11,
+    "titulo": "TÍTULO XI",
+    "nombre": "Cabildo Abierto",
+    "subtitulo": "Petición Ciudadana, Materias, Difusión, Asistencia y Vocería",
+    "icono": "🏙️",
+    "articulos": [
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155
+    ]
   }
 ];
 
@@ -449,7 +468,7 @@ const ARTICULOS = {
       {
         "titulo": "CABILDO ABIERTO",
         "pagina": "120",
-        "modulo": null
+        "modulo": 11
       },
       {
         "titulo": "DISPOSICIONES GENERALES ESTATUTO DE LA OPOSICIÓN",
@@ -1263,6 +1282,56 @@ const ARTICULOS = {
     "numero": 145,
     "titulo": "Objeciones de derecho",
     "texto": "Objeciones de derecho. Para las objeciones jurídicas se seguirá el mismo procedimiento dispuesto en el artículo inmediatamente anterior.\nSi las objeciones jurídicas no fueren acogidas, el alcalde enviará dentro de los diez días siguientes, el proyecto acompañado de una exposición de motivos de las objeciones al Tribunal Administrativo que tenga jurisdicción en el municipio. Si el Tribunal las considera fundadas, el proyecto se archivará. Si decidiere que son infundadas, el alcalde sancionará el proyecto dentro de los tres días siguientes al recibo de la comunicación respectiva. Si el tribunal considera parcialmente vaciado el proyecto, así lo indicará al Concejo para que se reconsidere.\nCumplido este trámite, el proyecto se remitirá de nuevo el Tribunal para fallo definitivo.\nParágrafo único. Objeciones de Derecho al Proyecto de presupuesto. Si el proyecto objetado fuere el de presupuesto, deberá enviarlo al Tribunal Administrativo dentro de los cinco (5) días siguientes a su recibo, y esta corporación se pronunciará dentro de los veinte (20) días hábiles siguientes. Mientras el tribunal decide regirá el proyecto de presupuesto presentado oportunamente por el alcalde, bajo su directa responsabilidad (decreto 111 de 1996, art. 109).\nSi las objeciones son declaradas fundadas por el tribunal, el proyecto se archivará y si son declaradas infundadas, el alcalde podrá sancionarlo dentro de los tres (3) días siguientes al recibo de la comunicación oficial. Pero, considerado parcialmente viciado, así lo indicará al Concejo para que se reconsidere y rehaga, oído el respectivo secretario de la alcaldía; cumplido este trámite, será devuelto al tribunal para fallo definitivo."
+  },
+  "146": {
+    "numero": 146,
+    "titulo": "Petición ciudadana",
+    "texto": "Petición ciudadana. En cada período de sesiones ordinarias podrán celebrarse cabildos abiertos en los que, por iniciativa de un número no inferior al cinco por mil de los ciudadanos del censo electoral del municipio, se considerarán los asuntos que los residentes soliciten sean estudiados, siempre, y cuando sean de competencia de la respectiva corporación. Es obligación del alcalde, asistir al cabildo abierto."
+  },
+  "147": {
+    "numero": 147,
+    "titulo": "Materias del cabildo abierto",
+    "texto": "Materias del cabildo abierto. Podrán ser materias del cabildo abierto cualquier asunto de interés para la comunidad. En caso de que la comunidad cite al alcalde, deberá adjuntar a las firmas el cuestionario que formulará al funcionario, el cual debe ser remitido por el presidente de la corporación, con mínimo cinco (5) días de antelación a la celebración del cabildo. El cuestionario deberá versar únicamente sobre asuntos de competencia del funcionario citado.\nParágrafo. A través del Cabildo Abierto no se podrán presentar iniciativas de acuerdo o resolución."
+  },
+  "148": {
+    "numero": 148,
+    "titulo": "Prelación",
+    "texto": "Prelación. En los cabildos abiertos se tratarán los temas en el orden en que fueron presentados ante la respectiva secretaría. En todo caso el Cabildo Abierto deberá celebrarse a más tardar un mes después de la radicación de la petición.\nParágrafo único. Si la petición fue radicada cuando la corporación no se encontraba en sesiones ordinarias, el cabildo deberá realizarse en el siguiente periodo de sesiones ordinarias."
+  },
+  "149": {
+    "numero": 149,
+    "titulo": "Difusión del cabildo",
+    "texto": "Difusión del cabildo. El Concejo municipal, dispondrá la amplia difusión de la fecha, el lugar y de los temas que serán objeto del cabildo abierto. Para ello, antes de la fecha de vencimiento para la fecha de inscripción de los participantes ordenarán la publicación de dos convocatorias en un medio de comunicación de amplia circulación y cuando fuere posible, a través de las tecnologías de la información y las comunicaciones, con diferencia no menor de diez (10) días entre una y otra."
+  },
+  "150": {
+    "numero": 150,
+    "titulo": "Asistencia y vocería",
+    "texto": "Asistencia y vocería. A los cabildos abiertos podrán asistir todas las personas que tengan interés en el asunto. Además del vocero podrán intervenir, por la misma duración a la que tienen derecho por reglamento los respectivos miembros de la corporación, quienes se inscriban a más tardar tres (3) días antes de la realización del cabildo en la secretaría respectiva, presentando para ello un resumen escrito de su intervención.\nLuego de las intervenciones de la comunidad, el alcalde dará respuesta a sus inquietudes. Una vez surtido este trámite, los miembros de la corporación podrán hacer uso de la palabra en los términos que establece éste reglamento.\nParágrafo. Cuando los medios tecnológicos lo permitan, los cabildos abiertos serán transmitidos en directo a través de Internet o a través de los mecanismos que estime conveniente la mesa directiva de la corporación."
+  },
+  "151": {
+    "numero": 151,
+    "titulo": "Citación a funcionarios de la administración",
+    "texto": "Citación a funcionarios de la administración. Por solicitud ciudadana derivada de la convocatoria al cabildo abierto conforme a esta ley, podrá citarse a funcionarios departamentales, municipales, distritales o locales, con cinco (5) días de anticipación, para que concurran al cabildo y para que respondan, oralmente o por escrito, sobre hechos relacionados con el tema del cabildo. La desatención a la citación sin justa causa será causal de mala conducta."
+  },
+  "152": {
+    "numero": 152,
+    "titulo": "Obligatoriedad de la respuesta",
+    "texto": "Obligatoriedad de la respuesta. Una semana después de la realización del cabildo se realizará una sesión a la cual serán invitados todos los que participaron en él, en la cual se expondrán las respuestas razonadas a los planteamientos y solicitudes presentadas por los ciudadanos, por parte del mandatario y de la corporación.\nCuando se trate de un asunto relacionado con inversiones públicas municipales, distritales o locales, la respuesta deberá señalar el orden de prioridad de las mismas dentro del presupuesto y los planes correspondientes.\nSi las respuestas dadas por los funcionarios incluyen compromisos decisorios, estos serán obligatorios y las autoridades deberán proceder a su ejecución, previo cumplimiento de las normas constitucionales y legales."
+  },
+  "153": {
+    "numero": 153,
+    "titulo": "Sesiones fuera de la sede",
+    "texto": "Sesiones fuera de la sede. Cuando se trate de asuntos que afecten específicamente a una localidad, corregimiento o comuna, la sesión de la corporación pública correspondiente podrá realizarse en el sitio en que la mesa directiva y el vocero estimen conveniente de manera concertada."
+  },
+  "154": {
+    "numero": 154,
+    "titulo": "Registro de los Cabildos Abiertos",
+    "texto": "Registro de los Cabildos Abiertos. La Secretaría General de la corporación deberá llevar un registro de cada cabildo abierto, los temas que se abordaron, los participantes, las memorias del evento y la respuesta dada. Copia de este registro se enviará al Consejo Nacional de Participación y al Consejo Nacional Electoral."
+  },
+  "155": {
+    "numero": 155,
+    "titulo": "Generalidades y Obligatoriedad de Ley",
+    "texto": "Generalidades y Obligatoriedad de Ley. En todo caso para aplicar los parámetros y procedimientos de los Cabildos Abiertos se deberá tener en cuenta lo establecido en la ley 134 de 1994 modificada por la Ley 1757 de 2015 \"Mecanismos de Participación Ciudadana\" y \"Promoción y Protección a la Participación Democrática\"."
   }
 };
 
@@ -4115,6 +4184,258 @@ const EXAMENES = {
         "30 días hábiles"
       ],
       "r": 2
+    }
+  ],
+  "11": [
+    {
+      "p": "Según el Art. 146, ¿qué porcentaje mínimo del censo electoral se requiere para solicitar un cabildo abierto?",
+      "ops": [
+        "Uno por mil (1‰)",
+        "Cinco por mil (5‰)",
+        "Diez por ciento (10%)",
+        "Uno por ciento (1%)"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Es obligatoria la asistencia del Alcalde al cabildo abierto según el Art. 146?",
+      "ops": [
+        "No, es opcional",
+        "Sí, es obligación del alcalde asistir",
+        "Solo si lo decide el Concejo",
+        "Solo en cabildos sobre presupuesto"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 147, ¿qué deben adjuntar los ciudadanos si citan al alcalde a un cabildo abierto?",
+      "ops": [
+        "Solo las firmas",
+        "Las firmas junto con el cuestionario que formularán al funcionario",
+        "Un poder notarial",
+        "Nada adicional"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con cuánta antelación debe remitirse el cuestionario antes del cabildo según el Art. 147?",
+      "ops": [
+        "3 días",
+        "5 días",
+        "8 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo del Art. 147, ¿qué NO se puede presentar a través del Cabildo Abierto?",
+      "ops": [
+        "Preguntas a funcionarios",
+        "Iniciativas de acuerdo o resolución",
+        "Quejas ciudadanas",
+        "Solicitudes de información"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿En qué orden se tratan los temas en los cabildos abiertos según el Art. 148?",
+      "ops": [
+        "Por orden alfabético",
+        "En el orden en que fueron presentados ante la secretaría",
+        "Por importancia según el Alcalde",
+        "Al azar"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿A más tardar en cuánto tiempo después de radicada la petición debe celebrarse el Cabildo Abierto según el Art. 148?",
+      "ops": [
+        "Una semana",
+        "Un mes",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo único del Art. 148, ¿qué ocurre si la petición se radica cuando el Concejo no está en sesiones ordinarias?",
+      "ops": [
+        "Se rechaza la petición",
+        "El cabildo se realiza en el siguiente periodo de sesiones ordinarias",
+        "Se convoca sesión extraordinaria de inmediato",
+        "Se pospone indefinidamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 149, ¿cuántas convocatorias debe publicar el Concejo para difundir el cabildo abierto?",
+      "ops": [
+        "Una",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con qué diferencia mínima de días deben publicarse las dos convocatorias según el Art. 149?",
+      "ops": [
+        "5 días",
+        "10 días",
+        "15 días",
+        "20 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 150, ¿hasta cuántos días antes del cabildo deben inscribirse quienes desean intervenir?",
+      "ops": [
+        "1 día",
+        "3 días",
+        "5 días",
+        "8 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué deben presentar quienes se inscriban para intervenir en el cabildo según el Art. 150?",
+      "ops": [
+        "Solo su cédula",
+        "Un resumen escrito de su intervención",
+        "Una carta de recomendación",
+        "Nada adicional"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 150, ¿quién responde a las inquietudes de la comunidad después de sus intervenciones?",
+      "ops": [
+        "El Presidente del Concejo",
+        "El alcalde",
+        "El Secretario General",
+        "El Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Pueden los cabildos abiertos transmitirse en directo por Internet según el Parágrafo del Art. 150?",
+      "ops": [
+        "No, está prohibido",
+        "Sí, cuando los medios tecnológicos lo permitan",
+        "Solo si lo paga la comunidad",
+        "Solo en la capital del departamento"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 151, ¿con cuántos días de anticipación se cita a funcionarios para el cabildo abierto?",
+      "ops": [
+        "3 días",
+        "5 días",
+        "8 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué consecuencia tiene la desatención a la citación sin justa causa, según el Art. 151?",
+      "ops": [
+        "Ninguna consecuencia",
+        "Es causal de mala conducta",
+        "Una multa económica automática",
+        "Pérdida del cargo inmediata"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 152, ¿cuánto tiempo después del cabildo se realiza la sesión de respuestas?",
+      "ops": [
+        "Tres días",
+        "Una semana después",
+        "Un mes después",
+        "Inmediatamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Si las respuestas de los funcionarios incluyen compromisos decisorios, ¿qué carácter tienen según el Art. 152?",
+      "ops": [
+        "Son simplemente indicativos",
+        "Son obligatorios y las autoridades deben proceder a su ejecución",
+        "No tienen ningún efecto",
+        "Quedan sujetos a nueva votación"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 153, ¿dónde puede realizarse la sesión cuando el asunto afecta específicamente a una localidad o corregimiento?",
+      "ops": [
+        "Siempre en la sede principal del Concejo",
+        "En el sitio que la mesa directiva y el vocero estimen conveniente de manera concertada",
+        "Solo en la Alcaldía",
+        "En cualquier lugar sin acuerdo previo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 154, ¿quién debe llevar el registro de cada cabildo abierto?",
+      "ops": [
+        "El Alcalde",
+        "La Secretaría General de la corporación",
+        "El Personero",
+        "El Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿A qué organismos se envía copia del registro de los cabildos abiertos según el Art. 154?",
+      "ops": [
+        "Solo a la Procuraduría",
+        "Al Consejo Nacional de Participación y al Consejo Nacional Electoral",
+        "Solo al Tribunal Administrativo",
+        "A ningún organismo externo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 155, ¿qué ley regula los Mecanismos de Participación Ciudadana aplicable a los Cabildos Abiertos?",
+      "ops": [
+        "Ley 136 de 1994",
+        "Ley 134 de 1994, modificada por la Ley 1757 de 2015",
+        "Ley 617 de 2000",
+        "Ley 1551 de 2012"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede cualquier asunto ser materia de cabildo abierto según el Art. 147?",
+      "ops": [
+        "No, solo asuntos presupuestales",
+        "Sí, cualquier asunto de interés para la comunidad",
+        "Solo asuntos de seguridad",
+        "Solo asuntos ambientales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Sobre qué debe versar el cuestionario cuando se cita al alcalde a un cabildo, según el Art. 147?",
+      "ops": [
+        "Cualquier tema sin restricción",
+        "Únicamente sobre asuntos de competencia del funcionario citado",
+        "Solo temas personales del alcalde",
+        "Temas de otros municipios"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cada cuánto pueden celebrarse cabildos abiertos según el Art. 146?",
+      "ops": [
+        "Una vez al año",
+        "En cada período de sesiones ordinarias",
+        "Cada cuatro años",
+        "Solo una vez por periodo constitucional"
+      ],
+      "r": 1
     }
   ]
 };
