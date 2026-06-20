@@ -326,11 +326,6 @@ const ARTICULOS = {
     },
     "toc": [
       {
-        "titulo": "REGLAMENTO INTERNO",
-        "pagina": null,
-        "modulo": null
-      },
-      {
         "titulo": "CONSIDERANDO:",
         "pagina": "2",
         "modulo": 0
