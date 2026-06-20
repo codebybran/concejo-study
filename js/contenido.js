@@ -1,6 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
-// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-XI cargados. Títulos XII-XIII pendientes.
+// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-XII cargados. Título XIII pendiente.
 // TOC con enlaces directos a módulos (campo 'modulo' en cada entrada del índice)
 
 const CAPITULOS = [
@@ -266,6 +266,29 @@ const CAPITULOS = [
       154,
       155
     ]
+  },
+  {
+    "id": 12,
+    "titulo": "TÍTULO XII",
+    "nombre": "Estatuto de la Oposición",
+    "subtitulo": "Derechos de la Oposición Política e Independientes",
+    "icono": "🗳️",
+    "articulos": [
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169
+    ]
   }
 ];
 
@@ -473,17 +496,17 @@ const ARTICULOS = {
       {
         "titulo": "DISPOSICIONES GENERALES ESTATUTO DE LA OPOSICIÓN",
         "pagina": "123",
-        "modulo": null
+        "modulo": 12
       },
       {
         "titulo": "DERECHOS DE LA OPOSICIÓN",
         "pagina": "124",
-        "modulo": null
+        "modulo": 12
       },
       {
         "titulo": "DERECHOS DE LOS INDEPENDIENTES",
         "pagina": "131",
-        "modulo": null
+        "modulo": 12
       },
       {
         "titulo": "OTRAS DISPOSICIONES",
@@ -1332,6 +1355,76 @@ const ARTICULOS = {
     "numero": 155,
     "titulo": "Generalidades y Obligatoriedad de Ley",
     "texto": "Generalidades y Obligatoriedad de Ley. En todo caso para aplicar los parámetros y procedimientos de los Cabildos Abiertos se deberá tener en cuenta lo establecido en la ley 134 de 1994 modificada por la Ley 1757 de 2015 \"Mecanismos de Participación Ciudadana\" y \"Promoción y Protección a la Participación Democrática\"."
+  },
+  "156": {
+    "numero": 156,
+    "titulo": "Definición de Oposición Política",
+    "texto": "Definición. La oposición política es la función crítica que ejercen los partidos y movimientos políticos que no participan del gobierno de turno. La crítica al gobierno permite plantear y desarrollar alternativas políticas y ejercer control sobre las acciones del ejecutivo."
+  },
+  "157": {
+    "numero": 157,
+    "titulo": "Derecho fundamental a la Oposición",
+    "texto": "Derecho fundamental a la Oposición. Entiéndase por este como el ejercicio autónomo de proponer alternativas políticas, disentir, criticar, fiscalizar y ejercer libremente el control político a la gestión de gobierno.\nEste derecho gozará de especial protección por el Estado y demás autoridades públicas, de conformidad con lo establecido en los artículos 40 y 112 de la Constitución Política de Colombia."
+  },
+  "158": {
+    "numero": 158,
+    "titulo": "Sujetos del Estatuto de la Oposición",
+    "texto": "Sujetos. Las disposiciones normativas contenidas en el presente título serán aplicables a los representantes del nivel territorial de los partidos y movimientos políticos con personería jurídica.\nParágrafo único. Entiéndase por representantes a nivel territorial de los partidos y movimientos políticos con personería jurídica, aquellas personas electas para el periodo constitucional vigente al interior de la Corporación Pública."
+  },
+  "159": {
+    "numero": 159,
+    "titulo": "Declaración Política",
+    "texto": "Declaración Política. Dentro del mes siguiente al inicio del gobierno, so pena de considerarse falta al régimen contenido en la ley 1475 de 2011 y ser sancionadas de oficio por la autoridad electoral, las organizaciones políticas deberán optar por:\n1. Declararse en Oposición.\n2. Declararse Independiente.\n3. Declararse Organización de Gobierno.\nLas organizaciones políticas que inscribieron al candidato electo como Alcalde, se tendrán como de Gobierno o en Coalición de Gobierno. En consecuencia, mientras dure su mandato no podrán acceder a los derechos que se le reconocen a las organizaciones políticas de oposición o independientes, fijadas en la ley.\nParágrafo 1. Las organizaciones políticas podrán por una sola vez y ante la autoridad electoral modificar su declaración política durante el periodo de gobierno.\nParágrafo 2. La declaración política o su modificación se adoptará de conformidad con lo establecido en los estatutos de cada partido o movimiento político con personería jurídica.\nParágrafo 3. Las organizaciones políticas con personería jurídica deberán registrar la declaración política o su modificación, ante la Registraduría Municipal. Adicionalmente deberá remitirse copia a la Mesa Directiva de la Corporación pública."
+  },
+  "160": {
+    "numero": 160,
+    "titulo": "Derechos de la Oposición",
+    "texto": "Derechos de la Oposición. Las organizaciones políticas declaradas en oposición al Gobierno Municipal, tendrán los siguientes derechos:\n1. Acceso a la información y a la documentación oficial.\n2. Derecho de réplica.\n3. Participación en mesas directivas de plenarias de las corporaciones públicas de elección popular.\n4. Participación en la Agenda de las Corporaciones Públicas.\n5. Garantía del libre ejercicio de los derechos políticos.\n6. Derecho a participar en las herramientas de comunicación de las corporaciones públicas de elección popular.\n7. Derecho a la sesión exclusiva sobre el Plan de Desarrollo y presupuesto."
+  },
+  "161": {
+    "numero": 161,
+    "titulo": "Acceso a la Información y Documentación Oficial",
+    "texto": "Acceso a la Información y Documentación Oficial. Las organizaciones políticas que se declaren en oposición tendrán derecho a que se les facilite con celeridad, la información y documentación oficial, dentro de los cinco (5) días siguientes a la presentación de la solicitud.\nLos correspondientes partidos deberán llevar un registro de las solicitudes que realicen en ejercicio de este derecho, en el que indicarán fecha, autoridad pública a la que se dirige, asunto, fecha de respuesta y si esta satisface sus pretensiones. Este registro será reportado a la Autoridad Electoral cada seis (6) meses.\nEl Consejo Nacional Electoral deberá llevar un registro de estas solicitudes, llevará la estadística al respecto y constatará el cumplimiento de los derechos que en esta materia asisten a la oposición.\nLo anterior, sin perjuicio de las acciones que se adelanten a efectos de proteger los derechos de la oposición.\nParágrafo 1. El Concejo no cobrará el valor de las fotocopias de documentos que se encuentran en la Corporación y sean solicitados en ejercicio de los derechos de oposición.\nParágrafo 2. A solicitud de la organización política declarada en oposición, la reproducción de la información se podrá realizar a través de medios electrónicos como disco compacto, memorias USB o correo electrónico, entre otros. No obstante, todas las solicitudes que se atiendan en los mencionados medios electrónicos deben ser suministrados por el/los peticionario(s)."
+  },
+  "162": {
+    "numero": 162,
+    "titulo": "Derecho de Réplica",
+    "texto": "Derecho de Réplica. Las organizaciones políticas que se declaren en oposición, tendrán el derecho de réplica en los medios de comunicación social de acuerdo a la cobertura y correspondencia del nivel territorial, frente a tergiversaciones graves y evidentes o ataques públicos proferidos por el Alcalde, Secretarios de Despacho, Directores o Gerentes de Entidades Descentralizadas y por cualquier otro alto funcionario oficial.\nCuando los ataques mencionados se produzcan en alocuciones o intervenciones oficiales, haciendo uso de los espacios que la ley reserva para este tipo de funcionarios en los medios de comunicación social del Estado o que utilicen el espectro electromagnético, se solicitará la protección del derecho en los términos establecidos en la ley y se concederá en condiciones de equidad para que el representante de la organización de oposición pueda responder en forma oportuna, y con tiempos y medios similares, y que en todo caso garanticen una amplia difusión.\nCuando los ataques mencionados por una intervención o declaración de los funcionarios enunciados, transmitida en los noticieros y programas de opinión que se emitan en los medios de comunicación social del Estado, que utilicen el espectro electromagnético, el medio de comunicación donde se emitió la declaración deberá dar la oportunidad a la organización de oposición afectada de responder y controvertir el ataque. Cuando el medio de comunicación en el cual se haya emitido el ataque haya dado oportunidad de respuesta, no procederá en ningún caso el derecho de réplica.\nSi el medio no concede la oportunidad de responder al afectado y quien así se considere contacta al medio de comunicación, dentro de los tres días siguientes a la emisión de las declaraciones, y éste se niega a permitir su intervención, la organización de oposición afectada podrá acudir a la acción de protección de los derechos de oposición en los términos del artículo 28 de la Ley 1909 de 2018.\nEn todo caso, la réplica se otorgará con base en el principio de buena fe y de forma oportuna, y con tiempo y medio proporcionales, y en un espacio por lo menos similar al que suscitó su ejercicio, y en todo caso que garantice una difusión amplia con respeto por la libertad del noticiero o espacio de opinión para elaborar la respectiva nota informativa o de opinión. Los contenidos completos de la réplica deben estar disponibles en la versión electrónica de los medios de comunicación.\nParágrafo único. Para la aplicación del presente artículo se deberán tener en cuenta las disposiciones contenidas en el artículo 13 de la Ley 1909 de 2018 y la Resolución 3134 de 2018 del Consejo Nacional Electoral, en lo que sea referente a los Concejos Municipales o Distritales."
+  },
+  "163": {
+    "numero": 163,
+    "titulo": "Participación en la Mesa directiva de Plenaria del Concejo",
+    "texto": "Participación en la Mesa directiva de Plenaria del Concejo. Las organizaciones políticas declaradas en oposición y con representación en la Corporación Pública, tendrán participación en la primera vicepresidencia de la mesa directiva de la Plenaria del Concejo. Los candidatos para ocupar la plaza que le corresponda a la oposición solo podrán ser postulados por dichas organizaciones.\nLa organización política que hubiese ocupado este lugar en la mesa directiva no podrá volver a ocuparlo hasta tanto no lo hagan las demás declaradas en oposición, salvo que por unanimidad así lo decidan.\nEsta representación debe alternarse en períodos sucesivos entre hombres y mujeres de conformidad con el estatuto de oposición, siempre que ello fuere posible.\nParágrafo único. No podrá ser elegido en la Mesa Directiva quien haya pertenecido a la misma el año inmediatamente anterior, así fuere parcialmente."
+  },
+  "164": {
+    "numero": 164,
+    "titulo": "Participación en la Agenda del Concejo",
+    "texto": "Participación en la Agenda del Concejo. Los voceros de las bancadas de las organizaciones políticas declaradas en oposición y con representación en el Concejo, según sus prioridades y de común acuerdo entre ellos, tendrán derecho a determinar el orden del día de la sesión plenaria y ponentes, una (1) vez durante cada período de sesiones ordinarias de la Corporación Pública. El orden del día podrá incluir debates de control político. La mesa directiva deberá acogerse y respetar ese orden del día.\nEl orden del día que por derecho propio determinan los voceros de las bancadas de las organizaciones políticas declaradas en oposición, sólo podrá ser modificado por ellos mismos.\nParágrafo 1. Para la aplicación del presente artículo, el vocero de la bancada declarada en oposición, deberá informar a la Mesa Directiva con tres (3) días de antelación el ejercicio del derecho.\nParágrafo 2. Será considerada falta grave la inasistencia, sin causa justificada, por parte del funcionario de la administración municipal citado a debate de control político durante las sesiones en donde el orden del día haya sido determinado por las organizaciones políticas declaradas en oposición."
+  },
+  "165": {
+    "numero": 165,
+    "titulo": "Derecho a Participar en las Herramientas de Comunicación",
+    "texto": "Derecho a Participar en las Herramientas de Comunicación de la Corporación Pública de Elección Popular. Las organizaciones políticas con representación en el concejo, declaradas en oposición tendrán derecho a una participación adecuada y equitativa en los programas de radio, televisión, publicaciones escritas y demás herramientas de comunicación que estén a cargo de la respectiva corporación pública de elección popular.\nParágrafo único. Para la aplicación del presente artículo se deberán tener en cuenta las disposiciones contenidas en el artículo 13 de la ley 1909 de 2018 y la Resolución 3134 de 2018 del Consejo Nacional Electoral, en lo que sea referente a los Concejos Municipales o Distritales."
+  },
+  "166": {
+    "numero": 166,
+    "titulo": "Transparencia y Rendición de Cuentas en el Plan de Desarrollo",
+    "texto": "Transparencia y Rendición de Cuentas en el Plan de Desarrollo y Planes Plurianuales de Inversión. En el marco de la aprobación de los planes plurianuales de inversiones de los Planes de Desarrollo del nivel municipal, el respectivo Gobierno deberá hacer público en los portales web institucionales los programas y proyectos que se pretendan ejecutar. Además, deberán publicarse las modificaciones o adiciones a su articulado presentadas en el trámite de la construcción de dichos planes plurianuales y los Concejales autores de las mismas.\nEl gobierno municipal realizará audiencias públicas para que la ciudadanía pueda conocer los proyectos de inversión en el marco de los planes plurianuales y pueda presentar propuestas de priorización de las respectivas inversiones. Estas audiencias deberán realizarse según el caso, por localidades, comunas o barrios.\nIgualmente, antes de finalizar cada año del período constitucional, el alcalde municipal, presentará al Concejo, un informe de cumplimiento de metas del Plan de Desarrollo y ejecución del presupuesto de inversión.\nLa Administración Municipal deberá poner a disposición de la ciudadanía el informe en la página web y demás canales digitales que para tal efecto disponga cada entidad.\nEl informe será debatido en plenaria del Concejo dentro de los treinta (30) días siguientes de su radicación. Para ello, las organizaciones políticas declaradas en oposición y en independencia tendrán derecho a que se realice una sesión exclusiva en el Concejo para exponer sus posturas y argumentos frente a dicho informe. La presencia del gobierno será obligatoria.\nParágrafo único. En el informe deberá especificarse el cumplimiento de metas sobre el Plan de Desarrollo y el monto total de la inversión que se realizó en el municipio, en los corregimientos, comunas o localidades, la distribución sectorial de la inversión, los programas que se implementaron en cada sector y la entidad competente de su ejecución."
+  },
+  "167": {
+    "numero": 167,
+    "titulo": "Curules en las corporaciones públicas de elección popular",
+    "texto": "Curules en las corporaciones públicas de elección popular de las entidades territoriales. El candidato que siga en votos a quien la autoridad electoral declare elegido Alcalde Distrital o Municipal, tendrá derecho personal a ocupar, en su orden, una curul en el Concejo, durante el periodo constitucional de esta corporación. Con la organización política a que pertenezca, podrá intervenir en las opciones previstas en el artículo 132 del reglamento y hará parte de la misma organización política.\nPosterior a la declaratoria de elección del cargo de Alcalde y previo al del Concejo, el candidato que ocupó el segundo puesto en votación, deberá manifestar por escrito ante la comisión escrutadora competente, su decisión de aceptar o no una curul en el Concejo.\nOtorgadas la credencial de alcalde, la autoridad electoral le expedirá, previa aceptación, la credencial como concejal a quien ocupó el segundo puesto en la votación para el mismo cargo y aplicará la regla general prevista en el artículo 263 de la Constitución para la distribución de las curules restantes de Concejos Distritales y Municipales.\nSi no hay aceptación de la curul se aplicará la regla general prevista en el artículo 263 de la Constitución política para la distribución de todas las curules del Concejo."
+  },
+  "168": {
+    "numero": 168,
+    "titulo": "Pérdida de derechos de la oposición",
+    "texto": "Pérdida de derechos de la oposición. Los derechos reconocidos en la Ley 1909 de 2018 a las organizaciones políticas se mantendrán mientras esté vigente la declaración de oposición. En caso contrario se perderán.\nEn consecuencia, la Autoridad Electoral cancelará el correspondiente registro como organización política de oposición y reasignará los espacios en radio y televisión. A su vez, el Concejo elegirá un nuevo miembro de la mesa directiva."
+  },
+  "169": {
+    "numero": 169,
+    "titulo": "Derechos de los Independientes",
+    "texto": "Derechos de los Independientes. Las organizaciones políticas que cuentan con representación en la corporación pública de elección popular, que no hacen parte del gobierno, ni de la oposición, deberán declararse como independientes. Sin perjuicio de los que le asisten a toda organización política, tendrán los siguientes derechos:\n1. Participar en las herramientas de comunicación de la corporación pública de elección popular.\n2. Postular los candidatos a la mesa directiva del Concejo, en ausencia de organizaciones políticas declaradas en oposición, o de postulaciones realizadas por éstas últimas.\nSi la organización modifica su declaración política, el Concejo elegirá nuevo miembro de la mesa directiva."
   }
 };
 
@@ -4434,6 +4527,288 @@ const EXAMENES = {
         "En cada período de sesiones ordinarias",
         "Cada cuatro años",
         "Solo una vez por periodo constitucional"
+      ],
+      "r": 1
+    }
+  ],
+  "12": [
+    {
+      "p": "Según el Art. 156, ¿qué es la oposición política?",
+      "ops": [
+        "Un partido único de gobierno",
+        "La función crítica que ejercen los partidos y movimientos que no participan del gobierno de turno",
+        "Un órgano judicial",
+        "Una rama del poder ejecutivo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿En qué artículos de la Constitución se fundamenta el derecho a la oposición según el Art. 157?",
+      "ops": [
+        "Arts. 1 y 2",
+        "Arts. 40 y 112",
+        "Arts. 209 y 313",
+        "Arts. 312 y 313"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 158, ¿a quiénes son aplicables las disposiciones del Estatuto de la Oposición?",
+      "ops": [
+        "A cualquier ciudadano",
+        "A los representantes territoriales de partidos y movimientos políticos con personería jurídica",
+        "Solo al Alcalde",
+        "Solo a la Mesa Directiva"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 159, ¿en cuánto tiempo después del inicio de gobierno deben las organizaciones políticas declarar su posición?",
+      "ops": [
+        "Una semana",
+        "Dentro del mes siguiente",
+        "Tres meses",
+        "Un año"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuáles son las tres opciones de declaración política según el Art. 159?",
+      "ops": [
+        "Oposición, neutral y aliado",
+        "Oposición, Independiente y Organización de Gobierno",
+        "Mayoría, minoría y oposición",
+        "Liberal, conservador e independiente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuántas veces puede una organización política modificar su declaración política durante el periodo de gobierno, según el Parágrafo 1 del Art. 159?",
+      "ops": [
+        "Sin límite",
+        "Por una sola vez",
+        "Dos veces",
+        "Nunca puede modificarla"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 160, ¿cuál NO es un derecho de las organizaciones declaradas en oposición?",
+      "ops": [
+        "Acceso a la información oficial",
+        "Derecho de réplica",
+        "Nombrar directamente al Alcalde",
+        "Participación en mesas directivas"
+      ],
+      "r": 2
+    },
+    {
+      "p": "Según el Art. 161, ¿en cuántos días debe facilitarse la información solicitada por la oposición?",
+      "ops": [
+        "3 días",
+        "5 días siguientes",
+        "8 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cada cuánto debe reportarse a la Autoridad Electoral el registro de solicitudes de información según el Art. 161?",
+      "ops": [
+        "Cada mes",
+        "Cada seis (6) meses",
+        "Cada año",
+        "Cada dos años"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 1 del Art. 161, ¿cobra el Concejo el valor de fotocopias solicitadas por la oposición?",
+      "ops": [
+        "Sí, siempre",
+        "No, el Concejo no cobrará el valor de las fotocopias",
+        "Solo si exceden 100 páginas",
+        "Depende del presupuesto"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 162, ¿frente a qué procede el derecho de réplica de la oposición?",
+      "ops": [
+        "Cualquier comentario",
+        "Tergiversaciones graves y evidentes o ataques públicos de altos funcionarios oficiales",
+        "Solo críticas del Concejo",
+        "Solo declaraciones del Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Dentro de cuántos días puede el afectado contactar al medio si no se le concede oportunidad de respuesta, según el Art. 162?",
+      "ops": [
+        "Un día",
+        "Tres días siguientes",
+        "Cinco días",
+        "Diez días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 163, ¿en qué cargo de la mesa directiva tiene participación la oposición?",
+      "ops": [
+        "Presidencia",
+        "Primera vicepresidencia",
+        "Segunda vicepresidencia",
+        "Secretaría General"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Puede la misma organización política ocupar nuevamente el cargo de oposición en la mesa directiva al año siguiente, según el Art. 163?",
+      "ops": [
+        "Sí, sin restricción",
+        "No, hasta que las demás declaradas en oposición lo hayan ocupado, salvo unanimidad",
+        "Solo si gana las elecciones de nuevo",
+        "Solo si lo decide el Alcalde"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cómo debe alternarse la representación de oposición en la mesa directiva según el Art. 163?",
+      "ops": [
+        "Siempre debe ser hombre",
+        "Entre hombres y mujeres en periodos sucesivos, cuando sea posible",
+        "Por sorteo cada mes",
+        "No hay reglas de alternancia"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 164, ¿cuántas veces por periodo de sesiones ordinarias pueden los voceros de oposición determinar el orden del día?",
+      "ops": [
+        "Dos veces",
+        "Una (1) vez",
+        "Tres veces",
+        "En cada sesión"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Con cuántos días de antelación debe informarse a la Mesa Directiva el ejercicio de este derecho según el Parágrafo 1 del Art. 164?",
+      "ops": [
+        "1 día",
+        "3 días",
+        "5 días",
+        "8 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo 2 del Art. 164, ¿qué se considera la inasistencia injustificada de un funcionario citado en sesión de oposición?",
+      "ops": [
+        "Una excusa válida",
+        "Falta grave",
+        "Un simple retraso",
+        "No tiene consecuencias"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 165, ¿a qué tiene derecho la oposición en materia de comunicaciones?",
+      "ops": [
+        "Exclusividad total de los medios",
+        "Participación adecuada y equitativa en programas de radio, televisión y publicaciones",
+        "Censura de los medios oficiales",
+        "Ningún derecho en medios"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 166, ¿dentro de cuántos días debe debatirse en plenaria el informe de cumplimiento de metas del Plan de Desarrollo?",
+      "ops": [
+        "15 días",
+        "30 días siguientes a su radicación",
+        "45 días",
+        "60 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Es obligatoria la presencia del gobierno en la sesión exclusiva sobre el informe del Plan de Desarrollo según el Art. 166?",
+      "ops": [
+        "No, es opcional",
+        "Sí, la presencia del gobierno será obligatoria",
+        "Solo si lo solicita la oposición",
+        "Solo en años electorales"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 167, ¿quién tiene derecho a ocupar una curul en el Concejo tras la elección de Alcalde?",
+      "ops": [
+        "El ganador de las elecciones de Concejo",
+        "El candidato que siga en votos al elegido Alcalde",
+        "El Personero saliente",
+        "El Secretario de Gobierno"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Ante quién debe manifestar el candidato su decisión de aceptar o no la curul, según el Art. 167?",
+      "ops": [
+        "Ante el Alcalde electo",
+        "Ante la comisión escrutadora competente",
+        "Ante el Concejo en pleno",
+        "Ante el Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 168, ¿qué ocurre con los derechos de oposición si se pierde la declaración de oposición?",
+      "ops": [
+        "Se mantienen indefinidamente",
+        "Se pierden, y la Autoridad Electoral cancela el registro como organización de oposición",
+        "Se transfieren a otro partido",
+        "No hay ninguna consecuencia"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué debe hacer el Concejo si una organización en oposición pierde su declaración según el Art. 168?",
+      "ops": [
+        "Nada cambia",
+        "Elegir un nuevo miembro de la mesa directiva",
+        "Disolver la mesa directiva completa",
+        "Convocar elecciones extraordinarias"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 169, ¿quiénes deben declararse como independientes?",
+      "ops": [
+        "Solo el partido de gobierno",
+        "Las organizaciones que no son ni de gobierno ni de oposición",
+        "Solo organizaciones sin personería jurídica",
+        "Ninguna organización puede ser independiente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál es un derecho de los Independientes según el Art. 169?",
+      "ops": [
+        "Vetar las decisiones del Concejo",
+        "Participar en las herramientas de comunicación de la Corporación",
+        "Nombrar al Alcalde",
+        "Suspender sesiones"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 169, ¿cuándo pueden los Independientes postular candidatos a la mesa directiva del Concejo?",
+      "ops": [
+        "Siempre, sin restricción",
+        "En ausencia de organizaciones declaradas en oposición o de sus postulaciones",
+        "Nunca pueden postular candidatos",
+        "Solo si lo aprueba el Alcalde"
       ],
       "r": 1
     }
