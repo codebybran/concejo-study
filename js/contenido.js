@@ -1,6 +1,6 @@
 // contenido.js - Reglamento Interno Concejo Municipal El Cerrito
 // Acuerdo No. 024 de 2025
-// CONSTRUCCIÓN POR MÓDULOS: Preámbulo + Títulos I-XII cargados. Título XIII pendiente.
+// CONSTRUCCIÓN COMPLETA: Preámbulo + Títulos I-XIII — REGLAMENTO COMPLETO (177 artículos)
 // TOC con enlaces directos a módulos (campo 'modulo' en cada entrada del índice)
 
 const CAPITULOS = [
@@ -289,6 +289,23 @@ const CAPITULOS = [
       168,
       169
     ]
+  },
+  {
+    "id": 13,
+    "titulo": "TÍTULO XIII",
+    "nombre": "Otras Disposiciones",
+    "subtitulo": "Sanciones, Reemplazos, Honorarios, Vigencia, Revisión y Divulgación",
+    "icono": "📌",
+    "articulos": [
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177
+    ]
   }
 ];
 
@@ -511,12 +528,12 @@ const ARTICULOS = {
       {
         "titulo": "OTRAS DISPOSICIONES",
         "pagina": "132",
-        "modulo": null
+        "modulo": 13
       },
       {
         "titulo": "VIGENCIA Y REVISIÓN",
         "pagina": "134",
-        "modulo": null
+        "modulo": 13
       }
     ],
     "considerandos": [
@@ -1425,6 +1442,91 @@ const ARTICULOS = {
     "numero": 169,
     "titulo": "Derechos de los Independientes",
     "texto": "Derechos de los Independientes. Las organizaciones políticas que cuentan con representación en la corporación pública de elección popular, que no hacen parte del gobierno, ni de la oposición, deberán declararse como independientes. Sin perjuicio de los que le asisten a toda organización política, tendrán los siguientes derechos:\n1. Participar en las herramientas de comunicación de la corporación pública de elección popular.\n2. Postular los candidatos a la mesa directiva del Concejo, en ausencia de organizaciones políticas declaradas en oposición, o de postulaciones realizadas por éstas últimas.\nSi la organización modifica su declaración política, el Concejo elegirá nuevo miembro de la mesa directiva."
+  },
+  "170": {
+    "numero": 170,
+    "titulo": "Ejecución de las sanciones por violación al Régimen de Bancadas",
+    "texto": "Ejecución de las sanciones por violación al Régimen de Bancadas. Las sanciones en firme impuestas a los Concejales miembros de ésta Corporación por los partidos que avalan la bancada correspondiente, se ejecutarán mediante resolución de la Mesa Directiva que se notificará personalmente al disciplinado."
+  },
+  "171": {
+    "numero": 171,
+    "titulo": "Correo electrónico institucional",
+    "texto": "Todos los Concejales y funcionarios del Concejo procurarán obtener un correo electrónico, para efectos de satisfacer el principio de eficiencia en las actuaciones administrativas. Al efecto, deberán ejercer sus funciones teniendo en cuenta la legislación de comercio electrónico contenida en la ley 527 de 1999."
+  },
+  "172": {
+    "numero": 172,
+    "titulo": "Reemplazos de miembros de Corporaciones Públicas (Acto Legislativo 02 de 2015)",
+    "texto": "Conforme al Artículo 4°. Del Acto Legislativo 02 de 2015, se compila e integra al presente reglamento en los siguientes términos:\nLos miembros de las Corporaciones Públicas de elección popular no tendrán suplentes. Solo podrán ser reemplazados en los casos de faltas absolutas o temporales que determine la ley, por los candidatos no elegidos que, según el orden de inscripción o votación obtenida, le sigan en forma sucesiva y descendente en la misma lista electoral.\nEn ningún caso podrán ser reemplazados quienes sean condenados por delitos comunes relacionados con pertenencia, promoción o financiación a grupos armados ilegales o actividades de narcotráfico; dolosos contra la administración pública; contra los mecanismos de participación democrática, ni por Delitos de Lesa Humanidad. Tampoco quienes renuncien habiendo sido vinculados formalmente en Colombia a procesos penales por la comisión de tales delitos, ni las faltas temporales de aquellos contra quienes se profiera orden de captura dentro de los respectivos procesos.\nPara efectos de conformación de quórum se tendrá como número de miembros la totalidad de los integrantes de la Corporación con excepción de aquellas curules que no puedan ser reemplazadas. La misma regla se aplicará en los eventos de impedimentos o recusaciones aceptadas.\nSi por faltas absolutas que no den lugar a reemplazo los miembros de cuerpos colegiados elegidos en una misma circunscripción electoral quedan reducidos a la mitad o menos, el Consejo Nacional Electoral convocará a elecciones para llenar las vacantes, siempre y cuando falten más de veinticuatro (24) meses para la terminación del periodo.\nParágrafo Transitorio. Mientras el legislador regula el régimen de reemplazos, se aplicarán las siguientes reglas: i) Constituyen faltas absolutas que dan lugar a reemplazo la muerte; la incapacidad física absoluta para el ejercicio del cargo; la declaración de nulidad de la elección; la renuncia justificada y aceptada por la respectiva corporación; la sanción disciplinaria consistente en destitución, y la pérdida de investidura; ii) Constituyen faltas temporales que dan lugar a reemplazo, la licencia de maternidad y la medida de aseguramiento privativa de la libertad por delitos distintos a los mencionados en el presente artículo.\nLa prohibición de reemplazos se aplicará para las investigaciones judiciales que se iniciaron a partir de la vigencia del Acto Legislativo número 01 de 2009, con excepción del relacionado con la comisión de delitos contra la administración pública que se aplicará para las investigaciones que se inicien a partir de la vigencia del acto legislativo 02 de 2015."
+  },
+  "173": {
+    "numero": 173,
+    "titulo": "Pago de Honorarios",
+    "texto": "Pago de Honorarios. De acuerdo con artículo 65 de la ley 136 de 1994 el reconocimiento de honorarios se realizará a los miembros de los Concejos de las entidades territoriales por la asistencia comprobada a las sesiones plenarias.\nParágrafo. Al reconocimiento y pago de honorarios por su asistencia comprobada a las sesiones plenarias de la corporación, conforme a la reglamentación legal."
+  },
+  "174": {
+    "numero": 174,
+    "titulo": "Vigencia",
+    "texto": "Vigencia. El presente acuerdo rige a partir de la fecha de su promulgación."
+  },
+  "175": {
+    "numero": 175,
+    "titulo": "Revisión jurídica",
+    "texto": "Revisión jurídica. Para dar cumplimiento al precepto contenido en el artículo 305, numeral 10, de la Constitución Política, copia del acuerdo que contiene el presente reglamento será enviado por el alcalde al señor Gobernador del Departamento, dentro de los cinco (5) días siguientes al acto de sanción por parte del respectivo alcalde."
+  },
+  "176": {
+    "numero": 176,
+    "titulo": "Divulgación",
+    "texto": "Divulgación. La Mesa Directiva del Concejo hará la publicación de éste Reglamento en página web y gaceta cuando la hubiere, e informará a los Concejales, los ex Concejales, los empleados del Concejo, las autoridades municipales, las autoridades eclesiásticas y militares, las juntas administradoras locales, las juntas de acción comunal, las organizaciones cívicas, los directores de escuelas y colegios, las bibliotecas y casas de la cultura, y los funcionarios y empleados judiciales con sede en el municipio, respecto de su vigencia."
+  },
+  "177": {
+    "numero": 177,
+    "titulo": "Vigencia desde su publicación",
+    "texto": "El presente acuerdo rige a partir de su publicación.\n\nPUBLÍQUESE Y CÚMPLASE\n\nSe expide en el Honorable Concejo Municipal de El Cerrito – Valle del Cauca a los veinticinco (25) días del mes de Noviembre de 2025.",
+    "cierre": {
+      "mesa_directiva": [
+        {
+          "cargo": "Presidente",
+          "nombre": "Diego Fernando Hoyos Rivera"
+        },
+        {
+          "cargo": "Primer Vicepresidente",
+          "nombre": "Juan Sebastián Pedroza Tovar"
+        },
+        {
+          "cargo": "Segundo Vicepresidente",
+          "nombre": "Nicolás Belalcázar Manzano"
+        },
+        {
+          "cargo": "Secretaria General",
+          "nombre": "Beatriz Eugenia Molina Polanco"
+        }
+      ],
+      "periodo": "Concejo Municipal El Cerrito – Valle del Cauca, Periodo 2024 – 2027",
+      "concejales": [
+        "Heidy Yoled Azcárate Nieves",
+        "Nicolás Belalcázar Manzano",
+        "Hoover Henry Cadena Barona",
+        "Victorino Caicedo Hinestroza",
+        "Pedro Luis Calle Pareja",
+        "Edison García Pernía",
+        "Diego Fernando Hoyos Rivera",
+        "Carlos Andrés Marín Sánchez",
+        "Oscar Eduardo Martínez García",
+        "Cesar Tulio Martínez Prado",
+        "Albert Montaño Pérez",
+        "Manuel Santiago Murcillo Peláez",
+        "Juan Sebastián Pedroza Tovar",
+        "Nery Riascos Alomia",
+        "Héctor Fabio Rivadeneira Galeano"
+      ],
+      "tramite": {
+        "titulo_acuerdo": "POR MEDIO DEL CUAL SE ABROGA EL ACUERDO NÚMERO 004 DE MAYO 29 DE 2018 Y SE DETERMINA EL NUEVO REGLAMENTO INTERNO DEL CONCEJO MUNICIPAL DE EL CERRITO VALLE DEL CAUCA",
+        "iniciativa": "Diego Fernando Hoyos Rivera, Presidente del Honorable Concejo Municipal",
+        "primer_debate": "Comisión Tercera Permanente de Educación, Servicios Públicos y Asuntos Administrativos, 21 de noviembre de 2025",
+        "segundo_debate": "Sesión ordinaria del 25 de noviembre de 2025",
+        "remision": "25 de noviembre de 2025, remitido para su sanción por Beatriz Eugenia Molina Polanco, Secretaria General"
+      }
+    }
   }
 };
 
@@ -4809,6 +4911,248 @@ const EXAMENES = {
         "En ausencia de organizaciones declaradas en oposición o de sus postulaciones",
         "Nunca pueden postular candidatos",
         "Solo si lo aprueba el Alcalde"
+      ],
+      "r": 1
+    }
+  ],
+  "13": [
+    {
+      "p": "Según el Art. 170, ¿cómo se ejecutan las sanciones en firme por violación al Régimen de Bancadas?",
+      "ops": [
+        "Mediante decreto del Alcalde",
+        "Mediante resolución de la Mesa Directiva notificada personalmente al disciplinado",
+        "Mediante acuerdo municipal",
+        "Mediante sentencia judicial directa"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 171, ¿qué deben procurar obtener los Concejales y funcionarios del Concejo?",
+      "ops": [
+        "Un teléfono institucional",
+        "Un correo electrónico, para satisfacer el principio de eficiencia",
+        "Una tarjeta profesional",
+        "Un vehículo oficial"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Qué ley regula el comercio electrónico mencionada en el Art. 171?",
+      "ops": [
+        "Ley 136 de 1994",
+        "Ley 527 de 1999",
+        "Ley 1551 de 2012",
+        "Ley 617 de 2000"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 172, ¿tienen suplentes los miembros de las Corporaciones Públicas de elección popular?",
+      "ops": [
+        "Sí, siempre",
+        "No, no tendrán suplentes",
+        "Solo en municipios grandes",
+        "Solo el Presidente del Concejo"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quiénes reemplazan a un Concejal en caso de falta absoluta o temporal según el Art. 172?",
+      "ops": [
+        "El Alcalde designa a alguien",
+        "Los candidatos no elegidos que sigan en orden sucesivo y descendente en la misma lista electoral",
+        "Se elige a dedo por el Concejo",
+        "Queda la curul vacía permanentemente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 172, ¿pueden ser reemplazados quienes sean condenados por delitos relacionados con grupos armados ilegales o narcotráfico?",
+      "ops": [
+        "Sí, sin restricción",
+        "No, en ningún caso podrán ser reemplazados",
+        "Solo si pagan una fianza",
+        "Solo si lo aprueba el Tribunal"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 172, ¿qué se tiene en cuenta para la conformación de quórum cuando hay curules no reemplazables?",
+      "ops": [
+        "Se ignora la curul vacía sin ajuste",
+        "Se tiene como número de miembros la totalidad de integrantes, excepto las curules no reemplazables",
+        "Se aumenta el quórum artificialmente",
+        "No afecta el cálculo del quórum"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Si los miembros de un cuerpo colegiado quedan reducidos a la mitad o menos por faltas absolutas no reemplazables, ¿qué ocurre según el Art. 172?",
+      "ops": [
+        "Se disuelve la corporación",
+        "El Consejo Nacional Electoral convoca a elecciones si faltan más de 24 meses para terminar el periodo",
+        "No pasa nada",
+        "Asume el Gobernador directamente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Parágrafo Transitorio del Art. 172, ¿cuál de estas es una falta absoluta que da lugar a reemplazo?",
+      "ops": [
+        "Vacaciones del Concejal",
+        "La muerte",
+        "Una reunión perdida",
+        "Un viaje oficial"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Cuál de estas es una falta temporal que da lugar a reemplazo según el Parágrafo Transitorio del Art. 172?",
+      "ops": [
+        "Una cita médica",
+        "La licencia de maternidad",
+        "Un permiso de un día",
+        "Vacaciones programadas"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 173, ¿con base en qué artículo de la Ley 136 de 1994 se reconocen honorarios a los Concejales?",
+      "ops": [
+        "Artículo 23",
+        "Artículo 65",
+        "Artículo 83",
+        "Artículo 172"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿A partir de cuándo rige el presente Acuerdo según el Art. 174?",
+      "ops": [
+        "Desde su aprobación en primer debate",
+        "A partir de la fecha de su promulgación",
+        "Un mes después de firmado",
+        "Al inicio del siguiente año fiscal"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 175, ¿a quién debe enviarse copia del Acuerdo para revisión jurídica?",
+      "ops": [
+        "A la Procuraduría",
+        "Al Gobernador del Departamento",
+        "Al Presidente de la República",
+        "Al Consejo de Estado"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Dentro de cuántos días debe enviarse esa copia al Gobernador según el Art. 175?",
+      "ops": [
+        "3 días",
+        "5 días siguientes a la sanción",
+        "8 días",
+        "10 días"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿En qué artículo constitucional se fundamenta la revisión jurídica del Art. 175?",
+      "ops": [
+        "Artículo 313 numeral 6",
+        "Artículo 305 numeral 10",
+        "Artículo 209",
+        "Artículo 263"
+      ],
+      "r": 1
+    },
+    {
+      "p": "Según el Art. 176, ¿quién es responsable de divulgar el Reglamento Interno?",
+      "ops": [
+        "El Alcalde",
+        "La Mesa Directiva del Concejo",
+        "La Procuraduría",
+        "El Gobernador"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿A través de qué medios se divulga el Reglamento según el Art. 176?",
+      "ops": [
+        "Solo de forma verbal",
+        "Página web y gaceta cuando la hubiere",
+        "Solo por decreto municipal",
+        "No se divulga formalmente"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿A quiénes informa la Mesa Directiva sobre la vigencia del Reglamento según el Art. 176?",
+      "ops": [
+        "Solo a los Concejales actuales",
+        "A Concejales, ex Concejales, empleados, autoridades municipales, eclesiásticas, militares, juntas y la comunidad educativa, entre otros",
+        "Solo al Gobernador",
+        "A nadie en particular"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿En qué fecha se expidió el Acuerdo 024 de 2025 según el Art. 177?",
+      "ops": [
+        "1 de enero de 2025",
+        "25 de noviembre de 2025",
+        "31 de diciembre de 2025",
+        "29 de mayo de 2018"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién fue el Presidente del Concejo que tuvo la iniciativa de este Reglamento, según los datos finales del documento?",
+      "ops": [
+        "Juan Sebastián Pedroza Tovar",
+        "Diego Fernando Hoyos Rivera",
+        "Nicolás Belalcázar Manzano",
+        "Beatriz Eugenia Molina Polanco"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Quién es la Secretaria General que remitió el Acuerdo para su sanción?",
+      "ops": [
+        "Heidy Yoled Azcárate Nieves",
+        "Beatriz Eugenia Molina Polanco",
+        "Nery Riascos Alomia",
+        "Cesar Tulio Martínez Prado"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿En qué comisión se dio el primer debate del Acuerdo 024 de 2025?",
+      "ops": [
+        "Comisión Primera de Hacienda",
+        "Comisión Tercera Permanente de Educación, Servicios Públicos y Asuntos Administrativos",
+        "Comisión de Ética",
+        "Comisión Legal para la Equidad de la Mujer"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿En qué fecha se realizó el segundo debate del Acuerdo según el trámite legislativo final?",
+      "ops": [
+        "21 de noviembre de 2025",
+        "25 de noviembre de 2025",
+        "29 de mayo de 2018",
+        "1 de enero de 2025"
+      ],
+      "r": 1
+    },
+    {
+      "p": "¿Para qué periodo constitucional aplica este Concejo Municipal según los datos finales del documento?",
+      "ops": [
+        "2020-2023",
+        "2024-2027",
+        "2028-2031",
+        "2022-2025"
       ],
       "r": 1
     }

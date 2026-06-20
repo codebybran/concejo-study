@@ -67,6 +67,18 @@
     .consider-letra{color:var(--gold);font-weight:700;font-size:13px;min-width:24px;flex-shrink:0;}
     .consider-texto{color:var(--text2);font-size:13.5px;line-height:1.7;}
     .acuerda-box{background:var(--paragrafo-bg);border:1px solid var(--gold);border-radius:8px;padding:14px 16px;text-align:center;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif;font-size:16px;letter-spacing:1px;margin-top:8px;margin-bottom:18px;}
+    .cierre-box{background:var(--surface2);border:1px solid var(--gold);border-radius:10px;padding:20px;margin-top:18px;}
+    .cierre-titulo{font-family:'Playfair Display',serif;font-weight:700;color:var(--gold);font-size:15px;text-align:center;margin-bottom:16px;letter-spacing:1px;}
+    .cierre-mesa{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px;}
+    .cierre-firma{text-align:center;padding:10px;border-bottom:1px solid var(--border);}
+    .cierre-firma-nombre{font-weight:700;color:var(--text);font-size:13px;}
+    .cierre-firma-cargo{font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:0.5px;margin-top:3px;}
+    .cierre-periodo{text-align:center;font-size:12px;color:var(--text2);margin-bottom:16px;font-style:italic;}
+    .cierre-concejales-label{font-size:11px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;}
+    .cierre-concejales-list{font-size:12.5px;color:var(--text2);line-height:1.9;columns:2;column-gap:20px;margin-bottom:16px;}
+    .cierre-tramite{background:var(--paragrafo-bg);border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:14px 16px;margin-top:14px;}
+    .cierre-tramite-item{font-size:12px;color:var(--text2);margin-bottom:8px;line-height:1.6;}
+    .cierre-tramite-item b{color:var(--text);}
     .articulo-inicial-box{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:16px;margin-top:8px;}
     .articulo-inicial-num{display:inline-flex;align-items:center;background:var(--gold);color:#000;font-size:12px;font-weight:700;letter-spacing:0.5px;padding:4px 12px;border-radius:100px;margin-bottom:10px;}
     .articulo-inicial-texto{color:var(--text);font-size:14px;line-height:1.75;}
@@ -250,6 +262,25 @@
     return html;
   }
 
+  function formatCierre(cierre){
+    let html = '<div class="cierre-box"><div class="cierre-titulo">📋 Trámite Legislativo y Firmas</div>';
+    html += '<div class="cierre-mesa">';
+    cierre.mesa_directiva.forEach(m=>{
+      html += `<div class="cierre-firma"><div class="cierre-firma-nombre">${m.nombre}</div><div class="cierre-firma-cargo">${m.cargo}</div></div>`;
+    });
+    html += '</div>';
+    html += `<div class="cierre-periodo">${cierre.periodo}</div>`;
+    html += '<div class="cierre-concejales-label">Honorables Concejales</div>';
+    html += `<div class="cierre-concejales-list">${cierre.concejales.map(c=>`<div>• ${c}</div>`).join('')}</div>`;
+    html += '<div class="cierre-tramite">';
+    html += `<div class="cierre-tramite-item"><b>Iniciativa:</b> ${cierre.tramite.iniciativa}</div>`;
+    html += `<div class="cierre-tramite-item"><b>Primer Debate:</b> ${cierre.tramite.primer_debate}</div>`;
+    html += `<div class="cierre-tramite-item"><b>Segundo Debate:</b> ${cierre.tramite.segundo_debate}</div>`;
+    html += `<div class="cierre-tramite-item"><b>Remisión:</b> ${cierre.tramite.remision}</div>`;
+    html += '</div></div>';
+    return html;
+  }
+
   function formatTexto(raw){
     const lines=raw.split('\n');
     let html='',i=0;
@@ -330,7 +361,7 @@
     document.getElementById('art-pos-label').textContent=`(${idx+1} de ${artNums.length} en este módulo)`;
     document.getElementById('art-badge').textContent=esP?'Preámbulo y Considerandos':'Artículo '+artNum;
     document.getElementById('art-titulo').textContent=esP?'Índice General y Considerandos':getTitle(art);
-    document.getElementById('art-body').innerHTML=esP?formatPreambulo(art):formatTexto(art.texto);
+    document.getElementById('art-body').innerHTML=esP?formatPreambulo(art):formatTexto(art.texto)+(art.cierre?formatCierre(art.cierre):'');
 
     document.getElementById('btn-prev').disabled=idx===0;
     const isLast=idx===artNums.length-1;
