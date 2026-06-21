@@ -99,8 +99,8 @@
 <body>
 
 <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">
-  <span id="theme-icon">☀️</span>
-  <span id="theme-label">Modo claro</span>
+  <span id="theme-icon">🌙</span>
+  <span id="theme-label">Modo oscuro</span>
 </button>
 
 <div class="hero">
@@ -189,18 +189,24 @@
 <script src="js/contenido.js"></script>
 <script src="js/app.js"></script>
 <script>
+  function applyThemeUI(theme){
+    // Muestra el ESTADO ACTUAL del tema (más intuitivo que mostrar la acción)
+    const icon = theme==='dark' ? '🌙' : '☀️';
+    const label = theme==='dark' ? 'Modo oscuro' : 'Modo claro';
+    document.getElementById('theme-icon').textContent = icon;
+    document.getElementById('theme-label').textContent = label;
+  }
   function toggleTheme(){
     const html=document.documentElement;
-    const newTheme=html.getAttribute('data-theme')==='dark'?'light':'dark';
+    const current=html.getAttribute('data-theme');
+    const newTheme=current==='dark'?'light':'dark';
     html.setAttribute('data-theme',newTheme);
     localStorage.setItem('cs_theme',newTheme);
-    document.getElementById('theme-icon').textContent=newTheme==='dark'?'☀️':'🌙';
-    document.getElementById('theme-label').textContent=newTheme==='dark'?'Modo claro':'Modo oscuro';
+    applyThemeUI(newTheme);
   }
   const savedTheme=localStorage.getItem('cs_theme')||'dark';
   document.documentElement.setAttribute('data-theme',savedTheme);
-  document.getElementById('theme-icon').textContent=savedTheme==='dark'?'☀️':'🌙';
-  document.getElementById('theme-label').textContent=savedTheme==='dark'?'Modo claro':'Modo oscuro';
+  applyThemeUI(savedTheme);
 
   function getProgress(){try{return JSON.parse(localStorage.getItem('cs_progress')||'{}');}catch(e){return {};}}
 
