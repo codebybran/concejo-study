@@ -7,25 +7,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <style>
-    .hero{position:relative;background:var(--hero-bg);padding:70px 24px 60px;text-align:center;overflow:hidden;}
+    .hero{position:relative;background:var(--hero-bg);padding:60px 24px 40px;text-align:center;overflow:hidden;}
     .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%, var(--hero-glow) 0%, transparent 65%);pointer-events:none;}
     .hero-badge{display:inline-block;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);color:#fff;font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;padding:6px 18px;border-radius:100px;margin-bottom:24px;}
     .hero h1{font-family:'Playfair Display',serif;font-size:clamp(28px,6vw,52px);font-weight:900;line-height:1.15;color:#fff;margin-bottom:12px;}
     .hero h1 span{color:var(--gold-light);}
-    .hero p{color:rgba(255,255,255,0.75);font-size:15px;max-width:520px;margin:0 auto 40px;line-height:1.6;}
-    .stats-bar{display:flex;justify-content:center;gap:48px;flex-wrap:wrap;}
+    .hero p{color:rgba(255,255,255,0.75);font-size:15px;max-width:520px;margin:0 auto 32px;line-height:1.6;}
+    .stats-bar{display:flex;justify-content:center;gap:48px;flex-wrap:wrap;margin-bottom:8px;}
     .stat{text-align:center;}
     .stat-num{font-family:'Playfair Display',serif;font-size:34px;font-weight:700;color:#fff;}
     .stat-label{font-size:11px;color:rgba(255,255,255,0.6);text-transform:uppercase;letter-spacing:1.5px;margin-top:2px;}
+
+    /* Streak + welcome bar */
+    .streak-bar{position:relative;background:var(--bg2);padding:14px 24px;display:flex;justify-content:center;align-items:center;gap:24px;flex-wrap:wrap;border-bottom:1px solid var(--border);}
+    .streak-pill{display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--border);padding:7px 16px;border-radius:100px;font-size:13px;color:var(--text);font-weight:600;}
+    .streak-pill .flame{font-size:16px;}
+    .streak-pill.active{border-color:var(--gold);background:var(--paragrafo-bg);}
+    .howto-btn{background:none;border:1px solid var(--gold);color:var(--gold);padding:7px 16px;border-radius:100px;font-size:13px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:6px;transition:all 0.2s;font-family:'DM Sans',sans-serif;}
+    .howto-btn:hover{background:var(--paragrafo-bg);}
+
     .progress-section{background:var(--bg2);padding:18px 24px;border-bottom:1px solid var(--border);}
     .progress-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;gap:16px;}
     .progress-label{font-size:13px;color:var(--text2);white-space:nowrap;}
     .progress-bar-wrap{flex:1;height:8px;background:var(--surface2);border-radius:4px;overflow:hidden;}
     .progress-bar-fill{height:100%;background:linear-gradient(90deg,var(--gold),var(--gold-light));border-radius:4px;transition:width 0.5s ease;}
     .progress-pct{font-size:13px;color:var(--gold);font-weight:700;white-space:nowrap;}
+
     main{max-width:960px;margin:0 auto;padding:36px 20px 60px;}
+
+    /* Dato curioso */
+    .fact-card{background:var(--consider-bg);border-left:3px solid var(--consider-color);border-radius:0 12px 12px 0;padding:18px 20px;margin-bottom:32px;display:flex;gap:14px;align-items:flex-start;}
+    .fact-icon{font-size:24px;flex-shrink:0;}
+    .fact-label{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--consider-color);font-weight:700;margin-bottom:5px;}
+    .fact-text{font-size:13.5px;color:var(--text2);line-height:1.6;}
+
     .section-label{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--text3);margin-bottom:20px;display:flex;align-items:center;gap:10px;font-weight:600;}
     .section-label::after{content:'';flex:1;height:1px;background:var(--border);}
+
+    /* Logros */
+    .badges-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:36px;}
+    .badge{display:flex;flex-direction:column;align-items:center;gap:4px;width:74px;opacity:0.3;transition:all 0.25s;}
+    .badge.earned{opacity:1;}
+    .badge-icon{width:52px;height:52px;border-radius:50%;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:22px;border:2px solid var(--border);transition:all 0.25s;}
+    .badge.earned .badge-icon{background:linear-gradient(135deg,var(--gold),var(--gold-light));border-color:var(--gold);box-shadow:0 4px 14px rgba(201,168,76,0.35);}
+    .badge-label{font-size:9.5px;text-align:center;color:var(--text3);line-height:1.3;font-weight:600;}
+    .badge.earned .badge-label{color:var(--text);}
+
     .chapters-grid{display:grid;grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));gap:16px;}
     .chapter-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:24px 20px;cursor:pointer;transition:all 0.25s ease;position:relative;overflow:hidden;text-decoration:none;display:block;box-shadow:0 2px 8px var(--shadow);}
     .chapter-card:hover{background:var(--surface-hover);border-color:var(--gold);transform:translateY(-3px);box-shadow:0 12px 32px var(--shadow);}
@@ -40,8 +67,33 @@
     .chapter-arts span{color:var(--gold);font-weight:700;}
     .chapter-progress-mini{height:4px;width:80px;background:var(--surface2);border-radius:2px;overflow:hidden;}
     .chapter-progress-mini-fill{height:100%;background:var(--gold);border-radius:2px;}
+
+    /* Acceso a flashcards */
+    .tools-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:36px;}
+    .tool-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 20px;display:flex;align-items:center;gap:14px;text-decoration:none;transition:all 0.2s;cursor:pointer;}
+    .tool-card:hover{border-color:var(--gold);background:var(--surface-hover);transform:translateY(-2px);}
+    .tool-icon{width:44px;height:44px;border-radius:12px;background:var(--paragrafo-bg);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;border:1px solid var(--gold);}
+    .tool-text h3{font-family:'Playfair Display',serif;font-size:14.5px;color:var(--text);font-weight:700;margin-bottom:2px;}
+    .tool-text p{font-size:11.5px;color:var(--text2);line-height:1.4;}
+
     footer{text-align:center;padding:28px;font-size:12px;color:var(--text3);border-top:1px solid var(--border);margin-top:20px;}
     footer strong{color:var(--gold);}
+
+    /* Modal de bienvenida */
+    .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.6);display:none;align-items:center;justify-content:center;z-index:2000;padding:20px;backdrop-filter:blur(2px);}
+    .modal-overlay.visible{display:flex;}
+    .modal-box{background:var(--surface);border:1px solid var(--gold);border-radius:20px;max-width:480px;width:100%;padding:32px;box-shadow:0 20px 60px rgba(0,0,0,0.4);max-height:90vh;overflow-y:auto;}
+    .modal-icon{font-size:40px;text-align:center;margin-bottom:14px;}
+    .modal-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;color:var(--text);text-align:center;margin-bottom:8px;}
+    .modal-sub{font-size:13px;color:var(--text2);text-align:center;margin-bottom:24px;line-height:1.5;}
+    .modal-step{display:flex;gap:14px;margin-bottom:18px;align-items:flex-start;}
+    .modal-step-num{width:28px;height:28px;border-radius:50%;background:var(--gold);color:#000;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+    .modal-step-text h4{font-size:13.5px;color:var(--text);font-weight:700;margin-bottom:3px;}
+    .modal-step-text p{font-size:12.5px;color:var(--text2);line-height:1.5;}
+    .modal-btn{width:100%;margin-top:8px;padding:14px;background:var(--gold);color:#000;border:none;border-radius:10px;font-family:'DM Sans',sans-serif;font-size:15px;font-weight:600;cursor:pointer;transition:all 0.2s;}
+    .modal-btn:hover{background:var(--gold-light);}
+    .modal-skip{display:block;text-align:center;margin-top:12px;font-size:12px;color:var(--text3);cursor:pointer;background:none;border:none;font-family:'DM Sans',sans-serif;}
+    .modal-skip:hover{color:var(--text2);}
   </style>
 </head>
 <body>
@@ -63,6 +115,12 @@
   </div>
 </div>
 
+<div class="streak-bar">
+  <div class="streak-pill" id="streak-pill"><span class="flame">🔥</span><span id="streak-text">Racha: 0 días</span></div>
+  <div class="streak-pill" id="badges-count-pill"><span>🏅</span><span id="badges-text">0 de 6 logros</span></div>
+  <button class="howto-btn" onclick="openGuide()">💡 ¿Cómo estudiar esto?</button>
+</div>
+
 <div class="progress-section">
   <div class="progress-inner">
     <span class="progress-label">Tu progreso global</span>
@@ -72,11 +130,61 @@
 </div>
 
 <main>
+  <div class="fact-card">
+    <span class="fact-icon">💡</span>
+    <div>
+      <div class="fact-label">¿Sabías que...?</div>
+      <div class="fact-text" id="fact-text">Cargando dato curioso...</div>
+    </div>
+  </div>
+
+  <div class="section-label">Tus logros</div>
+  <div class="badges-row" id="badges-row"></div>
+
+  <div class="section-label">Herramientas de estudio</div>
+  <div class="tools-row">
+    <a class="tool-card" href="flashcards.html">
+      <div class="tool-icon">🃏</div>
+      <div class="tool-text"><h3>Tarjetas de repaso</h3><p>Memoriza artículos clave rápidamente, módulo por módulo</p></div>
+    </a>
+    <div class="tool-card" onclick="openGuide()">
+      <div class="tool-icon">📖</div>
+      <div class="tool-text"><h3>Guía de estudio</h3><p>Tips para aprovechar mejor cada módulo y examen</p></div>
+    </div>
+  </div>
+
   <div class="section-label">Módulos de estudio</div>
   <div class="chapters-grid" id="chapters-grid"></div>
 </main>
 
 <footer><strong>CONCEJO STUDY</strong> · Concejo Municipal El Cerrito Valle del Cauca · Acuerdo 024 de 2025</footer>
+
+<!-- Modal guía -->
+<div class="modal-overlay" id="guide-modal">
+  <div class="modal-box">
+    <div class="modal-icon">🎓</div>
+    <div class="modal-title">¡Bienvenido a Concejo Study!</div>
+    <div class="modal-sub">Aquí tienes 4 pasos simples para estudiar el reglamento de forma efectiva:</div>
+    <div class="modal-step">
+      <div class="modal-step-num">1</div>
+      <div class="modal-step-text"><h4>Lee módulo por módulo</h4><p>Cada Título está dividido en artículos cortos. Avanza con el botón "Siguiente" y tómate tu tiempo en cada uno.</p></div>
+    </div>
+    <div class="modal-step">
+      <div class="modal-step-num">2</div>
+      <div class="modal-step-text"><h4>Repasa con tarjetas</h4><p>Antes del examen, usa las Tarjetas de Repaso para refrescar los puntos clave del módulo.</p></div>
+    </div>
+    <div class="modal-step">
+      <div class="modal-step-num">3</div>
+      <div class="modal-step-text"><h4>Haz el examen del módulo</h4><p>Necesitas 67% o más para aprobar. Si no pasas, repasa y vuelve a intentarlo — no hay límite de intentos.</p></div>
+    </div>
+    <div class="modal-step">
+      <div class="modal-step-num">4</div>
+      <div class="modal-step-text"><h4>Gana logros y mantén tu racha</h4><p>Entra todos los días para mantener tu racha encendida 🔥 y desbloquea medallas por tu progreso.</p></div>
+    </div>
+    <button class="modal-btn" onclick="closeGuide()">Entendido, ¡a estudiar!</button>
+    <button class="modal-skip" onclick="closeGuide()">No volver a mostrar</button>
+  </div>
+</div>
 
 <script src="js/contenido.js"></script>
 <script src="js/app.js"></script>
@@ -95,6 +203,81 @@
   document.getElementById('theme-label').textContent=savedTheme==='dark'?'Modo claro':'Modo oscuro';
 
   function getProgress(){try{return JSON.parse(localStorage.getItem('cs_progress')||'{}');}catch(e){return {};}}
+
+  /* ---------- RACHA DE DÍAS ---------- */
+  function updateStreak(){
+    const today=new Date().toISOString().slice(0,10);
+    let data=JSON.parse(localStorage.getItem('cs_streak')||'{"count":0,"last":null}');
+    if(data.last!==today){
+      const last=data.last?new Date(data.last):null;
+      const todayD=new Date(today);
+      if(last){
+        const diffDays=Math.round((todayD-last)/(1000*60*60*24));
+        if(diffDays===1) data.count+=1;
+        else if(diffDays>1) data.count=1;
+      } else {
+        data.count=1;
+      }
+      data.last=today;
+      localStorage.setItem('cs_streak',JSON.stringify(data));
+    }
+    const pill=document.getElementById('streak-pill');
+    document.getElementById('streak-text').textContent=`Racha: ${data.count} día${data.count!==1?'s':''}`;
+    if(data.count>0)pill.classList.add('active');
+    return data.count;
+  }
+
+  /* ---------- LOGROS ---------- */
+  const BADGES=[
+    {id:'primer_paso',icon:'👣',label:'Primer paso',cond:p=>Object.keys(p).length>=1},
+    {id:'tres_modulos',icon:'📚',label:'3 módulos',cond:p=>Object.values(p).filter(v=>v==='done').length>=3},
+    {id:'mitad',icon:'⚖️',label:'Mitad del camino',cond:p=>Object.values(p).filter(v=>v==='done').length>=Math.ceil(CAPITULOS.length/2)},
+    {id:'completo',icon:'🏆',label:'Reglamento completo',cond:p=>Object.values(p).filter(v=>v==='done').length>=CAPITULOS.length},
+    {id:'racha3',icon:'🔥',label:'Racha de 3 días',cond:(p,streak)=>streak>=3},
+    {id:'racha7',icon:'⭐',label:'Racha de 7 días',cond:(p,streak)=>streak>=7},
+  ];
+
+  function renderBadges(progress,streak){
+    const row=document.getElementById('badges-row');
+    let earned=0;
+    row.innerHTML=BADGES.map(b=>{
+      const got=b.cond(progress,streak);
+      if(got)earned++;
+      return `<div class="badge ${got?'earned':''}" title="${b.label}">
+        <div class="badge-icon">${b.icon}</div>
+        <div class="badge-label">${b.label}</div>
+      </div>`;
+    }).join('');
+    document.getElementById('badges-text').textContent=`${earned} de ${BADGES.length} logros`;
+  }
+
+  /* ---------- DATO CURIOSO ---------- */
+  const FACTS=[
+    'El Concejo Municipal de El Cerrito puede tener entre 7 y 21 Concejales, según lo determine la población del municipio.',
+    'Los Concejales deben actuar en bancadas según la Ley de Partidos Políticos (Ley 1475 de 2011), salvo en asuntos de conciencia.',
+    'La Mesa Directiva del Concejo se renueva cada año: un Concejal no puede repetir en el mismo cargo el periodo siguiente.',
+    'El Cabildo Abierto permite que cualquier grupo de ciudadanos —representando al menos el 5 por mil del censo electoral— pida que el Concejo trate un tema específico.',
+    'La Comisión Legal para la Equidad de la Mujer está conformada preferentemente por todas las concejalas, y los hombres pueden unirse voluntariamente.',
+    'Una moción de censura requiere el voto afirmativo de las dos terceras partes del Concejo para separar a un funcionario de su cargo.',
+    'El periodo de sesiones ordinarias del Concejo se reparte en 4 momentos al año: febrero, mayo, agosto y noviembre.',
+    'Los proyectos de acuerdo deben pasar por dos debates: uno en comisión permanente y otro en la plenaria del Concejo.',
+    'El Alcalde tiene hasta 20 días para objetar un proyecto de acuerdo si este supera los 50 artículos.',
+    'La oposición política tiene derecho garantizado a la primera vicepresidencia de la Mesa Directiva del Concejo.',
+    'Cada sesión plenaria del Concejo dura máximo 4 horas, aunque puede prorrogarse por decisión del propio Concejo.',
+    'Los honorarios de los Concejales se actualizan cada año según la variación del IPC del año anterior.',
+  ];
+
+  function renderFact(){
+    const dayIndex=new Date().getDate()%FACTS.length;
+    document.getElementById('fact-text').textContent=FACTS[dayIndex];
+  }
+
+  /* ---------- MODAL GUÍA ---------- */
+  function openGuide(){document.getElementById('guide-modal').classList.add('visible');}
+  function closeGuide(){
+    document.getElementById('guide-modal').classList.remove('visible');
+    localStorage.setItem('cs_guide_seen','1');
+  }
 
   function renderChapters(){
     const progress=getProgress();
@@ -127,9 +310,18 @@
     document.getElementById('stat-articulos').textContent=totalArts;
     const totalQ=Object.values(EXAMENES).reduce((a,v)=>a+v.length,0);
     document.getElementById('stat-preguntas').textContent=totalQ;
+
+    return progress;
   }
 
-  renderChapters();
+  const progress=renderChapters();
+  const streak=updateStreak();
+  renderBadges(progress,streak);
+  renderFact();
+
+  if(!localStorage.getItem('cs_guide_seen')){
+    setTimeout(openGuide,600);
+  }
 </script>
 </body>
 </html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjetas de Repaso — Concejo Study</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    nav{background:var(--bg2);border-bottom:1px solid var(--border);padding:14px 24px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:100;}
+    .nav-back{color:var(--text2);text-decoration:none;font-size:13px;display:flex;align-items:center;gap:6px;transition:color 0.2s;}
+    .nav-back:hover{color:var(--gold);}
+    .nav-title{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:var(--text);margin-left:4px;}
+
+    main{max-width:640px;margin:0 auto;padding:32px 20px 60px;}
+    .picker-title{font-family:'Playfair Display',serif;font-size:24px;font-weight:900;color:var(--text);text-align:center;margin-bottom:8px;}
+    .picker-sub{font-size:13px;color:var(--text2);text-align:center;margin-bottom:28px;}
+    .module-pick{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;}
+    .module-pick-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 12px;text-align:center;cursor:pointer;transition:all 0.2s;}
+    .module-pick-card:hover{border-color:var(--gold);background:var(--surface-hover);transform:translateY(-2px);}
+    .module-pick-icon{font-size:24px;margin-bottom:6px;}
+    .module-pick-name{font-size:12px;font-weight:700;color:var(--text);line-height:1.3;}
+    .module-pick-count{font-size:10px;color:var(--gold);margin-top:4px;}
+
+    .card-zone{display:none;}
+    .card-zone.active{display:block;}
+    .card-progress{display:flex;align-items:center;gap:10px;margin-bottom:20px;}
+    .card-progress-bar{flex:1;height:5px;background:var(--surface2);border-radius:3px;overflow:hidden;}
+    .card-progress-fill{height:100%;background:var(--gold);border-radius:3px;transition:width 0.3s;}
+    .card-progress-label{font-size:12px;color:var(--text2);white-space:nowrap;}
+
+    .flashcard-wrap{perspective:1200px;height:340px;margin-bottom:24px;}
+    .flashcard{position:relative;width:100%;height:100%;transition:transform 0.5s;transform-style:preserve-3d;cursor:pointer;}
+    .flashcard.flipped{transform:rotateY(180deg);}
+    .card-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:18px;padding:28px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 8px 28px var(--shadow);}
+    .card-front{background:var(--surface);border:2px solid var(--gold);}
+    .card-back{background:linear-gradient(135deg,var(--gold),var(--gold-light));transform:rotateY(180deg);color:#1a1a1a;}
+    .card-tag{font-size:10px;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;margin-bottom:14px;text-align:center;}
+    .card-front .card-tag{color:var(--gold);}
+    .card-back .card-tag{color:rgba(0,0,0,0.6);}
+    .card-text{font-family:'Playfair Display',serif;font-size:18px;font-weight:700;text-align:center;line-height:1.4;}
+    .card-front .card-text{color:var(--text);}
+    .card-hint{position:absolute;bottom:16px;left:0;right:0;text-align:center;font-size:11px;color:var(--text3);}
+    .card-back .card-hint{color:rgba(0,0,0,0.5);}
+
+    .card-nav{display:flex;gap:12px;}
+    .card-btn{flex:1;padding:13px;border-radius:10px;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:600;transition:all 0.2s;}
+    .card-btn-prev{background:var(--surface2);color:var(--text);border:1px solid var(--border);}
+    .card-btn-prev:hover{background:var(--surface-hover);}
+    .card-btn-next{background:var(--gold);color:#000;}
+    .card-btn-next:hover{background:var(--gold-light);}
+    .card-btn:disabled{opacity:0.35;cursor:not-allowed;}
+
+    .finish-box{text-align:center;padding:40px 20px;display:none;}
+    .finish-box.visible{display:block;}
+    .finish-icon{font-size:48px;margin-bottom:14px;}
+    .finish-title{font-family:'Playfair Display',serif;font-size:22px;font-weight:900;color:var(--text);margin-bottom:8px;}
+    .finish-sub{font-size:13px;color:var(--text2);margin-bottom:24px;}
+    .finish-btns{display:flex;gap:12px;}
+  </style>
+</head>
+<body>
+
+<button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">
+  <span id="theme-icon">☀️</span>
+  <span id="theme-label">Modo claro</span>
+</button>
+
+<nav>
+  <a class="nav-back" href="index.html">← Inicio</a>
+  <span style="color:var(--border)">|</span>
+  <span class="nav-title">🃏 Tarjetas de Repaso</span>
+</nav>
+
+<main>
+  <div id="picker-zone">
+    <div class="picker-title">Elige un módulo</div>
+    <div class="picker-sub">Repasa los puntos clave antes de hacer el examen</div>
+    <div class="module-pick" id="module-pick"></div>
+  </div>
+
+  <div class="card-zone" id="card-zone">
+    <div class="card-progress">
+      <a class="nav-back" href="javascript:void(0)" onclick="backToPicker()" style="white-space:nowrap;">← Cambiar módulo</a>
+      <div class="card-progress-bar"><div class="card-progress-fill" id="card-progress-fill" style="width:0%"></div></div>
+      <span class="card-progress-label" id="card-progress-label">1/1</span>
+    </div>
+
+    <div class="flashcard-wrap">
+      <div class="flashcard" id="flashcard" onclick="flipCard()">
+        <div class="card-face card-front">
+          <div class="card-tag" id="front-tag">Artículo</div>
+          <div class="card-text" id="front-text">...</div>
+          <div class="card-hint">Toca para ver el resumen →</div>
+        </div>
+        <div class="card-face card-back">
+          <div class="card-tag">Resumen clave</div>
+          <div class="card-text" id="back-text">...</div>
+          <div class="card-hint">Toca para volver</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-nav">
+      <button class="card-btn card-btn-prev" id="btn-prev-card" onclick="prevCard()">← Anterior</button>
+      <button class="card-btn card-btn-next" id="btn-next-card" onclick="nextCard()">Siguiente →</button>
+    </div>
+
+    <div class="finish-box" id="finish-box">
+      <div class="finish-icon">🎉</div>
+      <div class="finish-title">¡Repaso completado!</div>
+      <div class="finish-sub">Ya repasaste todos los artículos de este módulo. ¿Listo para el examen?</div>
+      <div class="finish-btns">
+        <button class="card-btn card-btn-prev" onclick="restartDeck()">🔁 Repasar de nuevo</button>
+        <button class="card-btn card-btn-next" onclick="goToModule()">📝 Ir al examen</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="js/contenido.js"></script>
+<script>
+  function toggleTheme(){
+    const html=document.documentElement;
+    const newTheme=html.getAttribute('data-theme')==='dark'?'light':'dark';
+    html.setAttribute('data-theme',newTheme);
+    localStorage.setItem('cs_theme',newTheme);
+    document.getElementById('theme-icon').textContent=newTheme==='dark'?'☀️':'🌙';
+    document.getElementById('theme-label').textContent=newTheme==='dark'?'Modo claro':'Modo oscuro';
+  }
+  const savedTheme=localStorage.getItem('cs_theme')||'dark';
+  document.documentElement.setAttribute('data-theme',savedTheme);
+  document.getElementById('theme-icon').textContent=savedTheme==='dark'?'☀️':'🌙';
+  document.getElementById('theme-label').textContent=savedTheme==='dark'?'Modo claro':'Modo oscuro';
+
+  let currentModId=null, deck=[], cardIdx=0, flipped=false;
+
+  function buildDeck(capId){
+    const cap=CAPITULOS.find(c=>c.id===capId);
+    const cards=[];
+    cap.articulos.forEach(n=>{
+      const art=ARTICULOS[String(n)];
+      if(!art || art.tipo==='preambulo')return;
+      // Get first sentence as "front", and a short summary as "back"
+      const firstLine=art.texto.split('\n')[0].trim();
+      const dot=firstLine.indexOf('.');
+      const titulo=dot>0&&dot<90?firstLine.substring(0,dot):art.titulo;
+      // Build a short summary: take up to 220 chars of the body, cut at last full word
+      let body=art.texto.replace(/\n/g,' ').trim();
+      let resumen=body.length>220?body.substring(0,220).replace(/\s+\S*$/,'')+'…':body;
+      cards.push({num:n,titulo:titulo,resumen:resumen});
+    });
+    return cards;
+  }
+
+  function renderPicker(){
+    const pick=document.getElementById('module-pick');
+    pick.innerHTML=CAPITULOS.map(cap=>{
+      const count=cap.articulos.filter(n=>{const a=ARTICULOS[String(n)];return a&&a.tipo!=='preambulo';}).length;
+      if(count===0)return '';
+      return `<div class="module-pick-card" onclick="startDeck(${cap.id})">
+        <div class="module-pick-icon">${cap.icono}</div>
+        <div class="module-pick-name">${cap.titulo}</div>
+        <div class="module-pick-count">${count} tarjetas</div>
+      </div>`;
+    }).join('');
+  }
+
+  function startDeck(capId){
+    currentModId=capId;
+    deck=buildDeck(capId);
+    cardIdx=0;flipped=false;
+    document.getElementById('picker-zone').style.display='none';
+    document.getElementById('card-zone').classList.add('active');
+    document.getElementById('finish-box').classList.remove('visible');
+    document.querySelector('.flashcard-wrap').style.display='block';
+    document.querySelector('.card-nav').style.display='flex';
+    showCard();
+  }
+
+  function backToPicker(){
+    document.getElementById('picker-zone').style.display='block';
+    document.getElementById('card-zone').classList.remove('active');
+  }
+
+  function showCard(){
+    if(cardIdx>=deck.length){
+      document.querySelector('.flashcard-wrap').style.display='none';
+      document.querySelector('.card-nav').style.display='none';
+      document.getElementById('finish-box').classList.add('visible');
+      document.getElementById('card-progress-fill').style.width='100%';
+      document.getElementById('card-progress-label').textContent=`${deck.length}/${deck.length}`;
+      return;
+    }
+    const c=deck[cardIdx];
+    document.getElementById('front-tag').textContent='Artículo '+c.num;
+    document.getElementById('front-text').textContent=c.titulo;
+    document.getElementById('back-text').textContent=c.resumen;
+    document.getElementById('flashcard').classList.remove('flipped');
+    flipped=false;
+    document.getElementById('card-progress-fill').style.width=Math.round((cardIdx/deck.length)*100)+'%';
+    document.getElementById('card-progress-label').textContent=`${cardIdx+1}/${deck.length}`;
+    document.getElementById('btn-prev-card').disabled=cardIdx===0;
+  }
+
+  function flipCard(){
+    flipped=!flipped;
+    document.getElementById('flashcard').classList.toggle('flipped',flipped);
+  }
+
+  function nextCard(){cardIdx++;showCard();}
+  function prevCard(){if(cardIdx>0){cardIdx--;showCard();}}
+  function restartDeck(){cardIdx=0;document.querySelector('.flashcard-wrap').style.display='block';document.querySelector('.card-nav').style.display='flex';document.getElementById('finish-box').classList.remove('visible');showCard();}
+  function goToModule(){location.href=`capitulo.html?id=${currentModId}`;}
+
+  renderPicker();
+</script>
+</body>
+</html>
