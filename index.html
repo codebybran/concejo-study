@@ -21,8 +21,8 @@
     <div class="sidebar-logo">
       <div class="sidebar-logo-icon">🎓</div>
       <div class="sidebar-logo-text">
-        <div class="sidebar-logo-name">StudySphere</div>
-        <div class="sidebar-logo-tagline">Learn. Grow. Succeed.</div>
+        <div class="sidebar-logo-name">Concejo Study</div>
+        <div class="sidebar-logo-tagline">Aprende. Crece. Triunfa.</div>
       </div>
     </div>
 
@@ -55,12 +55,6 @@
         <span class="sidebar-item-icon">⚙️</span> Configuración
       </button>
     </nav>
-
-    <div class="sidebar-logout">
-      <button class="sidebar-item" onclick="void(0)">
-        <span class="sidebar-item-icon">↩️</span> Cerrar sesión
-      </button>
-    </div>
   </aside>
 
   <!-- ===== MAIN CONTENT ===== -->
@@ -76,9 +70,7 @@
         <button class="search-clear" id="search-clear" onclick="clearSearch()">✕</button>
         <div class="search-results" id="search-results"></div>
       </div>
-
-      <div class="topbar-actions">
-      </div>
+      <div class="topbar-actions"></div>
     </header>
 
     <!-- DASHBOARD BODY -->
@@ -109,13 +101,13 @@
         </div>
       </div>
 
-      <!-- MAIN GRID: left content + right panel -->
+      <!-- MAIN GRID -->
       <div class="dashboard-grid">
 
         <!-- LEFT COLUMN -->
         <div>
 
-          <!-- Streak + pills -->
+          <!-- Pills -->
           <div class="pills-row">
             <div class="pill active" id="streak-pill">
               <span class="pill-icon">🔥</span>
@@ -177,29 +169,6 @@
                 <p>Tips para aprovechar cada módulo y examen</p>
               </div>
             </div>
-          </div>
-
-          <!-- Módulos de estudio card previews (3-up) -->
-          <div class="section-label">Módulos de estudio</div>
-          <div class="module-cards-row" id="module-cards-row">
-            <div class="module-card">
-              <span class="module-card-icon">🧠</span>
-              <div class="module-card-name">Módulos de estudio</div>
-              <div class="module-card-pct" id="mod-pct-1">75% Completado</div>
-              <div class="module-card-bar"><div class="module-card-bar-fill" id="mod-bar-1" style="width:75%"></div></div>
-            </div>
-            <a class="module-card" href="capitulo.html">
-              <span class="module-card-icon">&lt;/&gt;</span>
-              <div class="module-card-name">Artículos y contenido</div>
-              <div class="module-card-pct" id="mod-pct-2">60% Completado</div>
-              <div class="module-card-bar"><div class="module-card-bar-fill" id="mod-bar-2" style="width:60%"></div></div>
-            </a>
-            <a class="module-card" href="capitulo.html?repaso=1">
-              <span class="module-card-icon">🌐</span>
-              <div class="module-card-name">Banco de preguntas</div>
-              <div class="module-card-pct" id="mod-pct-3">40% Completado</div>
-              <div class="module-card-bar"><div class="module-card-bar-fill" id="mod-bar-3" style="width:40%"></div></div>
-            </a>
           </div>
 
           <!-- Acciones rápidas -->
