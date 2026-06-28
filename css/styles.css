@@ -95,12 +95,10 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background-image: url('assets/bg-forest.jpg');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(160deg, #0d1f3c 0%, #1a3a5c 45%, #0a2a18 100%);
   z-index: -2;
-  opacity: 1;
 }
+
 body::after {
   content: '';
   position: fixed;
