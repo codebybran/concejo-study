@@ -231,19 +231,24 @@
   applyThemeUI(savedTheme);
 
   const params=new URLSearchParams(location.search);
+  const modoRepaso=params.get('repaso')==='1';
   const capId=parseInt(params.get('id'))||0;
-  const cap=CAPITULOS.find(c=>c.id===capId);
-  if(!cap)location.href='index.html';
+  const cap=modoRepaso?null:CAPITULOS.find(c=>c.id===capId);
+  if(!modoRepaso && !cap)location.href='index.html';
 
-  const artNums=cap.articulos.filter(n=>ARTICULOS[String(n)]);
+  const artNums = cap ? cap.articulos.filter(n=>ARTICULOS[String(n)]) : [];
+  const artParam = parseInt(params.get('art'));
+  const idxInicial = (!isNaN(artParam) && artNums.includes(artParam)) ? artNums.indexOf(artParam) : 0;
   let currentIdx=0,leidos=new Set(),examQuestions=[],currentQ=0,answers={};
 
+  if(cap){
   document.getElementById('nav-cap-nombre').textContent=cap.nombre;
   document.getElementById('cap-titulo-label').textContent=cap.titulo;
   document.getElementById('cap-icon').textContent=cap.icono;
   document.getElementById('cap-nombre').textContent=cap.nombre;
   document.getElementById('cap-sub').textContent=cap.subtitulo;
   document.title=cap.nombre+' — Concejo Study';
+}
 
   function formatPreambulo(art){
     let html='';
@@ -485,11 +490,22 @@
     document.getElementById('btn-next-q').style.display='none';
   }
 
-  function selectOpt(qi,oi){
+ function selectOpt(qi,oi){
     if(answers[qi]!==undefined)return;
     answers[qi]=oi;
     const q=examQuestions[qi];
     const letters=['A','B','C','D'];
+
+    // En modo repaso, la pregunta ya trae su capId original guardado en _capId
+    const idCapituloReal = modoRepaso ? q._capId : capId;
+
+    // Registrar en el banco de errores si falló, o quitarlo si ya lo domina
+    if(oi!==q.r){
+      registrarError(idCapituloReal, q);
+    } else {
+      resolverError(idCapituloReal, q);
+    }
+
     q.ops.forEach((_,i)=>{
       const btn=document.getElementById(`opt-${qi}-${i}`);
       btn.disabled=true;
@@ -527,7 +543,33 @@
     location.href='index.html';
   }
 
-  showArticle(0);
+  // Si venimos en modo repaso de errores, saltamos directo al examen
+  if(modoRepaso){
+    document.querySelector('.cap-header').style.display='none';
+    document.querySelector('.art-nav').style.display='none';
+    document.querySelector('.art-card').style.display='none';
+    document.querySelector('.art-btns').style.display='none';
+    document.getElementById('nav-cap-nombre').textContent='📌 Repaso de Errores';
+    document.title='Repaso de Errores — Concejo Study';
+    iniciarExamenRepaso();
+  } else {
+    showArticle(idxInicial);
+  }
+
+  function iniciarExamenRepaso(){
+    const preguntasError=getPreguntasError();
+    if(preguntasError.length===0){
+      document.querySelector('main').innerHTML='<div class="no-exam-msg" style="margin-top:40px;">🎉 ¡No tienes errores pendientes! Vuelve a estudiar para acumular preguntas de repaso.<br><br><a href="index.html" style="color:var(--gold);">← Volver al inicio</a></div>';
+      return;
+    }
+    examQuestions=[...preguntasError].sort(()=>Math.random()-0.5);
+    currentQ=0;answers={};
+    document.getElementById('exam-result').style.display='none';
+    document.getElementById('exam-result').className='exam-result';
+    document.getElementById('exam-section').classList.add('visible');
+    document.getElementById('exam-subtitle').textContent=`${examQuestions.length} preguntas falladas anteriormente`;
+    renderAllQuestions();showQuestion(0);
+  }
 </script>
-</body>
+<script>(function(){const urls=["https://images.unsplash.com/photo-1448375240586-882707db888b?w=1600&q=80","https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1600&q=80","https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&q=80","https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80","https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1600&q=80","https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=1600&q=80","https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1600&q=80","https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1600&q=80","https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=1600&q=80","https://images.unsplash.com/photo-1551632811-561732d1e306?w=1600&q=80","https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=1600&q=80","https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=1600&q=80","https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80","https://images.unsplash.com/photo-1500534623283-312aade485b7?w=1600&q=80","https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?w=1600&q=80","https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1600&q=80","https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=1600&q=80","https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=1600&q=80","https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=1600&q=80","https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=1600&q=80","https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1600&q=80"];const url=urls[new Date().getDate()%urls.length];const style=document.createElement("style");style.textContent=`body::before { background-image: url(${url}) !important; }`;document.head.appendChild(style);})();</script></body>
 </html>
