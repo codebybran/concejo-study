@@ -485,6 +485,16 @@
 
   const progress=renderChapters();
   const streak=updateStreak();
+  function animateNumber(el, target) {
+  let current = 0;
+  const step = Math.max(1, Math.ceil(target / 20));
+  const interval = setInterval(() => {
+    current += step;
+    if (current >= target) { current = target; clearInterval(interval); }
+    el.textContent = current;
+  }, 30);
+}
+animateNumber(document.getElementById('streak-big'), streak);
   renderBadges(progress,streak);
   renderFact();
   renderCalendar();

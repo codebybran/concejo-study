@@ -941,3 +941,18 @@ footer {
   .tools-row { grid-template-columns: 1fr; }
   .chapters-grid { grid-template-columns: 1fr; }
 }
+
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hero-card, .pills-row, .progress-section, .fact-card, .badges-row, .tools-row, .meta-card {
+  animation: fadeSlide 0.5s ease both;
+}
+.pills-row { animation-delay: 0.05s; }
+.progress-section { animation-delay: 0.1s; }
+.fact-card { animation-delay: 0.15s; }
+.badges-row { animation-delay: 0.2s; }
+.tools-row { animation-delay: 0.25s; }
+.meta-card { animation-delay: 0.3s; }
+.streak-card, .calendar-card { animation: fadeSlide 0.5s ease both; animation-delay: 0.15s; }
