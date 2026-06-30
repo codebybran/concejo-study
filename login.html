@@ -157,14 +157,31 @@
     const dia = new Date().toISOString().slice(0,10); // cambia cada día
     const categorias = ['forest', 'nature', 'mountains', 'landscape', 'jungle'];
     const idx = new Date().getDate() % categorias.length;
-    const urls = [
+   const urls = [
   'https://images.unsplash.com/photo-1448375240586-882707db888b?w=1600&q=80',
   'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1600&q=80',
   'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&q=80',
   'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80',
   'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1600&q=80',
+  'https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=1600&q=80',
+  'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1600&q=80',
+  'https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=1600&q=80',
+  'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=1600&q=80',
+  'https://images.unsplash.com/photo-1551632811-561732d1e306?w=1600&q=80',
+  'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?w=1600&q=80',
+  'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=1600&q=80',
+  'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80',
+  'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1600&q=80',
+  'https://images.unsplash.com/photo-1500534623283-312aade485b7?w=1600&q=80',
+  'https://images.unsplash.com/photo-1414609245224-afa02bfb3fda?w=1600&q=80',
+  'https://images.unsplash.com/photo-1542401886-65d6c61db217?w=1600&q=80',
   'https://images.unsplash.com/photo-1448375240586-882707db888b?w=1600&q=80',
-  'https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=1600&q=80'
+  'https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=1600&q=80',
+  'https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=1600&q=80',
+  'https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=1600&q=80',
+  'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1600&q=80',
+  'https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=1600&q=80',
+  'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1600&q=80'
 ];
 const url = urls[new Date().getDate() % urls.length];
     document.body.style.setProperty('--bg-url', `url(${url})`);
