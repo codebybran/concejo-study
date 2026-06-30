@@ -5,204 +5,151 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Concejo Study — Iniciar sesión</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
   <style>
-    .login-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;}
-    .login-box{background:rgba(255,255,255,0.07);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.15);border-radius:24px;padding:40px 36px;width:100%;max-width:420px;box-shadow:0 20px 60px rgba(0,0,0,0.4);}
-    .login-logo{text-align:center;margin-bottom:28px;}
-    .login-logo-icon{font-size:48px;margin-bottom:10px;display:block;}
-    .login-logo h1{font-family:'Playfair Display',serif;font-size:26px;font-weight:900;color:#fff;margin-bottom:4px;}
-    .login-logo h1 span{color:#E8CC7A;}
-    .login-logo p{font-size:12px;color:rgba(255,255,255,0.55);}
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:'DM Sans',sans-serif;min-height:100vh;background:#0d1520;}
+    body::before{content:'';position:fixed;inset:0;background-image:url('assets/bg-forest.jpg');background-size:cover;background-position:center;z-index:-2;}
+    body::after{content:'';position:fixed;inset:0;background:rgba(8,14,32,0.72);z-index:-1;}
+    .wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;}
+    .box{background:rgba(255,255,255,0.07);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.15);border-radius:24px;padding:40px 36px;width:100%;max-width:420px;box-shadow:0 20px 60px rgba(0,0,0,0.4);}
+    .logo{text-align:center;margin-bottom:28px;}
+    .logo-icon{font-size:48px;margin-bottom:10px;display:block;}
+    .logo h1{font-family:'Playfair Display',serif;font-size:26px;font-weight:900;color:#fff;margin-bottom:4px;}
+    .logo h1 span{color:#E8CC7A;}
+    .logo p{font-size:12px;color:rgba(255,255,255,0.55);}
     .tabs{display:flex;background:rgba(255,255,255,0.06);border-radius:12px;padding:4px;margin-bottom:28px;gap:4px;}
     .tab{flex:1;padding:10px;border:none;background:none;color:rgba(255,255,255,0.55);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;border-radius:10px;cursor:pointer;transition:all 0.2s;}
     .tab.active{background:rgba(255,255,255,0.12);color:#fff;}
-    .form-group{margin-bottom:16px;}
-    .form-label{display:block;font-size:12px;font-weight:600;color:rgba(255,255,255,0.7);margin-bottom:6px;}
-    .form-input{width:100%;padding:12px 16px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:12px;color:#fff;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;transition:all 0.2s;}
-    .form-input:focus{border-color:#C9A84C;background:rgba(255,255,255,0.12);}
-    .form-input::placeholder{color:rgba(255,255,255,0.3);}
-    .btn-primary{width:100%;padding:14px;background:linear-gradient(135deg,#C9A84C,#E8CC7A);border:none;border-radius:12px;color:#000;font-family:'DM Sans',sans-serif;font-size:15px;font-weight:700;cursor:pointer;transition:all 0.2s;margin-top:8px;}
-    .btn-primary:hover{opacity:0.9;transform:translateY(-1px);}
-    .btn-primary:disabled{opacity:0.6;cursor:not-allowed;transform:none;}
-    .error-msg{background:rgba(248,113,113,0.15);border:1px solid rgba(248,113,113,0.4);border-radius:10px;padding:10px 14px;font-size:12.5px;color:#F87171;margin-bottom:16px;display:none;}
-    .error-msg.visible{display:block;}
+    .group{margin-bottom:16px;}
+    label{display:block;font-size:12px;font-weight:600;color:rgba(255,255,255,0.7);margin-bottom:6px;}
+    input{width:100%;padding:12px 16px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:12px;color:#fff;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;transition:all 0.2s;}
+    input:focus{border-color:#C9A84C;background:rgba(255,255,255,0.12);}
+    input::placeholder{color:rgba(255,255,255,0.3);}
+    .btn{width:100%;padding:14px;background:linear-gradient(135deg,#C9A84C,#E8CC7A);border:none;border-radius:12px;color:#000;font-family:'DM Sans',sans-serif;font-size:15px;font-weight:700;cursor:pointer;transition:all 0.2s;margin-top:8px;}
+    .btn:hover{opacity:0.9;transform:translateY(-1px);}
+    .btn:disabled{opacity:0.6;cursor:not-allowed;transform:none;}
+    .err{background:rgba(248,113,113,0.15);border:1px solid rgba(248,113,113,0.4);border-radius:10px;padding:10px 14px;font-size:12.5px;color:#F87171;margin-bottom:16px;display:none;}
+    .err.visible{display:block;}
     .panel{display:none;}
     .panel.active{display:block;}
   </style>
 </head>
 <body>
-<div class="login-wrap">
-  <div class="login-box">
-    <div class="login-logo">
-      <span class="login-logo-icon">🎓</span>
+<div class="wrap">
+  <div class="box">
+    <div class="logo">
+      <span class="logo-icon">🎓</span>
       <h1>Concejo <span>Study</span></h1>
       <p>Reglamento Interno · Concejo Municipal El Cerrito</p>
     </div>
+
     <div class="tabs">
-      <button class="tab active" onclick="showTab('login',this)">Iniciar sesión</button>
-      <button class="tab" onclick="showTab('registro',this)">Registrarse</button>
+      <button class="tab active" id="tab-login" onclick="showTab('login')">Iniciar sesión</button>
+      <button class="tab" id="tab-registro" onclick="showTab('registro')">Registrarse</button>
     </div>
-    <div class="error-msg" id="error-msg"></div>
+
+    <div class="err" id="err"></div>
+
     <div class="panel active" id="panel-login">
-      <div class="form-group">
-        <label class="form-label">Correo electrónico</label>
-        <input type="email" class="form-input" id="login-email" placeholder="tucorreo@ejemplo.com">
+      <div class="group">
+        <label>Correo electrónico</label>
+        <input type="email" id="login-email" placeholder="tucorreo@ejemplo.com">
       </div>
-      <div class="form-group">
-        <label class="form-label">Contraseña</label>
-        <input type="password" class="form-input" id="login-password" placeholder="••••••••">
+      <div class="group">
+        <label>Contraseña</label>
+        <input type="password" id="login-pass" placeholder="••••••••">
       </div>
-      <button class="btn-primary" id="btn-login" onclick="hacerLogin()">Entrar</button>
+      <button class="btn" id="btn-login" onclick="hacerLogin()">Entrar</button>
     </div>
+
     <div class="panel" id="panel-registro">
-      <div class="form-group">
-        <label class="form-label">Tu nombre</label>
-        <input type="text" class="form-input" id="reg-nombre" placeholder="Ej: Juan Pérez">
+      <div class="group">
+        <label>Tu nombre</label>
+        <input type="text" id="reg-nombre" placeholder="Ej: Juan Pérez">
       </div>
-      <div class="form-group">
-        <label class="form-label">Correo electrónico</label>
-        <input type="email" class="form-input" id="reg-email" placeholder="tucorreo@ejemplo.com">
+      <div class="group">
+        <label>Correo electrónico</label>
+        <input type="email" id="reg-email" placeholder="tucorreo@ejemplo.com">
       </div>
-      <div class="form-group">
-        <label class="form-label">Contraseña</label>
-        <input type="password" class="form-input" id="reg-password" placeholder="Mínimo 6 caracteres">
+      <div class="group">
+        <label>Contraseña</label>
+        <input type="password" id="reg-pass" placeholder="Mínimo 6 caracteres">
       </div>
-      <button class="btn-primary" id="btn-registro" onclick="hacerRegistro()">Crear cuenta</button>
+      <button class="btn" id="btn-reg" onclick="hacerRegistro()">Crear cuenta</button>
     </div>
   </div>
 </div>
+
 <script type="module">
   import { login, registrar, onUsuario } from './js/firebase.js';
-  onUsuario(user => { if(user) window.location.href='index.html'; });
-  window.showTab=function(tab,el){
-    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-    document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
-    document.getElementById('panel-'+tab).classList.add('active');
-    el.classList.add('active');
-    document.getElementById('error-msg').classList.remove('visible');
-  }
-  window.hacerLogin=async function(){
-    const email=document.getElementById('login-email').value.trim();
-    const pass=document.getElementById('login-password').value;
-    const btn=document.getElementById('btn-login');
-    const err=document.getElementById('error-msg');
+
+  onUsuario(user => {
+    if (user) window.location.href = 'index.html';
+  });
+
+  window.showTab = function(tab) {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('tab-' + tab).classList.add('active');
+    document.getElementById('panel-' + tab).classList.add('active');
+    document.getElementById('err').classList.remove('visible');
+  };
+
+  window.hacerLogin = async function() {
+    const email = document.getElementById('login-email').value.trim();
+    const pass = document.getElementById('login-pass').value;
+    const btn = document.getElementById('btn-login');
+    const err = document.getElementById('err');
     err.classList.remove('visible');
-    btn.disabled=true; btn.textContent='Entrando...';
-    try{ await login(email,pass); window.location.href='index.html'; }
-    catch(e){ err.textContent=traducirError(e.code); err.classList.add('visible'); btn.disabled=false; btn.textContent='Entrar'; }
-  }
-  window.hacerRegistro=async function(){
-cat > /c/Users/ADMIN/Desktop/concejo-study/login.html << 'ENDOFFILE'
-<!DOCTYPE html>
-<html lang="es" data-theme="dark">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Concejo Study — Iniciar sesión</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <style>
-    .login-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;}
-    .login-box{background:rgba(255,255,255,0.07);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.15);border-radius:24px;padding:40px 36px;width:100%;max-width:420px;box-shadow:0 20px 60px rgba(0,0,0,0.4);}
-    .login-logo{text-align:center;margin-bottom:28px;}
-    .login-logo-icon{font-size:48px;margin-bottom:10px;display:block;}
-    .login-logo h1{font-family:'Playfair Display',serif;font-size:26px;font-weight:900;color:#fff;margin-bottom:4px;}
-    .login-logo h1 span{color:#E8CC7A;}
-    .login-logo p{font-size:12px;color:rgba(255,255,255,0.55);}
-    .tabs{display:flex;background:rgba(255,255,255,0.06);border-radius:12px;padding:4px;margin-bottom:28px;gap:4px;}
-    .tab{flex:1;padding:10px;border:none;background:none;color:rgba(255,255,255,0.55);font-family:'DM Sans',sans-serif;font-size:13px;font-weight:600;border-radius:10px;cursor:pointer;transition:all 0.2s;}
-    .tab.active{background:rgba(255,255,255,0.12);color:#fff;}
-    .form-group{margin-bottom:16px;}
-    .form-label{display:block;font-size:12px;font-weight:600;color:rgba(255,255,255,0.7);margin-bottom:6px;}
-    .form-input{width:100%;padding:12px 16px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:12px;color:#fff;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;transition:all 0.2s;}
-    .form-input:focus{border-color:#C9A84C;background:rgba(255,255,255,0.12);}
-    .form-input::placeholder{color:rgba(255,255,255,0.3);}
-    .btn-primary{width:100%;padding:14px;background:linear-gradient(135deg,#C9A84C,#E8CC7A);border:none;border-radius:12px;color:#000;font-family:'DM Sans',sans-serif;font-size:15px;font-weight:700;cursor:pointer;transition:all 0.2s;margin-top:8px;}
-    .btn-primary:hover{opacity:0.9;transform:translateY(-1px);}
-    .btn-primary:disabled{opacity:0.6;cursor:not-allowed;transform:none;}
-    .error-msg{background:rgba(248,113,113,0.15);border:1px solid rgba(248,113,113,0.4);border-radius:10px;padding:10px 14px;font-size:12.5px;color:#F87171;margin-bottom:16px;display:none;}
-    .error-msg.visible{display:block;}
-    .panel{display:none;}
-    .panel.active{display:block;}
-  </style>
-</head>
-<body>
-<div class="login-wrap">
-  <div class="login-box">
-    <div class="login-logo">
-      <span class="login-logo-icon">🎓</span>
-      <h1>Concejo <span>Study</span></h1>
-      <p>Reglamento Interno · Concejo Municipal El Cerrito</p>
-    </div>
-    <div class="tabs">
-      <button class="tab active" onclick="showTab('login',this)">Iniciar sesión</button>
-      <button class="tab" onclick="showTab('registro',this)">Registrarse</button>
-    </div>
-    <div class="error-msg" id="error-msg"></div>
-    <div class="panel active" id="panel-login">
-      <div class="form-group">
-        <label class="form-label">Correo electrónico</label>
-        <input type="email" class="form-input" id="login-email" placeholder="tucorreo@ejemplo.com">
-      </div>
-      <div class="form-group">
-        <label class="form-label">Contraseña</label>
-        <input type="password" class="form-input" id="login-password" placeholder="••••••••">
-      </div>
-      <button class="btn-primary" id="btn-login" onclick="hacerLogin()">Entrar</button>
-    </div>
-    <div class="panel" id="panel-registro">
-      <div class="form-group">
-        <label class="form-label">Tu nombre</label>
-        <input type="text" class="form-input" id="reg-nombre" placeholder="Ej: Juan Pérez">
-      </div>
-      <div class="form-group">
-        <label class="form-label">Correo electrónico</label>
-        <input type="email" class="form-input" id="reg-email" placeholder="tucorreo@ejemplo.com">
-      </div>
-      <div class="form-group">
-        <label class="form-label">Contraseña</label>
-        <input type="password" class="form-input" id="reg-password" placeholder="Mínimo 6 caracteres">
-      </div>
-      <button class="btn-primary" id="btn-registro" onclick="hacerRegistro()">Crear cuenta</button>
-    </div>
-  </div>
-</div>
-<script type="module">
-  import { login, registrar, onUsuario } from './js/firebase.js';
-  onUsuario(user => { if(user) window.location.href='index.html'; });
-  window.showTab=function(tab,el){
-    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-    document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
-    document.getElementById('panel-'+tab).classList.add('active');
-    el.classList.add('active');
-    document.getElementById('error-msg').classList.remove('visible');
-  }
-  window.hacerLogin=async function(){
-    const email=document.getElementById('login-email').value.trim();
-    const pass=document.getElementById('login-password').value;
-    const btn=document.getElementById('btn-login');
-    const err=document.getElementById('error-msg');
+    btn.disabled = true;
+    btn.textContent = 'Entrando...';
+    try {
+      await login(email, pass);
+      window.location.href = 'index.html';
+    } catch(e) {
+      err.textContent = traducir(e.code);
+      err.classList.add('visible');
+      btn.disabled = false;
+      btn.textContent = 'Entrar';
+    }
+  };
+
+  window.hacerRegistro = async function() {
+    const nombre = document.getElementById('reg-nombre').value.trim();
+    const email = document.getElementById('reg-email').value.trim();
+    const pass = document.getElementById('reg-pass').value;
+    const btn = document.getElementById('btn-reg');
+    const err = document.getElementById('err');
     err.classList.remove('visible');
-    btn.disabled=true; btn.textContent='Entrando...';
-    try{ await login(email,pass); window.location.href='index.html'; }
-    catch(e){ err.textContent=traducirError(e.code); err.classList.add('visible'); btn.disabled=false; btn.textContent='Entrar'; }
-  }
-  window.hacerRegistro=async function(){
-    const nombre=document.getElementById('reg-nombre').value.trim();
-    const email=document.getElementById('reg-email').value.trim();
-    const pass=document.getElementById('reg-password').value;
-    const btn=document.getElementById('btn-registro');
-    const err=document.getElementById('error-msg');
-    err.classList.remove('visible');
-    if(!nombre){err.textContent='Por favor escribe tu nombre.';err.classList.add('visible');return;}
-    btn.disabled=true; btn.textContent='Creando cuenta...';
-    try{ await registrar(nombre,email,pass); window.location.href='index.html'; }
-    catch(e){ err.textContent=traducirError(e.code); err.classList.add('visible'); btn.disabled=false; btn.textContent='Crear cuenta'; }
-  }
-  function traducirError(code){
-    const e={'auth/email-already-in-use':'Este correo ya está registrado.','auth/invalid-email':'Correo inválido.','auth/weak-password':'Mínimo 6 caracteres.','auth/user-not-found':'No existe cuenta con ese correo.','auth/wrong-password':'Contraseña incorrecta.','auth/invalid-credential':'Correo o contraseña incorrectos.','auth/too-many-requests':'Demasiados intentos. Espera un momento.'};
-    return e[code]||'Error al iniciar sesión. Intenta de nuevo.';
+    if (!nombre) {
+      err.textContent = 'Por favor escribe tu nombre.';
+      err.classList.add('visible');
+      return;
+    }
+    btn.disabled = true;
+    btn.textContent = 'Creando cuenta...';
+    try {
+      await registrar(nombre, email, pass);
+      window.location.href = 'index.html';
+    } catch(e) {
+      err.textContent = traducir(e.code);
+      err.classList.add('visible');
+      btn.disabled = false;
+      btn.textContent = 'Crear cuenta';
+    }
+  };
+
+  function traducir(code) {
+    const errores = {
+      'auth/email-already-in-use': 'Este correo ya está registrado.',
+      'auth/invalid-email': 'Correo electrónico inválido.',
+      'auth/weak-password': 'La contraseña debe tener mínimo 6 caracteres.',
+      'auth/user-not-found': 'No existe cuenta con ese correo.',
+      'auth/wrong-password': 'Contraseña incorrecta.',
+      'auth/invalid-credential': 'Correo o contraseña incorrectos.',
+      'auth/too-many-requests': 'Demasiados intentos. Espera un momento.'
+    };
+    return errores[code] || 'Error. Intenta de nuevo.';
   }
 </script>
 </body>
