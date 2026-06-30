@@ -156,8 +156,16 @@
   (function() {
     const dia = new Date().toISOString().slice(0,10); // cambia cada día
     const categorias = ['forest', 'nature', 'mountains', 'landscape', 'jungle'];
-    const idx = new Date().getDate() % categorias.length;
-    const url = `https://source.unsplash.com/1600x900/?${categorias[idx]}&sig=${dia}`;
+    const urls = [
+  'https://images.unsplash.com/photo-1448375240586-882707db888b?w=1600&q=80',
+  'https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=1600&q=80',
+  'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&q=80',
+  'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1600&q=80',
+  'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1600&q=80',
+  'https://images.unsplash.com/photo-1448375240586-882707db888b?w=1600&q=80',
+  'https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=1600&q=80'
+];
+const url = urls[new Date().getDate() % urls.length];
     document.body.style.setProperty('--bg-url', `url(${url})`);
     document.querySelector('body').style.setProperty('background-image', 'var(--bg-url)', 'important');
     const style = document.createElement('style');
