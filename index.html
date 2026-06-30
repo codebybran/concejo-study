@@ -497,5 +497,19 @@
     setTimeout(openGuide,600);
   }
 </script>
+
+<script>
+  (function() {
+    const dia = new Date().toISOString().slice(0,10); // cambia cada día
+    const categorias = ['forest', 'nature', 'mountains', 'landscape', 'jungle'];
+    const idx = new Date().getDate() % categorias.length;
+    const url = `https://source.unsplash.com/1600x900/?${categorias[idx]}&sig=${dia}`;
+    document.body.style.setProperty('--bg-url', `url(${url})`);
+    document.querySelector('body').style.setProperty('background-image', 'var(--bg-url)', 'important');
+    const style = document.createElement('style');
+    style.textContent = `body::before { background-image: url('${url}') !important; }`;
+    document.head.appendChild(style);
+  })();
+</script>
 </body>
 </html>

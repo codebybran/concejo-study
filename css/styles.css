@@ -95,10 +95,10 @@ body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background-image: url('../assets/bg-forest.jpg');
   background-size: cover;
   background-position: center;
   z-index: -2;
+  transition: opacity 0.5s ease;
 }
 
 body::after {
