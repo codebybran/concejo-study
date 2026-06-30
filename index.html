@@ -497,9 +497,7 @@
     setTimeout(openGuide,600);
   }
 </script>
-
-<script>
-  (function() {
+(function() {
     const dia = new Date().toISOString().slice(0,10); // cambia cada día
     const categorias = ['forest', 'nature', 'mountains', 'landscape', 'jungle'];
     const idx = new Date().getDate() % categorias.length;
@@ -529,12 +527,12 @@
   'https://images.unsplash.com/photo-1530521954074-e64f6810b32d?w=1600&q=80',
   'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1600&q=80'
 ];
+const url = urls[new Date().getDate() % urls.length];
     document.body.style.setProperty('--bg-url', `url(${url})`);
     document.querySelector('body').style.setProperty('background-image', 'var(--bg-url)', 'important');
     const style = document.createElement('style');
     style.textContent = `body::before { background-image: url('${url}') !important; }`;
     document.head.appendChild(style);
   })();
-</script>
 </body>
 </html>
