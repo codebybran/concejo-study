@@ -214,6 +214,35 @@
 <script src="js/contenido.js"></script>
 <script src="js/app.js"></script>
 <script src="js/examenes.js"></script>
+
+<!--
+  ============================================================
+  GUARDIÁN DE SESIÓN + SINCRONIZACIÓN
+  ============================================================
+  Igual que en index.html: sin sesión activa no se puede entrar
+  a un módulo directamente por URL, y antes de arrancar el
+  contenido/examen se trae el banco de errores y el progreso
+  reales del usuario desde Firestore.
+-->
+<script type="module">
+  import { onUsuario, syncFromFirestore } from './js/firebase.js';
+
+  window.CS_READY = new Promise((resolve) => {
+    onUsuario(async (user) => {
+      if (!user) {
+        window.location.href = 'login.html';
+        return;
+      }
+      try {
+        await syncFromFirestore();
+      } catch (e) {
+        console.warn('No se pudo sincronizar con Firestore, se usan datos locales:', e);
+      }
+      resolve(user);
+    });
+  });
+</script>
+
 <script>
   function applyThemeUI(theme){
     document.getElementById('theme-icon').textContent = theme==='dark' ? '🌙' : '☀️';
@@ -500,6 +529,7 @@
     const idCapituloReal = modoRepaso ? q._capId : capId;
 
     // Registrar en el banco de errores si falló, o quitarlo si ya lo domina
+    // (registrarError/resolverError, en app.js, ya sincronizan con Firestore)
     if(oi!==q.r){
       registrarError(idCapituloReal, q);
     } else {
@@ -540,21 +570,30 @@
   function completeModule(){
     const p=JSON.parse(localStorage.getItem('cs_progress')||'{}');
     p[capId]='done';localStorage.setItem('cs_progress',JSON.stringify(p));
+    // Sincroniza el progreso del módulo completado con Firestore
+    if(window.CS_FIREBASE) window.CS_FIREBASE.saveProgreso(p).catch(e=>console.warn('No se pudo sincronizar el progreso:',e));
     location.href='index.html';
   }
 
-  // Si venimos en modo repaso de errores, saltamos directo al examen
-  if(modoRepaso){
-    document.querySelector('.cap-header').style.display='none';
-    document.querySelector('.art-nav').style.display='none';
-    document.querySelector('.art-card').style.display='none';
-    document.querySelector('.art-btns').style.display='none';
-    document.getElementById('nav-cap-nombre').textContent='📌 Repaso de Errores';
-    document.title='Repaso de Errores — Concejo Study';
-    iniciarExamenRepaso();
-  } else {
-    showArticle(idxInicial);
-  }
+  // ============================================================
+  // Arranque real de la página: espera a que CS_READY resuelva
+  // (usuario autenticado + progreso/errores ya sincronizados
+  // desde Firestore) antes de mostrar el primer artículo o el
+  // examen de repaso, para no partir de datos desactualizados.
+  // ============================================================
+  window.CS_READY.then(() => {
+    if(modoRepaso){
+      document.querySelector('.cap-header').style.display='none';
+      document.querySelector('.art-nav').style.display='none';
+      document.querySelector('.art-card').style.display='none';
+      document.querySelector('.art-btns').style.display='none';
+      document.getElementById('nav-cap-nombre').textContent='📌 Repaso de Errores';
+      document.title='Repaso de Errores — Concejo Study';
+      iniciarExamenRepaso();
+    } else {
+      showArticle(idxInicial);
+    }
+  });
 
   function iniciarExamenRepaso(){
     const preguntasError=getPreguntasError();

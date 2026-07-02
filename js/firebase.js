@@ -74,4 +74,63 @@ export async function saveBadgesSeen(badges) {
   await updateDoc(doc(db, "usuarios", user.uid), { badges_seen: badges });
 }
 
+/**
+ * Trae los datos guardados en Firestore para el usuario actual
+ * y los "vuelca" en localStorage con las mismas llaves que ya
+ * usa el resto de la app (cs_progress, cs_streak, cs_errores,
+ * cs_badges_seen). Así, todo el código existente (app.js,
+ * capitulo.html, index.html) sigue funcionando exactamente igual,
+ * solo que ahora arranca con los datos reales del usuario en
+ * vez de con lo que haya quedado en el navegador local.
+ *
+ * Se debe llamar SIEMPRE después de que onUsuario confirme que
+ * hay sesión activa, y ANTES de pintar la UI que depende de esos
+ * datos (progreso de módulos, racha, insignias, banco de errores).
+ */
+export async function syncFromFirestore() {
+  const datos = await getDatos();
+  if (!datos) return null;
+
+  if (datos.progreso) {
+    localStorage.setItem('cs_progress', JSON.stringify(datos.progreso));
+  }
+  if (datos.racha) {
+    localStorage.setItem('cs_streak', JSON.stringify(datos.racha));
+  }
+  if (datos.errores) {
+    localStorage.setItem('cs_errores', JSON.stringify(datos.errores));
+  }
+  if (datos.badges_seen) {
+    localStorage.setItem('cs_badges_seen', JSON.stringify(datos.badges_seen));
+  }
+  return datos;
+}
+
 export { auth, db };
+
+/**
+ * Exposición global para scripts "normales" (no type="module"),
+ * como app.js y los <script> inline de index.html / capitulo.html.
+ * Esos archivos no pueden usar `import`, así que llaman a estas
+ * funciones a través de window.CS_FIREBASE.
+ *
+ * Todas las llamadas de guardado (saveProgreso, saveRacha, etc.)
+ * se hacen "fire and forget" desde el resto de la app: si el
+ * usuario está offline o algo falla, el dato sigue quedando bien
+ * guardado en localStorage y se reintentará sincronizar la
+ * próxima vez que la página cargue con conexión.
+ */
+window.CS_FIREBASE = {
+  auth,
+  db,
+  onUsuario,
+  login,
+  registrar,
+  logout,
+  getDatos,
+  saveProgreso,
+  saveRacha,
+  saveErrores,
+  saveBadgesSeen,
+  syncFromFirestore
+};

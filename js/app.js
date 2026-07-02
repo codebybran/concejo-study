@@ -21,12 +21,13 @@ function getProgress() {
 }
 
 /**
- * Guarda progreso de un módulo
+ * Guarda progreso de un módulo (local + Firestore)
  */
 function saveProgress(capId) {
   const progress = getProgress();
   progress[capId] = 'done';
   localStorage.setItem('cs_progress', JSON.stringify(progress));
+  syncToFirestore('saveProgreso', progress);
 }
 
 /**
@@ -34,6 +35,26 @@ function saveProgress(capId) {
  */
 function resetProgress() {
   localStorage.removeItem('cs_progress');
+  syncToFirestore('saveProgreso', {});
+}
+
+/* ============================================================
+   SINCRONIZACIÓN CON FIRESTORE
+   ============================================================ */
+
+/**
+ * Llama a una función de window.CS_FIREBASE si está disponible
+ * (es decir, si firebase.js ya cargó y el usuario tiene sesión).
+ * No bloquea nunca la experiencia local: si falla o no hay
+ * conexión, simplemente se queda el dato en localStorage y punto.
+ */
+function syncToFirestore(metodo, valor) {
+  if (typeof window === 'undefined' || !window.CS_FIREBASE) return;
+  const fn = window.CS_FIREBASE[metodo];
+  if (typeof fn !== 'function') return;
+  fn(valor).catch(err => {
+    console.warn(`No se pudo sincronizar "${metodo}" con Firestore (se mantiene guardado localmente):`, err);
+  });
 }
 
 /* ============================================================
@@ -54,6 +75,7 @@ function getErrores() {
 
 function saveErrores(errores) {
   localStorage.setItem('cs_errores', JSON.stringify(errores));
+  syncToFirestore('saveErrores', errores);
 }
 
 /**

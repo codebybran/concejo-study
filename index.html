@@ -216,16 +216,36 @@
 <script src="js/contenido.js"></script>
 <script src="js/app.js"></script>
 
+<!--
+  ============================================================
+  GUARDIÁN DE SESIÓN + SINCRONIZACIÓN
+  ============================================================
+  window.CS_READY es una promesa que se resuelve solo cuando:
+  1) Hay un usuario autenticado (si no, redirige a login.html)
+  2) Ya se trajeron sus datos de Firestore hacia localStorage
+  El resto del script de esta página espera esa promesa antes
+  de pintar nada, para no mostrar nunca datos "viejos" o vacíos
+  de otro dispositivo/sesión.
+-->
 <script type="module">
-  import { onUsuario, logout } from './js/firebase.js';
+  import { onUsuario, logout, syncFromFirestore } from './js/firebase.js';
 
-  onUsuario(user => {
-    if (!user) {
-      window.location.href = 'login.html';
-      return;
-    }
-    const nameEl = document.getElementById('user-name');
-    if (nameEl) nameEl.textContent = user.displayName || user.email;
+  window.CS_READY = new Promise((resolve) => {
+    onUsuario(async (user) => {
+      if (!user) {
+        window.location.href = 'login.html';
+        return;
+      }
+      const nameEl = document.getElementById('user-name');
+      if (nameEl) nameEl.textContent = user.displayName || user.email;
+
+      try {
+        await syncFromFirestore();
+      } catch (e) {
+        console.warn('No se pudo sincronizar con Firestore, se usan datos locales:', e);
+      }
+      resolve(user);
+    });
   });
 
   document.getElementById('btn-logout').addEventListener('click', async () => {
@@ -268,6 +288,8 @@
       } else { data.count=1; }
       data.last=today;
       localStorage.setItem('cs_streak',JSON.stringify(data));
+      // Sincroniza la racha actualizada con Firestore
+      if(window.CS_FIREBASE) window.CS_FIREBASE.saveRacha(data).catch(e=>console.warn('No se pudo sincronizar la racha:',e));
     }
     const pill=document.getElementById('streak-pill');
     document.getElementById('streak-text').textContent=`Racha: ${data.count} día${data.count!==1?'s':''}`;
@@ -311,6 +333,8 @@
       showToast(badge.icon,badge.label);
     }
     localStorage.setItem('cs_badges_seen',JSON.stringify(earnedIds));
+    // Sincroniza las insignias vistas con Firestore
+    if(window.CS_FIREBASE) window.CS_FIREBASE.saveBadgesSeen(earnedIds).catch(e=>console.warn('No se pudieron sincronizar las insignias:',e));
   }
 
   function showToast(icon,label){
@@ -483,26 +507,34 @@
     }
   }
 
-  const progress=renderChapters();
-  const streak=updateStreak();
   function animateNumber(el, target) {
-  let current = 0;
-  const step = Math.max(1, Math.ceil(target / 20));
-  const interval = setInterval(() => {
-    current += step;
-    if (current >= target) { current = target; clearInterval(interval); }
-    el.textContent = current;
-  }, 30);
-}
-animateNumber(document.getElementById('streak-big'), streak);
-  renderBadges(progress,streak);
-  renderFact();
-  renderCalendar();
-  renderErroresCard();
-
-  if(!localStorage.getItem('cs_guide_seen')){
-    setTimeout(openGuide,600);
+    let current = 0;
+    const step = Math.max(1, Math.ceil(target / 20));
+    const interval = setInterval(() => {
+      current += step;
+      if (current >= target) { current = target; clearInterval(interval); }
+      el.textContent = current;
+    }, 30);
   }
+
+  // ============================================================
+  // Arranque real de la página: espera a que CS_READY resuelva
+  // (usuario autenticado + datos ya sincronizados desde Firestore)
+  // antes de pintar progreso, racha, insignias y calendario.
+  // ============================================================
+  window.CS_READY.then(() => {
+    const progress=renderChapters();
+    const streak=updateStreak();
+    animateNumber(document.getElementById('streak-big'), streak);
+    renderBadges(progress,streak);
+    renderFact();
+    renderCalendar();
+    renderErroresCard();
+
+    if(!localStorage.getItem('cs_guide_seen')){
+      setTimeout(openGuide,600);
+    }
+  });
 </script>
 
 <script>
@@ -532,7 +564,7 @@ animateNumber(document.getElementById('streak-big'), streak);
     ];
     const url = urls[new Date().getDate() % urls.length];
     const style = document.createElement('style');
-    style.textContent = `body::before { background-image: url('${url}') !important; }`;
+    style.textContent = `body::before { background-image: url('${url}') !important; opacity: 0; animation: fadeInBg 1s ease forwards; } @keyframes fadeInBg { to { opacity: 1; } }`;
     document.head.appendChild(style);
   })();
 </script>

@@ -187,7 +187,7 @@ const url = urls[new Date().getDate() % urls.length];
     document.body.style.setProperty('--bg-url', `url(${url})`);
     document.querySelector('body').style.setProperty('background-image', 'var(--bg-url)', 'important');
     const style = document.createElement('style');
-    style.textContent = `body::before { background-image: url('${url}') !important; }`;
+    style.textContent = `body::before { background-image: url('${url}') !important; opacity: 0; animation: fadeInBg 1s ease forwards; } @keyframes fadeInBg { to { opacity: 1; } }`;
     document.head.appendChild(style);
   })();
 </script>
