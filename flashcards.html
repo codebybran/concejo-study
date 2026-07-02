@@ -120,22 +120,24 @@
 
 <script src="js/contenido.js"></script>
 
-<!--
-  ============================================================
-  GUARDIÁN DE SESIÓN
-  ============================================================
-  Las flashcards no leen ni escriben progreso/errores (son solo
-  repaso visual), así que aquí basta con exigir sesión activa;
-  no hace falta esperar una sincronización de datos para pintar.
--->
-<script type="module">
-  import { onUsuario } from './js/firebase.js';
-  onUsuario((user) => {
-    if (!user) window.location.href = 'login.html';
-  });
-</script>
-
 <script>
+  /* ============================================================
+     GUARDIÁN DE SESIÓN
+     ============================================================
+     Usamos import() dinámico en vez de type="module" por la misma
+     razón que en index.html/capitulo.html: evitar problemas de
+     orden de ejecución entre scripts. Las flashcards no leen ni
+     escriben progreso/errores (son solo repaso visual), así que
+     aquí basta con exigir sesión activa; no hace falta esperar
+     una sincronización de datos para pintar.
+  */
+  (async function(){
+    const { onUsuario } = await import('./js/firebase.js');
+    onUsuario((user) => {
+      if (!user) window.location.href = 'login.html';
+    });
+  })();
+
   function applyThemeUI(theme){
     document.getElementById('theme-icon').textContent = theme==='dark' ? '🌙' : '☀️';
     document.getElementById('theme-label').textContent = theme==='dark' ? 'Modo oscuro' : 'Modo claro';

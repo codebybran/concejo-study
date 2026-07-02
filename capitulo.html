@@ -215,35 +215,40 @@
 <script src="js/app.js"></script>
 <script src="js/examenes.js"></script>
 
-<!--
-  ============================================================
-  GUARDIÁN DE SESIÓN + SINCRONIZACIÓN
-  ============================================================
-  Igual que en index.html: sin sesión activa no se puede entrar
-  a un módulo directamente por URL, y antes de arrancar el
-  contenido/examen se trae el banco de errores y el progreso
-  reales del usuario desde Firestore.
--->
-<script type="module">
-  import { onUsuario, syncFromFirestore } from './js/firebase.js';
-
-  window.CS_READY = new Promise((resolve) => {
-    onUsuario(async (user) => {
-      if (!user) {
-        window.location.href = 'login.html';
-        return;
-      }
-      try {
-        await syncFromFirestore();
-      } catch (e) {
-        console.warn('No se pudo sincronizar con Firestore, se usan datos locales:', e);
-      }
-      resolve(user);
-    });
-  });
-</script>
-
 <script>
+  /* ============================================================
+     GUARDIÁN DE SESIÓN + SINCRONIZACIÓN
+     ============================================================
+     Igual que en index.html: usamos import() dinámico en vez de
+     un <script type="module"> aparte, porque los módulos siempre
+     se ejecutan al final (como defer), después de este mismo
+     script, y window.CS_READY no existiría todavía cuando se
+     necesita más abajo. Con import() dinámico no hay ese problema.
+
+     Sin sesión activa no se puede entrar a un módulo directamente
+     por URL, y antes de arrancar el contenido/examen se trae el
+     banco de errores y el progreso reales del usuario desde
+     Firestore.
+  */
+  window.CS_READY = (async function(){
+    const { onUsuario, syncFromFirestore } = await import('./js/firebase.js');
+
+    return new Promise((resolve) => {
+      onUsuario(async (user) => {
+        if (!user) {
+          window.location.href = 'login.html';
+          return;
+        }
+        try {
+          await syncFromFirestore();
+        } catch (e) {
+          console.warn('No se pudo sincronizar con Firestore, se usan datos locales:', e);
+        }
+        resolve(user);
+      });
+    });
+  })();
+
   function applyThemeUI(theme){
     document.getElementById('theme-icon').textContent = theme==='dark' ? '🌙' : '☀️';
     document.getElementById('theme-label').textContent = theme==='dark' ? 'Modo oscuro' : 'Modo claro';
